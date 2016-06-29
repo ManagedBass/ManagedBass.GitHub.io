@@ -1,0 +1,493 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <!-- AdSense -->
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4251360406988977",
+        enable_page_level_ads: true
+      });
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>BassVstInfo </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="BassVstInfo <small>Struct</small>
+ ">
+    
+    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <span class="navbar-brand">ManagedBass</span>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div role="main" class="container-fluid body-content">
+        <div class="sidenav">
+          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9" id="articleContainer">
+            <div id="selector"></div>
+            <article class="content wrap" id="_content">
+              
+              <div class="contributionPanel">
+              </div>
+              
+              <h1 id="" data-uid="ManagedBass.Vst.BassVstInfo">BassVstInfo <small>Struct</small>
+              </h1>
+              <div class="markdown level0 summary"><p><a class="xref" href="ManagedBass.Vst.BassVst.html">GetInfo(Int32, out BassVstInfo)</a> writes some information about a vstHandle returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a> to this BassVstInfo structure.</p>
+</div>
+
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/2dts52z7(v=vs.110).aspx">ValueType.Equals(Object)</a>
+                </div>
+                <div>
+                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/y3509fc2(v=vs.110).aspx">ValueType.GetHashCode()</a>
+                </div>
+                <div>
+                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/wb77sz3h(v=vs.110).aspx">ValueType.ToString()</a>
+                </div>
+                <div>
+                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/w4hkze5k(v=vs.110).aspx">Object.Equals(Object, Object)</a>
+                </div>
+                <div>
+                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/hz2a0b8x(v=vs.110).aspx">Object.ReferenceEquals(Object, Object)</a>
+                </div>
+                <div>
+                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.110).aspx">Object.GetType()</a>
+                </div>
+              </div>
+              
+              <h6><strong>Namespace</strong>: ManagedBass.Vst</h6>
+              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
+              <h5 id="_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public struct BassVstInfo</code></pre>
+              </div>
+              <h5 id="_remarks"><strong>Remarks</strong></h5>
+              <div class="markdown level0 remarks"><p>
+VST effects that have no input channels (so called &quot;Instruments&quot;) are not loaded by BASS_VST.
+So you can assume <a class="xref" href="ManagedBass.Vst.BassVstInfo.html">ChansIn</a> and <a class="xref" href="ManagedBass.Vst.BassVstInfo.html">ChansOut</a> to be at least 1.
+</p>
+<p>
+Multi-channel streams should work correctly, if supported by a effect.
+If not, only the first chansIn channels are processed by the effect, the other ones stay unaffected.<br>The opposite, eg. assigning multi-channel effects to stereo channels, should be no problem at all.
+</p>
+<p>
+If mono effects are assigned to stereo channels, the result will be mono, expanded to both channels.
+This behaviour can be switched of using the <a class="xref" href="ManagedBass.Vst.BassVstDsp.html">KeepChannels</a> in <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.
+</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <h3 id="fields">
+                Fields
+              </h3>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.AEffect" data-uid="ManagedBass.Vst.BassVstInfo.AEffect">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.AEffect" data-toggle="collapse" class="expander">
+                  AEffect
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.AEffect" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>The underlying AEffect object (see the VST SDK).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IntPtr AEffect</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.ChannelHandle" data-uid="ManagedBass.Vst.BassVstInfo.ChannelHandle">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.ChannelHandle" data-toggle="collapse" class="expander">
+                  ChannelHandle
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.ChannelHandle" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>The Channel Handle as given to <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int ChannelHandle</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.ChansIn" data-uid="ManagedBass.Vst.BassVstInfo.ChansIn">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.ChansIn" data-toggle="collapse" class="expander">
+                  ChansIn
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.ChansIn" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Maximum number of possible input channels (should be at least 1 here).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int ChansIn</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.ChansOut" data-uid="ManagedBass.Vst.BassVstInfo.ChansOut">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.ChansOut" data-toggle="collapse" class="expander">
+                  ChansOut
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.ChansOut" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Maximum number of possible output channels (should be at least 1 here).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int ChansOut</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.DspHandle" data-uid="ManagedBass.Vst.BassVstInfo.DspHandle">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.DspHandle" data-toggle="collapse" class="expander">
+                  DspHandle
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.DspHandle" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>The internal DSP handle.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int DspHandle</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.EditorHeight" data-uid="ManagedBass.Vst.BassVstInfo.EditorHeight">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.EditorHeight" data-toggle="collapse" class="expander">
+                  EditorHeight
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.EditorHeight" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Initial/current height of the embedded editor, see also <a class="xref" href="ManagedBass.Vst.BassVstAction.html">EditorResized</a>.
+<p>For a very few plugins, editorWidth and editorHeight may be 0 if the editor is not yet opened.</p></p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int EditorHeight</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.EditorWidth" data-uid="ManagedBass.Vst.BassVstInfo.EditorWidth">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.EditorWidth" data-toggle="collapse" class="expander">
+                  EditorWidth
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.EditorWidth" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Initial/current width of the embedded editor, see also <a class="xref" href="ManagedBass.Vst.BassVstAction.html">EditorResized</a>.
+<p>For a very few plugins, editorWidth and editorHeight may be 0 if the editor is not yet opened.</p></p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int EditorWidth</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.EffectVersion" data-uid="ManagedBass.Vst.BassVstInfo.EffectVersion">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.EffectVersion" data-toggle="collapse" class="expander">
+                  EffectVersion
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.EffectVersion" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>The effect version (example 0x01010000 for version 1.1.0.0).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int EffectVersion</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.EffectVstVersion" data-uid="ManagedBass.Vst.BassVstInfo.EffectVstVersion">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.EffectVstVersion" data-toggle="collapse" class="expander">
+                  EffectVstVersion
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.EffectVstVersion" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>The VST version, the effect was written for (example 0x02030000 for version 2.3.0.0).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int EffectVstVersion</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.HasEditor" data-uid="ManagedBass.Vst.BassVstInfo.HasEditor">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.HasEditor" data-toggle="collapse" class="expander">
+                  HasEditor
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.HasEditor" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Has this plugin an embedded editor?
+<p>If <span class="xref">true</span>, the <a class="xref" href="ManagedBass.Vst.BassVst.html">EmbedEditor(Int32, IntPtr)</a> method can be called.</p></p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool HasEditor</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.HostVstVersion" data-uid="ManagedBass.Vst.BassVstInfo.HostVstVersion">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.HostVstVersion" data-toggle="collapse" class="expander">
+                  HostVstVersion
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.HostVstVersion" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>The VST version supported by BASS_VST (e.g. 2.4).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int HostVstVersion</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.InitialDelay" data-uid="ManagedBass.Vst.BassVstInfo.InitialDelay">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.InitialDelay" data-toggle="collapse" class="expander">
+                  InitialDelay
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.InitialDelay" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>For algorithms which need input in the first place, in number of samples.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int InitialDelay</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.IsInstrument" data-uid="ManagedBass.Vst.BassVstInfo.IsInstrument">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.IsInstrument" data-toggle="collapse" class="expander">
+                  IsInstrument
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.IsInstrument" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p><span class="xref">true</span>=the VST plugin is an instrument, <span class="xref">false</span>=the VST plugin is an effect.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsInstrument</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.UniqueID" data-uid="ManagedBass.Vst.BassVstInfo.UniqueID">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.UniqueID" data-toggle="collapse" class="expander">
+                  UniqueID
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.UniqueID" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>A unique ID for the effect (the IDs are registered at Steinberg).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int UniqueID</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.VendorVersion" data-uid="ManagedBass.Vst.BassVstInfo.VendorVersion">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.VendorVersion" data-toggle="collapse" class="expander">
+                  VendorVersion
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.VendorVersion" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>The vendor-specific version number (example 0x01010000 for version 1.1.0.0).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int VendorVersion</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <h3 id="properties">
+                Properties
+              </h3>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.EffectName" data-uid="ManagedBass.Vst.BassVstInfo.EffectName">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.EffectName" data-toggle="collapse" class="expander">
+                  EffectName
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.EffectName" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>The effect name (empty string is returned if a plugin does not provide these information).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string EffectName { get; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.ProductName" data-uid="ManagedBass.Vst.BassVstInfo.ProductName">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.ProductName" data-toggle="collapse" class="expander">
+                  ProductName
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.ProductName" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>The product name (may be empty).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string ProductName { get; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVstInfo.VendorName" data-uid="ManagedBass.Vst.BassVstInfo.VendorName">
+                <a href="#collapsible-ManagedBass.Vst.BassVstInfo.VendorName" data-toggle="collapse" class="expander">
+                  VendorName
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVstInfo.VendorName" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>The vendor name (may be empty).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string VendorName { get; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              
+            </article>
+          </div>
+          <!-- Affix -->
+          <div class="hidden-sm col-md-3" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
+
+    <script src="../styles/docfx.js"></script>
+    <script src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

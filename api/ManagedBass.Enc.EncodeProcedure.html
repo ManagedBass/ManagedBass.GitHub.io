@@ -1,162 +1,137 @@
-<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+﻿<!DOCTYPE html>
 <html>
-  
   <head>
+    <!-- AdSense -->
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4251360406988977",
+        enable_page_level_ads: true
+      });
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate EncodeProcedure
-   </title>
+    <title>EncodeProcedure </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate EncodeProcedure
-   ">
-    <meta name="generator" content="docfx 2.1.0.0">
+    <meta name="title" content="EncodeProcedure <small>Delegate</small>
+ ">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
-    
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
       <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
+              <span class="navbar-brand">ManagedBass</span>
             </div>
           </div>
         </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
       </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+      <div role="main" class="container-fluid body-content">
+        <div class="sidenav">
+          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
             <div id="sidetoc"></div>
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-10">
+          <div class="col-md-9" id="articleContainer">
+            <div id="selector"></div>
             <article class="content wrap" id="_content">
               
+              <div class="contributionPanel">
+              </div>
               
-              <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/BassEnc/Delegates/EncodeProcedure.cs/#L14" class="btn btn-primary pull-right mobile-hide">View Source</a>
-              <h1 id="ManagedBass_Enc_EncodeProcedure" data-uid="ManagedBass.Enc.EncodeProcedure">Delegate EncodeProcedure
+              <h1 id="" data-uid="ManagedBass.Enc.EncodeProcedure">EncodeProcedure <small>Delegate</small>
               </h1>
               <div class="markdown level0 summary"><p>User defined callback function to process (receive) encoded sample data.</p>
 </div>
-              <div class="markdown level0 conceptual"></div>
-              <h6><strong>Namespace</strong>:ManagedBass.Enc</h6>
-              <h6><strong>Assembly</strong>:ManagedBass.PInvoke.dll</h6>
-              <h5 id="ManagedBass_Enc_EncodeProcedure_syntax">Syntax</h5>
+
+              
+              <h6><strong>Namespace</strong>: ManagedBass.Enc</h6>
+              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
+              <h5 id="_syntax">Syntax</h5>
               <div class="codewrapper">
                 <pre><code class="lang-csharp hljs">public delegate void EncodeProcedure(int Handle, int Channel, IntPtr Buffer, int Length, IntPtr User);</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
                 <tbody>
-                  <tr>
-                    <td><span class="xref">System.Int32</span></td>
-                    <td><em>Handle</em></td>
-                    <td><p>The encoder that the data is from (as returned by <a class="xref" href="ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_EncodeStart_System_Int32_System_String_ManagedBass_Enc_EncodeFlags_ManagedBass_Enc_EncodeProcedure_System_IntPtr_">EncodeStart(Int32, String, EncodeFlags, EncodeProcedure, IntPtr)</a>).</p>
-</td>
+                  <tr>      
+                    <td>
+                      <em>Handle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The encoder that the data is from (as returned by <a class="xref" href="ManagedBass.Enc.BassEnc.html">EncodeStart(Int32, String, EncodeFlags, EncodeProcedure, IntPtr)</a>).</p>
+</p>
+                    </td>
                   </tr>
-                  <tr>
-                    <td><span class="xref">System.Int32</span></td>
-                    <td><em>Channel</em></td>
-                    <td><p>The channel that the data is from.</p>
-</td>
+                  <tr>      
+                    <td>
+                      <em>Channel</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The channel that the data is from.</p>
+</p>
+                    </td>
                   </tr>
-                  <tr>
-                    <td><span class="xref">System.IntPtr</span></td>
-                    <td><em>Buffer</em></td>
-                    <td><p>The pointer to the buffer containing the encoded data.</p>
-</td>
+                  <tr>      
+                    <td>
+                      <em>Buffer</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></div>        
+                      <p class="padTop"><p>The pointer to the buffer containing the encoded data.</p>
+</p>
+                    </td>
                   </tr>
-                  <tr>
-                    <td><span class="xref">System.Int32</span></td>
-                    <td><em>Length</em></td>
-                    <td><p>The number of bytes in the buffer.</p>
-</td>
+                  <tr>      
+                    <td>
+                      <em>Length</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The number of bytes in the buffer.</p>
+</p>
+                    </td>
                   </tr>
-                  <tr>
-                    <td><span class="xref">System.IntPtr</span></td>
-                    <td><em>User</em></td>
-                    <td><p>The user instance data given when <a class="xref" href="ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_EncodeStart_System_Int32_System_String_ManagedBass_Enc_EncodeFlags_ManagedBass_Enc_EncodeProcedure_System_IntPtr_">EncodeStart(Int32, String, EncodeFlags, EncodeProcedure, IntPtr)</a> was called.</p>
-</td>
+                  <tr>      
+                    <td>
+                      <em>User</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></div>        
+                      <p class="padTop"><p>The user instance data given when <a class="xref" href="ManagedBass.Enc.BassEnc.html">EncodeStart(Int32, String, EncodeFlags, EncodeProcedure, IntPtr)</a> was called.</p>
+</p>
+                    </td>
                   </tr>
                 </tbody>
               </table>
-              <h5 id="ManagedBass_Enc_EncodeProcedure_remarks"><strong>Remarks</strong></h5>
+              <h5 id="_remarks"><strong>Remarks</strong></h5>
               <div class="markdown level0 remarks"><p>To have the encoded data received by this callback function, the encoder needs to be told to output to STDOUT (instead of a file).</p>
 </div>
-              <h3 id="extensionmethods">Extension Methods</h3>
-              <div>
-                  <a class="xref" href="ManagedBass.Extensions.html#ManagedBass_Extensions_Is__1___0___0___">Extensions.Is&lt;EncodeProcedure&gt;(EncodeProcedure[])</a>
-              </div>
+              <div class="markdown level0 conceptual"></div>
+              
             </article>
           </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
+          <!-- Affix -->
+          <div class="hidden-sm col-md-3" role="complementary">
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
             </nav>
           </div>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            
-            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
+
+      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
+
+    <script src="../styles/docfx.js"></script>
+    <script src="../styles/main.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>

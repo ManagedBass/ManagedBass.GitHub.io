@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <!-- AdSense -->
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4251360406988977",
+        enable_page_level_ads: true
+      });
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ReverbEffect </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="ReverbEffect <small>Class</small>
+ ">
+    
+    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <span class="navbar-brand">ManagedBass</span>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div role="main" class="container-fluid body-content">
+        <div class="sidenav">
+          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9" id="articleContainer">
+            <div id="selector"></div>
+            <article class="content wrap" id="_content">
+              
+              <div class="contributionPanel">
+              </div>
+              
+              <h1 id="" data-uid="ManagedBass.Fx.ReverbEffect">ReverbEffect <small>Class</small>
+              </h1>
+              <div class="markdown level0 summary"><p>BassFx Reverb (Freeverb) Effect.</p>
+</div>
+
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0" style="margin-left:0em"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
+                  <div class="level1" style="margin-left:1em"><a class="xref" href="ManagedBass.Effect-1.html">Effect</a>&lt;<a class="xref" href="ManagedBass.Fx.ReverbParameters.html">ReverbParameters</a>&gt;</div>
+                  <div class="level2" style="margin-left:2em"><span class="xref">ReverbEffect</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ReverbParameters&gt;.Parameters</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ReverbParameters&gt;.ApplyOn(Int32, Int32)</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ReverbParameters&gt;.Priority</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ReverbParameters&gt;.Dispose()</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ReverbParameters&gt;.Default()</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ReverbParameters&gt;.IsActive</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ReverbParameters&gt;.OnPreset()</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ReverbParameters&gt;.PropertyChanged</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ReverbParameters&gt;.OnPropertyChanged(String)</a>
+                </div>
+              </div>
+              
+              <h6><strong>Namespace</strong>: ManagedBass.Fx</h6>
+              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
+              <h5 id="_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public sealed class ReverbEffect : Effect&lt;ReverbParameters&gt;, IDisposable</code></pre>
+              </div>
+              <div class="markdown level0 conceptual"></div>
+              <h3 id="properties">
+                Properties
+              </h3>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.ReverbEffect.Channels" data-uid="ManagedBass.Fx.ReverbEffect.Channels">
+                <a href="#collapsible-ManagedBass.Fx.ReverbEffect.Channels" data-toggle="collapse" class="expander">
+                  Channels
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.ReverbEffect.Channels" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>A <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a> flag to define on which channels to apply the effect. Default: <a class="xref" href="ManagedBass.FXChannelFlags.html">All</a></p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public FXChannelFlags Channels { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.ReverbEffect.Damp" data-uid="ManagedBass.Fx.ReverbEffect.Damp">
+                <a href="#collapsible-ManagedBass.Fx.ReverbEffect.Damp" data-toggle="collapse" class="expander">
+                  Damp
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.ReverbEffect.Damp" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Damping factor (0.0...1.0, def. 0.5).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double Damp { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.ReverbEffect.DryMix" data-uid="ManagedBass.Fx.ReverbEffect.DryMix">
+                <a href="#collapsible-ManagedBass.Fx.ReverbEffect.DryMix" data-toggle="collapse" class="expander">
+                  DryMix
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.ReverbEffect.DryMix" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Dry (unaffected) signal mix (0.0...1.0, def. 0).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double DryMix { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.ReverbEffect.Mode" data-uid="ManagedBass.Fx.ReverbEffect.Mode">
+                <a href="#collapsible-ManagedBass.Fx.ReverbEffect.Mode" data-toggle="collapse" class="expander">
+                  Mode
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.ReverbEffect.Mode" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Mode: 0 = no freeze or 1 = freeze, def. 0 (no freeze).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int Mode { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.ReverbEffect.RoomSize" data-uid="ManagedBass.Fx.ReverbEffect.RoomSize">
+                <a href="#collapsible-ManagedBass.Fx.ReverbEffect.RoomSize" data-toggle="collapse" class="expander">
+                  RoomSize
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.ReverbEffect.RoomSize" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Room size (0.0...1.0, def. 0.5).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double RoomSize { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.ReverbEffect.WetMix" data-uid="ManagedBass.Fx.ReverbEffect.WetMix">
+                <a href="#collapsible-ManagedBass.Fx.ReverbEffect.WetMix" data-toggle="collapse" class="expander">
+                  WetMix
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.ReverbEffect.WetMix" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Wet (affected) signal mix (0.0...3.0, def. 1.0).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double WetMix { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.ReverbEffect.Width" data-uid="ManagedBass.Fx.ReverbEffect.Width">
+                <a href="#collapsible-ManagedBass.Fx.ReverbEffect.Width" data-toggle="collapse" class="expander">
+                  Width
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.ReverbEffect.Width" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Stereo width (0.0...1.0, def. 1.0).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double Width { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+              <h5 id="properties_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>It should at least be 4 for moderate scaling ratios. A value of 32 is recommended for best quality (better quality = higher CPU usage).</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              
+            </article>
+          </div>
+          <!-- Affix -->
+          <div class="hidden-sm col-md-3" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
+
+    <script src="../styles/docfx.js"></script>
+    <script src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

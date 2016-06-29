@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <!-- AdSense -->
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4251360406988977",
+        enable_page_level_ads: true
+      });
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>BassTags </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="BassTags <small>Class</small>
+ ">
+    
+    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <span class="navbar-brand">ManagedBass</span>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div role="main" class="container-fluid body-content">
+        <div class="sidenav">
+          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9" id="articleContainer">
+            <div id="selector"></div>
+            <article class="content wrap" id="_content">
+              
+              <div class="contributionPanel">
+              </div>
+              
+              <h1 id="" data-uid="ManagedBass.Tags.BassTags">BassTags <small>Class</small>
+              </h1>
+              <div class="markdown level0 summary"><p>BASS audio library has limited support for reading tags, associated with a stream.
+This library extends that functionality, allowing developer/user to extract specific song information from the stream handle used with BASS.
+The extracted tag values are formatted into text ouput according to given format string (including conditional processing).</p>
+</div>
+
+              
+              <h6><strong>Namespace</strong>: ManagedBass.Tags</h6>
+              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
+              <h5 id="_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static class BassTags</code></pre>
+              </div>
+              <div class="markdown level0 conceptual"></div>
+              <h3 id="properties">
+                Properties
+              </h3>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Tags.BassTags.LastErrorDescription" data-uid="ManagedBass.Tags.BassTags.LastErrorDescription">
+                <a href="#collapsible-ManagedBass.Tags.BassTags.LastErrorDescription" data-toggle="collapse" class="expander">
+                  LastErrorDescription
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Tags.BassTags.LastErrorDescription" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>For debug; the text description of the last <a class="xref" href="ManagedBass.Tags.BassTags.html">Read(Int32, String)</a>/<a class="xref" href="ManagedBass.Tags.BassTags.html">Read(Int32, String, TagType, Int32)</a> call.
+It may say something like: &quot;ID3v2 tag: header is invalid&quot;, on poorly-added tags.
+An empty string is returned if there was no error.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string LastErrorDescription { get; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Tags.BassTags.Version" data-uid="ManagedBass.Tags.BassTags.Version">
+                <a href="#collapsible-ManagedBass.Tags.BassTags.Version" data-toggle="collapse" class="expander">
+                  Version
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Tags.BassTags.Version" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns Tags library version.
+Current version (in HIBYTE) and build (in LOBYTE).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int Version { get; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <h3 id="methods">
+                Methods
+              </h3>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Tags.BassTags.Load(System.String)" data-uid="ManagedBass.Tags.BassTags.Load(System.String)">
+                <a href="#collapsible-ManagedBass.Tags.BassTags.Load(System.String)" data-toggle="collapse" class="expander">
+                  Load(String)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Tags.BassTags.Load(System.String)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Load this library into Memory.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Load(string Folder = null)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>Folder</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
+                      <p class="padTop"><p>Directory to Load from... <span class="xref">null</span> (default) = Load from Current Directory.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p><span class="xref">true</span>, if the library loaded successfully, else <span class="xref">false</span>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+An external library is loaded into memory when any of its methods are called for the first time.
+This results in the first method call being slower than all subsequent calls.
+</p>
+<p>
+Some BASS libraries and add-ons may introduce new options to the main BASS lib like new parameters.
+But, before using these new options the respective library must be already loaded.
+This method can be used to make sure, that this library has been loaded.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Tags.BassTags.Read(System.Int32,System.String)" data-uid="ManagedBass.Tags.BassTags.Read(System.Int32,System.String)">
+                <a href="#collapsible-ManagedBass.Tags.BassTags.Read(System.Int32,System.String)" data-toggle="collapse" class="expander">
+                  Read(Int32, String)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Tags.BassTags.Read(System.Int32,System.String)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Reads tag values from the stream and formats them according to given format string.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string Read(int Handle, string Format)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>Handle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>BASS handle, obtained normally via CreateStream call, or any other handle, on which <a class="xref" href="ManagedBass.Bass.html">ChannelGetTags(Int32, TagType)</a> can be called.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Format</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
+                      <p class="padTop"><p>format string.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+                      <p class="padTop"><p>Empty string when unable to properly read the tag, or when there are no supported tags.
+A string containing extracted values from the song tags, on success.
+A parser error message text, when format string is ill-formed.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Ill-formed string causes some error message to appear in the output, but don&#39;t count on it too much...
+If a file contains APE, ID3v1 and ID3v2 tags, the order of precedence is: APE, ID3v2, ID3v1.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Tags.BassTags.Read(System.Int32,System.String,ManagedBass.TagType,System.Int32)" data-uid="ManagedBass.Tags.BassTags.Read(System.Int32,System.String,ManagedBass.TagType,System.Int32)">
+                <a href="#collapsible-ManagedBass.Tags.BassTags.Read(System.Int32,System.String,ManagedBass.TagType,System.Int32)" data-toggle="collapse" class="expander">
+                  Read(Int32, String, TagType, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Tags.BassTags.Read(System.Int32,System.String,ManagedBass.TagType,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Reads tag values from the stream and formats them according to given format string.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string Read(int Handle, string Format, TagType TagType, int CodePage)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>Handle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>BASS handle, obtained normally via CreateStream call, or any other handle, on which <a class="xref" href="ManagedBass.Bass.html">ChannelGetTags(Int32, TagType)</a> can be called.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Format</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
+                      <p class="padTop"><p>format string.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>TagType</em>
+                      <div class="pull-right"><a class="xref" href="ManagedBass.TagType.html">TagType</a></div>        
+                      <p class="padTop"><p>limit processing to a particular tag type, -1 = all tag types.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>CodePage</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>Codepage to use when reading &quot;ISO-8859-1&quot; tags.
+If an invalid/unavailable codepage is requested, then 1252 (Latin 1) will be used.
+0 can be used to request Windows&#39; default codepage.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+                      <p class="padTop"><p>Empty string when unable to properly read the tag, or when there are no supported tags.
+A string containing extracted values from the song tags, on success.
+A parser error message text, when format string is ill-formed.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>See <a class="xref" href="ManagedBass.Tags.BassTags.html">Read(Int32, String)</a></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Tags.BassTags.Unload" data-uid="ManagedBass.Tags.BassTags.Unload">
+                <a href="#collapsible-ManagedBass.Tags.BassTags.Unload" data-toggle="collapse" class="expander">
+                  Unload()
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Tags.BassTags.Unload" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Unloads this library from Memory.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Unload()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p><span class="xref">true</span>, if the library unloaded successfully, else <span class="xref">false</span>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              
+            </article>
+          </div>
+          <!-- Affix -->
+          <div class="hidden-sm col-md-3" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
+
+    <script src="../styles/docfx.js"></script>
+    <script src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

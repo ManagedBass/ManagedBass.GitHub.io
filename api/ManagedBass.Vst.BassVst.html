@@ -1,0 +1,2104 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <!-- AdSense -->
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4251360406988977",
+        enable_page_level_ads: true
+      });
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>BassVst </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="BassVst <small>Class</small>
+ ">
+    
+    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <span class="navbar-brand">ManagedBass</span>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div role="main" class="container-fluid body-content">
+        <div class="sidenav">
+          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9" id="articleContainer">
+            <div id="selector"></div>
+            <article class="content wrap" id="_content">
+              
+              <div class="contributionPanel">
+              </div>
+              
+              <h1 id="" data-uid="ManagedBass.Vst.BassVst">BassVst <small>Class</small>
+              </h1>
+              <div class="markdown level0 summary"><p>BassVst allows the usage of VST effect plugins as well as VST instruments (VSTi plugins) with BASS.</p>
+</div>
+
+              
+              <h6><strong>Namespace</strong>: ManagedBass.Vst</h6>
+              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
+              <h5 id="_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static class BassVst</code></pre>
+              </div>
+              <div class="markdown level0 conceptual"></div>
+              <h3 id="methods">
+                Methods
+              </h3>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.BASS_VST_GetInfo(System.Int32)" data-uid="ManagedBass.Vst.BassVst.BASS_VST_GetInfo(System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.BASS_VST_GetInfo(System.Int32)" data-toggle="collapse" class="expander">
+                  BASS_VST_GetInfo(Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.BASS_VST_GetInfo(System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Gets general information about a VST effect plugin.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static BassVstInfo BASS_VST_GetInfo(int VstHandle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="ManagedBass.Vst.BassVstInfo.html">BassVstInfo</a>
+                      <p class="padTop"><p>If successful, an instance of <a class="xref" href="ManagedBass.Vst.BassVstInfo.html">BassVstInfo</a> is returned, else <span class="xref">null</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+VST effects that have no input channels (so called &quot;Instruments&quot;) are not loaded by BASS_VST.
+So you can assume chansIn and chansOut to be at least 1.
+</p>
+<p>
+Multi-channel streams should work correctly, if supported by a effect.
+If not, only the first chansIn channels are processed by the effect, the other ones stay unaffected.<br>The opposite, eg. assigning multi-channel effects to stereo channels, should be no problem at all.
+</p>
+<p>
+If mono effects are assigned to stereo channels, the result will be mono, expanded to both channels.
+This behaviour can be switched of using the <a class="xref" href="ManagedBass.Vst.BassVstDsp.html">KeepChannels</a> in <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.ChannelCreate(System.Int32,System.Int32,System.String,ManagedBass.BassFlags)" data-uid="ManagedBass.Vst.BassVst.ChannelCreate(System.Int32,System.Int32,System.String,ManagedBass.BassFlags)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.ChannelCreate(System.Int32,System.Int32,System.String,ManagedBass.BassFlags)" data-toggle="collapse" class="expander">
+                  ChannelCreate(Int32, Int32, String, BassFlags)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.ChannelCreate(System.Int32,System.Int32,System.String,ManagedBass.BassFlags)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Creates a new BASS stream based on any VST instrument plugin (VSTi).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int ChannelCreate(int Frequency, int Channels, string DllFile, BassFlags Flags)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>Frequency</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The sample rate of the VSTi output (e.g. 44100).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Channels</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The number of channels... 1 = mono, 2 = stereo, 4 = quadraphonic, 6 = 5.1, 8 = 7.1.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>DllFile</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
+                      <p class="padTop"><p>The fully qualified path and file name to the VSTi plugin (a DLL file name).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Flags</em>
+                      <div class="pull-right"><a class="xref" href="ManagedBass.BassFlags.html">BassFlags</a></div>        
+                      <p class="padTop"><p>A combination of <a class="xref" href="ManagedBass.BassFlags.html">BassFlags</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+                      <p class="padTop"><p>If successful, the new vst handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>On success, the function returns the new vstHandle that must be given to the other functions.
+The returned VST handle can also be given to the typical Bass.Channel* functions.
+Use <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelFree(Int32)</a> to delete and free a VST instrument channel.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.ChannelFree(System.Int32)" data-uid="ManagedBass.Vst.BassVst.ChannelFree(System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.ChannelFree(System.Int32)" data-toggle="collapse" class="expander">
+                  ChannelFree(Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.ChannelFree(System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Deletes and frees a VST instrument channel.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool ChannelFree(int VstHandle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VSTi channel to delete (as created by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelCreate(Int32, Int32, String, BassFlags)</a>).</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Note, that you cannot delete VST effects assigned to this channels this way; for this purpose, please call <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelRemoveDSP(Int32, Int32)</a>.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.ChannelRemoveDSP(System.Int32,System.Int32)" data-uid="ManagedBass.Vst.BassVst.ChannelRemoveDSP(System.Int32,System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.ChannelRemoveDSP(System.Int32,System.Int32)" data-toggle="collapse" class="expander">
+                  ChannelRemoveDSP(Int32, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.ChannelRemoveDSP(System.Int32,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Removes a VST effect from a channel and destroys the VST instance.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool ChannelRemoveDSP(int Channels, int VstHandle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>Channels</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The channel handle from which to remove the VST effect... a HSTREAM, HMUSIC, or HRECORD.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>If you do not call <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelRemoveDSP(Int32, Int32)</a> explicitly and you have assigned a channel to the effect, the effect is removed automatically when the channel handle is deleted by BASS (like for any other DSP as well).</p>
+<p>For various reasons, the underlying DLL is unloaded from memory with a little delay, however, this has also the advantage that subsequent adding/removing of DLLs to channels has no bad performance impact.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.ChannelSetDSP(System.Int32,System.String,ManagedBass.Vst.BassVstDsp,System.Int32)" data-uid="ManagedBass.Vst.BassVst.ChannelSetDSP(System.Int32,System.String,ManagedBass.Vst.BassVstDsp,System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.ChannelSetDSP(System.Int32,System.String,ManagedBass.Vst.BassVstDsp,System.Int32)" data-toggle="collapse" class="expander">
+                  ChannelSetDSP(Int32, String, BassVstDsp, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.ChannelSetDSP(System.Int32,System.String,ManagedBass.Vst.BassVstDsp,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Assigns a VST effects (defined by a DLL file name) to any BASS channels.
+<p>This overload implements the Unicode overload for the dllFile name, so the BASS_UNICODE flag will automatically be added if not already set.</p></p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int ChannelSetDSP(int Channels, string DllFile, BassVstDsp Flags, int Priority)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>Channels</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The channel handle... a HSTREAM, HMUSIC, or HRECORD. Or 0, if you want to test, if the dll is a valid VST plugin.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>DllFile</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
+                      <p class="padTop"><p>The fully qualified path and file name to the VST effect plugin (a DLL file name).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Flags</em>
+                      <div class="pull-right"><a class="xref" href="ManagedBass.Vst.BassVstDsp.html">BassVstDsp</a></div>        
+                      <p class="padTop"><p>A combination of <a class="xref" href="ManagedBass.Vst.BassVstDsp.html">BassVstDsp</a></p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Priority</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>Same meaning as for <a class="xref" href="ManagedBass.Bass.html">ChannelSetDSP(Int32, DSPProcedure, IntPtr, Int32)</a> - DSPs with higher priority are called before those with lower.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+                      <p class="padTop"><p>On success, the method returns the new vstHandle that must be given to all the other functions, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>The VST plugin is implemented via a DSP callback on the channel.
+That means when you play the channel (or call <a class="xref" href="ManagedBass.Bass.html">ChannelGetData(Int32, IntPtr, Int32)</a> if it&#39;s a decoding channel), the sample data will be sent to the VST effect at the same time.
+If the channel is freed all DSPs are removed automatically, also all VST DSPs are removed as well.
+If you want or need to free the VST DSP manually you can call <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelRemoveDSP(Int32, Int32)</a>.
+<p>For testing if a DLL is a valid VST effect, you can set Channels to 0 - however, do not forget to call <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelRemoveDSP(Int32, Int32)</a> even in this case.</p>
+<p>
+You may safely assign the same DLL to different channels at the same time - the library makes sure, every channel is processed indepeningly.
+But take care to use the correct vstHandles in this case.
+</p>
+<p>
+Finally, you can use any number of VST effects on a channel.
+They are processed alongside with all other BASS DSPs in the order of it&#39;s priority.
+</p>
+<p>
+To set or get the parameters of a VST effect you might use <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamCount(Int32)</a> alongside with <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParam(Int32, Int32)</a> and <a class="xref" href="ManagedBass.Vst.BassVst.html">SetParam(Int32, Int32, Single)</a> to enumerate over the total number of effect parameters.
+To retrieve details about an individual parameter you might use <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamInfo(Int32, Int32, out BassVstParamInfo)</a>.
+If the VST effect supports an embedded editor you might also invoke this one with <a class="xref" href="ManagedBass.Vst.BassVst.html">EmbedEditor(Int32, IntPtr)</a>.
+If the embedded editor also supports localization you might set the language in advance with <a class="xref" href="ManagedBass.Vst.BassVst.html">SetLanguage(String)</a>.
+</p>
+<p>If you need to temporarily bypass the VST effect you might call <a class="xref" href="ManagedBass.Vst.BassVst.html">SetBypass(Int32, Boolean)</a> - <a class="xref" href="ManagedBass.Vst.BassVst.html">GetBypass(Int32)</a> will tell you the current bypass status though.</p>
+<p>Use <a class="xref" href="ManagedBass.Vst.BassVst.html">GetInfo(Int32, out BassVstInfo)</a> to get even more details about a loaded VST plugin.</p></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.EmbedEditor(System.Int32,System.IntPtr)" data-uid="ManagedBass.Vst.BassVst.EmbedEditor(System.Int32,System.IntPtr)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.EmbedEditor(System.Int32,System.IntPtr)" data-toggle="collapse" class="expander">
+                  EmbedEditor(Int32, IntPtr)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.EmbedEditor(System.Int32,System.IntPtr)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Many VST effects come along with an graphical parameters editor; with the following function, you can embed these editors to your user interface.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool EmbedEditor(int VstHandle, IntPtr ParentWindow)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>ParentWindow</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></div>        
+                      <p class="padTop"><p>The IntPtr to the window handle (HWND) of the parents window in which the editor should be embedded (e.g. use a new modeless dialog or user control).</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+To embed the editor to another window, call this function with parentWindow set to the HWND of the parent window.
+To check, if an effect has an editor, see the hasEditor flag set by <a class="xref" href="ManagedBass.Vst.BassVst.html">GetInfo(Int32, out BassVstInfo)</a>.
+</p>
+<p>To &quot;unembed&quot; the editor, call this function with <span class="paramref">ParentWindow</span> set to <span class="xref">null</span>.</p>
+<p>
+If you create the editor window independently of a real channel (by skipping the channel parameter when calling <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>) and the editor displays any spectrums, VU-meters or such, 
+the data for this come from the most recent channel using the same effect and the same scope.
+The scope can be set by <a class="xref" href="ManagedBass.Vst.BassVst.html">SetScope(Int32, Int32)</a> to any ID, the default is 0.
+</p>
+<p>In order to create a new window in which the editor should be embedded, it is a good idea to call <a class="xref" href="ManagedBass.Vst.BassVst.html">GetInfo(Int32, out BassVstInfo)</a> in order to retrieve the editors height and width.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetBypass(System.Int32)" data-uid="ManagedBass.Vst.BassVst.GetBypass(System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetBypass(System.Int32)" data-toggle="collapse" class="expander">
+                  GetBypass(Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetBypass(System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Gets the current bypasses state of the the effect processing.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool GetBypass(int VstHandle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetChunk(System.Int32,System.Boolean)" data-uid="ManagedBass.Vst.BassVst.GetChunk(System.Int32,System.Boolean)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetChunk(System.Int32,System.Boolean)" data-toggle="collapse" class="expander">
+                  GetChunk(Int32, Boolean)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetChunk(System.Int32,System.Boolean)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Gets the VST plug-in state as a plain byte array (memory chunk storage).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static byte[] GetChunk(int VstHandle, bool IsPreset)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>IsPreset</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></div>        
+                      <p class="padTop"><p><span class="xref">true</span> when saving a single program; <span class="xref">false</span> for all programs.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.byte(v=vs.110).aspx">Byte</a>[]
+                      <p class="padTop"><p>The array of bytes representing the VST plug-in state - or <span class="xref">null</span> if the VST doesn&#39;t support the chunk data mode.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>There are two ways to store the current state of a VST plug-In:
+Either trough the parameter interfaces (<a class="xref" href="ManagedBass.Vst.BassVst.html">GetParam(Int32, Int32)</a> and <a class="xref" href="ManagedBass.Vst.BassVst.html">SetParam(Int32, Int32, Single)</a>) or as an opaque memory block (chunk mode).
+<p>
+You might first queries this method to see, if the VST supports the chunk mode.
+If it is not implemented (<span class="xref">null</span> is returned), the values of all parameters might be used to save the plug-in state.
+</p>
+<p>
+Chunk storage allows to save additional data (besides the parameter state) which is specific to the VST plug-in.
+Please note, that if you decide to use the chunk storage, you have to take care of saving and loading parameter states on your own (see <a class="xref" href="ManagedBass.Vst.BassVst.html">SetChunk(Int32, Boolean, Byte[], Int32)</a> for details)!
+</p></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetInfo(System.Int32,ManagedBass.Vst.BassVstInfo@)" data-uid="ManagedBass.Vst.BassVst.GetInfo(System.Int32,ManagedBass.Vst.BassVstInfo@)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetInfo(System.Int32,ManagedBass.Vst.BassVstInfo@)" data-toggle="collapse" class="expander">
+                  GetInfo(Int32, out BassVstInfo)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetInfo(System.Int32,ManagedBass.Vst.BassVstInfo@)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Gets general information about a VST effect plugin.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool GetInfo(int VstHandle, out BassVstInfo Info)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Info</em>
+                      <div class="pull-right"><a class="xref" href="ManagedBass.Vst.BassVstInfo.html">BassVstInfo</a></div>        
+                      <p class="padTop"><p>An instance of the <a class="xref" href="ManagedBass.Vst.BassVstInfo.html">BassVstInfo</a> where to store the parameter information at.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+VST effects that have no input channels (so called &quot;Instruments&quot;) are not loaded by BASS_VST.
+So you can assume chansIn and chansOut to be at least 1.
+</p>
+<p>
+Multi-channel streams should work correctly, if supported by a effect.
+If not, only the first chansIn channels are processed by the effect, the other ones stay unaffected.<br>The opposite, eg. assigning multi-channel effects to stereo channels, should be no problem at all.
+</p>
+<p>
+If mono effects are assigned to stereo channels, the result will be mono, expanded to both channels.
+This behaviour can be switched of using the <a class="xref" href="ManagedBass.Vst.BassVstDsp.html">KeepChannels</a> in <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetParam(System.Int32,System.Int32)" data-uid="ManagedBass.Vst.BassVst.GetParam(System.Int32,System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetParam(System.Int32,System.Int32)" data-toggle="collapse" class="expander">
+                  GetParam(Int32, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetParam(System.Int32,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Get the value of a single VST effect parameter.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static float GetParam(int VstHandle, int ParamIndex)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>ParamIndex</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The index of the parameter (must be smaller than <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamCount(Int32)</a>).</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.single(v=vs.110).aspx">Single</a>
+                      <p class="padTop"><p><span class="xref">true</span> on success.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+All VST effect parameters are in the range from 0.0 to 1.0 (float), however, from the view of a VST effect, they may represent completely different values.
+E.g. some might represent a multiplier to some internal constants and will result in number of samples or some might represent a value in dB etc.
+</p>
+<p>You can use <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamInfo(Int32, Int32, out BassVstParamInfo)</a> to get further information about a single parameter, which will also present you with the current value in a readable format.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetParamCount(System.Int32)" data-uid="ManagedBass.Vst.BassVst.GetParamCount(System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetParamCount(System.Int32)" data-toggle="collapse" class="expander">
+                  GetParamCount(Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetParamCount(System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns the number of editable parameters for the VST effect.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int GetParamCount(int VstHandle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+                      <p class="padTop"><p>The number of editable parameters or if the effect has no editable parameters, 0 is returned.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>To set or get the individual parameters of a VST effect you might use <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamCount(Int32)</a> alongside with <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParam(Int32, Int32)</a> and <a class="xref" href="ManagedBass.Vst.BassVst.html">SetParam(Int32, Int32, Single)</a> to enumerate over the total number of effect parameters.
+To retrieve details about an individual parameter you might use <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamInfo(Int32, Int32, out BassVstParamInfo)</a>.
+If the VST effect supports an embedded editor you might also invoke this one with <a class="xref" href="ManagedBass.Vst.BassVst.html">EmbedEditor(Int32, IntPtr)</a>.
+If the embedded editor also supports localization you might set the language in advance with <a class="xref" href="ManagedBass.Vst.BassVst.html">SetLanguage(String)</a>.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetParamInfo(System.Int32,System.Int32)" data-uid="ManagedBass.Vst.BassVst.GetParamInfo(System.Int32,System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetParamInfo(System.Int32,System.Int32)" data-toggle="collapse" class="expander">
+                  GetParamInfo(Int32, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetParamInfo(System.Int32,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Get some common information about an editable parameter to a <a class="xref" href="ManagedBass.Vst.BassVstParamInfo.html">BassVstParamInfo</a> class.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static BassVstParamInfo GetParamInfo(int VstHandle, int ParamIndex)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>ParamIndex</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The index of the parameter (must be smaller than <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamCount(Int32)</a>).</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="ManagedBass.Vst.BassVstParamInfo.html">BassVstParamInfo</a>
+                      <p class="padTop"><p>If successful, an instance of the <a class="xref" href="ManagedBass.Vst.BassVstParamInfo.html">BassVstParamInfo</a> is returned, else <span class="xref">null</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetParamInfo(System.Int32,System.Int32,ManagedBass.Vst.BassVstParamInfo@)" data-uid="ManagedBass.Vst.BassVst.GetParamInfo(System.Int32,System.Int32,ManagedBass.Vst.BassVstParamInfo@)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetParamInfo(System.Int32,System.Int32,ManagedBass.Vst.BassVstParamInfo@)" data-toggle="collapse" class="expander">
+                  GetParamInfo(Int32, Int32, out BassVstParamInfo)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetParamInfo(System.Int32,System.Int32,ManagedBass.Vst.BassVstParamInfo@)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Get some common information about an editable parameter to a <a class="xref" href="ManagedBass.Vst.BassVstParamInfo.html">BassVstParamInfo</a> object.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool GetParamInfo(int VstHandle, int ParamIndex, out BassVstParamInfo Info)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>ParamIndex</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The index of the parameter (must be smaller than <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamCount(Int32)</a>).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Info</em>
+                      <div class="pull-right"><a class="xref" href="ManagedBass.Vst.BassVstParamInfo.html">BassVstParamInfo</a></div>        
+                      <p class="padTop"><p>An instance of the <a class="xref" href="ManagedBass.Vst.BassVstParamInfo.html">BassVstParamInfo</a> where to store the parameter information at.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetProgram(System.Int32)" data-uid="ManagedBass.Vst.BassVst.GetProgram(System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetProgram(System.Int32)" data-toggle="collapse" class="expander">
+                  GetProgram(Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetProgram(System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns the currently selected program for the VST effect.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int GetProgram(int VstHandle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+                      <p class="padTop"><p>The currect selected program number. Valid program numbers are between 0 and <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramCount(Int32)</a> minus 1.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>After construction (using <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>), always the first program (0) is selected.
+<p>
+With <a class="xref" href="ManagedBass.Vst.BassVst.html">SetProgram(Int32, Int32)</a> you can change the selected program.
+Functions as <a class="xref" href="ManagedBass.Vst.BassVst.html">SetParam(Int32, Int32, Single)</a> will always change the selected program&#39;s settings.
+</p></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetProgramCount(System.Int32)" data-uid="ManagedBass.Vst.BassVst.GetProgramCount(System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetProgramCount(System.Int32)" data-toggle="collapse" class="expander">
+                  GetProgramCount(Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetProgramCount(System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns the number of editable programs for the VST effect.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int GetProgramCount(int VstHandle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+                      <p class="padTop"><p>The number of available programs or 0 if no program is available.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Many (not all!) effects have more than one &quot;program&quot; that can hold a complete set of parameters each.
+Moreover, some of these programs may be initialized to some useful &quot;factory defaults&quot;.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetProgramName(System.Int32,System.Int32)" data-uid="ManagedBass.Vst.BassVst.GetProgramName(System.Int32,System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetProgramName(System.Int32,System.Int32)" data-toggle="collapse" class="expander">
+                  GetProgramName(Int32, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetProgramName(System.Int32,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Gets the name of any program of a VST effect.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string GetProgramName(int VstHandle, int ProgramIndex)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>ProgramIndex</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The program number for which to get the name, must be smaller than <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramCount(Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+                      <p class="padTop"><p>The name of the program given or <span class="xref">null</span> if not valid.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>The names are limited to 24 characters. This function does not change the selected program!</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetProgramNames(System.Int32)" data-uid="ManagedBass.Vst.BassVst.GetProgramNames(System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetProgramNames(System.Int32)" data-toggle="collapse" class="expander">
+                  GetProgramNames(Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetProgramNames(System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns a list of all available program names.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string[] GetProgramNames(int VstHandle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>[]
+                      <p class="padTop"><p>An array of strings representing the list of available program names. The index corresponds to the program numbers.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This function does not change the selected program!</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.GetProgramParam(System.Int32,System.Int32)" data-uid="ManagedBass.Vst.BassVst.GetProgramParam(System.Int32,System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.GetProgramParam(System.Int32,System.Int32)" data-toggle="collapse" class="expander">
+                  GetProgramParam(Int32, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.GetProgramParam(System.Int32,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns the parameters of a given program.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static float[] GetProgramParam(int VstHandle, int ProgramIndex)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>ProgramIndex</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The program number for which to query the parameter values, must be smaller than <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramCount(Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.single(v=vs.110).aspx">Single</a>[]
+                      <p class="padTop"><p>An array of float values representing the parameter values of the given program or <span class="xref">null</span> if the program (VST effect) has no parameters or an error occurred.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>The parameters of the currently selected program can also be queried by <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParam(Int32, Int32)</a>.</p>
+<p>
+The function returns the parameters as an array of floats.
+The number of elements in the returned array is equal to <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamCount(Int32)</a>.
+</p>
+<p>This function does not change the selected program!</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.Load(System.String)" data-uid="ManagedBass.Vst.BassVst.Load(System.String)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.Load(System.String)" data-toggle="collapse" class="expander">
+                  Load(String)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.Load(System.String)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Load this library into Memory.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Load(string Folder = null)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>Folder</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
+                      <p class="padTop"><p>Directory to Load from... <span class="xref">null</span> (default) = Load from Current Directory.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p><span class="xref">true</span>, if the library loaded successfully, else <span class="xref">false</span>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+An external library is loaded into memory when any of its methods are called for the first time.
+This results in the first method call being slower than all subsequent calls.
+</p>
+<p>
+Some BASS libraries and add-ons may introduce new options to the main BASS lib like new parameters.
+But, before using these new options the respective library must be already loaded.
+This method can be used to make sure, that this library has been loaded.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.ProcessEvent(System.Int32,System.Int32,System.Int32,System.Int32)" data-uid="ManagedBass.Vst.BassVst.ProcessEvent(System.Int32,System.Int32,System.Int32,System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.ProcessEvent(System.Int32,System.Int32,System.Int32,System.Int32)" data-toggle="collapse" class="expander">
+                  ProcessEvent(Int32, Int32, Int32, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.ProcessEvent(System.Int32,System.Int32,System.Int32,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Sends a MIDI message/event to the VSTi plugin.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool ProcessEvent(int VstHandle, int MidiChannel, int EventType, int Param)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VSTi channel to send a MIDI message to (as created by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelCreate(Int32, Int32, String, BassFlags)</a>).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>MidiChannel</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The Midi channel number to use (0 to 15).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>EventType</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The Midi event/status value to use (see <see cref="!:MidiEventType"></see> for details).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Param</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The data bytes to send with the message to compose a data byte 1 and 2.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Use one of the <see cref="!:MidiEventType"></see> commands similar to <see cref="!:BassMidi.StreamEvent(int,int,MidiEventType,int)"></see>.
+<p>
+Set <span class="paramref">MidiChannel</span> to 0xFFFF and <span class="paramref">EventType</span> to the raw command to send. 
+The raw command must be encoded as 0x00xxyyzz with xx=MIDI command, yy=MIDI databyte #1, zz=MIDI databyte #2.
+<span class="paramref">Param</span> should be set to 0 in this case.
+</p>
+<p>
+Send SysEx commands by setting <span class="paramref">MidiChannel</span> to 0xEEEE. 
+<span class="paramref">EventType</span> will denote the type of event to send (see <see cref="!:MidiEventType"></see> about possible values for <span class="paramref">Param</span> in such case).
+</p></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.ProcessEventRaw(System.Int32,System.Byte[],System.Int32)" data-uid="ManagedBass.Vst.BassVst.ProcessEventRaw(System.Int32,System.Byte[],System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.ProcessEventRaw(System.Int32,System.Byte[],System.Int32)" data-toggle="collapse" class="expander">
+                  ProcessEventRaw(Int32, Byte[], Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.ProcessEventRaw(System.Int32,System.Byte[],System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Sends a SysEx or MIDI (short)message/event to the VSTi plugin.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool ProcessEventRaw(int VstHandle, byte[] Message, int Length)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VSTi channel to send a MIDI message to (as created by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelCreate(Int32, Int32, String, BassFlags)</a>).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Message</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.byte(v=vs.110).aspx">Byte</a>[]</div>        
+                      <p class="padTop"><p>The byte array containing your Midi message data to send.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Length</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The length of a SysEx message or 0 in case of a normal Midi (short)message.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+To send a Midi (short)message : 
+The raw message must be encoded as 0x00xxyyzz with xx=MIDI command, yy=MIDI databyte #1, zz=MIDI databyte #2.
+<span class="paramref">Length</span> should be set to 0 in this case.
+</p>
+<p>
+To send a SysEx message:
+<span class="paramref">Message</span> must be set to a pointer to the bytes to send and <span class="paramref">Length</span> must be set to the number of bytes to send.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.ProcessEventRaw(System.Int32,System.IntPtr,System.Int32)" data-uid="ManagedBass.Vst.BassVst.ProcessEventRaw(System.Int32,System.IntPtr,System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.ProcessEventRaw(System.Int32,System.IntPtr,System.Int32)" data-toggle="collapse" class="expander">
+                  ProcessEventRaw(Int32, IntPtr, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.ProcessEventRaw(System.Int32,System.IntPtr,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Sends a SysEx or MIDI (short)message/event to the VSTi plugin.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool ProcessEventRaw(int VstHandle, IntPtr Message, int Length)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VSTi channel to send a MIDI message to (as created by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelCreate(Int32, Int32, String, BassFlags)</a>).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Message</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></div>        
+                      <p class="padTop"><p>The pointer to your Midi message data to send (byte[]).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Length</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The length of a SysEx message or 0 in case of a normal Midi (short)message.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+To send a Midi (short)message : 
+The raw message must be encoded as 0x00xxyyzz with xx=MIDI command, yy=MIDI databyte #1, zz=MIDI databyte #2.
+<span class="paramref">Length</span> should be set to 0 in this case.
+</p>
+<p>
+To send a SysEx message:
+<span class="paramref">Message</span> must be set to a pointer to the bytes to send and <span class="paramref">Length</span> must be set to the number of bytes to send.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.Resume(System.Int32)" data-uid="ManagedBass.Vst.BassVst.Resume(System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.Resume(System.Int32)" data-toggle="collapse" class="expander">
+                  Resume(Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.Resume(System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Call this function after position changes or sth. like that.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Resume(int VstHandle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Some VST effects will use an internal buffer for effect calculation and handling.
+This will reset the internal VST buffers which may remember some &quot;old&quot; data.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.SetBypass(System.Int32,System.Boolean)" data-uid="ManagedBass.Vst.BassVst.SetBypass(System.Int32,System.Boolean)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.SetBypass(System.Int32,System.Boolean)" data-toggle="collapse" class="expander">
+                  SetBypass(Int32, Boolean)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.SetBypass(System.Int32,System.Boolean)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Bypasses the effect processing (state=<span class="xref">true</span>) or switch back to normal processing (state=<span class="xref">false</span>).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool SetBypass(int VstHandle, bool State)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>State</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></div>        
+                      <p class="padTop"><p><span class="xref">true</span> to bypasses the effect processing; <span class="xref">false</span> to switch back to normal processing.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>By default bypassing is OFF and the effect will be processed normally.
+Use <a class="xref" href="ManagedBass.Vst.BassVst.html">GetBypass(Int32)</a> returns the current state.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.SetCallback(System.Int32,ManagedBass.Vst.VstProcedure,System.IntPtr)" data-uid="ManagedBass.Vst.BassVst.SetCallback(System.Int32,ManagedBass.Vst.VstProcedure,System.IntPtr)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.SetCallback(System.Int32,ManagedBass.Vst.VstProcedure,System.IntPtr)" data-toggle="collapse" class="expander">
+                  SetCallback(Int32, VstProcedure, IntPtr)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.SetCallback(System.Int32,ManagedBass.Vst.VstProcedure,System.IntPtr)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Assign a callback function to a vstHandle.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool SetCallback(int VstHandle, VstProcedure Procedure, IntPtr User)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Procedure</em>
+                      <div class="pull-right"><a class="xref" href="ManagedBass.Vst.VstProcedure.html">VstProcedure</a></div>        
+                      <p class="padTop"><p>The user defined callback delegate (see <a class="xref" href="ManagedBass.Vst.VstProcedure.html">VstProcedure</a>).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>User</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></div>        
+                      <p class="padTop"><p>User instance data to pass to the callback function.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Unless defined otherwise, the callback function should always return 0.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.SetChunk(System.Int32,System.Boolean,System.Byte[])" data-uid="ManagedBass.Vst.BassVst.SetChunk(System.Int32,System.Boolean,System.Byte[])">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.SetChunk(System.Int32,System.Boolean,System.Byte[])" data-toggle="collapse" class="expander">
+                  SetChunk(Int32, Boolean, Byte[])
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.SetChunk(System.Int32,System.Boolean,System.Byte[])" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Sets the VST plug-in state with a plain byte array (memory chunk storage).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int SetChunk(int VstHandle, bool IsPreset, byte[] Chunk)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>IsPreset</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></div>        
+                      <p class="padTop"><p><span class="xref">true</span> when restoring a single program; <span class="xref">false</span> for all programs.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Chunk</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.byte(v=vs.110).aspx">Byte</a>[]</div>        
+                      <p class="padTop"><p>The byte array containing the memory chunk storage to set.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+                      <p class="padTop"><p>The number of bytes written.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Might be used to restore a VST plug-in state which was previously saved via <a class="xref" href="ManagedBass.Vst.BassVst.html">GetChunk(Int32, Boolean)</a>.
+<p>After restoring a plug-in state you might need to retrieve the program names again (see <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramName(Int32, Int32)</a> and <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramCount(Int32)</a>) as they might have changed.</p></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.SetChunk(System.Int32,System.Boolean,System.Byte[],System.Int32)" data-uid="ManagedBass.Vst.BassVst.SetChunk(System.Int32,System.Boolean,System.Byte[],System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.SetChunk(System.Int32,System.Boolean,System.Byte[],System.Int32)" data-toggle="collapse" class="expander">
+                  SetChunk(Int32, Boolean, Byte[], Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.SetChunk(System.Int32,System.Boolean,System.Byte[],System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Sets the VST plug-in state with a plain byte array (memory chunk storage).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int SetChunk(int VstHandle, bool IsPreset, byte[] Chunk, int Length)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>IsPreset</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></div>        
+                      <p class="padTop"><p><span class="xref">true</span> when restoring a single program; <span class="xref">false</span> for all programs.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Chunk</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.byte(v=vs.110).aspx">Byte</a>[]</div>        
+                      <p class="padTop"><p>The byte array containing the memory chunk storage to set.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Length</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The number of bytes to write.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+                      <p class="padTop"><p>The number of bytes written.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Might be used to restore a VST plug-in state which was previously saved via <a class="xref" href="ManagedBass.Vst.BassVst.html">GetChunk(Int32, Boolean)</a>.
+<p>After restoring a plug-in state you might need to retrieve the program names again (see <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramName(Int32, Int32)</a> and <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramCount(Int32)</a>) as they might have changed.</p></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.SetLanguage(System.String)" data-uid="ManagedBass.Vst.BassVst.SetLanguage(System.String)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.SetLanguage(System.String)" data-toggle="collapse" class="expander">
+                  SetLanguage(String)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.SetLanguage(System.String)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Set the VST language to be used by any plugins.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool SetLanguage(string Language)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>Language</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
+                      <p class="padTop"><p>The desired language as ISO 639.1, e.g. &quot;en&quot;, &quot;de&quot;, &quot;es&quot;...</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Some VST effects come along localized.
+With this function you can set the desired language as ISO 639.1 -- eg. &quot;en&quot; for english, &quot;de&quot; for german, &quot;es&quot; for spanish and so on.
+The default language is english.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.SetParam(System.Int32,System.Int32,System.Single)" data-uid="ManagedBass.Vst.BassVst.SetParam(System.Int32,System.Int32,System.Single)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.SetParam(System.Int32,System.Int32,System.Single)" data-toggle="collapse" class="expander">
+                  SetParam(Int32, Int32, Single)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.SetParam(System.Int32,System.Int32,System.Single)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Set a value of a single VST effect parameter.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool SetParam(int VstHandle, int ParamIndex, float NewValue)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>ParamIndex</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The index of the parameter (must be smaller than <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamCount(Int32)</a>).</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>NewValue</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.single(v=vs.110).aspx">Single</a></div>        
+                      <p class="padTop"><p>The new value to set in the range from 0.0 to 1.0 (float). See the documentation of the actual VST implementation for details of the effective value representation.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p><span class="xref">true</span> on success.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+All VST effect parameters are in the range from 0.0 to 1.0 (float), however, from the view of a VST effect, they may represent completely different values.
+E.g. some might represent a multiplier to some internal constants and will result in number of samples or some might represent a value in dB etc.
+</p>
+<p>So it is a good idea to call <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamInfo(Int32, Int32, out BassVstParamInfo)</a> after you modified a parameter, in order to to get further information about the parameter in question, which will also present you with the current value in a readable format.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.SetProgram(System.Int32,System.Int32)" data-uid="ManagedBass.Vst.BassVst.SetProgram(System.Int32,System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.SetProgram(System.Int32,System.Int32)" data-toggle="collapse" class="expander">
+                  SetProgram(Int32, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.SetProgram(System.Int32,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Sets (changes) the selected program for the VST effect.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool SetProgram(int VstHandle, int ProgramIndex)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>ProgramIndex</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The program number to set (between 0 and <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramCount(Int32)</a> minus 1.).</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>You might call <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramCount(Int32)</a> to check, if the VST effect has any editable programs available.
+<p>
+With <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgram(Int32)</a> you can check, which is the current selected program.
+Functions as as <a class="xref" href="ManagedBass.Vst.BassVst.html">SetParam(Int32, Int32, Single)</a> will always change the selected program&#39;s settings.
+</p></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.SetProgramName(System.Int32,System.Int32,System.String)" data-uid="ManagedBass.Vst.BassVst.SetProgramName(System.Int32,System.Int32,System.String)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.SetProgramName(System.Int32,System.Int32,System.String)" data-toggle="collapse" class="expander">
+                  SetProgramName(Int32, Int32, String)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.SetProgramName(System.Int32,System.Int32,System.String)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Sets the name of any program of a VST effect.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool SetProgramName(int VstHandle, int ProgramIndex, string Name)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>ProgramIndex</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The program number for which to set the name, must be smaller than <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramCount(Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Name</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
+                      <p class="padTop"><p>The new name to use. Names are limited to 24 characters, BASS_VST truncates the names, if needed.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This function does not change the selected program!</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.SetProgramParam(System.Int32,System.Int32,System.Single[])" data-uid="ManagedBass.Vst.BassVst.SetProgramParam(System.Int32,System.Int32,System.Single[])">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.SetProgramParam(System.Int32,System.Int32,System.Single[])" data-toggle="collapse" class="expander">
+                  SetProgramParam(Int32, Int32, Single[])
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.SetProgramParam(System.Int32,System.Int32,System.Single[])" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Set all parameters of any program in a VST effect.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool SetProgramParam(int VstHandle, int ProgramIndex, float[] Param)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>ProgramIndex</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The program number for which to set the parameter values, must be smaller than <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramCount(Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Param</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.single(v=vs.110).aspx">Single</a>[]</div>        
+                      <p class="padTop"><p>An array with the parameter values to set. The array needs to have as many elements as defined by <a class="xref" href="ManagedBass.Vst.BassVst.html">GetParamCount(Int32)</a> or as returned be <a class="xref" href="ManagedBass.Vst.BassVst.html">GetProgramParam(Int32, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="methods_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This function does not change the selected program!
+<p>If you use <a class="xref" href="ManagedBass.Vst.BassVst.html">SetCallback(Int32, VstProcedure, IntPtr)</a>, the <a class="xref" href="ManagedBass.Vst.BassVstAction.html">ParametersChanged</a> event is only posted if you select a program with parameters different from the prior.</p></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.SetScope(System.Int32,System.Int32)" data-uid="ManagedBass.Vst.BassVst.SetScope(System.Int32,System.Int32)">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.SetScope(System.Int32,System.Int32)" data-toggle="collapse" class="expander">
+                  SetScope(Int32, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.SetScope(System.Int32,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Sets the scope of an Editor to a given ID.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool SetScope(int VstHandle, int Scope)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>VstHandle</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The VST effect handle as returned by <a class="xref" href="ManagedBass.Vst.BassVst.html">ChannelSetDSP(Int32, String, BassVstDsp, Int32)</a>.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Scope</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>The ID to set the scope to.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html">LastError</a> to get the error code.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Vst.BassVst.Unload" data-uid="ManagedBass.Vst.BassVst.Unload">
+                <a href="#collapsible-ManagedBass.Vst.BassVst.Unload" data-toggle="collapse" class="expander">
+                  Unload()
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Vst.BassVst.Unload" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Unloads this library from Memory.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Unload()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+                      <p class="padTop"><p><span class="xref">true</span>, if the library unloaded successfully, else <span class="xref">false</span>.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              
+            </article>
+          </div>
+          <!-- Affix -->
+          <div class="hidden-sm col-md-3" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
+
+    <script src="../styles/docfx.js"></script>
+    <script src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <!-- AdSense -->
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4251360406988977",
+        enable_page_level_ads: true
+      });
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>FontInitFlags </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="FontInitFlags <small>Enum</small>
+ ">
+    
+    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <span class="navbar-brand">ManagedBass</span>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div role="main" class="container-fluid body-content">
+        <div class="sidenav">
+          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9" id="articleContainer">
+            <div id="selector"></div>
+            <article class="content wrap" id="_content">
+              
+              <div class="contributionPanel">
+              </div>
+              
+              <h1 id="" data-uid="ManagedBass.Midi.FontInitFlags">FontInitFlags <small>Enum</small>
+              </h1>
+              <div class="markdown level0 summary"><p>Font Init Flags to be used with <a class="xref" href="ManagedBass.Midi.BassMidi.html">FontInit(String, FontInitFlags)</a>.</p>
+</div>
+
+              
+              <h6><strong>Namespace</strong>: ManagedBass.Midi</h6>
+              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
+              <div class="markdown level0 conceptual"></div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Midi.FontInitFlags.MemoryMap" data-uid="ManagedBass.Midi.FontInitFlags.MemoryMap">
+                <a href="#collapsible-ManagedBass.Midi.FontInitFlags.MemoryMap" data-toggle="collapse" class="expander">
+                  MemoryMap
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Midi.FontInitFlags.MemoryMap" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Map the file into memory.
+This flag is ignored if the soundfont is packed as the sample data cannot be played directly from a mapping; it needs to be decoded.
+This flag is also ignored if the file is too large to be mapped into memory.</p>
+</div>
+              <em>Value</em>: 131072
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Midi.FontInitFlags.NoFx" data-uid="ManagedBass.Midi.FontInitFlags.NoFx">
+                <a href="#collapsible-ManagedBass.Midi.FontInitFlags.NoFx" data-toggle="collapse" class="expander">
+                  NoFx
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Midi.FontInitFlags.NoFx" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Ignore the reverb/chorus levels of the presets in the soundfont (only use the levels in the MIDI events).</p>
+</div>
+              <em>Value</em>: 524288
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Midi.FontInitFlags.Unicode" data-uid="ManagedBass.Midi.FontInitFlags.Unicode">
+                <a href="#collapsible-ManagedBass.Midi.FontInitFlags.Unicode" data-toggle="collapse" class="expander">
+                  Unicode
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Midi.FontInitFlags.Unicode" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Unicode File Names.</p>
+</div>
+              <em>Value</em>: -2147483648
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Midi.FontInitFlags.XGDrums" data-uid="ManagedBass.Midi.FontInitFlags.XGDrums">
+                <a href="#collapsible-ManagedBass.Midi.FontInitFlags.XGDrums" data-toggle="collapse" class="expander">
+                  XGDrums
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Midi.FontInitFlags.XGDrums" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Use bank 127 in the soundfont for XG drum kits.
+When an XG drum kit is needed, bank 127 in soundfonts that have this flag set will be checked first, before falling back to bank 128 (the standard SF2 drum kit bank) if it is not available there.</p>
+</div>
+              <em>Value</em>: 262144
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              
+            </article>
+          </div>
+          <!-- Affix -->
+          <div class="hidden-sm col-md-3" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
+
+    <script src="../styles/docfx.js"></script>
+    <script src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

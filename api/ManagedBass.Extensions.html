@@ -1,570 +1,508 @@
-<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+﻿<!DOCTYPE html>
 <html>
-  
   <head>
+    <!-- AdSense -->
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4251360406988977",
+        enable_page_level_ads: true
+      });
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Extensions
-   </title>
+    <title>Extensions </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Extensions
-   ">
-    <meta name="generator" content="docfx 2.1.0.0">
+    <meta name="title" content="Extensions <small>Class</small>
+ ">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
-    
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
       <header>
-        
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
+              <span class="navbar-brand">ManagedBass</span>
             </div>
           </div>
         </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
       </header>
-      <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+      <div role="main" class="container-fluid body-content">
+        <div class="sidenav">
+          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
             <div id="sidetoc"></div>
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-10">
+          <div class="col-md-9" id="articleContainer">
+            <div id="selector"></div>
             <article class="content wrap" id="_content">
               
+              <div class="contributionPanel">
+              </div>
               
-              <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Extensions.cs/#L12" class="btn btn-primary pull-right mobile-hide">View Source</a>
-              <h1 id="ManagedBass_Extensions" data-uid="ManagedBass.Extensions">Class Extensions
+              <h1 id="" data-uid="ManagedBass.Extensions">Extensions <small>Class</small>
               </h1>
               <div class="markdown level0 summary"><p>Contains Helper and Extension methods.</p>
 </div>
-              <div class="markdown level0 conceptual"></div>
-              <div class="inheritance">
-                <h5>Inheritance</h5>
-                  <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><span class="xref">Extensions</span></div>
-              </div>
-              <div class="inheritedMembers">
-                <h5>Inherited Members</h5>
-                <div>
-                  <span class="xref">System.Object.ToString()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetHashCode()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetType()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.MemberwiseClone()</span>
-                </div>
-              </div>
-              <h6><strong>Namespace</strong>:ManagedBass</h6>
-              <h6><strong>Assembly</strong>:ManagedBass.PInvoke.dll</h6>
-              <h5 id="ManagedBass_Extensions_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class Extensions</code></pre>
-              </div>
-              <h3 id="properties">Properties
-              </h3>
+
               
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Extensions.cs/#L59">View Source</a>
-              </span>
-              <h4 id="ManagedBass_Extensions_SupportsFloatingPoint" data-uid="ManagedBass.Extensions.SupportsFloatingPoint">SupportsFloatingPoint</h4>
+              <h6><strong>Namespace</strong>: ManagedBass</h6>
+              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
+              <h5 id="_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static class Extensions</code></pre>
+              </div>
+              <div class="markdown level0 conceptual"></div>
+              <h3 id="properties">
+                Properties
+              </h3>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.SilenceStreamProcedure" data-uid="ManagedBass.Extensions.SilenceStreamProcedure">
+                <a href="#collapsible-ManagedBass.Extensions.SilenceStreamProcedure" data-toggle="collapse" class="expander">
+                  SilenceStreamProcedure
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.SilenceStreamProcedure" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns a <a class="xref" href="ManagedBass.StreamProcedure.html">StreamProcedure</a> which can be used to Play Silence on a Device (Useful during Wasapi Loopback Capture).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static StreamProcedure SilenceStreamProcedure { get; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="ManagedBass.StreamProcedure.html">StreamProcedure</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.SupportsFloatingPoint" data-uid="ManagedBass.Extensions.SupportsFloatingPoint">
+                <a href="#collapsible-ManagedBass.Extensions.SupportsFloatingPoint" data-toggle="collapse" class="expander">
+                  SupportsFloatingPoint
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.SupportsFloatingPoint" class="container-fluid collapse in">
               <div class="markdown level1 summary"><p>Check whether Floating point streams are supported in the Current Environment.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                 <pre><code class="lang-csharp hljs">public static bool SupportsFloatingPoint { get; }</code></pre>
               </div>
-              <h5 class="propertyValue">Property Value</h5>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <h3 id="methods">
+                Methods
+              </h3>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.ApplyOn``1(ManagedBass.Effect{``0},ManagedBass.MediaPlayer,System.Int32)" data-uid="ManagedBass.Extensions.ApplyOn``1(ManagedBass.Effect{``0},ManagedBass.MediaPlayer,System.Int32)">
+                <a href="#collapsible-ManagedBass.Extensions.ApplyOn``1(ManagedBass.Effect{``0},ManagedBass.MediaPlayer,System.Int32)" data-toggle="collapse" class="expander">
+                  ApplyOn&lt;T&gt;(Effect&lt;T&gt;, MediaPlayer, Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.ApplyOn``1(ManagedBass.Effect{``0},ManagedBass.MediaPlayer,System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Applies the Effect on a <a class="xref" href="ManagedBass.MediaPlayer.html">MediaPlayer</a>.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void ApplyOn&lt;T&gt;(this Effect&lt;T&gt; Effect, MediaPlayer Player, int Priority = 0)where T : class, IEffectParameter, new ()</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
                 <tbody>
-                  <tr>
-                    <td><span class="xref">System.Boolean</span></td>
-                    <td></td>
+                  <tr>      
+                    <td>
+                      <em>Effect</em>
+                      <div class="pull-right"><a class="xref" href="ManagedBass.Effect-1.html">Effect</a>&lt;T&gt;</div>        
+                      <p class="padTop"><p>The Effect to Apply.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Player</em>
+                      <div class="pull-right"><a class="xref" href="ManagedBass.MediaPlayer.html">MediaPlayer</a></div>        
+                      <p class="padTop"><p>The <a class="xref" href="ManagedBass.MediaPlayer.html">MediaPlayer</a> to apply the Effect on.</p>
+</p>
+                    </td>
+                  </tr>
+                  <tr>      
+                    <td>
+                      <em>Priority</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop"><p>Priority of the Effect in DSP chain.</p>
+</p>
+                    </td>
                   </tr>
                 </tbody>
               </table>
-              <h3 id="methods">Methods
-              </h3>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>
+                    <td>
+                      <em>T</em>
+                      <p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
               
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Extensions.cs/#L90">View Source</a>
-              </span>
-              <h4 id="ManagedBass_Extensions_ChannelCountToString_System_Int32_" data-uid="ManagedBass.Extensions.ChannelCountToString(System.Int32)">ChannelCountToString(Int32)</h4>
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.ChannelCountToString(System.Int32)" data-uid="ManagedBass.Extensions.ChannelCountToString(System.Int32)">
+                <a href="#collapsible-ManagedBass.Extensions.ChannelCountToString(System.Int32)" data-toggle="collapse" class="expander">
+                  ChannelCountToString(Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.ChannelCountToString(System.Int32)" class="container-fluid collapse in">
               <div class="markdown level1 summary"><p>Returns a string representation for given number of channels.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                 <pre><code class="lang-csharp hljs">public static string ChannelCountToString(int Channels)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
                 <tbody>
-                  <tr>
-                    <td><span class="xref">System.Int32</span></td>
-                    <td><em>Channels</em></td>
-                    <td></td>
+                  <tr>      
+                    <td>
+                      <em>Channels</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop">
+                    </td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.String</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
+              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
               
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Extensions.cs/#L19">View Source</a>
-              </span>
-              <h4 id="ManagedBass_Extensions_Clip__1___0___0___0_" data-uid="ManagedBass.Extensions.Clip``1(``0,``0,``0)">Clip&lt;T&gt;(T, T, T)</h4>
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.Clip``1(``0,``0,``0)" data-uid="ManagedBass.Extensions.Clip``1(``0,``0,``0)">
+                <a href="#collapsible-ManagedBass.Extensions.Clip``1(``0,``0,``0)" data-toggle="collapse" class="expander">
+                  Clip&lt;T&gt;(T, T, T)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.Clip``1(``0,``0,``0)" class="container-fluid collapse in">
               <div class="markdown level1 summary"><p>Clips a value between a Minimum and a Maximum.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                 <pre><code class="lang-csharp hljs">public static T Clip&lt;T&gt;(this T Item, T MinValue, T MaxValue)where T : IComparable&lt;T&gt;</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
                 <tbody>
-                  <tr>
-                    <td><span class="xref">T</span></td>
-                    <td><em>Item</em></td>
-                    <td></td>
+                  <tr>      
+                    <td>
+                      <em>Item</em>
+                      <div class="pull-right"><span class="xref">T</span></div>        
+                      <p class="padTop">
+                    </td>
                   </tr>
-                  <tr>
-                    <td><span class="xref">T</span></td>
-                    <td><em>MinValue</em></td>
-                    <td></td>
+                  <tr>      
+                    <td>
+                      <em>MinValue</em>
+                      <div class="pull-right"><span class="xref">T</span></div>        
+                      <p class="padTop">
+                    </td>
                   </tr>
-                  <tr>
-                    <td><span class="xref">T</span></td>
-                    <td><em>MaxValue</em></td>
-                    <td></td>
+                  <tr>      
+                    <td>
+                      <em>MaxValue</em>
+                      <div class="pull-right"><span class="xref">T</span></div>        
+                      <p class="padTop">
+                    </td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">T</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
+              <em>Returns</em>: <span class="xref">T</span>
               <h5 class="typeParameters">Type Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
                 <tbody>
                   <tr>
-                    <td><em>T</em></td>
-                    <td></td>
+                    <td>
+                      <em>T</em>
+                      <p>
+                    </td>
                   </tr>
                 </tbody>
               </table>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
               
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Extensions.cs/#L118">View Source</a>
-              </span>
-              <h4 id="ManagedBass_Extensions_ExtractMultiStringAnsi_System_IntPtr_" data-uid="ManagedBass.Extensions.ExtractMultiStringAnsi(System.IntPtr)">ExtractMultiStringAnsi(IntPtr)</h4>
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.ExtractMultiStringAnsi(System.IntPtr)" data-uid="ManagedBass.Extensions.ExtractMultiStringAnsi(System.IntPtr)">
+                <a href="#collapsible-ManagedBass.Extensions.ExtractMultiStringAnsi(System.IntPtr)" data-toggle="collapse" class="expander">
+                  ExtractMultiStringAnsi(IntPtr)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.ExtractMultiStringAnsi(System.IntPtr)" class="container-fluid collapse in">
               <div class="markdown level1 summary"><p>Extract an array of strings from a pointer to ANSI null-terminated string ending with a double null.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                 <pre><code class="lang-csharp hljs">public static string[] ExtractMultiStringAnsi(IntPtr Ptr)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
                 <tbody>
-                  <tr>
-                    <td><span class="xref">System.IntPtr</span></td>
-                    <td><em>Ptr</em></td>
-                    <td></td>
+                  <tr>      
+                    <td>
+                      <em>Ptr</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></div>        
+                      <p class="padTop">
+                    </td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.String</span>[]</td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
+              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>[]
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
               
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Extensions.cs/#L141">View Source</a>
-              </span>
-              <h4 id="ManagedBass_Extensions_ExtractMultiStringUtf8_System_IntPtr_" data-uid="ManagedBass.Extensions.ExtractMultiStringUtf8(System.IntPtr)">ExtractMultiStringUtf8(IntPtr)</h4>
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.ExtractMultiStringUtf8(System.IntPtr)" data-uid="ManagedBass.Extensions.ExtractMultiStringUtf8(System.IntPtr)">
+                <a href="#collapsible-ManagedBass.Extensions.ExtractMultiStringUtf8(System.IntPtr)" data-toggle="collapse" class="expander">
+                  ExtractMultiStringUtf8(IntPtr)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.ExtractMultiStringUtf8(System.IntPtr)" class="container-fluid collapse in">
               <div class="markdown level1 summary"><p>Extract an array of strings from a pointer to UTF-8 null-terminated string ending with a double null.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                 <pre><code class="lang-csharp hljs">public static string[] ExtractMultiStringUtf8(IntPtr Ptr)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
                 <tbody>
-                  <tr>
-                    <td><span class="xref">System.IntPtr</span></td>
-                    <td><em>Ptr</em></td>
-                    <td></td>
+                  <tr>      
+                    <td>
+                      <em>Ptr</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></div>        
+                      <p class="padTop">
+                    </td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.String</span>[]</td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Extensions.cs/#L31">View Source</a>
-              </span>
-              <h4 id="ManagedBass_Extensions_Is__1___0___0___" data-uid="ManagedBass.Extensions.Is``1(``0,``0[])">Is&lt;T&gt;(T, T[])</h4>
-              <div class="markdown level1 summary"><p>Checks for equality of an item with any element of an array of items.</p>
-</div>
+              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>[]
               <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.GetVersion(System.Int32)" data-uid="ManagedBass.Extensions.GetVersion(System.Int32)">
+                <a href="#collapsible-ManagedBass.Extensions.GetVersion(System.Int32)" data-toggle="collapse" class="expander">
+                  GetVersion(Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.GetVersion(System.Int32)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Gets a <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.version(v=vs.110).aspx">Version</a> object for a version number returned by BASS.</p>
+</div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static bool Is&lt;T&gt;(this T Item, params T[] Args)</code></pre>
+                <pre><code class="lang-csharp hljs">public static Version GetVersion(int Num)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
                 <tbody>
-                  <tr>
-                    <td><span class="xref">T</span></td>
-                    <td><em>Item</em></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>T[]</td>
-                    <td><em>Args</em></td>
-                    <td></td>
+                  <tr>      
+                    <td>
+                      <em>Num</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop">
+                    </td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Boolean</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="typeParameters">Type Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><em>T</em></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
+              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.version(v=vs.110).aspx">Version</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
               
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Extensions.cs/#L185">View Source</a>
-              </span>
-              <h4 id="ManagedBass_Extensions_PtrToStringUtf8_System_IntPtr_" data-uid="ManagedBass.Extensions.PtrToStringUtf8(System.IntPtr)">PtrToStringUtf8(IntPtr)</h4>
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.PtrToStringUtf8(System.IntPtr)" data-uid="ManagedBass.Extensions.PtrToStringUtf8(System.IntPtr)">
+                <a href="#collapsible-ManagedBass.Extensions.PtrToStringUtf8(System.IntPtr)" data-toggle="collapse" class="expander">
+                  PtrToStringUtf8(IntPtr)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.PtrToStringUtf8(System.IntPtr)" class="container-fluid collapse in">
               <div class="markdown level1 summary"><p>Returns a Unicode string from a pointer to a Utf-8 string.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                 <pre><code class="lang-csharp hljs">public static string PtrToStringUtf8(IntPtr Ptr)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
                 <tbody>
-                  <tr>
-                    <td><span class="xref">System.IntPtr</span></td>
-                    <td><em>Ptr</em></td>
-                    <td></td>
+                  <tr>      
+                    <td>
+                      <em>Ptr</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></div>        
+                      <p class="padTop">
+                    </td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.String</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
+              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
               
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Extensions.cs/#L52">View Source</a>
-              </span>
-              <h4 id="ManagedBass_Extensions_SpeakerN_System_Int32_" data-uid="ManagedBass.Extensions.SpeakerN(System.Int32)">SpeakerN(Int32)</h4>
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.SpeakerN(System.Int32)" data-uid="ManagedBass.Extensions.SpeakerN(System.Int32)">
+                <a href="#collapsible-ManagedBass.Extensions.SpeakerN(System.Int32)" data-toggle="collapse" class="expander">
+                  SpeakerN(Int32)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.SpeakerN(System.Int32)" class="container-fluid collapse in">
               <div class="markdown level1 summary"><p>Returns the <param name="N">n&#39;th (max 15) pair of Speaker Assignment Flags</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                 <pre><code class="lang-csharp hljs">public static BassFlags SpeakerN(int N)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
                 <tbody>
-                  <tr>
-                    <td><span class="xref">System.Int32</span></td>
-                    <td><em>N</em></td>
-                    <td></td>
+                  <tr>      
+                    <td>
+                      <em>N</em>
+                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
+                      <p class="padTop">
+                    </td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags">BassFlags</a></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Extensions.cs/#L36">View Source</a>
-              </span>
-              <h4 id="ManagedBass_Extensions_ToBassFlag_ManagedBass_Resolution_" data-uid="ManagedBass.Extensions.ToBassFlag(ManagedBass.Resolution)">ToBassFlag(Resolution)</h4>
-              <div class="markdown level1 summary"><p>Converts <a class="xref" href="ManagedBass.Resolution.html#ManagedBass_Resolution">Resolution</a> to <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags">BassFlags</a></p>
-</div>
+              <em>Returns</em>: <a class="xref" href="ManagedBass.BassFlags.html">BassFlags</a>
               <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.StreamFileProcedures(Stream)" data-uid="ManagedBass.Extensions.StreamFileProcedures(Stream)">
+                <a href="#collapsible-ManagedBass.Extensions.StreamFileProcedures(Stream)" data-toggle="collapse" class="expander">
+                  StreamFileProcedures(Stream)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.StreamFileProcedures(Stream)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns an instance of <a class="xref" href="ManagedBass.FileProcedures.html">FileProcedures</a> wrapped around a <see cref="!:Stream"></see>.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static FileProcedures StreamFileProcedures(Stream InputStream)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <tbody>
+                  <tr>      
+                    <td>
+                      <em>InputStream</em>
+                      <div class="pull-right"><span class="xref">Stream</span></div>        
+                      <p class="padTop"><p>The <see cref="!:Stream"></see> to use with BASS.</p>
+</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <em>Returns</em>: <a class="xref" href="ManagedBass.FileProcedures.html">FileProcedures</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Extensions.ToBassFlag(ManagedBass.Resolution)" data-uid="ManagedBass.Extensions.ToBassFlag(ManagedBass.Resolution)">
+                <a href="#collapsible-ManagedBass.Extensions.ToBassFlag(ManagedBass.Resolution)" data-toggle="collapse" class="expander">
+                  ToBassFlag(Resolution)
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Extensions.ToBassFlag(ManagedBass.Resolution)" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Converts <a class="xref" href="ManagedBass.Resolution.html">Resolution</a> to <a class="xref" href="ManagedBass.BassFlags.html">BassFlags</a></p>
+</div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                 <pre><code class="lang-csharp hljs">public static BassFlags ToBassFlag(this Resolution Resolution)</code></pre>
               </div>
               <h5 class="parameters">Parameters</h5>
               <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
                 <tbody>
-                  <tr>
-                    <td><a class="xref" href="ManagedBass.Resolution.html#ManagedBass_Resolution">Resolution</a></td>
-                    <td><em>Resolution</em></td>
-                    <td></td>
+                  <tr>      
+                    <td>
+                      <em>Resolution</em>
+                      <div class="pull-right"><a class="xref" href="ManagedBass.Resolution.html">Resolution</a></div>        
+                      <p class="padTop">
+                    </td>
                   </tr>
                 </tbody>
               </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags">BassFlags</a></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
+              <em>Returns</em>: <a class="xref" href="ManagedBass.BassFlags.html">BassFlags</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              
             </article>
           </div>
-          
-          <div class="hidden-sm col-md-2" role="complementary">
+          <!-- Affix -->
+          <div class="hidden-sm col-md-3" role="complementary">
             <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
             </nav>
           </div>
         </div>
       </div>
-      
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            
-            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
+
+      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
+
+    <script src="../styles/docfx.js"></script>
+    <script src="../styles/main.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>

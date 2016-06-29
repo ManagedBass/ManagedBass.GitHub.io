@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <!-- AdSense -->
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4251360406988977",
+        enable_page_level_ads: true
+      });
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>EchoEffect </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="EchoEffect <small>Class</small>
+ ">
+    
+    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <span class="navbar-brand">ManagedBass</span>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div role="main" class="container-fluid body-content">
+        <div class="sidenav">
+          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9" id="articleContainer">
+            <div id="selector"></div>
+            <article class="content wrap" id="_content">
+              
+              <div class="contributionPanel">
+              </div>
+              
+              <h1 id="" data-uid="ManagedBass.Fx.EchoEffect">EchoEffect <small>Class</small>
+              </h1>
+              <div class="markdown level0 summary"><p>BassFx Echo Effect.</p>
+</div>
+
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0" style="margin-left:0em"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
+                  <div class="level1" style="margin-left:1em"><a class="xref" href="ManagedBass.Effect-1.html">Effect</a>&lt;<a class="xref" href="ManagedBass.Fx.EchoParameters.html">EchoParameters</a>&gt;</div>
+                  <div class="level2" style="margin-left:2em"><span class="xref">EchoEffect</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;EchoParameters&gt;.Parameters</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;EchoParameters&gt;.ApplyOn(Int32, Int32)</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;EchoParameters&gt;.Priority</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;EchoParameters&gt;.Dispose()</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;EchoParameters&gt;.Default()</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;EchoParameters&gt;.IsActive</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;EchoParameters&gt;.OnPreset()</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;EchoParameters&gt;.PropertyChanged</a>
+                </div>
+                <div>
+                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;EchoParameters&gt;.OnPropertyChanged(String)</a>
+                </div>
+              </div>
+              
+              <h6><strong>Namespace</strong>: ManagedBass.Fx</h6>
+              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
+              <h5 id="_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public sealed class EchoEffect : Effect&lt;EchoParameters&gt;, IDisposable</code></pre>
+              </div>
+              <h5 id="_remarks"><strong>Remarks</strong></h5>
+              <div class="markdown level0 remarks"><p>
+This is an echo effect that replays what you have played one or more times after a period of time.
+It&#39;s something like the echoes you might hear shouting against a canyon wall.
+For reverb effect enable feedback.
+</p>
+<p>
+The <a class="xref" href="ManagedBass.Fx.EchoEffect.html">DryMix</a> is the volume of input signal and the <a class="xref" href="ManagedBass.Fx.EchoEffect.html">WetMix</a> is the volume of delayed signal.
+The <a class="xref" href="ManagedBass.Fx.EchoEffect.html">Delay</a> is the delay time in sec.
+The <a class="xref" href="ManagedBass.Fx.EchoEffect.html">Feedback</a> sets how much delay is feed back to the input (for repeating delays).
+If <a class="xref" href="ManagedBass.Fx.EchoEffect.html">Stereo</a> is enabled and a stream has an even number of channels then, each even channels will be echoed to each other.
+</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <h3 id="properties">
+                Properties
+              </h3>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.EchoEffect.Channels" data-uid="ManagedBass.Fx.EchoEffect.Channels">
+                <a href="#collapsible-ManagedBass.Fx.EchoEffect.Channels" data-toggle="collapse" class="expander">
+                  Channels
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.EchoEffect.Channels" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>A <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a> flag to define on which channels to apply the effect. Default: <a class="xref" href="ManagedBass.FXChannelFlags.html">All</a></p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public FXChannelFlags Channels { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.EchoEffect.Delay" data-uid="ManagedBass.Fx.EchoEffect.Delay">
+                <a href="#collapsible-ManagedBass.Fx.EchoEffect.Delay" data-toggle="collapse" class="expander">
+                  Delay
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.EchoEffect.Delay" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Delay in seconds (0+...6).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double Delay { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.EchoEffect.DryMix" data-uid="ManagedBass.Fx.EchoEffect.DryMix">
+                <a href="#collapsible-ManagedBass.Fx.EchoEffect.DryMix" data-toggle="collapse" class="expander">
+                  DryMix
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.EchoEffect.DryMix" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Dry (unaffected) signal mix (-2...+2). </p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double DryMix { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.EchoEffect.Feedback" data-uid="ManagedBass.Fx.EchoEffect.Feedback">
+                <a href="#collapsible-ManagedBass.Fx.EchoEffect.Feedback" data-toggle="collapse" class="expander">
+                  Feedback
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.EchoEffect.Feedback" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Feedback (-1...+1).</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double Feedback { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.EchoEffect.Stereo" data-uid="ManagedBass.Fx.EchoEffect.Stereo">
+                <a href="#collapsible-ManagedBass.Fx.EchoEffect.Stereo" data-toggle="collapse" class="expander">
+                  Stereo
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.EchoEffect.Stereo" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Echo adjoining channels to each other? Default is disabled.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool Stereo { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+              <h5 id="properties_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Only allowed with even number of channels!
+<p>If enabled and a stream has an even number of channels then, each even channels will be echoed to each other.</p></p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.EchoEffect.WetMix" data-uid="ManagedBass.Fx.EchoEffect.WetMix">
+                <a href="#collapsible-ManagedBass.Fx.EchoEffect.WetMix" data-toggle="collapse" class="expander">
+                  WetMix
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.EchoEffect.WetMix" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Wet (affected) signal mix (-2...+2). </p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double WetMix { get; set; }</code></pre>
+              </div>
+              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <h3 id="methods">
+                Methods
+              </h3>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.EchoEffect.ManyEchoes" data-uid="ManagedBass.Fx.EchoEffect.ManyEchoes">
+                <a href="#collapsible-ManagedBass.Fx.EchoEffect.ManyEchoes" data-toggle="collapse" class="expander">
+                  ManyEchoes()
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.EchoEffect.ManyEchoes" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void ManyEchoes()</code></pre>
+              </div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.EchoEffect.ReverseEchoes" data-uid="ManagedBass.Fx.EchoEffect.ReverseEchoes">
+                <a href="#collapsible-ManagedBass.Fx.EchoEffect.ReverseEchoes" data-toggle="collapse" class="expander">
+                  ReverseEchoes()
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.EchoEffect.ReverseEchoes" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void ReverseEchoes()</code></pre>
+              </div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.EchoEffect.RoboticVoice" data-uid="ManagedBass.Fx.EchoEffect.RoboticVoice">
+                <a href="#collapsible-ManagedBass.Fx.EchoEffect.RoboticVoice" data-toggle="collapse" class="expander">
+                  RoboticVoice()
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.EchoEffect.RoboticVoice" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void RoboticVoice()</code></pre>
+              </div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.Fx.EchoEffect.Small" data-uid="ManagedBass.Fx.EchoEffect.Small">
+                <a href="#collapsible-ManagedBass.Fx.EchoEffect.Small" data-toggle="collapse" class="expander">
+                  Small()
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.Fx.EchoEffect.Small" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+</div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Small()</code></pre>
+              </div>
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              
+            </article>
+          </div>
+          <!-- Affix -->
+          <div class="hidden-sm col-md-3" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
+
+    <script src="../styles/docfx.js"></script>
+    <script src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <!-- AdSense -->
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4251360406988977",
+        enable_page_level_ads: true
+      });
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>BassWaDspIpc </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="BassWaDspIpc <small>Enum</small>
+ ">
+    
+    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:tocrel" content="toc.html">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <span class="navbar-brand">ManagedBass</span>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div role="main" class="container-fluid body-content">
+        <div class="sidenav">
+          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-9" id="articleContainer">
+            <div id="selector"></div>
+            <article class="content wrap" id="_content">
+              
+              <div class="contributionPanel">
+              </div>
+              
+              <h1 id="" data-uid="ManagedBass.WaDsp.BassWaDspIpc">BassWaDspIpc <small>Enum</small>
+              </h1>
+              <div class="markdown level0 summary"><p>Communication to Winamp is done via the classic Win32 Message API.
+Most DSP plugins use this to ask for certain values.
+These definitions are the most commonly used messages, which might be handled by the fake winamp window which we create.</p>
+</div>
+
+              
+              <h6><strong>Namespace</strong>: ManagedBass.WaDsp</h6>
+              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
+              <div class="markdown level0 conceptual"></div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.WaDsp.BassWaDspIpc.GetInfo" data-uid="ManagedBass.WaDsp.BassWaDspIpc.GetInfo">
+                <a href="#collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetInfo" data-toggle="collapse" class="expander">
+                  GetInfo
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetInfo" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns info about the current playing song.
+The value it returns depends on the value of &#39;mode&#39; (wParam):
+0 - SampleRate (i.e. 44100), 1 - Bitrate  (i.e. 128), 2 - Channels (i.e. 2)
+<p>int inf=SendMessage(hwnd_winamp,WM_WA_IPC,mode,BassWaDspIpc.GetInfo);</p></p>
+</div>
+              <em>Value</em>: 126
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.WaDsp.BassWaDspIpc.GetListLength" data-uid="ManagedBass.WaDsp.BassWaDspIpc.GetListLength">
+                <a href="#collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetListLength" data-toggle="collapse" class="expander">
+                  GetListLength
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetListLength" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns the length of the current playlist, in tracks.
+<p>int length = SendMessage(hwnd_winamp,WM_WA_IPC,0,BassWaDspIpc.GetListLength);</p></p>
+</div>
+              <em>Value</em>: 124
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.WaDsp.BassWaDspIpc.GetListPosition" data-uid="ManagedBass.WaDsp.BassWaDspIpc.GetListPosition">
+                <a href="#collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetListPosition" data-toggle="collapse" class="expander">
+                  GetListPosition
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetListPosition" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns the playlist position [index].
+<p>int pos=SendMessage(hwnd_winamp,WM_WA_IPC,0,BassWaDspIpc.GetListPosition);</p></p>
+</div>
+              <em>Value</em>: 125
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.WaDsp.BassWaDspIpc.GetOutputTime" data-uid="ManagedBass.WaDsp.BassWaDspIpc.GetOutputTime">
+                <a href="#collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetOutputTime" data-toggle="collapse" class="expander">
+                  GetOutputTime
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetOutputTime" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns the position in milliseconds of the current song (mode = 0), 
+or the song length, in seconds (mode = 1).
+Returns -1 if not playing or error.
+<p>int res = SendMessage(hwnd_winamp,WM_WA_IPC,mode,BassWaDspIpc.GetOutputTime);</p></p>
+</div>
+              <em>Value</em>: 105
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.WaDsp.BassWaDspIpc.GetPlaylistFile" data-uid="ManagedBass.WaDsp.BassWaDspIpc.GetPlaylistFile">
+                <a href="#collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetPlaylistFile" data-toggle="collapse" class="expander">
+                  GetPlaylistFile
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetPlaylistFile" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Gets the filename of the playlist entry [index].
+Returns a pointer to it.
+Returns <span class="xref">null</span> on error.
+<p>char *name=SendMessage(hwnd_winamp,WM_WA_IPC,index,BassWaDspIpc.GetPlaylistFile);</p></p>
+</div>
+              <em>Value</em>: 211
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.WaDsp.BassWaDspIpc.GetPlaylistTitle" data-uid="ManagedBass.WaDsp.BassWaDspIpc.GetPlaylistTitle">
+                <a href="#collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetPlaylistTitle" data-toggle="collapse" class="expander">
+                  GetPlaylistTitle
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetPlaylistTitle" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Gets the title of the playlist entry [index].
+Returns a pointer to it.
+Returns <span class="xref">null</span> on error.
+<p>char *name=SendMessage(hwnd_winamp,WM_WA_IPC,index,BassWaDspIpc.GetPlaylistTitle);</p></p>
+</div>
+              <em>Value</em>: 212
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.WaDsp.BassWaDspIpc.GetVersion" data-uid="ManagedBass.WaDsp.BassWaDspIpc.GetVersion">
+                <a href="#collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetVersion" data-toggle="collapse" class="expander">
+                  GetVersion
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.WaDsp.BassWaDspIpc.GetVersion" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Version will be 0x20yx for winamp 2.yx. 
+Versions previous to Winamp 2.0 typically use 0x1zyx for 1.zx versions.
+<p>int version = SendMessage(hwnd_winamp,WM_WA_IPC,0,BassWaDspIpc.GetVersion);</p></p>
+</div>
+              <em>Value</em>: 0
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.WaDsp.BassWaDspIpc.Ipc" data-uid="ManagedBass.WaDsp.BassWaDspIpc.Ipc">
+                <a href="#collapsible-ManagedBass.WaDsp.BassWaDspIpc.Ipc" data-toggle="collapse" class="expander">
+                  Ipc
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.WaDsp.BassWaDspIpc.Ipc" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Is defined as Win32&#39;s WM_USER an.
+When a message of this value arrives, we know, that we might handle it by ourself.</p>
+</div>
+              <em>Value</em>: 1024
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.WaDsp.BassWaDspIpc.IsPlaying" data-uid="ManagedBass.WaDsp.BassWaDspIpc.IsPlaying">
+                <a href="#collapsible-ManagedBass.WaDsp.BassWaDspIpc.IsPlaying" data-toggle="collapse" class="expander">
+                  IsPlaying
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.WaDsp.BassWaDspIpc.IsPlaying" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Returns the status of playback.
+If it returns 1, it is playing.
+if it returns 3, it is paused.
+if it returns 0, it is not playing.
+<p>int res = SendMessage(hwnd_winamp,WM_WA_IPC,0,BassWaDspIpc.IsPlaying);</p></p>
+</div>
+              <em>Value</em>: 104
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              <div>
+                
+              
+              </div>
+              
+              <h4 id="ManagedBass.WaDsp.BassWaDspIpc.StartPlay" data-uid="ManagedBass.WaDsp.BassWaDspIpc.StartPlay">
+                <a href="#collapsible-ManagedBass.WaDsp.BassWaDspIpc.StartPlay" data-toggle="collapse" class="expander">
+                  StartPlay
+                </a>
+              </h4>
+              <div id="collapsible-ManagedBass.WaDsp.BassWaDspIpc.StartPlay" class="container-fluid collapse in">
+              <div class="markdown level1 summary"><p>Using IPC_STARTPLAY is like hitting &#39;Play&#39; in Winamp, mostly.
+<p>SendMessage(hwnd_winamp,WM_WA_IPC,0,BassWaDspIpc.StartPlay);</p></p>
+</div>
+              <em>Value</em>: 102
+              <div class="markdown level1 conceptual"></div>
+              </div>
+              
+            </article>
+          </div>
+          <!-- Affix -->
+          <div class="hidden-sm col-md-3" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
+
+    <script src="../styles/docfx.js"></script>
+    <script src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
