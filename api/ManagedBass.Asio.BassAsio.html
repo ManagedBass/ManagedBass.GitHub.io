@@ -1,0 +1,2984 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BassAsio
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BassAsio
+   ">
+    <meta name="generator" content="docfx 2.1.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Plugins/Plugins.cs/#L2563" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="ManagedBass_Asio_BassAsio" data-uid="ManagedBass.Asio.BassAsio">Class BassAsio
+              </h1>
+              <div class="markdown level0 summary"><p>Wraps BassAsio: bassasio.dll</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">BassAsio</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:ManagedBass.Asio</h6>
+              <h6><strong>Assembly</strong>:ManagedBass.PInvoke.dll</h6>
+              <h5 id="ManagedBass_Asio_BassAsio_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class BassAsio</code></pre>
+              </div>
+              <h5 id="ManagedBass_Asio_BassAsio_remarks"><strong>Remarks</strong></h5>
+              <div class="markdown level0 remarks"><p>Only available on Windows</p>
+</div>
+              <h3 id="properties">Properties
+              </h3>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/BassAsio.cs/#L113">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_CPUUsage" data-uid="ManagedBass.Asio.BassAsio.CPUUsage">CPUUsage</h4>
+              <div class="markdown level1 summary"><p>Retrieves the current CPU usage of BASSASIO.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double CPUUsage { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><p>The BASSASIO CPU usage as a percentage of total CPU time.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_CPUUsage_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This function includes the time taken by the <a class="xref" href="ManagedBass.Asio.AsioProcedure.html#ManagedBass_Asio_AsioProcedure">AsioProcedure</a> callback functions.</p>
+</div>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/BassAsio.cs/#L141">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_CurrentDevice" data-uid="ManagedBass.Asio.BassAsio.CurrentDevice">CurrentDevice</h4>
+              <div class="markdown level1 summary"><p>Gets or Sets the Asio device to use for subsequent calls in the current thread... 0 = first device.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int CurrentDevice { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_CurrentDevice_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Throws <a class="xref" href="ManagedBass.BassException.html#ManagedBass_BassException">BassException</a> on Error while setting value.</p>
+<p>
+As in BASS, simultaneously using multiple devices is supported in the BASSASIO API via a context switching system - instead of there being an extra &quot;device&quot; parameter in the function calls, the device to be used needs to be set via this function prior to calling the function.
+The device setting is local to the current thread, so calling functions with different devices simultaneously in multiple threads is not a problem.
+</p>
+<p>
+The device context setting is used by any function that may result in a <a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a> error (except this function), which is the majority of them.
+When one if those functions is called, it will check the current thread&#39;s device setting, and if no device is selected (or the selected device is not initialized), BassAsio will automatically select the lowest device that is initialized. 
+This means that when using a single device, there is no need to use this function - BassAsio will automatically use the device that&#39;s initialized.
+Even if you free the device, and initialize another, BassAsio will automatically switch to the one that is initialized.
+</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p>The device has not been initialized or there are no initialised devices.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Device">Device</a></td>
+                    <td><p>The device number specified is invalid.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/BassAsio.cs/#L188">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_DeviceCount" data-uid="ManagedBass.Asio.BassAsio.DeviceCount">DeviceCount</h4>
+              <div class="markdown level1 summary"><p>Returns the total number of available Asio devices.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int DeviceCount { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><p>Number of ASIO devices available.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_DeviceCount_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Uses <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_GetDeviceInfo_System_Int32_ManagedBass_Asio_AsioDeviceInfo__">GetDeviceInfo(Int32, out AsioDeviceInfo)</a> internally.</p>
+</div>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/BassAsio.cs/#L225">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_Info" data-uid="ManagedBass.Asio.BassAsio.Info">Info</h4>
+              <div class="markdown level1 summary"><p>Retrieves information on the Asio device being used.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static AsioInfo Info { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioInfo.html#ManagedBass_Asio_AsioInfo">AsioInfo</a></td>
+                    <td><p>An instance of the <a class="xref" href="ManagedBass.Asio.AsioInfo.html#ManagedBass_Asio_AsioInfo">AsioInfo</a> structure. Throws <a class="xref" href="ManagedBass.BassException.html#ManagedBass_BassException">BassException</a> on Error.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_Info_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>As in BASS, simultaneously using multiple devices is supported in the BASSASIO API via a context switching system - instead of there being an extra &quot;device&quot; parameter in the function calls, the device to be used needs to be set via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_CurrentDevice">CurrentDevice</a> prior to calling the function.
+The device setting is local to the current thread, so calling functions with different devices simultaneously in multiple threads is not a problem.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/BassAsio.cs/#L329">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_IsStarted" data-uid="ManagedBass.Asio.BassAsio.IsStarted">IsStarted</h4>
+              <div class="markdown level1 summary"><p>Checks, if the current Asio device has been started.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool IsStarted { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>Returns <span class="xref">true</span>, if the device has been started, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/BassAsio.cs/#L79">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_LastError" data-uid="ManagedBass.Asio.BassAsio.LastError">LastError</h4>
+              <div class="markdown level1 summary"><p>Retrieves the error code for the most recent BassAsio function call in the current thread.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Errors LastError { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors">Errors</a></td>
+                    <td><p>If no error occured during the last BassAsio function call then <a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_OK">OK</a> is returned, else one of the <a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors">Errors</a> values is returned. 
+See the function description for an explanation of what the error code means.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_LastError_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Error codes are stored for each thread. So if you happen to call 2 or more BassAsio functions at the same time, they will not interfere with eachother&#39;s error codes.</p>
+</div>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/BassAsio.cs/#L275">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_Rate" data-uid="ManagedBass.Asio.BassAsio.Rate">Rate</h4>
+              <div class="markdown level1 summary"><p>Gets or Sets the current Asio device&#39;s sample rate.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double Rate { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_Rate_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p><p>Throws <a class="xref" href="ManagedBass.BassException.html#ManagedBass_BassException">BassException</a> on Error while setting value.</p>
+When it&#39;s not possible to set the device to the rate wanted, this can be used to overcome that.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_NotAvailable">NotAvailable</a></td>
+                    <td><p>The sample rate is not supported by the device/drivers.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Unknown">Unknown</a></td>
+                    <td><p>Some other mystery problem!</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/BassAsio.cs/#L412">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_Unicode" data-uid="ManagedBass.Asio.BassAsio.Unicode">Unicode</h4>
+              <div class="markdown level1 summary"><p>Gets or Sets the character set used in device information text: if <span class="xref">false</span>, ANSI is used (default), else UTF-16 is used.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Unicode { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_Unicode_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Throws <a class="xref" href="ManagedBass.BassException.html#ManagedBass_BassException">BassException</a> on Error setting value.</p>
+This function determines the character set that is used in the <a class="xref" href="ManagedBass.Asio.AsioDeviceInfo.html#ManagedBass_Asio_AsioDeviceInfo">AsioDeviceInfo</a> structure and in <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_AddDevice_System_Guid_System_String_System_String_">AddDevice(Guid, String, String)</a> function calls.
+It does not affect ASIO channel names in the <a class="xref" href="ManagedBass.Asio.AsioChannelInfo.html#ManagedBass_Asio_AsioChannelInfo">AsioChannelInfo</a> and <a class="xref" href="ManagedBass.Asio.AsioInfo.html#ManagedBass_Asio_AsioInfo">AsioInfo</a> structure.
+<p>The character set choice is finalised in the first <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_GetDeviceInfo_System_Int32_ManagedBass_Asio_AsioDeviceInfo__">GetDeviceInfo(Int32, out AsioDeviceInfo)</a>, <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_AddDevice_System_Guid_System_String_System_String_">AddDevice(Guid, String, String)</a> or <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> call, and it cannot be changed after that.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_NotAvailable">NotAvailable</a></td>
+                    <td><p>This function is only available before any devices have been enumerated.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/BassAsio.cs/#L293">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_Version" data-uid="ManagedBass.Asio.BassAsio.Version">Version</h4>
+              <div class="markdown level1 summary"><p>Gets the version of BassAsio that is Loaded.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Version Version { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Version</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/BassAsio.cs/#L40">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_AddDevice_System_Guid_System_String_System_String_" data-uid="ManagedBass.Asio.BassAsio.AddDevice(System.Guid,System.String,System.String)">AddDevice(Guid, String, String)</h4>
+              <div class="markdown level1 summary"><p>Adds a driver to the device list.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int AddDevice(Guid ClsID, string Driver, string Name)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Guid</span></td>
+                    <td><em>ClsID</em></td>
+                    <td><p>The driver&#39;s class ID.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>Driver</em></td>
+                    <td><p>The filename of the driver.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>Name</em></td>
+                    <td><p>An optional description of the driver.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><p>If successful, the new device number is returned (which might be used in a subsequent <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> call), else -1 is returned.
+Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_AddDevice_System_Guid_System_String_System_String__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>A list of installed ASIO drivers is kept in the Windows registry, which is where BassAsio gets its device list from, 
+but it is also possible to add unregistered drivers (eg. private drivers) to the list via this function. 
+If successful, the returned device number can be used in a <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> call to use the driver.</p>
+<p>The <em>Driver</em> and <patamref name="Name"></patamref> strings are expected to be in Unicode from.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_FileOpen">FileOpen</a></td>
+                    <td><p>The <em>Driver</em> file does not exist.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelEnable_System_Boolean_System_Int32_ManagedBass_Asio_AsioProcedure_System_IntPtr_" data-uid="ManagedBass.Asio.BassAsio.ChannelEnable(System.Boolean,System.Int32,ManagedBass.Asio.AsioProcedure,System.IntPtr)">ChannelEnable(Boolean, Int32, AsioProcedure, IntPtr)</h4>
+              <div class="markdown level1 summary"><p>Enable/disable processing of an Asio channel.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ChannelEnable&quot;)]
+public static bool ChannelEnable(bool Input, int Channel, AsioProcedure Procedure, IntPtr User = null)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioProcedure.html#ManagedBass_Asio_AsioProcedure">AsioProcedure</a></td>
+                    <td><em>Procedure</em></td>
+                    <td><p>The user defined function to process the channel... <span class="xref">null</span> = disable the channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.IntPtr</span></td>
+                    <td><em>User</em></td>
+                    <td><p>User instance data to pass to the callback function.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If succesful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_ChannelEnable_System_Boolean_System_Int32_ManagedBass_Asio_AsioProcedure_System_IntPtr__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+All ASIO channels are mono.
+Stereo (and above) channels can be formed by joining multiple channels together using <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelJoin_System_Boolean_System_Int32_System_Int32_">ChannelJoin(Boolean, Int32, Int32)</a>.
+</p>
+<p>Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Start_System_Int32_System_Int32_">Start(Int32, Int32)</a> to begin processing the enabled channels.</p>
+<p>
+You might also use this function on an already enabled ASIO channel if you just want to change the <a class="xref" href="ManagedBass.Asio.AsioProcedure.html#ManagedBass_Asio_AsioProcedure">AsioProcedure</a> which should be used.
+However changing the callback procedure to <span class="xref">null</span> would disable the channel - which is only possible, if the ASIO device is stopped.
+</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Start">Start</a></td>
+                    <td><p>The device has been started - it needs to be stopped before (dis)enabling channels.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelEnableMirror_System_Int32_System_Boolean_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelEnableMirror(System.Int32,System.Boolean,System.Int32)">ChannelEnableMirror(Int32, Boolean, Int32)</h4>
+              <div class="markdown level1 summary"><p>Enables an output channel, and makes it mirror another channel.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ChannelEnableMirror&quot;)]
+public static bool ChannelEnableMirror(int Channel, bool Input2, int Channel2)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input2</em></td>
+                    <td><p>Mirroring an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel2</em></td>
+                    <td><p>The channel to mirror.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If succesful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_ChannelEnableMirror_System_Int32_System_Boolean_System_Int32__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+This function allows an input or output channel to be duplicated in other output channel.
+This can be achieved using normal <a class="xref" href="ManagedBass.Asio.AsioProcedure.html#ManagedBass_Asio_AsioProcedure">AsioProcedure</a> processing, but it&#39;s more efficient to let BassAsio simply copy the data from one channel to another.
+</p>
+<p>
+Mirror channels can&#39;t be joined together to form multi-channel mirrors.
+Instead, to mirror multiple channels, an individual mirror should be setup for each of them.
+</p>
+<p>After <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Start_System_Int32_System_Int32_">Start(Int32, Int32)</a> has been called to begin processing, it&#39;s not possible to setup new mirror channels, but it is still possible to change the channel that a mirror is mirroring.</p>
+<p>
+When mirroring an output channel that hasn&#39;t been enabled, the mirror channel will just produce silence.
+When mirroring an input channel that hasn&#39;t already been enabled, the channel is automatically enabled for processing when <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Start_System_Int32_System_Int32_">Start(Int32, Int32)</a> is called, so that it can be mirrored.
+If the mirror is switched to a disabled input channel once processing has begun, then it will produce silence.
+</p>
+<p>
+A mirror channel can be made to have a different volume level to the channel that it&#39;s mirroring, using <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelSetVolume_System_Boolean_System_Int32_System_Double_">ChannelSetVolume(Boolean, Int32, Double)</a>.
+The volume setting is cumulative.
+For example, if the mirror channel has a volume setting of 0.5 and the mirrored channel has a volume setting of 0.4, the effective volume of the mirror channel will be 0.2 (0.5 x 0.4).
+</p>
+<p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelEnable_System_Boolean_System_Int32_ManagedBass_Asio_AsioProcedure_System_IntPtr_">ChannelEnable(Boolean, Int32, AsioProcedure, IntPtr)</a> can be used to disable a mirror channel.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Start">Start</a></td>
+                    <td><p>The device has been started - it needs to be stopped before enabling channels.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>At least one of the channels is invalid.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_SampleFormat">SampleFormat</a></td>
+                    <td><p>It is not possible to mirror channels that do not have the same sample format.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelGetFormat_System_Boolean_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelGetFormat(System.Boolean,System.Int32)">ChannelGetFormat(Boolean, Int32)</h4>
+              <div class="markdown level1 summary"><p>Retrieves a channel&#39;s sample format.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ChannelGetFormat&quot;)]
+public static AsioSampleFormat ChannelGetFormat(bool Input, int Channel)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioSampleFormat.html#ManagedBass_Asio_AsioSampleFormat">AsioSampleFormat</a></td>
+                    <td><p>If an error occurs, -1 (<a class="xref" href="ManagedBass.Asio.AsioSampleFormat.html#ManagedBass_Asio_AsioSampleFormat_Unknown">Unknown</a>) is returned, use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/Channels.cs/#L101">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelGetInfo_System_Boolean_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelGetInfo(System.Boolean,System.Int32)">ChannelGetInfo(Boolean, Int32)</h4>
+              <div class="markdown level1 summary"><p>Retrieves information on an Asio channel.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static AsioChannelInfo ChannelGetInfo(bool Input, int Channel)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioChannelInfo.html#ManagedBass_Asio_AsioChannelInfo">AsioChannelInfo</a></td>
+                    <td><p>An instance of the <a class="xref" href="ManagedBass.Asio.AsioChannelInfo.html#ManagedBass_Asio_AsioChannelInfo">AsioChannelInfo</a> structure is returned. Throws <a class="xref" href="ManagedBass.BassException.html#ManagedBass_BassException">BassException</a> on Error.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelGetInfo_System_Boolean_System_Int32_ManagedBass_Asio_AsioChannelInfo__" data-uid="ManagedBass.Asio.BassAsio.ChannelGetInfo(System.Boolean,System.Int32,ManagedBass.Asio.AsioChannelInfo@)">ChannelGetInfo(Boolean, Int32, out AsioChannelInfo)</h4>
+              <div class="markdown level1 summary"><p>Retrieves information on an Asio channel.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ChannelGetInfo&quot;)]
+public static bool ChannelGetInfo(bool Input, int Channel, out AsioChannelInfo Info)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioChannelInfo.html#ManagedBass_Asio_AsioChannelInfo">AsioChannelInfo</a></td>
+                    <td><em>Info</em></td>
+                    <td><p>An instance of the <a class="xref" href="ManagedBass.Asio.AsioChannelInfo.html#ManagedBass_Asio_AsioChannelInfo">AsioChannelInfo</a> structure to store the information at.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/Channels.cs/#L137">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelGetLevel_System_Boolean_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelGetLevel(System.Boolean,System.Int32)">ChannelGetLevel(Boolean, Int32)</h4>
+              <div class="markdown level1 summary"><p>Retrieves the level (peak amplitude) of a channel.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double ChannelGetLevel(bool Input, int Channel)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><p>If an error occurs, -1 is returned, use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code. 
+If successful, the level of the channel is returned, ranging from 0 (silent) to 1 (max).
+If the channel&#39;s native sample format is floating-point, it is actually possible for the level to go above 1.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_ChannelGetLevel_System_Boolean_System_Int32__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This function measures the level of a single channel, and is not affected by any other channels that are joined with it.</p>
+<p>Volume settings made via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelSetVolume_System_Boolean_System_Int32_System_Double_">ChannelSetVolume(Boolean, Int32, Double)</a> affect the level reading of output channels, but not input channels.</p>
+<p>
+When an input channel is paused, it is still possible to get its level.
+Paused output channels will have a level of 0.
+</p>
+<p>Level retrieval is not supported when the sample format is DSD.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Start">Start</a></td>
+                    <td><p>The device hasn&#39;t been started, or the channel isn&#39;t enabled.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_SampleFormat">SampleFormat</a></td>
+                    <td><p>Level retrieval is not supported for the channel&#39;s sample format (please report).</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelGetRate_System_Boolean_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelGetRate(System.Boolean,System.Int32)">ChannelGetRate(Boolean, Int32)</h4>
+              <div class="markdown level1 summary"><p>Retrieves a channel&#39;s sample rate.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ChannelGetRate&quot;)]
+public static double ChannelGetRate(bool Input, int Channel)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><p>If succesful, the channel&#39;s sample rate is returned (0 = device rate), else -1 is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/Channels.cs/#L164">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelGetVolume_System_Boolean_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelGetVolume(System.Boolean,System.Int32)">ChannelGetVolume(Boolean, Int32)</h4>
+              <div class="markdown level1 summary"><p>Retrieves a channel&#39;s volume setting.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double ChannelGetVolume(bool Input, int Channel)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first, -1 = master.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><p>If successful, the channel&#39;s volume setting is returned, else -1 is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_ChannelGetVolume_System_Boolean_System_Int32__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>To set a channel volume use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelSetVolume_System_Boolean_System_Int32_System_Double_">ChannelSetVolume(Boolean, Int32, Double)</a>.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelIsActive_System_Boolean_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelIsActive(System.Boolean,System.Int32)">ChannelIsActive(Boolean, Int32)</h4>
+              <div class="markdown level1 summary"><p>Checks if a channel is enabled for processing.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ChannelIsActive&quot;)]
+public static AsioChannelActive ChannelIsActive(bool Input, int Channel)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioChannelActive.html#ManagedBass_Asio_AsioChannelActive">AsioChannelActive</a></td>
+                    <td><p>One <a class="xref" href="ManagedBass.Asio.AsioChannelActive.html#ManagedBass_Asio_AsioChannelActive">AsioChannelActive</a> value is returned.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_ChannelIsActive_System_Boolean_System_Int32__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>When a channel is joined to another, the status of the other channel is returned, as that is what determines whether the channel is enabled for processing - whether it&#39;s been enabled itself is of no consequence while it is joined to another. 
+For example, if channel B is joined to channel A, and channel A is not enabled, then neither is channel B.</p>
+</div>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelJoin_System_Boolean_System_Int32_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelJoin(System.Boolean,System.Int32,System.Int32)">ChannelJoin(Boolean, Int32, Int32)</h4>
+              <div class="markdown level1 summary"><p>Join a channel to another.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ChannelJoin&quot;)]
+public static bool ChannelJoin(bool Input, int Channel, int Channel2)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with input channels? <span class="xref">false</span> = output channels.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel2</em></td>
+                    <td><p>The channel to join it to... -1 = remove current join.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If succesful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_ChannelJoin_System_Boolean_System_Int32_System_Int32__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+All ASIO channels are mono.
+By joining them, stereo (and above) channels can be formed, making it simpler to process stereo (and above) sample data.
+</p>
+<p>
+By default, channels can only be joined to preceding channels.
+For example, channel 1 can be joined to channel 0, but not vice versa.
+The <a class="xref" href="ManagedBass.Asio.AsioInitFlags.html#ManagedBass_Asio_AsioInitFlags_JoinOrder">JoinOrder</a> flag can be used in the <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> call to remove that restriction.
+When joining a group of channels, there should be one channel enabled via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelEnable_System_Boolean_System_Int32_ManagedBass_Asio_AsioProcedure_System_IntPtr_">ChannelEnable(Boolean, Int32, AsioProcedure, IntPtr)</a> with the rest joined to it - 
+do not join a channel to a channel that is itself joined to another channel.
+Mirror channels, setup using <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelEnableMirror_System_Int32_System_Boolean_System_Int32_">ChannelEnableMirror(Int32, Boolean, Int32)</a>, cannot be joined with.
+</p>
+<p>
+If a channel has two or more other channels joined to it, then the joined channels will default to being in numerically ascending order in the <a class="xref" href="ManagedBass.Asio.AsioProcedure.html#ManagedBass_Asio_AsioProcedure">AsioProcedure</a> callback function&#39;s sample data unless the <a class="xref" href="ManagedBass.Asio.AsioInitFlags.html#ManagedBass_Asio_AsioInitFlags_JoinOrder">JoinOrder</a> flag was used in the <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> call, 
+in which case they will be in the order in which they were joined via this function.
+In the latter case, if this function is called on an already joined channel, the channel will be moved to the end of the joined group.
+</p>
+<p>
+While a channel is joined to another, it automatically takes on the attributes of the other channel - the other channel&#39;s settings determine the sample format, the sample rate and whether it is enabled.
+The volume setting remains individual though, allowing balance control over the joined channels.
+</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Start">Start</a></td>
+                    <td><p>The device has been started - it needs to be stopped before (dis)enabling channels.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_SampleFormat">SampleFormat</a></td>
+                    <td><p>It is not possible to join channels that do not have the same sample format.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelPause_System_Boolean_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelPause(System.Boolean,System.Int32)">ChannelPause(Boolean, Int32)</h4>
+              <div class="markdown level1 summary"><p>Suspends processing of a channel.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ChannelPause&quot;)]
+public static bool ChannelPause(bool Input, int Channel)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If succesful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_ChannelPause_System_Boolean_System_Int32__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+Channels can only be disabled when the device is stopped.
+When you want to stop processing only some of the enabled channels, there are few ways that could be done.
+You could quickly stop the device, disable the unwanted channels, and restart the device. 
+In the case of output channels, you could fill the channels&#39; buffers with silence (0s) in the <a class="xref" href="ManagedBass.Asio.AsioProcedure.html#ManagedBass_Asio_AsioProcedure">AsioProcedure</a>.
+Or you could pause the channels, using this function. 
+The less channels BassAsio has to process, the less CPU it&#39;ll use, so stopping and restarting the device would be the most efficient, but that could cause a slight break in the sound of the other channels. 
+Filling the buffers with silence is the least efficient, as BassAsio will still process the data as if it was &quot;normal&quot;, but it does mean that other channels are unaffected.
+Pausing is a compromise between the two - the channels will still be enabled, but BassAsio will bypass any additional processing (resampling/etc) that may normally be required.</p>
+<p>Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelReset_System_Boolean_System_Int32_ManagedBass_Asio_AsioChannelResetFlags_">ChannelReset(Boolean, Int32, AsioChannelResetFlags)</a> to resume processing of a paused channel.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelReset_System_Boolean_System_Int32_ManagedBass_Asio_AsioChannelResetFlags_" data-uid="ManagedBass.Asio.BassAsio.ChannelReset(System.Boolean,System.Int32,ManagedBass.Asio.AsioChannelResetFlags)">ChannelReset(Boolean, Int32, AsioChannelResetFlags)</h4>
+              <div class="markdown level1 summary"><p>Resets the attributes of a channel (or all channels).</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ChannelReset&quot;)]
+public static bool ChannelReset(bool Input, int Channel, AsioChannelResetFlags Flags)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first, -1 = all channels.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioChannelResetFlags.html#ManagedBass_Asio_AsioChannelResetFlags">AsioChannelResetFlags</a></td>
+                    <td><em>Flags</em></td>
+                    <td><p>The attributes to reset. A combination of <a class="xref" href="ManagedBass.Asio.AsioChannelResetFlags.html#ManagedBass_Asio_AsioChannelResetFlags">AsioChannelResetFlags</a>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If succesful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_ChannelReset_System_Boolean_System_Int32_ManagedBass_Asio_AsioChannelResetFlags__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>When resetting all channels (channel = -1), the resetting only applies to all channels of the specified type, ie. input or output, not both.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Start">Start</a></td>
+                    <td><p>The device has been started - it needs to be stopped before disabling or unjoining channels.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelSetFormat_System_Boolean_System_Int32_ManagedBass_Asio_AsioSampleFormat_" data-uid="ManagedBass.Asio.BassAsio.ChannelSetFormat(System.Boolean,System.Int32,ManagedBass.Asio.AsioSampleFormat)">ChannelSetFormat(Boolean, Int32, AsioSampleFormat)</h4>
+              <div class="markdown level1 summary"><p>Sets a channel&#39;s sample format.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ChannelSetFormat&quot;)]
+public static bool ChannelSetFormat(bool Input, int Channel, AsioSampleFormat Format)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioSampleFormat.html#ManagedBass_Asio_AsioSampleFormat">AsioSampleFormat</a></td>
+                    <td><em>Format</em></td>
+                    <td><p>The sample format.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If succesful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_ChannelSetFormat_System_Boolean_System_Int32_ManagedBass_Asio_AsioSampleFormat__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+The sample format can vary between ASIO devices/drivers, which could mean a lot of extra/duplicate code being required.
+To avoid that extra work, BassAsio can automatically convert the sample data, whenever necessary, to/from a format of your choice. 
+The native format of a channel can be retrieved via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelGetInfo_System_Boolean_System_Int32_ManagedBass_Asio_AsioChannelInfo__">ChannelGetInfo(Boolean, Int32, out AsioChannelInfo)</a>.
+</p>
+<p>
+The PCM format options are only available when the device&#39;s format is PCM, and the DSD format options are only available when the device&#39;s format is DSD. 
+If a device supports both, it can be switched between DSD and PCM via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_SetDSD_System_Boolean_">SetDSD(Boolean)</a>.
+</p>
+<p>For performance reasons, it&#39;s best not to use 24-bit sample data whenever possible, as 24-bit data requires a bit more processing than the other formats.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination, or <em>Format</em> is invalid.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_SampleFormat">SampleFormat</a></td>
+                    <td><p>Format conversion is not available for the channel&#39;s native sample format (please report).</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelSetRate_System_Boolean_System_Int32_System_Double_" data-uid="ManagedBass.Asio.BassAsio.ChannelSetRate(System.Boolean,System.Int32,System.Double)">ChannelSetRate(Boolean, Int32, Double)</h4>
+              <div class="markdown level1 summary"><p>Sets a channel&#39;s sample rate.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ChannelSetRate&quot;)]
+public static bool ChannelSetRate(bool Input, int Channel, double Rate)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>Rate</em></td>
+                    <td><p>The sample rate... 0 = device rate.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If succesful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_ChannelSetRate_System_Boolean_System_Int32_System_Double__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+For optimal quality and performance, it is best to set the device to the sample rate you want via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Rate">Rate</a>, but that&#39;s not always possible. 
+Which is where this function and resampling comes into play.
+16 point sinc interpolation is used, giving a good blend of sound quality and performance.
+It is also SSE2 and 3DNow optimized for an extra boost with supporting CPUs.
+</p>
+<p>When a channel&#39;s sample rate is the same as the device rate, resampling is bypassed, so there&#39;s no unnecessary performance hit.</p>
+<p>Resampling is not supported when the sample format is DSD.</p>
+<p>
+<table><thead><tr><th><span class="xref">Un4seen.Bass.BASSError</span></th><th>Description</th></tr></thead><tbody><tr><td>BASS_ERROR_INIT</td><td></td></tr><tr><td>BASS_ERROR_ILLPARAM</td><td></td></tr><tr><td>BASS_ERROR_FORMAT</td><td></td></tr></tbody></table>
+</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid, or <em>Rate</em> is below 0.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_SampleFormat">SampleFormat</a></td>
+                    <td><p>Format conversion is not available for the channel&#39;s native sample format (please report).</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/Channels.cs/#L337">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_ChannelSetVolume_System_Boolean_System_Int32_System_Double_" data-uid="ManagedBass.Asio.BassAsio.ChannelSetVolume(System.Boolean,System.Int32,System.Double)">ChannelSetVolume(Boolean, Int32, Double)</h4>
+              <div class="markdown level1 summary"><p>Sets a channel&#39;s volume.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool ChannelSetVolume(bool Input, int Channel, double Volume)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Dealing with an input channel? <span class="xref">false</span> = an output channel.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Channel</em></td>
+                    <td><p>The input/output channel number... 0 = first, -1 = master.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>Volume</em></td>
+                    <td><p>The volume level... 0 (silent)...1.0 (normal). Above 1.0 amplifies the sound.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If succesful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_ChannelSetVolume_System_Boolean_System_Int32_System_Double__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+<p>
+Apart from the master volume (channel = -1), this function applies a volume level to a single channel, and does not affect any other channels that are joined with it. 
+This allows balance control over joined channels, by setting the individual volume levels accordingly.
+The final level of a channel is = master volume * channel volume.
+</p>
+<p>The volume &quot;curve&quot; is linear, but logarithmic levels can be easily used. See the example below.</p>
+<p>
+ASIO drivers do not provide volume control themselves, so the volume adjustments are applied to the sample data by BassAsio. 
+This also means that changes do not persist across sessions, and the channel volume levels will always start at 1.0.
+</p>
+<p>When the channel&#39;s sample format is DSD, a 0 volume setting will mute the channel and anything else will be treated as 1.0 (normal).</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Parameter">Parameter</a></td>
+                    <td><p>The <em>Input</em> and <em>Channel</em> combination is invalid, or <em>Volume</em> is below 0.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_CheckRate_System_Double_" data-uid="ManagedBass.Asio.BassAsio.CheckRate(System.Double)">CheckRate(Double)</h4>
+              <div class="markdown level1 summary"><p>Checks if a sample rate is supported by the device.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_CheckRate&quot;)]
+public static bool CheckRate(double Rate)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>Rate</em></td>
+                    <td><p>The sample rate to check.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If the sample rate is supported, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_NotAvailable">NotAvailable</a></td>
+                    <td><p>The sample rate is not supported by the device/drivers.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Unknown">Unknown</a></td>
+                    <td><p>Some other mystery problem!</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_ControlPanel" data-uid="ManagedBass.Asio.BassAsio.ControlPanel">ControlPanel()</h4>
+              <div class="markdown level1 summary"><p>Displays the current Asio driver&#39;s control panel.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_ControlPanel&quot;)]
+public static bool ControlPanel()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If successful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Unknown">Unknown</a></td>
+                    <td><p>Some other mystery problem!</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_Free" data-uid="ManagedBass.Asio.BassAsio.Free">Free()</h4>
+              <div class="markdown level1 summary"><p>Releases the Asio device/driver.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_Free&quot;)]
+public static bool Free()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If successful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_Free_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Make sure to free each Asio device you have initialized with <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a>, <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_CurrentDevice">CurrentDevice</a> is used to switch the current device.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_Future_ManagedBass_Asio_AsioFuture_System_IntPtr_" data-uid="ManagedBass.Asio.BassAsio.Future(ManagedBass.Asio.AsioFuture,System.IntPtr)">Future(AsioFuture, IntPtr)</h4>
+              <div class="markdown level1 summary"><p>Provides access to the driver&#39;s &#39;future&#39; function.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_Future&quot;)]
+public static bool Future(AsioFuture Selector, IntPtr Param)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioFuture.html#ManagedBass_Asio_AsioFuture">AsioFuture</a></td>
+                    <td><em>Selector</em></td>
+                    <td><p>Operation code.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.IntPtr</span></td>
+                    <td><em>Param</em></td>
+                    <td><p>Pointer to the operation&#39;s parameters, if applicable.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If successful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_Future_ManagedBass_Asio_AsioFuture_System_IntPtr__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This method is a general purpose extension method serving various purposes.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_NotAvailable">NotAvailable</a></td>
+                    <td><p>The <em>Selector</em> is not supported by the driver.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Unknown">Unknown</a></td>
+                    <td><p>Some other mystery problem.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassAsio/PInvoke/BassAsio.cs/#L175">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_GetDeviceInfo_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.GetDeviceInfo(System.Int32)">GetDeviceInfo(Int32)</h4>
+              <div class="markdown level1 summary"><p>Retrieves information on an Asio device.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static AsioDeviceInfo GetDeviceInfo(int Device)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Device</em></td>
+                    <td><p>The device to get the information of... 0 = first.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioDeviceInfo.html#ManagedBass_Asio_AsioDeviceInfo">AsioDeviceInfo</a></td>
+                    <td><p>An instance of the <a class="xref" href="ManagedBass.Asio.AsioDeviceInfo.html#ManagedBass_Asio_AsioDeviceInfo">AsioDeviceInfo</a> structure is returned. Throws <a class="xref" href="ManagedBass.BassException.html#ManagedBass_BassException">BassException</a> on Error.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_GetDeviceInfo_System_Int32__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This function can be used to enumerate the available Asio devices for a setup dialog.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Device">Device</a></td>
+                    <td><p>The <em>Device</em> number specified is invalid.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_GetDeviceInfo_System_Int32_ManagedBass_Asio_AsioDeviceInfo__" data-uid="ManagedBass.Asio.BassAsio.GetDeviceInfo(System.Int32,ManagedBass.Asio.AsioDeviceInfo@)">GetDeviceInfo(Int32, out AsioDeviceInfo)</h4>
+              <div class="markdown level1 summary"><p>Retrieves information on an Asio device.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_GetDeviceInfo&quot;)]
+public static bool GetDeviceInfo(int Device, out AsioDeviceInfo Info)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Device</em></td>
+                    <td><p>The device to get the information of... 0 = first.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioDeviceInfo.html#ManagedBass_Asio_AsioDeviceInfo">AsioDeviceInfo</a></td>
+                    <td><em>Info</em></td>
+                    <td><p>An instance of the <a class="xref" href="ManagedBass.Asio.AsioDeviceInfo.html#ManagedBass_Asio_AsioDeviceInfo">AsioDeviceInfo</a> structure to store the information at.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If successful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_GetDeviceInfo_System_Int32_ManagedBass_Asio_AsioDeviceInfo___remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This function can be used to enumerate the available Asio devices for a setup dialog. </p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Device">Device</a></td>
+                    <td><p>The <em>Device</em> number specified is invalid.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_GetInfo_ManagedBass_Asio_AsioInfo__" data-uid="ManagedBass.Asio.BassAsio.GetInfo(ManagedBass.Asio.AsioInfo@)">GetInfo(out AsioInfo)</h4>
+              <div class="markdown level1 summary"><p>Retrieves information on the Asio device being used.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_GetInfo&quot;)]
+public static bool GetInfo(out AsioInfo Info)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioInfo.html#ManagedBass_Asio_AsioInfo">AsioInfo</a></td>
+                    <td><em>Info</em></td>
+                    <td><p>An instance of the <a class="xref" href="ManagedBass.BassInfo.html#ManagedBass_BassInfo">BassInfo</a> structure to store the information at.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_GetInfo_ManagedBass_Asio_AsioInfo___remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>As in BASS, simultaneously using multiple devices is supported in the BASSASIO API via a context switching system - instead of there being an extra &quot;device&quot; parameter in the function calls, the device to be used needs to be set via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_CurrentDevice">CurrentDevice</a> prior to calling the function.
+The device setting is local to the current thread, so calling functions with different devices simultaneously in multiple threads is not a problem.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_GetLatency_System_Boolean_" data-uid="ManagedBass.Asio.BassAsio.GetLatency(System.Boolean)">GetLatency(Boolean)</h4>
+              <div class="markdown level1 summary"><p>Retrieves the latency of input or output channels of the current Asio device</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_GetLatency&quot;)]
+public static int GetLatency(bool Input)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>Get the input latency? <span class="xref">false</span> = the output latency.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><p>If successful, the latency in samples is returned, else -1 is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_GetLatency_System_Boolean__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+The latency is the delay between the sound being recorded and reaching an <a class="xref" href="ManagedBass.Asio.AsioProcedure.html#ManagedBass_Asio_AsioProcedure">AsioProcedure</a>, in the case of input channels.
+And the delay between the sample data being fed to an <a class="xref" href="ManagedBass.Asio.AsioProcedure.html#ManagedBass_Asio_AsioProcedure">AsioProcedure</a> and actually being heard, in the case of output channels. 
+The latency is dependant on the buffer size, as specified in the <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Start_System_Int32_System_Int32_">Start(Int32, Int32)</a> call.
+So the latency should be checked after making that call, not before.
+</p>
+<p>
+The latency time can by calculated be dividing the sample latency by the device sample rate.
+When a channel is being resampled, the sample latency will change, but the effective latency time remains constant.
+</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_" data-uid="ManagedBass.Asio.BassAsio.Init(System.Int32,ManagedBass.Asio.AsioInitFlags)">Init(Int32, AsioInitFlags)</h4>
+              <div class="markdown level1 summary"><p>Initializes an Asio device/driver.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_Init&quot;)]
+public static bool Init(int Device, AsioInitFlags Flags)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Device</em></td>
+                    <td><p>The device to use... 0 = first device. <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_GetDeviceInfo_System_Int32_ManagedBass_Asio_AsioDeviceInfo__">GetDeviceInfo(Int32, out AsioDeviceInfo)</a> can be used to get the total number of devices.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioInitFlags.html#ManagedBass_Asio_AsioInitFlags">AsioInitFlags</a></td>
+                    <td><em>Flags</em></td>
+                    <td><p>Any combination of <a class="xref" href="ManagedBass.Asio.AsioInitFlags.html#ManagedBass_Asio_AsioInitFlags">AsioInitFlags</a>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If the device was successfully initialized, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This function must be successfully called before any input or output can be performed.</p>
+<p>
+The ASIO driver is accessed via a COM object using the single-threaded apartment model, which means that requests to the driver go through the thread that initialized it, so the thread needs to exist as long as the driver remains initialized.
+The thread should also have a message queue.
+If device initializing and releasing from multiple threads is required, or the application does not have a message queue (eg. a console application), then the <a class="xref" href="ManagedBass.Asio.AsioInitFlags.html#ManagedBass_Asio_AsioInitFlags_Thread">Thread</a> flag can be used to have BassAsio create a dedicated thread to host the ASIO driver.
+</p>
+<p>
+Simultaneously using multiple devices is supported in the BassAsio API via a context switching system - instead of there being an extra &quot;device&quot; parameter in the function calls, the device to be used is set prior to calling the functions.
+<a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_CurrentDevice">CurrentDevice</a> is used to switch the current device. 
+When successful, the current thread&#39;s device is set to the one that was just initialized.
+</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Device">Device</a></td>
+                    <td><p>The <em>Device</em> number specified is invalid.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Already">Already</a></td>
+                    <td><p>A device has already been initialized. You must call <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Free">Free()</a> before you can initialize again.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Driver">Driver</a></td>
+                    <td><p>The driver couldn&#39;t be initialized.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Plugins/Plugins.cs/#L2590">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_Load_System_String_" data-uid="ManagedBass.Asio.BassAsio.Load(System.String)">Load(String)</h4>
+              <div class="markdown level1 summary"><p>Load this library into Memory.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Load(string Folder = null)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>Folder</em></td>
+                    <td><p>Directory to Load from... <span class="xref">null</span> (default) = Load from Current Directory.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><span class="xref">true</span>, if the library loaded successfully, else <span class="xref">false</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_Load_System_String__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+An external library is loaded into memory when any of its methods are called for the first time.
+This results in the first method call being slower than all subsequent calls.
+</p>
+<p>
+Some BASS libraries and add-ons may introduce new options to the main BASS lib like new parameters.
+But, before using these new options the respective library must be already loaded.
+This method can be used to make sure, that this library has been loaded.
+</p>
+</div>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_Monitor_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.Monitor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">Monitor(Int32, Int32, Int32, Int32, Int32)</h4>
+              <div class="markdown level1 summary"><p>Set the direct input monitoring state.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_Monitor&quot;)]
+public static bool Monitor(int Input, int Output, int Gain, int State, int Pan)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Input</em></td>
+                    <td><p>The input channel to set the monitoring state of... -1 = all.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Output</em></td>
+                    <td><p>The suggested output channel for the monitoring.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Gain</em></td>
+                    <td><p>Suggested Gain, ranging from 0 to 0x7fffffff (-inf to +12 dB), 0x20000000 equals 0 dB.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>State</em></td>
+                    <td><p>Monitoring state... 0 = off, 1 = on. Other settings may be possible depending on the drivers, e.g.:</p>
+<p>0 = input monitoring off.</p>
+<p>1 = input monitoring on.</p>
+<p>2 = playback monitoring off.</p>
+<p>3 = playback monitoring on.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Pan</em></td>
+                    <td><p>Suggested Pan, ranging from 0 = left to 0x7fffffff = right (centre should be 0x40000000).</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If succesful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_Monitor_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>If the hardware does not support patching and mixing a straight 1 to 1 routing is suggested. 
+The driver should ignore all the information of ASIOMonitor it cannot deal with, usually these might be either or all of output, gain, pan.</p>
+<p>
+Output is the base channel of a stereo channel pair, i.e. output is always an even channel (0,2,4...). 
+If an odd input channel should be monitored and no panning or output routing can be applied, the driver has to use the next higher output (imply a hard right pan).
+Note that the output, gain and pan settings are just suggestions, and may be ignored by the device/driver.
+</p>
+<p>Some cards/drivers might also support direct output monitoring, in such case use the <em>Input</em> parameter to denote the output channel to monitor and specify an appropriate <em>State</em> value.</p>
+<p>
+ADM has originally been based on a mono in - stereo out scheme. Meaning if you need to monitor a stereo input channel pair you need to call this twice, both using the same output value, but using an odd and an even input value.
+In such case set the odd input to pan hard left and the even input to pan hard right.
+</p>
+<p>
+Also note, that if you have channels in-between not activated in ASIO these will not counted. 
+So if for example channels 3 and 4 are inactive, ADM input 3 is related to the physical input channel 5!
+</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Unknown">Unknown</a></td>
+                    <td><p>Some other mystery problem!</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_SetDSD_System_Boolean_" data-uid="ManagedBass.Asio.BassAsio.SetDSD(System.Boolean)">SetDSD(Boolean)</h4>
+              <div class="markdown level1 summary"><p>Sets the device&#39;s sample format to DSD or PCM.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_SetDSD&quot;)]
+public static bool SetDSD(bool DSD = true)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>DSD</em></td>
+                    <td><p>Set the sample format to DSD?</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If successful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_SetDSD_System_Boolean__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>When a device is switched between PCM and DSD formats, the ASIO channels&#39; format will change accordingly, as reported by <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelGetInfo_System_Boolean_System_Int32_ManagedBass_Asio_AsioChannelInfo__">ChannelGetInfo(Boolean, Int32, out AsioChannelInfo)</a>.
+Any <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelSetFormat_System_Boolean_System_Int32_ManagedBass_Asio_AsioSampleFormat_">ChannelSetFormat(Boolean, Int32, AsioSampleFormat)</a> and <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelSetRate_System_Boolean_System_Int32_System_Double_">ChannelSetRate(Boolean, Int32, Double)</a> settings that have been applied will be reset to defaults. 
+Other channel settings are unchanged.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_NotAvailable">NotAvailable</a></td>
+                    <td><p>DSD is not supported by the device/driver.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Unknown">Unknown</a></td>
+                    <td><p>Some other mystery problem.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_SetNotify_ManagedBass_Asio_AsioNotifyProcedure_System_IntPtr_" data-uid="ManagedBass.Asio.BassAsio.SetNotify(ManagedBass.Asio.AsioNotifyProcedure,System.IntPtr)">SetNotify(AsioNotifyProcedure, IntPtr)</h4>
+              <div class="markdown level1 summary"><p>Sets a notification callback on the ASIO driver.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_SetNotify&quot;)]
+public static bool SetNotify(AsioNotifyProcedure Procedure, IntPtr User = null)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Asio.AsioNotifyProcedure.html#ManagedBass_Asio_AsioNotifyProcedure">AsioNotifyProcedure</a></td>
+                    <td><em>Procedure</em></td>
+                    <td><p>User defined notification function... <span class="xref">null</span> = disable notifications.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.IntPtr</span></td>
+                    <td><em>User</em></td>
+                    <td><p>User instance data to pass to the callback function.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If succesful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_SetNotify_ManagedBass_Asio_AsioNotifyProcedure_System_IntPtr__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>A previously set notification callback can be changed (or removed) at any time, by calling this function again.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_Start_System_Int32_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.Start(System.Int32,System.Int32)">Start(Int32, Int32)</h4>
+              <div class="markdown level1 summary"><p>Starts the current Asio device.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_Start&quot;)]
+public static bool Start(int BufferLength = 0, int Threads = 0)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>BufferLength</em></td>
+                    <td><p>Buffer length in samples... 0 = use current length.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Threads</em></td>
+                    <td><p>The number of processing threads to use... 0 = use current number.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If successful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_Start_System_Int32_System_Int32__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>Before starting the device, channels must be enabled using <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelEnable_System_Boolean_System_Int32_ManagedBass_Asio_AsioProcedure_System_IntPtr_">ChannelEnable(Boolean, Int32, AsioProcedure, IntPtr)</a>.
+Once started, channels can&#39;t be enabled or disabled until the device is stopped, using <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Stop">Stop()</a>.</p>
+<p>
+The default number of processing threads is 1, which means that the <a class="xref" href="ManagedBass.Asio.AsioProcedure.html#ManagedBass_Asio_AsioProcedure">AsioProcedure</a> functions of the enabled channels get called in series (starting with the lowest input channel).
+Multiple channels can be processed in parallel if multiple threads are created for that purpose via the threads parameter.
+The number of threads is automatically capped at the number of enabled channels with an <a class="xref" href="ManagedBass.Asio.AsioProcedure.html#ManagedBass_Asio_AsioProcedure">AsioProcedure</a> function, which is sufficient to have them all processed simultaneously.
+</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Already">Already</a></td>
+                    <td><p>The device has already been started.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_NoChannel">NoChannel</a></td>
+                    <td><p>No channels have been enabled.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Unknown">Unknown</a></td>
+                    <td><p>Some other mystery problem!</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Asio_BassAsio_Stop" data-uid="ManagedBass.Asio.BassAsio.Stop">Stop()</h4>
+              <div class="markdown level1 summary"><p>Stops the current Asio device.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bassasio&quot;, EntryPoint = &quot;BASS_ASIO_Stop&quot;)]
+public static bool Stop()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>If successful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Asio_BassAsio_Stop_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>As in BASS, simultaneously using multiple devices is supported in the BASSASIO API via a context switching system - instead of there being an extra &quot;device&quot; parameter in the function calls, 
+the device to be used needs to be set via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_CurrentDevice">CurrentDevice</a> prior to calling the function. 
+The device setting is local to the current thread, so calling functions with different devices simultaneously in multiple threads is not a problem.</p>
+</div>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Condition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a></td>
+                    <td><p><a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> has not been successfully called.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Start">Start</a></td>
+                    <td><p>The device hasn&#39;t been started.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Plugins/Plugins.cs/#L2596">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Asio_BassAsio_Unload" data-uid="ManagedBass.Asio.BassAsio.Unload">Unload()</h4>
+              <div class="markdown level1 summary"><p>Unloads this library from Memory.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Unload()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><span class="xref">true</span>, if the library unloaded successfully, else <span class="xref">false</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

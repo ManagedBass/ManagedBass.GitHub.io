@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct DeviceInfo
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct DeviceInfo
+   ">
+    <meta name="generator" content="docfx 2.1.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/DeviceInfo.cs/#L33" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="ManagedBass_DeviceInfo" data-uid="ManagedBass.DeviceInfo">Struct DeviceInfo
+              </h1>
+              <div class="markdown level0 summary"><p>Used with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_GetDeviceInfo_System_Int32_ManagedBass_DeviceInfo__">GetDeviceInfo(Int32, out DeviceInfo)</a> or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_RecordGetDeviceInfo_System_Int32_ManagedBass_DeviceInfo__">RecordGetDeviceInfo(Int32, out DeviceInfo)</a> to retrieve information on a device.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.ValueType.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.ValueType.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.ValueType.ToString()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:ManagedBass</h6>
+              <h6><strong>Assembly</strong>:ManagedBass.PInvoke.dll</h6>
+              <h5 id="ManagedBass_DeviceInfo_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[StructLayout(LayoutKind.Sequential)]
+public struct DeviceInfo</code></pre>
+              </div>
+              <h5 id="ManagedBass_DeviceInfo_remarks"><strong>Remarks</strong></h5>
+              <div class="markdown level0 remarks"><p>
+When a device is disabled/disconnected, it is still retained in the device list, but the IsEnabled is set to <span class="xref">false</span> flag is removed from it.
+If the device is subsequently re-enabled, it may become available again with the same device number, or the system may add a new entry for it.
+</p>
+<p>
+When a new device is connected, it can affect the other devices and result in the system moving them to new device entries.
+If an affected device is initialized, it will stop working and will need to be reinitialized using its new device number.
+</p>
+<p><strong>Platform-specific</strong></p>
+<p>
+On Windows, <a class="xref" href="ManagedBass.DeviceInfo.html#ManagedBass_DeviceInfo_Driver">Driver</a> can reveal the Type of driver being used on systems that support both VxD and WDM drivers (Windows Me/98SE).
+Further information can be obtained from the file via the GetFileVersionInfo function.
+On Vista and newer, the device&#39;s endpoint ID is given rather than its driver filename.
+On OSX, driver is the device&#39;s UID, and on Linux it is the ALSA device name.
+It is unused on other platforms.
+The device Type is only available on Windows (Vista and newer) and OSX.
+On Windows, DisplayPort devices will have <a class="xref" href="ManagedBass.DeviceType.html#ManagedBass_DeviceType_HDMI">HDMI</a> rather than <a class="xref" href="ManagedBass.DeviceType.html#ManagedBass_DeviceType_DisplayPort">DisplayPort</a>.
+</p>
+<p>
+Depending on the Bass.UnicodeDeviceInformation config setting, <a class="xref" href="ManagedBass.DeviceInfo.html#ManagedBass_DeviceInfo_Name">Name</a> and <a class="xref" href="ManagedBass.DeviceInfo.html#ManagedBass_DeviceInfo_Driver">Driver</a> can be in ANSI or UTF-8 form on Windows.
+They are always in UTF-16 form on Windows CE, and UTF-8 on other platforms.
+</p>
+</div>
+              <h3 id="properties">Properties
+              </h3>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/DeviceInfo.cs/#L60">View Source</a>
+              </span>
+              <h4 id="ManagedBass_DeviceInfo_Driver" data-uid="ManagedBass.DeviceInfo.Driver">Driver</h4>
+              <div class="markdown level1 summary"><p>The filename of the driver being used... <span class="xref">null</span> = no driver (ie. <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_NoSoundDevice">NoSoundDevice</a> device).</p>
+<p>On systems that can use both VxD and WDM drivers (Windows Me/98SE), this will reveal which Type of driver is being used.</p>
+<p>Further information can be obtained from the file using the GetFileVersionInfo Win32 API function.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string Driver { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/DeviceInfo.cs/#L65">View Source</a>
+              </span>
+              <h4 id="ManagedBass_DeviceInfo_IsDefault" data-uid="ManagedBass.DeviceInfo.IsDefault">IsDefault</h4>
+              <div class="markdown level1 summary"><p>The device is the system default device.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsDefault { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/DeviceInfo.cs/#L70">View Source</a>
+              </span>
+              <h4 id="ManagedBass_DeviceInfo_IsEnabled" data-uid="ManagedBass.DeviceInfo.IsEnabled">IsEnabled</h4>
+              <div class="markdown level1 summary"><p>The device is enabled and can be used.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsEnabled { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/DeviceInfo.cs/#L75">View Source</a>
+              </span>
+              <h4 id="ManagedBass_DeviceInfo_IsInitialized" data-uid="ManagedBass.DeviceInfo.IsInitialized">IsInitialized</h4>
+              <div class="markdown level1 summary"><p>The device is already initialized.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsInitialized { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/DeviceInfo.cs/#L53">View Source</a>
+              </span>
+              <h4 id="ManagedBass_DeviceInfo_Name" data-uid="ManagedBass.DeviceInfo.Name">Name</h4>
+              <div class="markdown level1 summary"><p>The description of the device.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/DeviceInfo.cs/#L80">View Source</a>
+              </span>
+              <h4 id="ManagedBass_DeviceInfo_Type" data-uid="ManagedBass.DeviceInfo.Type">Type</h4>
+              <div class="markdown level1 summary"><p>The device&#39;s Type.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public DeviceType Type { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.DeviceType.html#ManagedBass_DeviceType">DeviceType</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="extensionmethods">Extension Methods</h3>
+              <div>
+                  <a class="xref" href="ManagedBass.Extensions.html#ManagedBass_Extensions_Is__1___0___0___">Extensions.Is&lt;DeviceInfo&gt;(DeviceInfo[])</a>
+              </div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

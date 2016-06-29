@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BassWinamp
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BassWinamp
+   ">
+    <meta name="generator" content="docfx 2.1.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Plugins/Plugins.cs/#L2651" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="ManagedBass_Winamp_BassWinamp" data-uid="ManagedBass.Winamp.BassWinamp">Class BassWinamp
+              </h1>
+              <div class="markdown level0 summary"><p>BassWinamp: Wraps bass_winamp.dll.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">BassWinamp</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:ManagedBass.Winamp</h6>
+              <h6><strong>Assembly</strong>:ManagedBass.PInvoke.dll</h6>
+              <h5 id="ManagedBass_Winamp_BassWinamp_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class BassWinamp</code></pre>
+              </div>
+              <h5 id="ManagedBass_Winamp_BassWinamp_remarks"><strong>Remarks</strong></h5>
+              <div class="markdown level0 remarks"><p>Adds Winamp Input plugins support.
+BassWinamp doesn&#39;t support Bass plugin system.</p>
+</div>
+              <h3 id="properties">Properties
+              </h3>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassWinamp/BassWinamp.cs/#L19">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Winamp_BassWinamp_InputTimeout" data-uid="ManagedBass.Winamp.BassWinamp.InputTimeout">InputTimeout</h4>
+              <div class="markdown level1 summary"><p>Winamp input timeout (in milliseconds) to wait until timing out, because the plugin is not using the output system.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int InputTimeout { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              
+              
+              <h4 id="ManagedBass_Winamp_BassWinamp_AboutPlugin_System_Int32_System_IntPtr_" data-uid="ManagedBass.Winamp.BassWinamp.AboutPlugin(System.Int32,System.IntPtr)">AboutPlugin(Int32, IntPtr)</h4>
+              <div class="markdown level1 summary"><p>Shows the about dialog of the loaded Winamp input plug-in.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bass_winamp&quot;, EntryPoint = &quot;BASS_WINAMP_AboutPlugin&quot;)]
+public static void AboutPlugin(int Handle, IntPtr Window)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Handle</em></td>
+                    <td><p>The handle of the winamp input plugin.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.IntPtr</span></td>
+                    <td><em>Window</em></td>
+                    <td><p>The application&#39;s main window... <span class="xref">System.IntPtr.Zero</span> = the current foreground window.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Winamp_BassWinamp_ConfigPlugin_System_Int32_System_IntPtr_" data-uid="ManagedBass.Winamp.BassWinamp.ConfigPlugin(System.Int32,System.IntPtr)">ConfigPlugin(Int32, IntPtr)</h4>
+              <div class="markdown level1 summary"><p>Shows the configuration dialog of the loaded Winamp input plug-in.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bass_winamp&quot;, EntryPoint = &quot;BASS_WINAMP_ConfigPlugin&quot;)]
+public static void ConfigPlugin(int Handle, IntPtr Window)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Handle</em></td>
+                    <td><p>The handle of the winamp input plugin.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.IntPtr</span></td>
+                    <td><em>Window</em></td>
+                    <td><p>The application&#39;s main window... <span class="xref">System.IntPtr.Zero</span> = the current foreground window.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Winamp_BassWinamp_CreateStream_System_String_ManagedBass_BassFlags_" data-uid="ManagedBass.Winamp.BassWinamp.CreateStream(System.String,ManagedBass.BassFlags)">CreateStream(String, BassFlags)</h4>
+              <div class="markdown level1 summary"><p>Creates a stream from a Winamp input plug-in.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bass_winamp&quot;, EntryPoint = &quot;BASS_WINAMP_StreamCreate&quot;)]
+public static int CreateStream(string FileName, BassFlags Flags)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>FileName</em></td>
+                    <td><p>Filename for which a stream should be created.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags">BassFlags</a></td>
+                    <td><em>Flags</em></td>
+                    <td><p>Any combination of <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags">BassFlags</a>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassWinamp/BassWinamp.cs/#L50">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Winamp_BassWinamp_FindPlugins_System_String_ManagedBass_Winamp_WinampFindPluginFlags_" data-uid="ManagedBass.Winamp.BassWinamp.FindPlugins(System.String,ManagedBass.Winamp.WinampFindPluginFlags)">FindPlugins(String, WinampFindPluginFlags)</h4>
+              <div class="markdown level1 summary"><p>Gets a list of all winamp input plug-ins in a given directory.</p>
+<p><a class="xref" href="ManagedBass.Winamp.WinampFindPluginFlags.html#ManagedBass_Winamp_WinampFindPluginFlags_CommaList">CommaList</a> is ignored.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string[] FindPlugins(string PluginDirectory, WinampFindPluginFlags Flags)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>PluginDirectory</em></td>
+                    <td><p>The path of the directory to search in.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Winamp.WinampFindPluginFlags.html#ManagedBass_Winamp_WinampFindPluginFlags">WinampFindPluginFlags</a></td>
+                    <td><em>Flags</em></td>
+                    <td><p>Any combination of <a class="xref" href="ManagedBass.Winamp.WinampFindPluginFlags.html#ManagedBass_Winamp_WinampFindPluginFlags">WinampFindPluginFlags</a>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span>[]</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassWinamp/BassWinamp.cs/#L64">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Winamp_BassWinamp_GetExtentions_System_Int32_" data-uid="ManagedBass.Winamp.BassWinamp.GetExtentions(System.Int32)">GetExtentions(Int32)</h4>
+              <div class="markdown level1 summary"><p>Gets the supported file filter extensions of the given winamp input plug-in.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string[] GetExtentions(int Handle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Handle</em></td>
+                    <td><p>The handle of the winamp input plugin.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span>[]</td>
+                    <td><p>Returns a array of strings representing the supported extensions of the winamp input plugin.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassWinamp/BassWinamp.cs/#L84">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Winamp_BassWinamp_GetFileInfo_System_String_System_String__System_Int32__" data-uid="ManagedBass.Winamp.BassWinamp.GetFileInfo(System.String,System.String@,System.Int32@)">GetFileInfo(String, out String, out Int32)</h4>
+              <div class="markdown level1 summary"><p>Returns information about a given file.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool GetFileInfo(string File, out string Title, out int LengthMs)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>File</em></td>
+                    <td><p>The name of the file to retrieve the information from.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>Title</em></td>
+                    <td><p>Returns the title of the given file.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>LengthMs</em></td>
+                    <td><p>Returns the length of the given file in milliseconds.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><span class="xref">true</span> if the information was retrieved successfully, else <span class="xref">false</span> is returned.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassWinamp/BassWinamp.cs/#L103">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Winamp_BassWinamp_GetName_System_Int32_" data-uid="ManagedBass.Winamp.BassWinamp.GetName(System.Int32)">GetName(Int32)</h4>
+              <div class="markdown level1 summary"><p>Gets the name of the winamp input plugin.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static string GetName(int Handle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Handle</em></td>
+                    <td><p>The handle of the winamp input plugin.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>The name of the plugin, or <span class="xref">null</span> if the call failed.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Winamp_BassWinamp_GetUsesOutput_System_Int32_" data-uid="ManagedBass.Winamp.BassWinamp.GetUsesOutput(System.Int32)">GetUsesOutput(Int32)</h4>
+              <div class="markdown level1 summary"><p>Returns weather the Winamp input plugin make use of the winamp output?</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bass_winamp&quot;, EntryPoint = &quot;BASS_WINAMP_GetUsesOutput&quot;)]
+public static bool GetUsesOutput(int Handle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Handle</em></td>
+                    <td><p>The handle of the winamp input plugin.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><span class="xref">true</span> if the input plugin uses output, else <span class="xref">false</span> is returned.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Winamp_BassWinamp_GetVersion_System_Int32_" data-uid="ManagedBass.Winamp.BassWinamp.GetVersion(System.Int32)">GetVersion(Int32)</h4>
+              <div class="markdown level1 summary"><p>Gets the version of a loaded Winamp input plug-in.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bass_winamp&quot;, EntryPoint = &quot;BASS_WINAMP_GetVersion&quot;)]
+public static int GetVersion(int Handle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Handle</em></td>
+                    <td><p>The handle of the winamp input plugin.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><p>The version number. HIWORD = Major, LOWORD = Minor.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Winamp_BassWinamp_InfoDialog_System_String_System_IntPtr_" data-uid="ManagedBass.Winamp.BassWinamp.InfoDialog(System.String,System.IntPtr)">InfoDialog(String, IntPtr)</h4>
+              <div class="markdown level1 summary"><p>Shows the Winamp input plugin information dialog for a given file (like pressing Alt+3 in Winamp).</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bass_winamp&quot;, EntryPoint = &quot;BASS_WINAMP_InfoDlg&quot;)]
+public static bool InfoDialog(string File, IntPtr Window)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>File</em></td>
+                    <td><p>The name of the file to retrieve the information from.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.IntPtr</span></td>
+                    <td><em>Window</em></td>
+                    <td><p>The application&#39;s main window... <span class="xref">System.IntPtr.Zero</span> = the current foreground window.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><span class="xref">true</span> if the info dialog was called successfully, else <span class="xref">false</span> is returned.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Winamp_BassWinamp_IsSeekable_System_Int32_" data-uid="ManagedBass.Winamp.BassWinamp.IsSeekable(System.Int32)">IsSeekable(Int32)</h4>
+              <div class="markdown level1 summary"><p>Returns weather the Winamp input plugin supports seeking?</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bass_winamp&quot;, EntryPoint = &quot;BASS_WINAMP_GetIsSeekable&quot;)]
+public static bool IsSeekable(int Handle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Handle</em></td>
+                    <td><p>The handle of the winamp input plugin.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><span class="xref">true</span> if the input plugin support seeking, else <span class="xref">false</span> is returned.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Plugins/Plugins.cs/#L2678">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Winamp_BassWinamp_Load_System_String_" data-uid="ManagedBass.Winamp.BassWinamp.Load(System.String)">Load(String)</h4>
+              <div class="markdown level1 summary"><p>Load this library into Memory.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Load(string Folder = null)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>Folder</em></td>
+                    <td><p>Directory to Load from... <span class="xref">null</span> (default) = Load from Current Directory.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><span class="xref">true</span>, if the library loaded successfully, else <span class="xref">false</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Winamp_BassWinamp_Load_System_String__remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>
+An external library is loaded into memory when any of its methods are called for the first time.
+This results in the first method call being slower than all subsequent calls.
+</p>
+<p>
+Some BASS libraries and add-ons may introduce new options to the main BASS lib like new parameters.
+But, before using these new options the respective library must be already loaded.
+This method can be used to make sure, that this library has been loaded.
+</p>
+</div>
+              
+              
+              <h4 id="ManagedBass_Winamp_BassWinamp_LoadPlugin_System_String_" data-uid="ManagedBass.Winamp.BassWinamp.LoadPlugin(System.String)">LoadPlugin(String)</h4>
+              <div class="markdown level1 summary"><p>Loads a Winamp input plug-in.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bass_winamp&quot;, EntryPoint = &quot;BASS_WINAMP_LoadPlugin&quot;)]
+public static int LoadPlugin(string File)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>File</em></td>
+                    <td><p>The file name of the plug-in to load.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><p>The handle of the loaded winamp input plug-in or 0 if it failed.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Plugins/Plugins.cs/#L2684">View Source</a>
+              </span>
+              <h4 id="ManagedBass_Winamp_BassWinamp_Unload" data-uid="ManagedBass.Winamp.BassWinamp.Unload">Unload()</h4>
+              <div class="markdown level1 summary"><p>Unloads this library from Memory.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Unload()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p><span class="xref">true</span>, if the library unloaded successfully, else <span class="xref">false</span>.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+              <h4 id="ManagedBass_Winamp_BassWinamp_UnloadPlugin_System_Int32_" data-uid="ManagedBass.Winamp.BassWinamp.UnloadPlugin(System.Int32)">UnloadPlugin(Int32)</h4>
+              <div class="markdown level1 summary"><p>Unloads a Winamp input plug-in which had been loaded via <a class="xref" href="ManagedBass.Winamp.BassWinamp.html#ManagedBass_Winamp_BassWinamp_LoadPlugin_System_String_">LoadPlugin(String)</a> before.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[DllImport(&quot;bass_winamp&quot;, EntryPoint = &quot;BASS_WINAMP_UnloadPlugin&quot;)]
+public static void UnloadPlugin(int Handle)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Handle</em></td>
+                    <td><p>The handle of the winamp input plugin.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

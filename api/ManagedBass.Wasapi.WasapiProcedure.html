@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Delegate WasapiProcedure
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Delegate WasapiProcedure
+   ">
+    <meta name="generator" content="docfx 2.1.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Windows/BassWasapi/Delegates/WasapiProcedure.cs/#L38" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="ManagedBass_Wasapi_WasapiProcedure" data-uid="ManagedBass.Wasapi.WasapiProcedure">Delegate WasapiProcedure
+              </h1>
+              <div class="markdown level0 summary"><p>User defined WASAPI output/input processing callback function (to be used with <a class="xref" href="ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Init_System_Int32_System_Int32_System_Int32_ManagedBass_Wasapi_WasapiInitFlags_System_Single_System_Single_ManagedBass_Wasapi_WasapiProcedure_System_IntPtr_">Init(Int32, Int32, Int32, WasapiInitFlags, Single, Single, WasapiProcedure, IntPtr)</a>).</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <h6><strong>Namespace</strong>:ManagedBass.Wasapi</h6>
+              <h6><strong>Assembly</strong>:ManagedBass.PInvoke.dll</h6>
+              <h5 id="ManagedBass_Wasapi_WasapiProcedure_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public delegate int WasapiProcedure(IntPtr Buffer, int Length, IntPtr User);</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.IntPtr</span></td>
+                    <td><em>Buffer</em></td>
+                    <td><p>Pointer to the buffer to put the sample data for an output device, or to get the data from an input device. The sample data is always 32-bit floating-point.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Length</em></td>
+                    <td><p>The number of bytes to process.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.IntPtr</span></td>
+                    <td><em>User</em></td>
+                    <td><p>The user instance data given when <a class="xref" href="ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Init_System_Int32_System_Int32_System_Int32_ManagedBass_Wasapi_WasapiInitFlags_System_Single_System_Single_ManagedBass_Wasapi_WasapiProcedure_System_IntPtr_">Init(Int32, Int32, Int32, WasapiInitFlags, Single, Single, WasapiProcedure, IntPtr)</a> was called.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><p>In the case of an output device, the number of bytes written to the buffer. In the case of an input device, 0 = stop the device, else continue.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_Wasapi_WasapiProcedure_remarks"><strong>Remarks</strong></h5>
+              <div class="markdown level0 remarks"><p>
+An output/input processing function should obviously be as quick as possible, to avoid buffer underruns (output) or overruns (input).
+Using a larger buffer makes that less crucial.
+<a class="xref" href="ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_GetData_System_IntPtr_System_Int32_">GetData(IntPtr, Int32)</a> (<a class="xref" href="ManagedBass.DataFlags.html#ManagedBass_DataFlags_Available">Available</a>) can be used to check how much data is buffered.
+</p>
+<p>
+An output device&#39;s <a class="xref" href="ManagedBass.Wasapi.WasapiProcedure.html#ManagedBass_Wasapi_WasapiProcedure">WasapiProcedure</a> may return less data than requested, but be careful not to do so by too much, too often.
+If the buffer gets exhausted, output will stall until more data is provided.
+If you do return less than the requested amount of data, the number of bytes should still equate to a whole number of samples.
+</p>
+<p>
+When multiple channels are used, the sample data of the channels is interleaved.
+For example, with 2 channels (ie. stereo), the sample data would be arranged as channel 1, channel 2, channel 1, channel 2, channel 1, etc.
+</p>
+<p>When an output channel needs to be empty/silent but still enabled, the channel&#39;s function could fill the buffer with 0s to achieve that.</p>
+<p>Do not call <a class="xref" href="ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Free">Free()</a> from within a callback function.</p>
+<p>
+Prior to calling this function, BassWasapi will set the thread&#39;s device context to the device that the channel belongs to.
+So when using multiple devices, <a class="xref" href="ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_CurrentDevice">CurrentDevice</a> can be used to determine which device the channel is on.
+</p>
+<p>
+It is not supported to change the <a class="xref" href="ManagedBass.Wasapi.WasapiProcedure.html#ManagedBass_Wasapi_WasapiProcedure">WasapiProcedure</a> once a device was initialized via <a class="xref" href="ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Init_System_Int32_System_Int32_System_Int32_ManagedBass_Wasapi_WasapiInitFlags_System_Single_System_Single_ManagedBass_Wasapi_WasapiProcedure_System_IntPtr_">Init(Int32, Int32, Int32, WasapiInitFlags, Single, Single, WasapiProcedure, IntPtr)</a>.
+If you need to change some internal processing logic during processing, you might use some kind of &quot;if&quot; statements within this callback procedure.
+</p>
+</div>
+              <h3 id="extensionmethods">Extension Methods</h3>
+              <div>
+                  <a class="xref" href="ManagedBass.Extensions.html#ManagedBass_Extensions_Is__1___0___0___">Extensions.Is&lt;WasapiProcedure&gt;(WasapiProcedure[])</a>
+              </div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct ChannelInfo
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct ChannelInfo
+   ">
+    <meta name="generator" content="docfx 2.1.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/ChannelInfo.cs/#L21" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="ManagedBass_ChannelInfo" data-uid="ManagedBass.ChannelInfo">Struct ChannelInfo
+              </h1>
+              <div class="markdown level0 summary"><p>Used with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetInfo_System_Int32_ManagedBass_ChannelInfo__">ChannelGetInfo(Int32, out ChannelInfo)</a> to retrieve information on a channel.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.ValueType.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.ValueType.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.ValueType.ToString()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:ManagedBass</h6>
+              <h6><strong>Assembly</strong>:ManagedBass.PInvoke.dll</h6>
+              <h5 id="ManagedBass_ChannelInfo_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[StructLayout(LayoutKind.Sequential)]
+public struct ChannelInfo</code></pre>
+              </div>
+              <h5 id="ManagedBass_ChannelInfo_remarks"><strong>Remarks</strong></h5>
+              <div class="markdown level0 remarks"><p>A &quot;channel&quot; can be a playing sample (HCHANNEL), a sample stream (HSTREAM), a MOD music (HMUSIC), or a recording (HRECORD).</p>
+<p>Each &quot;Channel&quot; function can be used with one or more of these channel types.</p>
+<p>
+The BassFlags.SoftwareMixing flag indicates whether or not the channel&#39;s sample data is being mixed into the final output by the hardware.
+It does not indicate (in the case of a stream or MOD music) whether the processing required to generate the sample data is being done by the hardware, this processing is always done in software.
+</p>
+<p>
+BASS supports 8/16/32-bit sample data, so if a WAV file, for example, uses another sample resolution, it&#39;ll have to be converted by BASS.
+The <a class="xref" href="ManagedBass.ChannelInfo.html#ManagedBass_ChannelInfo_OriginalResolution">OriginalResolution</a> member can be used to check what the resolution originally was.
+</p>
+</div>
+              <h3 id="properties">Properties
+              </h3>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/ChannelInfo.cs/#L41">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelInfo_Channels" data-uid="ManagedBass.ChannelInfo.Channels">Channels</h4>
+              <div class="markdown level1 summary"><p>Number of channels... 1=mono, 2=stereo, etc.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int Channels { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/ChannelInfo.cs/#L58">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelInfo_ChannelType" data-uid="ManagedBass.ChannelInfo.ChannelType">ChannelType</h4>
+              <div class="markdown level1 summary"><p>The Type of Channel</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public ChannelType ChannelType { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelType.html#ManagedBass_ChannelType">ChannelType</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/ChannelInfo.cs/#L95">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelInfo_FileName" data-uid="ManagedBass.ChannelInfo.FileName">FileName</h4>
+              <div class="markdown level1 summary"><p>The filename associated with the channel. (HSTREAM only)</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string FileName { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/ChannelInfo.cs/#L53">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelInfo_Flags" data-uid="ManagedBass.ChannelInfo.Flags">Flags</h4>
+              <div class="markdown level1 summary"><p>Sample/Stream/Music/Speaker flags.
+A combination of <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags">BassFlags</a>.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public BassFlags Flags { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags">BassFlags</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_ChannelInfo_Flags_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p><strong>Platform-specific</strong></p>
+<p>
+On Linux/iOS/OSX, the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Unicode">Unicode</a> flag may not be present even if it was used in the stream&#39;s creation, as BASS will have translated the filename to the native UTF-8 form.
+On Windows CE, the opposite is true: the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Unicode">Unicode</a> flag may be present even if it was not used in the stream&#39;s creation, as BASS will have translated the filename to the native UTF-16 form.
+</p>
+</div>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/ChannelInfo.cs/#L36">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelInfo_Frequency" data-uid="ManagedBass.ChannelInfo.Frequency">Frequency</h4>
+              <div class="markdown level1 summary"><p>Default playback rate.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int Frequency { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/ChannelInfo.cs/#L100">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelInfo_IsDecodingChannel" data-uid="ManagedBass.ChannelInfo.IsDecodingChannel">IsDecodingChannel</h4>
+              <div class="markdown level1 summary"><p>Is the channel a decoding channel?</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsDecodingChannel { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/ChannelInfo.cs/#L90">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelInfo_OriginalResolution" data-uid="ManagedBass.ChannelInfo.OriginalResolution">OriginalResolution</h4>
+              <div class="markdown level1 summary"><p>The original resolution (bits per sample)... 0 = undefined.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int OriginalResolution { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/ChannelInfo.cs/#L67">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelInfo_Plugin" data-uid="ManagedBass.ChannelInfo.Plugin">Plugin</h4>
+              <div class="markdown level1 summary"><p>The plugin that is handling the channel... 0 = not using a plugin.</p>
+<p>
+Note this is only available with streams created using the plugin system via the standard BASS stream creation functions, not those created by add-on functions.
+Information on the plugin can be retrieved via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PluginGetInfo_System_Int32_">PluginGetInfo(Int32)</a>.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int Plugin { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/ChannelInfo.cs/#L77">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelInfo_Resolution" data-uid="ManagedBass.ChannelInfo.Resolution">Resolution</h4>
+              <div class="markdown level1 summary"><p>The resolution which Bass uses for the stream.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Resolution Resolution { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.Resolution.html#ManagedBass_Resolution">Resolution</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Structures/ChannelInfo.cs/#L72">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelInfo_Sample" data-uid="ManagedBass.ChannelInfo.Sample">Sample</h4>
+              <div class="markdown level1 summary"><p>The sample that is playing on the channel. (HCHANNEL only)</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int Sample { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="extensionmethods">Extension Methods</h3>
+              <div>
+                  <a class="xref" href="ManagedBass.Extensions.html#ManagedBass_Extensions_Is__1___0___0___">Extensions.Is&lt;ChannelInfo&gt;(ChannelInfo[])</a>
+              </div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

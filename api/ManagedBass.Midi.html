@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace ManagedBass.Midi
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace ManagedBass.Midi
+   ">
+    <meta name="generator" content="docfx 2.1.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              <h1 id="ManagedBass_Midi" data-uid="ManagedBass.Midi">Namespace ManagedBass.Midi
+              </h1>
+              <div class="markdown level0 summary"></div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="markdown level0 remarks"></div>
+                <h3 id="classes">Classes
+              </h3>
+                  <h4><a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi">BassMidi</a></h4>
+                  <section><p>Wraps BassMidi: bassmidi.dll</p>
+<p>Supports: .midi, .mid, .rmi, .kar</p>
+</section>
+                <h3 id="structs">Structs
+              </h3>
+                  <h4><a class="xref" href="ManagedBass.Midi.MidiDeviceInfo.html#ManagedBass_Midi_MidiDeviceInfo">MidiDeviceInfo</a></h4>
+                  <section><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_ManagedBass_Midi_MidiDeviceInfo__">InGetDeviceInfo(Int32, out MidiDeviceInfo)</a> to retrieve information on a MIDI input device.</p>
+</section>
+                  <h4><a class="xref" href="ManagedBass.Midi.MidiEvent.html#ManagedBass_Midi_MidiEvent">MidiEvent</a></h4>
+                  <section><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvents_System_Int32_ManagedBass_Midi_MidiEventsMode_ManagedBass_Midi_MidiEvent___System_Int32_">StreamEvents(Int32, MidiEventsMode, MidiEvent[], Int32)</a> to apply events and <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetEvents_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_ManagedBass_Midi_MidiEvent___">StreamGetEvents(Int32, Int32, MidiEventType, MidiEvent[])</a> to retrieve events, and <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_CreateStream_ManagedBass_Midi_MidiEvent___System_Int32_ManagedBass_BassFlags_System_Int32_">CreateStream(MidiEvent[], Int32, BassFlags, Int32)</a> to play event sequences.</p>
+</section>
+                  <h4><a class="xref" href="ManagedBass.Midi.MidiFont.html#ManagedBass_Midi_MidiFont">MidiFont</a></h4>
+                  <section><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamSetFonts_System_Int32_ManagedBass_Midi_MidiFont___System_Int32_">StreamSetFonts(Int32, MidiFont[], Int32)</a> and <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetFonts_System_Int32_ManagedBass_Midi_MidiFont___System_Int32_">StreamGetFonts(Int32, MidiFont[], Int32)</a> to set and retrieve soundfont configurations.</p>
+</section>
+                  <h4><a class="xref" href="ManagedBass.Midi.MidiFontEx.html#ManagedBass_Midi_MidiFontEx">MidiFontEx</a></h4>
+                  <section><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamSetFonts_System_Int32_ManagedBass_Midi_MidiFontEx___System_Int32_">StreamSetFonts(Int32, MidiFontEx[], Int32)</a> and <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetFonts_System_Int32_ManagedBass_Midi_MidiFontEx___System_Int32_">StreamGetFonts(Int32, MidiFontEx[], Int32)</a> to set and retrieve soundfont configurations.</p>
+</section>
+                  <h4><a class="xref" href="ManagedBass.Midi.MidiFontInfo.html#ManagedBass_Midi_MidiFontInfo">MidiFontInfo</a></h4>
+                  <section><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_FontGetInfo_System_Int32_ManagedBass_Midi_MidiFontInfo__">FontGetInfo(Int32, out MidiFontInfo)</a> to retrieve information on a soundfont.</p>
+</section>
+                  <h4><a class="xref" href="ManagedBass.Midi.MidiMarker.html#ManagedBass_Midi_MidiMarker">MidiMarker</a></h4>
+                  <section><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetMark_System_Int32_ManagedBass_Midi_MidiMarkerType_System_Int32_ManagedBass_Midi_MidiMarker__">StreamGetMark(Int32, MidiMarkerType, Int32, out MidiMarker)</a>, <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_MidiLyric">MidiLyric</a>, <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_MidiCue">MidiCue</a> and <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_MidiMarker">MidiMarker</a> to retrieve markers.</p>
+</section>
+                <h3 id="enums">Enums
+              </h3>
+                  <h4><a class="xref" href="ManagedBass.Midi.MidiEventsMode.html#ManagedBass_Midi_MidiEventsMode">MidiEventsMode</a></h4>
+                  <section><p>The type of event data to apply, to be used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvents_System_Int32_ManagedBass_Midi_MidiEventsMode_System_IntPtr_System_Int32_">StreamEvents(Int32, MidiEventsMode, IntPtr, Int32)</a>.</p>
+</section>
+                  <h4><a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType">MidiEventType</a></h4>
+                  <section><p>The MIDI event type, to be used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_System_Int32_">StreamEvent(Int32, Int32, MidiEventType, Int32)</a> or <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_">StreamGetEvent(Int32, Int32, MidiEventType)</a> or <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_CreateStream_ManagedBass_Midi_MidiEvent___System_Int32_ManagedBass_BassFlags_System_Int32_">CreateStream(MidiEvent[], Int32, BassFlags, Int32)</a>.</p>
+</section>
+                  <h4><a class="xref" href="ManagedBass.Midi.MidiMarkerType.html#ManagedBass_Midi_MidiMarkerType">MidiMarkerType</a></h4>
+                  <section><p>The Marker type, to be used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetMark_System_Int32_ManagedBass_Midi_MidiMarkerType_System_Int32_ManagedBass_Midi_MidiMarker__">StreamGetMark(Int32, MidiMarkerType, Int32, out MidiMarker)</a>.</p>
+</section>
+                  <h4><a class="xref" href="ManagedBass.Midi.MidiSystem.html#ManagedBass_Midi_MidiSystem">MidiSystem</a></h4>
+                  <section><p>System mode parameter, to be used with <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_System">System</a>, <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_SystemEx">SystemEx</a>.</p>
+</section>
+                <h3 id="delegates">Delegates
+              </h3>
+                  <h4><a class="xref" href="ManagedBass.Midi.MidiInProcedure.html#ManagedBass_Midi_MidiInProcedure">MidiInProcedure</a></h4>
+                  <section><p>User defined callback delegate to receive MIDI data (to be used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InInit_System_Int32_ManagedBass_Midi_MidiInProcedure_System_IntPtr_">InInit(Int32, MidiInProcedure, IntPtr)</a>).</p>
+</section>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

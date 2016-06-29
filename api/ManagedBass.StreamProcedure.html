@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Delegate StreamProcedure
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Delegate StreamProcedure
+   ">
+    <meta name="generator" content="docfx 2.1.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Delegates/StreamProcedure.cs/#L29" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="ManagedBass_StreamProcedure" data-uid="ManagedBass.StreamProcedure">Delegate StreamProcedure
+              </h1>
+              <div class="markdown level0 summary"><p>User stream writing callback delegate (to be used with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_Int32_System_Int32_ManagedBass_BassFlags_ManagedBass_StreamProcedure_System_IntPtr_">CreateStream(Int32, Int32, BassFlags, StreamProcedure, IntPtr)</a>).</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <h6><strong>Namespace</strong>:ManagedBass</h6>
+              <h6><strong>Assembly</strong>:ManagedBass.PInvoke.dll</h6>
+              <h5 id="ManagedBass_StreamProcedure_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public delegate int StreamProcedure(int Handle, IntPtr Buffer, int Length, IntPtr User);</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Handle</em></td>
+                    <td><p>The stream that needs writing.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.IntPtr</span></td>
+                    <td><em>Buffer</em></td>
+                    <td><p>The pointer to the Buffer to write the sample data in. The sample data must be written in standard Windows PCM format - 8-bit samples are unsigned, 16-bit samples are signed, 32-bit floating-point samples range from -1 to 1.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>Length</em></td>
+                    <td><p>The number of bytes to write.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.IntPtr</span></td>
+                    <td><em>User</em></td>
+                    <td><p>The User instance data given when <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_Int32_System_Int32_ManagedBass_BassFlags_ManagedBass_StreamProcedure_System_IntPtr_">CreateStream(Int32, Int32, BassFlags, StreamProcedure, IntPtr)</a> was called.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><p>The number of bytes written by the function, optionally using the <a class="xref" href="ManagedBass.StreamProcedureType.html#ManagedBass_StreamProcedureType_End">End</a> (<a class="xref" href="ManagedBass.StreamProcedure.html#ManagedBass_StreamProcedure">StreamProcedure</a>) flag to signify that the end of the stream is reached.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_StreamProcedure_remarks"><strong>Remarks</strong></h5>
+              <div class="markdown level0 remarks"><p>A stream writing function should obviously be as quick as possible, because other streams (and MOD musics) can&#39;t be updated until it&#39;s finished.</p>
+<p>It is better to return less data quickly, rather than spending a long time delivering the amount BASS requested.</p>
+<p>Although a STREAMPROC may return less data than BASS requests, be careful not to do so by too much, too often. If the Buffer level gets too low, BASS will automatically stall playback of the stream, until the whole Buffer has refilled.</p>
+<p><a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetData_System_Int32_System_IntPtr_System_Int32_">ChannelGetData(Int32, IntPtr, Int32)</a> <a class="xref" href="ManagedBass.DataFlags.html#ManagedBass_DataFlags">DataFlags</a> can be used to check the Buffer level, and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelIsActive_System_Int32_">ChannelIsActive(Int32)</a> can be used to check if playback has stalled.</p>
+<p>A <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_Stalled">Stalled</a> sync can also be set via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetSync_System_Int32_ManagedBass_SyncFlags_System_Int64_ManagedBass_SyncProcedure_System_IntPtr_">ChannelSetSync(Int32, SyncFlags, Int64, SyncProcedure, IntPtr)</a>, to be triggered upon playback stalling or resuming.</p>
+<p>If you do return less than the requested amount of data, the number of bytes should still equate to a whole number of samples.</p>
+<p>Some functions can cause problems if called from within a stream (or DSP) function. Do not call these functions from within a stream callback:</p>
+<p><a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelStop_System_Int32_">ChannelStop(Int32)</a>, <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Free">Free()</a>, <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_MusicLoad_System_String_System_Int64_System_Int32_ManagedBass_BassFlags_System_Int32_">MusicLoad(String, Int64, Int32, BassFlags, Int32)</a>, <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_Int32_System_Int32_ManagedBass_BassFlags_ManagedBass_StreamProcedure_System_IntPtr_">CreateStream(Int32, Int32, BassFlags, StreamProcedure, IntPtr)</a> or any other stream creation functions.</p>
+<p>Also, do not call <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_StreamFree_System_Int32_">StreamFree(Int32)</a> or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelStop_System_Int32_">ChannelStop(Int32)</a> with the same Handle as received by the callback.</p>
+<p>When streaming multi-channel sample data, the channel order of each sample is as follows:</p>
+<p>3 channels: left-front, right-front, center.</p>
+<p>4 channels: left-front, right-front, left-rear/side, right-rear/side.</p>
+<p>6 channels(5.1): left-front, right-front, center, LFE, left-rear/side, right-rear/side.</p>
+<p>8 channels(7.1): left-front, right-front, center, LFE, left-rear/side, right-rear/side, left-rear center, right-rear center.</p>
+</div>
+              <h3 id="extensionmethods">Extension Methods</h3>
+              <div>
+                  <a class="xref" href="ManagedBass.Extensions.html#ManagedBass_Extensions_Is__1___0___0___">Extensions.Is&lt;StreamProcedure&gt;(StreamProcedure[])</a>
+              </div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

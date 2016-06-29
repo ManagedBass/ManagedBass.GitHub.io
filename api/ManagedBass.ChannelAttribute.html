@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Enum ChannelAttribute
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Enum ChannelAttribute
+   ">
+    <meta name="generator" content="docfx 2.1.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L11" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="ManagedBass_ChannelAttribute" data-uid="ManagedBass.ChannelAttribute">Enum ChannelAttribute
+              </h1>
+              <div class="markdown level0 summary"><p>Channel attribute options used by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single__">ChannelGetAttribute(Int32, ChannelAttribute, out Single)</a>.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <h6><strong>Namespace</strong>:ManagedBass</h6>
+              <h6><strong>Assembly</strong>:ManagedBass.PInvoke.dll</h6>
+              <h5 id="ManagedBass_ChannelAttribute_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public enum ChannelAttribute</code></pre>
+              </div>
+              <h3 id="fields">Fields
+              </h3>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L477">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_Bitrate" data-uid="ManagedBass.ChannelAttribute.Bitrate">Bitrate</h4>
+              <div class="markdown level1 summary"><p>The average bitrate of a file stream. </p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">Bitrate = 12</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L142">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_CPUUsage" data-uid="ManagedBass.ChannelAttribute.CPUUsage">CPUUsage</h4>
+              <div class="markdown level1 summary"><p>The CPU usage of a channel. (in percentage).</p>
+<p>
+This attribute gives the percentage of CPU that the channel is using,
+including the time taken by decoding and DSP processing, and any FX that are
+not using the &quot;with FX flag&quot; DX8 effect implementation.
+It does not include the time taken to add the channel&#39;s data to the final output mix during playback.
+The processing of some add-on stream formats may also not be entirely included,
+if they use additional decoding threads; see the add-on documentation for details.
+</p>
+<p>
+Like <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CPUUsage">CPUUsage</a>, this function does not strictly tell the CPU usage, but rather how timely the processing is.
+For example, if it takes 10ms to generate 100ms of data, that would be 10%.
+</p>
+<p>
+If the reported usage exceeds 100%, that means the channel&#39;s data is taking longer to generate than to play.
+The duration of the data is based on the channel&#39;s current sample rate (<a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_Frequency">Frequency</a>).
+A channel&#39;s CPU usage is updated whenever it generates data.
+That could be during a playback Buffer update cycle, or a <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Update_System_Int32_">Update(Int32)</a> call, or a <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelUpdate_System_Int32_System_Int32_">ChannelUpdate(Int32, Int32)</a> call.
+For a decoding channel, it would be in a <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetData_System_Int32_System_IntPtr_System_Int32_">ChannelGetData(Int32, IntPtr, Int32)</a> or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetLevel_System_Int32_">ChannelGetLevel(Int32)</a> call.
+</p>
+<p>This attribute is read-only, so cannot be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">CPUUsage = 7</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L465">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_DSDGain" data-uid="ManagedBass.ChannelAttribute.DSDGain">DSDGain</h4>
+              <div class="markdown level1 summary"><p>BassDSD: The gain (in decibels) applied when converting to PCM.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">DSDGain = 81920</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_ChannelAttribute_DSDGain_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This attribute is only applicable when converting to PCM, and is unavailable when producing DSD-over-PCM or raw DSD data.
+The default setting is determined by the <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_DSDGain">DSDGain</a> config option</p>
+</div>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L472">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_DSDRate" data-uid="ManagedBass.ChannelAttribute.DSDRate">DSDRate</h4>
+              <div class="markdown level1 summary"><p>BassDSD: The DSD sample rate.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">DSDRate = 81921</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ManagedBass_ChannelAttribute_DSDRate_remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>This attribute is read-only, so cannot be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.</p>
+</div>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L92">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_EaxMix" data-uid="ManagedBass.ChannelAttribute.EaxMix">EaxMix</h4>
+              <div class="markdown level1 summary"><p>The wet (reverb) / dry (no reverb) mix ratio... 0 (full dry) to 1 (full wet), -1 = automatically calculate the mix based on the distance (the default).</p>
+<p>For a sample, stream, or MOD music channel with 3D functionality.</p>
+<p>
+Obviously, EAX functions have no effect if the output device does not support EAX.
+<a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_GetInfo_ManagedBass_BassInfo__">GetInfo(out BassInfo)</a> can be used to check that.
+</p>
+<p>
+EAX only affects 3D channels, but EAX functions do not require <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Apply3D">Apply3D()</a> to apply the changes.
+LastError.NoEAX: The channel does not have EAX support.
+EAX only applies to 3D channels that are mixed by the hardware/drivers.
+<a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetInfo_System_Int32_ManagedBass_ChannelInfo__">ChannelGetInfo(Int32, out ChannelInfo)</a> can be used to check if a channel is being mixed by the hardware.
+EAX is only supported on Windows.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">EaxMix = 4</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L36">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_Frequency" data-uid="ManagedBass.ChannelAttribute.Frequency">Frequency</h4>
+              <div class="markdown level1 summary"><p>The sample rate of a channel... 0 = original rate (when the channel was created).</p>
+<p>
+This attribute applies to playback of the channel, and does not affect the
+channel&#39;s sample data, so has no real effect on decoding channels.
+It is still adjustable though, so that it can be used by the BassMix add-on,
+and anything else that wants to use it.
+</p>
+<p>
+It is not possible to change the sample rate of a channel if the &quot;with FX
+flag&quot; DX8 effect implementation enabled on it, unless DirectX 9 or above is installed.
+</p>
+<p>
+Increasing the sample rate of a stream or MOD music increases its CPU usage,
+and reduces the Length of its playback Buffer in terms of time.
+If you intend to raise the sample rate above the original rate, then you may also need
+to increase the Buffer Length via the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a>
+config option to avoid break-ups in the sound.
+</p>
+
+<p><strong>Platform-specific</strong></p>
+<p>On Windows, the sample rate will get rounded down to a whole number during playback.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">Frequency = 1</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L415">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MidiChannels" data-uid="ManagedBass.ChannelAttribute.MidiChannels">MidiChannels</h4>
+              <div class="markdown level1 summary"><p>BASSMIDI: The number of MIDI channels in a MIDI stream... 1 (min) - 128 (max).</p>
+<p>
+For a MIDI file stream, the minimum is 16.
+New channels are melodic by default.
+Any notes playing on a removed channel are immediately stopped.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MidiChannels = 73730</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L405">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MidiCPU" data-uid="ManagedBass.ChannelAttribute.MidiCPU">MidiCPU</h4>
+              <div class="markdown level1 summary"><p>BASSMIDI: The maximum percentage of CPU time that a MIDI stream can use... 0 to 100, 0 = unlimited.</p>
+<p>
+It is not strictly the CPU usage that is measured, but rather how timely the stream is able to render data.
+For example, a limit of 50% would mean that the rendering would need to be at least 2x real-time speed.
+When the limit is exceeded, <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi">BassMidi</a> will begin killing voices, starting with the  most quiet.
+When the CPU usage is limited, the stream&#39;s samples are loaded asynchronously
+so that any loading delays (eg. due to slow disk) do not hold up the stream for too long.
+If a sample cannot be loaded in time, then it will be silenced
+until it is available and the stream will continue playing other samples as normal in the meantime.
+This does not affect sample loading via <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamLoadSamples_System_Int32_">StreamLoadSamples(Int32)</a>, which always operates synchronously.
+By default, a MIDI stream will have no CPU limit.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MidiCPU = 73729</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L389">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MidiPPQN" data-uid="ManagedBass.ChannelAttribute.MidiPPQN">MidiPPQN</h4>
+              <div class="markdown level1 summary"><p>BASSMIDI: Gets the Pulses Per Quarter Note (or ticks per beat) value of the MIDI file.</p>
+<p>
+This attribute is the number of ticks per beat as defined by the MIDI file;
+it will be 0 for MIDI streams created via <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_CreateStream_System_Int32_ManagedBass_BassFlags_System_Int32_">CreateStream(Int32, BassFlags, Int32)</a>,
+It is read-only, so can&#39;t be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MidiPPQN = 73728</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L445">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MidiTrackVolume" data-uid="ManagedBass.ChannelAttribute.MidiTrackVolume">MidiTrackVolume</h4>
+              <div class="markdown level1 summary"><p>BASSMIDI: The volume level (0.0=silent, 1.0=normal/default) of a track in a MIDI file stream + track#.</p>
+<p>track#: The track to set the volume of... 0 = first track.</p>
+<p>
+The volume curve used by this attribute is always linear, eg. 0.5 = 50%.
+The <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LogarithmicVolumeCurve">LogarithmicVolumeCurve</a> config option setting has no effect on this.
+During playback, the effect of changes to this attribute are not heard instantaneously, due to buffering.
+To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
+This attribute can also be used to count the number of tracks in a MIDI file stream.
+MIDI streams created via <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_CreateStream_System_Int32_ManagedBass_BassFlags_System_Int32_">CreateStream(Int32, BassFlags, Int32)</a> do not have any tracks.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MidiTrackVolume = 73984</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L425">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MidiVoices" data-uid="ManagedBass.ChannelAttribute.MidiVoices">MidiVoices</h4>
+              <div class="markdown level1 summary"><p>BASSMIDI: The maximum number of samples to play at a time (polyphony) in a MIDI stream... 1 (min) - 1000 (max).</p>
+<p>
+If there are currently more voices active than the new limit, then some voices will be killed to meet the limit.
+The number of voices currently active is available via the Voices attribute.
+A MIDI stream will initially have a default number of voices as determined by the Voices config option.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MidiVoices = 73731</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L431">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MidiVoicesActive" data-uid="ManagedBass.ChannelAttribute.MidiVoicesActive">MidiVoicesActive</h4>
+              <div class="markdown level1 summary"><p>BASSMIDI: The number of samples (voices) currently playing in a MIDI stream.</p>
+<p>This attribute is read-only, so cannot be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MidiVoicesActive = 73732</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L283">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MusicActiveChannelCount" data-uid="ManagedBass.ChannelAttribute.MusicActiveChannelCount">MusicActiveChannelCount</h4>
+              <div class="markdown level1 summary"><p>The number of active channels in a MOD music.</p>
+<p>
+This attribute gives the number of channels (including virtual) that are currently active in the decoder,
+which may not match what is being heard during playback due to buffering.
+To reduce the time difference, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
+This attribute is read-only, so cannot be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MusicActiveChannelCount = 262</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L210">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MusicAmplify" data-uid="ManagedBass.ChannelAttribute.MusicAmplify">MusicAmplify</h4>
+              <div class="markdown level1 summary"><p>The amplification level of a MOD music... 0 (min) to 100 (max).</p>
+<p>This will be rounded down to a whole number.</p>
+<p>
+As the amplification level get&#39;s higher, the sample data&#39;s range increases, and therefore, the resolution increases.
+But if the level is set too high, then clipping can occur, which can result in distortion of the sound.
+You can check the current level of a MOD music at any time by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetLevel_System_Int32_">ChannelGetLevel(Int32)</a>.
+By doing so, you can decide if a MOD music&#39;s amplification level needs adjusting.
+The default amplification level is 50.
+</p>
+<p>
+During playback, the effect of changes to this attribute are not heard instantaneously, due to buffering.
+To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MusicAmplify = 256</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L244">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MusicBPM" data-uid="ManagedBass.ChannelAttribute.MusicBPM">MusicBPM</h4>
+              <div class="markdown level1 summary"><p>The BPM of a MOD music... 1 (min) to 255 (max).</p>
+<p>
+This will be rounded down to a whole number.
+This attribute is a direct mapping of the MOD&#39;s BPM, so the value can be changed via effects in the MOD itself.
+Note that by changing this attribute, you are changing the playback Length.
+During playback, the effect of changes to this attribute are not heard instantaneously, due to buffering.
+To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MusicBPM = 259</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L221">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MusicPanSeparation" data-uid="ManagedBass.ChannelAttribute.MusicPanSeparation">MusicPanSeparation</h4>
+              <div class="markdown level1 summary"><p>The pan separation level of a MOD music... 0 (min) to 100 (max), 50 = linear.</p>
+<p>
+This will be rounded down to a whole number.
+By default BASS uses a linear panning &quot;curve&quot;.
+If you want to use the panning of FT2, use a pan separation setting of around 35.
+To use the Amiga panning (ie. full left and right) set it to 100.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MusicPanSeparation = 257</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L232">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MusicPositionScaler" data-uid="ManagedBass.ChannelAttribute.MusicPositionScaler">MusicPositionScaler</h4>
+              <div class="markdown level1 summary"><p>The position scaler of a MOD music... 1 (min) to 256 (max).</p>
+<p>
+This will be rounded down to a whole number.
+When calling <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetPosition_System_Int32_ManagedBass_PositionFlags_">ChannelGetPosition(Int32, PositionFlags)</a>, the row (HIWORD) will be scaled by this value.
+By using a higher scaler, you can get a more precise position indication.
+The default scaler is 1.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MusicPositionScaler = 258</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L258">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MusicSpeed" data-uid="ManagedBass.ChannelAttribute.MusicSpeed">MusicSpeed</h4>
+              <div class="markdown level1 summary"><p>The speed of a MOD music... 0 (min) to 255 (max).</p>
+<p>
+This will be rounded down to a whole number.
+This attribute is a direct mapping of the MOD&#39;s speed, so the value can be changed via effects in the MOD itself.
+The &quot;speed&quot; is the number of ticks per row.
+Setting it to 0, stops and ends the music.
+Note that by changing this attribute, you are changing the playback Length.
+During playback, the effect of changes to this attribute are not heard instantaneously, due to buffering.
+To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MusicSpeed = 260</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L297">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MusicVolumeChannel" data-uid="ManagedBass.ChannelAttribute.MusicVolumeChannel">MusicVolumeChannel</h4>
+              <div class="markdown level1 summary"><p>The volume level... 0 (silent) to 1 (full) of a channel in a MOD music + channel#.</p>
+<p>channel: The channel to set the volume of... 0 = 1st channel.</p>
+<p>
+The volume curve used by this attribute is always linear, eg. 0.5 = 50%.
+The <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LogarithmicVolumeCurve">LogarithmicVolumeCurve</a> config option setting has no effect on this.
+The volume level of all channels is initially 1 (full).
+This attribute can also be used to count the number of channels in a MOD Music.
+During playback, the effect of changes to this attribute are not heard instantaneously, due to buffering.
+To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MusicVolumeChannel = 512</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L272">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MusicVolumeGlobal" data-uid="ManagedBass.ChannelAttribute.MusicVolumeGlobal">MusicVolumeGlobal</h4>
+              <div class="markdown level1 summary"><p>The global volume level of a MOD music... 0 (min) to 64 (max, 128 for IT format).</p>
+<p>
+This will be rounded down to a whole number.
+This attribute is a direct mapping of the MOD&#39;s global volume, so the value can be changed via effects in the MOD itself.
+The &quot;speed&quot; is the number of ticks per row.
+Setting it to 0, stops and ends the music.
+Note that by changing this attribute, you are changing the playback Length.
+During playback, the effect of changes to this attribute are not heard instantaneously, due to buffering.
+To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MusicVolumeGlobal = 261</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L312">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_MusicVolumeInstrument" data-uid="ManagedBass.ChannelAttribute.MusicVolumeInstrument">MusicVolumeInstrument</h4>
+              <div class="markdown level1 summary"><p>The volume level... 0 (silent) to 1 (full) of an instrument in a MOD music + inst#.</p>
+<p>inst: The instrument to set the volume of... 0 = 1st instrument.</p>
+<p>
+The volume curve used by this attribute is always linear, eg. 0.5 = 50%.
+The <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LogarithmicVolumeCurve">LogarithmicVolumeCurve</a> config option setting has no effect on this.
+The volume level of all instruments is initially 1 (full).
+For MOD formats that do not use instruments, read &quot;sample&quot; for &quot;instrument&quot;.
+This attribute can also be used to count the number of instruments in a MOD music.
+During playback, the effect of changes to this attribute are not heard instantaneously, due to buffering.
+To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">MusicVolumeInstrument = 768</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L187">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_NetworkResumeBufferLevel" data-uid="ManagedBass.ChannelAttribute.NetworkResumeBufferLevel">NetworkResumeBufferLevel</h4>
+              <div class="markdown level1 summary"><p>The download Buffer level required to resume stalled playback in percent... 0 - 100 (the default is 50%).</p>
+<p>
+This attribute determines what percentage of the download Buffer (<a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_NetBufferLength">NetBufferLength</a>)
+needs to be filled before playback of a stalled internet stream will resume.
+It also applies to &#39;buffered&#39; User file streams created with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_ManagedBass_StreamSystem_ManagedBass_BassFlags_ManagedBass_FileProcedures_System_IntPtr_">CreateStream(StreamSystem, BassFlags, FileProcedures, IntPtr)</a>.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">NetworkResumeBufferLevel = 9</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L117">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_NoBuffer" data-uid="ManagedBass.ChannelAttribute.NoBuffer">NoBuffer</h4>
+              <div class="markdown level1 summary"><p>Non-Windows: Disable playback buffering?... 0 = no, else yes..</p>
+<p>
+A playing channel is normally asked to render data to its playback Buffer in advance,
+via automatic Buffer updates or the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Update_System_Int32_">Update(Int32)</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelUpdate_System_Int32_System_Int32_">ChannelUpdate(Int32, Int32)</a> functions,
+ready for mixing with other channels to produce the final mix that is given to the output device.
+</p>
+<p>
+When this attribute is switched on (the default is off), that buffering is skipped and
+the channel will only be asked to produce data as it is needed during the generation of the final mix.
+This allows the lowest latency to be achieved, but also imposes tighter timing requirements
+on the channel to produce its data and apply any DSP/FX (and run mixtime syncs) that are set on it;
+if too long is taken, there will be a break in the output, affecting all channels that are playing on the same device.
+</p>
+<p>
+The channel&#39;s data is still placed in its playback Buffer when this attribute is on,
+which allows <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetData_System_Int32_System_IntPtr_System_Int32_">ChannelGetData(Int32, IntPtr, Int32)</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetLevel_System_Int32_">ChannelGetLevel(Int32)</a> to be used, although there is
+likely to be less data available to them due to the Buffer being less full.
+</p>
+<p>This attribute can be changed mid-playback.</p>
+<p>If switched on, any already buffered data will still be played, so that there is no break in sound.</p>
+<p>This attribute is not available on Windows, as BASS does not generate the final mix.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">NoBuffer = 5</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L482">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_NoRamp" data-uid="ManagedBass.ChannelAttribute.NoRamp">NoRamp</h4>
+              <div class="markdown level1 summary"><p>Disable playback ramping? </p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">NoRamp = 11</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L456">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_OpusOriginalFrequency" data-uid="ManagedBass.ChannelAttribute.OpusOriginalFrequency">OpusOriginalFrequency</h4>
+              <div class="markdown level1 summary"><p>BassOpus: The sample rate of an Opus stream&#39;s source material.</p>
+<p>
+Opus streams always have a sample rate of 48000 Hz, and an Opus encoder will resample the source material to that if necessary.
+This attribute presents the original sample rate, which may be stored in the Opus file header.
+This attribute is read-only, so cannot be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">OpusOriginalFrequency = 77824</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L75">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_Pan" data-uid="ManagedBass.ChannelAttribute.Pan">Pan</h4>
+              <div class="markdown level1 summary"><p>The panning/balance position of a channel... -1 (Full Left) to +1 (Full Right), 0 = Centre.</p>
+<p>
+This attribute applies to playback of the channel, and does not affect the
+channel&#39;s sample data, so has no real effect on decoding channels.
+It is still adjustable though, so that it can be used by the <a class="xref" href="ManagedBass.Mix.BassMix.html#ManagedBass_Mix_BassMix">BassMix</a> add-on,
+and anything else that wants to use it.
+</p>
+<p>
+It is not possible to set the pan position of a 3D channel.
+It is also not possible to set the pan position when using speaker assignment, but if needed,
+it can be done via a <a class="xref" href="ManagedBass.DSPProcedure.html#ManagedBass_DSPProcedure">DSPProcedure</a> instead (not on mono channels).
+</p>
+
+<p><strong>Platform-specific</strong></p>
+<p>
+On Windows, this attribute has no effect when speaker assignment is used,
+except on Windows Vista and newer with the Bass.VistaSpeakerAssignment config option enabled.
+Balance control could be implemented via a <a class="xref" href="ManagedBass.DSPProcedure.html#ManagedBass_DSPProcedure">DSPProcedure</a> instead
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">Pan = 3</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L324">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_Pitch" data-uid="ManagedBass.ChannelAttribute.Pitch">Pitch</h4>
+              <div class="markdown level1 summary"><p>BassFx Tempo: The Pitch in semitones (-60..0..+60).</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">Pitch = 65537</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L377">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_ReverseDirection" data-uid="ManagedBass.ChannelAttribute.ReverseDirection">ReverseDirection</h4>
+              <div class="markdown level1 summary"><p>Playback direction (-1 = Reverse or 1 = Forward).</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">ReverseDirection = 69632</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L177">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_SampleRateConversion" data-uid="ManagedBass.ChannelAttribute.SampleRateConversion">SampleRateConversion</h4>
+              <div class="markdown level1 summary"><p>The sample rate conversion quality of a channel</p>
+<p>
+0 = linear interpolation, 1 = 8 point sinc interpolation, 2 = 16 point sinc interpolation, 3 = 32 point sinc interpolation.
+Other values are also accepted but will be interpreted as 0 or 3, depending on whether they are lower or higher.
+</p>
+<p>
+When a channel has a different sample rate to what the output device is using,
+the channel&#39;s sample data will need to be converted to match the output device&#39;s rate during playback.
+This attribute determines how that is done.
+The linear interpolation option uses less CPU, but the sinc interpolation gives better sound quality (less aliasing),
+with the quality and CPU usage increasing with the number of points.
+A good compromise for lower spec systems could be to use sinc interpolation for music playback and linear interpolation for sound effects.
+</p>
+<p>
+Whenever possible, a channel&#39;s sample rate should match the output device&#39;s rate to avoid the need for any sample rate conversion.
+The device&#39;s sample rate could be used in <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_Int32_System_Int32_ManagedBass_BassFlags_ManagedBass_StreamProcedure_System_IntPtr_">CreateStream(Int32, Int32, BassFlags, StreamProcedure, IntPtr)</a>
+or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_MusicLoad_System_String_System_Int64_System_Int32_ManagedBass_BassFlags_System_Int32_">MusicLoad(String, Int64, Int32, BassFlags, Int32)</a> or <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi">BassMidi</a> stream creation calls, for example.
+</p>
+<p>
+The sample rate conversion occurs (when required) during playback,
+after the sample data has left the channel&#39;s playback Buffer, so it does not affect the data delivered by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetData_System_Int32_System_IntPtr_System_Int32_">ChannelGetData(Int32, IntPtr, Int32)</a>.
+Although this attribute has no direct effect on decoding channels,
+it is still available so that it can be used by the <a class="xref" href="ManagedBass.Mix.BassMix.html#ManagedBass_Mix_BassMix">BassMix</a> add-on and anything else that wants to use it.
+</p>
+<p>
+This attribute can be set at any time, and changes take immediate effect.
+A channel&#39;s initial setting is determined by the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_SRCQuality">SRCQuality</a> config option,
+or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_SampleSRCQuality">SampleSRCQuality</a> in the case of a sample channel.
+</p>
+<p><strong>Platform-specific</strong></p>
+<p>On Windows, sample rate conversion is handled by Windows or the output device/driver rather than BASS, so this setting has no effect on playback there.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">SampleRateConversion = 8</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L192">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_ScannedInfo" data-uid="ManagedBass.ChannelAttribute.ScannedInfo">ScannedInfo</h4>
+              <div class="markdown level1 summary"><p>The scanned info of a channel.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">ScannedInfo = 10</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L319">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_Tempo" data-uid="ManagedBass.ChannelAttribute.Tempo">Tempo</h4>
+              <div class="markdown level1 summary"><p>BassFx Tempo: The Tempo in percents (-95%..0..+5000%).</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">Tempo = 65536</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L342">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_TempoAAFilterLength" data-uid="ManagedBass.ChannelAttribute.TempoAAFilterLength">TempoAAFilterLength</h4>
+              <div class="markdown level1 summary"><p>BassFx Tempo Option: FIR low-pass (anti-alias) filter Length in taps (8 .. 128 taps, default = 32, should be %4).</p>
+<p>See <a class="xref" href="ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_TempoCreate_System_Int32_ManagedBass_BassFlags_">TempoCreate(Int32, BassFlags)</a> for details.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TempoAAFilterLength = 65553</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L329">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_TempoFrequency" data-uid="ManagedBass.ChannelAttribute.TempoFrequency">TempoFrequency</h4>
+              <div class="markdown level1 summary"><p>BassFx Tempo: The Samplerate in Hz, but calculates by the same % as <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_Tempo">Tempo</a>.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TempoFrequency = 65538</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L366">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_TempoOverlapMilliseconds" data-uid="ManagedBass.ChannelAttribute.TempoOverlapMilliseconds">TempoOverlapMilliseconds</h4>
+              <div class="markdown level1 summary"><p>BassFx Tempo Option: Tempo Overlap in milliseconds (default = 12).</p>
+<p>See <a class="xref" href="ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_TempoCreate_System_Int32_ManagedBass_BassFlags_">TempoCreate(Int32, BassFlags)</a> for details.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TempoOverlapMilliseconds = 65557</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L372">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_TempoPreventClick" data-uid="ManagedBass.ChannelAttribute.TempoPreventClick">TempoPreventClick</h4>
+              <div class="markdown level1 summary"><p>BassFx Tempo Option: Prevents clicks with tempo changes (default = FALSE).</p>
+<p>See <a class="xref" href="ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_TempoCreate_System_Int32_ManagedBass_BassFlags_">TempoCreate(Int32, BassFlags)</a> for details.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TempoPreventClick = 65558</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L360">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_TempoSeekWindowMilliseconds" data-uid="ManagedBass.ChannelAttribute.TempoSeekWindowMilliseconds">TempoSeekWindowMilliseconds</h4>
+              <div class="markdown level1 summary"><p>BassFx Tempo Option: SeekWindow in milliseconds (default = 14).</p>
+<p>See <a class="xref" href="ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_TempoCreate_System_Int32_ManagedBass_BassFlags_">TempoCreate(Int32, BassFlags)</a> for details.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TempoSeekWindowMilliseconds = 65556</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L354">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_TempoSequenceMilliseconds" data-uid="ManagedBass.ChannelAttribute.TempoSequenceMilliseconds">TempoSequenceMilliseconds</h4>
+              <div class="markdown level1 summary"><p>BassFx Tempo Option: Tempo Sequence in milliseconds (default = 82).</p>
+<p>See <a class="xref" href="ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_TempoCreate_System_Int32_ManagedBass_BassFlags_">TempoCreate(Int32, BassFlags)</a> for details.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TempoSequenceMilliseconds = 65555</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L336">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_TempoUseAAFilter" data-uid="ManagedBass.ChannelAttribute.TempoUseAAFilter">TempoUseAAFilter</h4>
+              <div class="markdown level1 summary"><p>BassFx Tempo Option: Use FIR low-pass (anti-alias) filter (gain speed, lose quality)? true=1 (default), false=0.</p>
+<p>See <a class="xref" href="ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_TempoCreate_System_Int32_ManagedBass_BassFlags_">TempoCreate(Int32, BassFlags)</a> for details.</p>
+<p>On iOS, Android, WinCE and Linux ARM platforms this is by default disabled for lower CPU usage.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TempoUseAAFilter = 65552</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L348">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_TempoUseQuickAlgorithm" data-uid="ManagedBass.ChannelAttribute.TempoUseQuickAlgorithm">TempoUseQuickAlgorithm</h4>
+              <div class="markdown level1 summary"><p>BassFx Tempo Option: Use quicker tempo change algorithm (gain speed, lose quality)? true=1, false=0 (default).</p>
+<p>See <a class="xref" href="ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_TempoCreate_System_Int32_ManagedBass_BassFlags_">TempoCreate(Int32, BassFlags)</a> for details.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TempoUseQuickAlgorithm = 65554</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ManagedBass/ManagedBass.PInvoke/blob/master/src/Shared/Bass/Enumerations/ChannelAttribute.cs/#L52">View Source</a>
+              </span>
+              <h4 id="ManagedBass_ChannelAttribute_Volume" data-uid="ManagedBass.ChannelAttribute.Volume">Volume</h4>
+              <div class="markdown level1 summary"><p>The volume level of a channel... 0 (silent) to 1 (full).</p>
+<p>This can go above 1.0 on decoding channels.</p>
+<p>
+This attribute applies to playback of the channel, and does not affect the
+channel&#39;s sample data, so has no real effect on decoding channels.
+It is still adjustable though, so that it can be used by the BassMix add-on,
+and anything else that wants to use it.
+</p>
+<p>
+When using <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSlideAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_System_Int32_">ChannelSlideAttribute(Int32, ChannelAttribute, Single, Int32)</a>
+to slide this attribute, a negative volume value can be used to fade-out and then stop the channel.
+</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">Volume = 2</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute">ChannelAttribute</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="extensionmethods">Extension Methods</h3>
+              <div>
+                  <a class="xref" href="ManagedBass.Extensions.html#ManagedBass_Extensions_Is__1___0___0___">Extensions.Is&lt;ChannelAttribute&gt;(ChannelAttribute[])</a>
+              </div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
