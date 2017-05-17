@@ -1,539 +1,825 @@
 ﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+  
   <head>
-    <!-- AdSense -->
-    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-4251360406988977",
-        enable_page_level_ads: true
-      });
-    </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>TagReader </title>
+    <title>Class TagReader
+   </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="TagReader <small>Class</small>
- ">
+    <meta name="title" content="Class TagReader
+   ">
+    <meta name="generator" content="docfx 2.17.4.2">
     
-    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
     <meta property="docfx:tocrel" content="toc.html">
+    
+    
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
       <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
             <div class="navbar-header">
-              <span class="navbar-brand">ManagedBass</span>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
             </div>
           </div>
         </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </header>
-      <div role="main" class="container-fluid body-content">
-        <div class="sidenav">
-          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
             <div id="sidetoc"></div>
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-9" id="articleContainer">
-            <div id="selector"></div>
-            <article class="content wrap" id="_content">
-              
-              <div class="contributionPanel">
-              </div>
-              
-              <h1 id="" data-uid="ManagedBass.TagReader">TagReader <small>Class</small>
-              </h1>
-              <div class="markdown level0 summary"><p>Reads tags from a File or a Channel depending on the <a class="xref" href="ManagedBass.ChannelType.html">ChannelType</a>.</p>
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ManagedBass.TagReader">
+  <h1 id="ManagedBass_TagReader" data-uid="ManagedBass.TagReader">Class TagReader
+  </h1>
+  <div class="markdown level0 summary"><p>Reads tags from a File or a Channel depending on the <a class="xref" href="ManagedBass.ChannelType.html">ChannelType</a>.</p>
 </div>
-
-              <div class="inheritance">
-                <h5>Inheritance</h5>
-                  <div class="level0" style="margin-left:0em"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
-                  <div class="level1" style="margin-left:1em"><a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties</a>&lt;<a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>&gt;</div>
-                  <div class="level2" style="margin-left:2em"><span class="xref">TagReader</span></div>
-              </div>
-              <div class="inheritedMembers">
-                <h5>Inherited Members</h5>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Title</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Artist</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Album</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.AlbumArtist</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Subtitle</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.BPM</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Composer</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Copyright</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Genre</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Grouping</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Publisher</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Encoder</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Lyricist</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Year</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Conductor</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Track</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Producer</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Comment</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Mood</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Rating</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.ISRC</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties&lt;String&gt;.Remixer</a>
-                </div>
-                <div>
-                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/7bxwbwt2(v=vs.110).aspx">Object.ToString()</a>
-                </div>
-                <div>
-                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/bsc2ak47(v=vs.110).aspx">Object.Equals(Object)</a>
-                </div>
-                <div>
-                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/w4hkze5k(v=vs.110).aspx">Object.Equals(Object, Object)</a>
-                </div>
-                <div>
-                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/hz2a0b8x(v=vs.110).aspx">Object.ReferenceEquals(Object, Object)</a>
-                </div>
-                <div>
-                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/zdee4b3y(v=vs.110).aspx">Object.GetHashCode()</a>
-                </div>
-                <div>
-                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/dfwy45w9(v=vs.110).aspx">Object.GetType()</a>
-                </div>
-                <div>
-                  <a class="xref" href="https://msdn.microsoft.com/en-us/library/57ctke0a(v=vs.110).aspx">Object.MemberwiseClone()</a>
-                </div>
-              </div>
-              
-              <h6><strong>Namespace</strong>: ManagedBass</h6>
-              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
-              <h5 id="_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public sealed class TagReader : TagProperties&lt;string&gt;</code></pre>
-              </div>
-              <div class="markdown level0 conceptual"></div>
-              <h3 id="properties">
-                Properties
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.Lyrics" data-uid="ManagedBass.TagReader.Lyrics">
-                <a href="#collapsible-ManagedBass.TagReader.Lyrics" data-toggle="collapse" class="expander">
-                  Lyrics
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.Lyrics" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Gets the Lyrics.</p>
+  <div class="markdown level0 conceptual"></div>
+  
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
+    <div class="level1"><a class="xref" href="ManagedBass.TagProperties-1.html">TagProperties</a>&lt;<a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>&gt;</div>
+    <div class="level2"><span class="xref">TagReader</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Title">TagProperties&lt;String&gt;.Title</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Artist">TagProperties&lt;String&gt;.Artist</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Album">TagProperties&lt;String&gt;.Album</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_AlbumArtist">TagProperties&lt;String&gt;.AlbumArtist</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Subtitle">TagProperties&lt;String&gt;.Subtitle</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_BPM">TagProperties&lt;String&gt;.BPM</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Composer">TagProperties&lt;String&gt;.Composer</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Copyright">TagProperties&lt;String&gt;.Copyright</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Genre">TagProperties&lt;String&gt;.Genre</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Grouping">TagProperties&lt;String&gt;.Grouping</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Publisher">TagProperties&lt;String&gt;.Publisher</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Encoder">TagProperties&lt;String&gt;.Encoder</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Lyricist">TagProperties&lt;String&gt;.Lyricist</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Year">TagProperties&lt;String&gt;.Year</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Conductor">TagProperties&lt;String&gt;.Conductor</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Track">TagProperties&lt;String&gt;.Track</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Producer">TagProperties&lt;String&gt;.Producer</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Comment">TagProperties&lt;String&gt;.Comment</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Mood">TagProperties&lt;String&gt;.Mood</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Rating">TagProperties&lt;String&gt;.Rating</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_ISRC">TagProperties&lt;String&gt;.ISRC</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.TagProperties-1.html#ManagedBass_TagProperties_1_Remixer">TagProperties&lt;String&gt;.Remixer</a>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
+  
+  <h5 id="ManagedBass_TagReader_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class TagReader : TagProperties&lt;string&gt;</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_Lyrics.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.Lyrics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L26" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_Lyrics_" data-uid="ManagedBass.TagReader.Lyrics*"></a>
+  
+  <h4 id="ManagedBass_TagReader_Lyrics" data-uid="ManagedBass.TagReader.Lyrics"><a href="#collapsible-ManagedBass_TagReader_Lyrics" class="expander" data-toggle="collapse">Lyrics</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_Lyrics" class="collapse in">
+  <div class="markdown level1 summary"><p>Gets the Lyrics.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string Lyrics { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.Other" data-uid="ManagedBass.TagReader.Other">
-                <a href="#collapsible-ManagedBass.TagReader.Other" data-toggle="collapse" class="expander">
-                  Other
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.Other" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Provides tags that didn&#39;t fit into any Properties.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Lyrics { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_Other.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.Other%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L16" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_Other_" data-uid="ManagedBass.TagReader.Other*"></a>
+  
+  <h4 id="ManagedBass_TagReader_Other" data-uid="ManagedBass.TagReader.Other"><a href="#collapsible-ManagedBass_TagReader_Other" class="expander" data-toggle="collapse">Other</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_Other" class="collapse in">
+  <div class="markdown level1 summary"><p>Provides tags that didn&#39;t fit into any Properties.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; Other { get; }</code></pre>
-              </div>
-              <em>Type</em>: <span class="xref">Dictionary</span>&lt;<a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>, <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>&gt;
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.Pictures" data-uid="ManagedBass.TagReader.Pictures">
-                <a href="#collapsible-ManagedBass.TagReader.Pictures" data-toggle="collapse" class="expander">
-                  Pictures
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.Pictures" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Provides the Pictures read from File/Channel.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; Other { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">Dictionary</span>&lt;<a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>, <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_Pictures.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.Pictures%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L21" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_Pictures_" data-uid="ManagedBass.TagReader.Pictures*"></a>
+  
+  <h4 id="ManagedBass_TagReader_Pictures" data-uid="ManagedBass.TagReader.Pictures"><a href="#collapsible-ManagedBass_TagReader_Pictures" class="expander" data-toggle="collapse">Pictures</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_Pictures" class="collapse in">
+  <div class="markdown level1 summary"><p>Provides the Pictures read from File/Channel.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public List&lt;PictureTag&gt; Pictures { get; }</code></pre>
-              </div>
-              <em>Type</em>: <span class="xref">List</span>&lt;<a class="xref" href="ManagedBass.PictureTag.html">PictureTag</a>&gt;
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <h3 id="methods">
-                Methods
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.Read(System.Int32)" data-uid="ManagedBass.TagReader.Read(System.Int32)">
-                <a href="#collapsible-ManagedBass.TagReader.Read(System.Int32)" data-toggle="collapse" class="expander">
-                  Read(Int32)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.Read(System.Int32)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Reads tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;PictureTag&gt; Pictures { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">List</span>&lt;<a class="xref" href="ManagedBass.PictureTag.html">PictureTag</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_Read_System_Int32_.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.Read(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L66" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_Read_" data-uid="ManagedBass.TagReader.Read*"></a>
+  
+  <h4 id="ManagedBass_TagReader_Read_System_Int32_" data-uid="ManagedBass.TagReader.Read(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_Read_System_Int32_" class="expander" data-toggle="collapse">Read(Int32)</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_Read_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"><p>Reads tags from a <span class="paramref">Channel</span>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static TagReader Read(int Channel)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>Channel</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
-                      <p class="padTop">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <em>Returns</em>: <a class="xref" href="ManagedBass.TagReader.html">TagReader</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.Read(System.String)" data-uid="ManagedBass.TagReader.Read(System.String)">
-                <a href="#collapsible-ManagedBass.TagReader.Read(System.String)" data-toggle="collapse" class="expander">
-                  Read(String)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.Read(System.String)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Reads tags from a File.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TagReader Read(int Channel)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
+        <span class="parametername">Channel</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ManagedBass.TagReader.html">TagReader</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_Read_System_String_.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.Read(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L31" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_Read_" data-uid="ManagedBass.TagReader.Read*"></a>
+  
+  <h4 id="ManagedBass_TagReader_Read_System_String_" data-uid="ManagedBass.TagReader.Read(System.String)"><a href="#collapsible-ManagedBass_TagReader_Read_System_String_" class="expander" data-toggle="collapse">Read(String)</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_Read_System_String_" class="collapse in">
+  <div class="markdown level1 summary"><p>Reads tags from a File.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static TagReader Read(string FileName)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>FileName</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
-                      <p class="padTop">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <em>Returns</em>: <a class="xref" href="ManagedBass.TagReader.html">TagReader</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.ReadApe(System.Int32)" data-uid="ManagedBass.TagReader.ReadApe(System.Int32)">
-                <a href="#collapsible-ManagedBass.TagReader.ReadApe(System.Int32)" data-toggle="collapse" class="expander">
-                  ReadApe(Int32)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.ReadApe(System.Int32)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html">APE</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TagReader Read(string FileName)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></span>
+        <span class="parametername">FileName</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ManagedBass.TagReader.html">TagReader</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_ReadApe_System_Int32_.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.ReadApe(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L235" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_ReadApe_" data-uid="ManagedBass.TagReader.ReadApe*"></a>
+  
+  <h4 id="ManagedBass_TagReader_ReadApe_System_Int32_" data-uid="ManagedBass.TagReader.ReadApe(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadApe_System_Int32_" class="expander" data-toggle="collapse">ReadApe(Int32)</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_ReadApe_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_APE">APE</a> tags from a <span class="paramref">Channel</span>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool ReadApe(int Channel)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>Channel</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
-                      <p class="padTop">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.ReadBWF(System.Int32)" data-uid="ManagedBass.TagReader.ReadBWF(System.Int32)">
-                <a href="#collapsible-ManagedBass.TagReader.ReadBWF(System.Int32)" data-toggle="collapse" class="expander">
-                  ReadBWF(Int32)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.ReadBWF(System.Int32)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html">RiffBext</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReadApe(int Channel)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
+        <span class="parametername">Channel</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_ReadBWF_System_Int32_.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.ReadBWF(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L350" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_ReadBWF_" data-uid="ManagedBass.TagReader.ReadBWF*"></a>
+  
+  <h4 id="ManagedBass_TagReader_ReadBWF_System_Int32_" data-uid="ManagedBass.TagReader.ReadBWF(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadBWF_System_Int32_" class="expander" data-toggle="collapse">ReadBWF(Int32)</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_ReadBWF_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_RiffBext">RiffBext</a> tags from a <span class="paramref">Channel</span>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool ReadBWF(int Channel)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>Channel</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
-                      <p class="padTop">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.ReadID3v1(System.Int32)" data-uid="ManagedBass.TagReader.ReadID3v1(System.Int32)">
-                <a href="#collapsible-ManagedBass.TagReader.ReadID3v1(System.Int32)" data-toggle="collapse" class="expander">
-                  ReadID3v1(Int32)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.ReadID3v1(System.Int32)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html">ID3</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReadBWF(int Channel)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
+        <span class="parametername">Channel</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_ReadID3v1_System_Int32_.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.ReadID3v1(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L306" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_ReadID3v1_" data-uid="ManagedBass.TagReader.ReadID3v1*"></a>
+  
+  <h4 id="ManagedBass_TagReader_ReadID3v1_System_Int32_" data-uid="ManagedBass.TagReader.ReadID3v1(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadID3v1_System_Int32_" class="expander" data-toggle="collapse">ReadID3v1(Int32)</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_ReadID3v1_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_ID3">ID3</a> tags from a <span class="paramref">Channel</span>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool ReadID3v1(int Channel)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>Channel</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
-                      <p class="padTop">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.ReadID3v2(System.Int32)" data-uid="ManagedBass.TagReader.ReadID3v2(System.Int32)">
-                <a href="#collapsible-ManagedBass.TagReader.ReadID3v2(System.Int32)" data-toggle="collapse" class="expander">
-                  ReadID3v2(Int32)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.ReadID3v2(System.Int32)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html">ID3v2</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReadID3v1(int Channel)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
+        <span class="parametername">Channel</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_ReadID3v2_System_Int32_.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.ReadID3v2(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L329" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_ReadID3v2_" data-uid="ManagedBass.TagReader.ReadID3v2*"></a>
+  
+  <h4 id="ManagedBass_TagReader_ReadID3v2_System_Int32_" data-uid="ManagedBass.TagReader.ReadID3v2(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadID3v2_System_Int32_" class="expander" data-toggle="collapse">ReadID3v2(Int32)</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_ReadID3v2_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_ID3v2">ID3v2</a> tags from a <span class="paramref">Channel</span>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool ReadID3v2(int Channel)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>Channel</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
-                      <p class="padTop">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.ReadMp4(System.Int32)" data-uid="ManagedBass.TagReader.ReadMp4(System.Int32)">
-                <a href="#collapsible-ManagedBass.TagReader.ReadMp4(System.Int32)" data-toggle="collapse" class="expander">
-                  ReadMp4(Int32)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.ReadMp4(System.Int32)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html">MP4</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReadID3v2(int Channel)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
+        <span class="parametername">Channel</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_ReadMp4_System_Int32_.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.ReadMp4(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L290" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_ReadMp4_" data-uid="ManagedBass.TagReader.ReadMp4*"></a>
+  
+  <h4 id="ManagedBass_TagReader_ReadMp4_System_Int32_" data-uid="ManagedBass.TagReader.ReadMp4(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadMp4_System_Int32_" class="expander" data-toggle="collapse">ReadMp4(Int32)</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_ReadMp4_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_MP4">MP4</a> tags from a <span class="paramref">Channel</span>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool ReadMp4(int Channel)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>Channel</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
-                      <p class="padTop">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.ReadOgg(System.Int32)" data-uid="ManagedBass.TagReader.ReadOgg(System.Int32)">
-                <a href="#collapsible-ManagedBass.TagReader.ReadOgg(System.Int32)" data-toggle="collapse" class="expander">
-                  ReadOgg(Int32)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.ReadOgg(System.Int32)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html">OGG</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReadMp4(int Channel)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
+        <span class="parametername">Channel</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_ReadOgg_System_Int32_.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.ReadOgg(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L251" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_ReadOgg_" data-uid="ManagedBass.TagReader.ReadOgg*"></a>
+  
+  <h4 id="ManagedBass_TagReader_ReadOgg_System_Int32_" data-uid="ManagedBass.TagReader.ReadOgg(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadOgg_System_Int32_" class="expander" data-toggle="collapse">ReadOgg(Int32)</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_ReadOgg_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_OGG">OGG</a> tags from a <span class="paramref">Channel</span>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool ReadOgg(int Channel)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>Channel</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
-                      <p class="padTop">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.TagReader.ReadRiffInfo(System.Int32)" data-uid="ManagedBass.TagReader.ReadRiffInfo(System.Int32)">
-                <a href="#collapsible-ManagedBass.TagReader.ReadRiffInfo(System.Int32)" data-toggle="collapse" class="expander">
-                  ReadRiffInfo(Int32)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.TagReader.ReadRiffInfo(System.Int32)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html">RiffInfo</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReadOgg(int Channel)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
+        <span class="parametername">Channel</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader_ReadRiffInfo_System_Int32_.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader.ReadRiffInfo(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L274" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_TagReader_ReadRiffInfo_" data-uid="ManagedBass.TagReader.ReadRiffInfo*"></a>
+  
+  <h4 id="ManagedBass_TagReader_ReadRiffInfo_System_Int32_" data-uid="ManagedBass.TagReader.ReadRiffInfo(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadRiffInfo_System_Int32_" class="expander" data-toggle="collapse">ReadRiffInfo(Int32)</a></h4>
+  
+  <div id="collapsible-ManagedBass_TagReader_ReadRiffInfo_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_RiffInfo">RiffInfo</a> tags from a <span class="paramref">Channel</span>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool ReadRiffInfo(int Channel)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>Channel</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
-                      <p class="padTop">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              
-            </article>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReadRiffInfo(int Channel)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
+        <span class="parametername">Channel</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
           </div>
-          <!-- Affix -->
-          <div class="hidden-sm col-md-3" role="complementary">
-            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            </nav>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_TagReader.md&amp;value=---%0Auid%3A%20ManagedBass.TagReader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Tags/Objects/TagReader.cs/#L11" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
           </div>
         </div>
       </div>
-
-      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
-
-    <script src="../styles/docfx.js"></script>
-    <script src="../styles/main.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>

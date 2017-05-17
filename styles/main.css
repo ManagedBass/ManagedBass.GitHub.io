@@ -1,3 +1,34 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css");
+
+#search {
+  border: none;
+}
+
+.sidetoc,
+body .toc,
+.sidefilter,
+.sidetoggle { 
+  background-color: #f9fbe7; 
+}
+
+.sidenav,
+.toc-toggle {
+  padding: 0;
+}
+
+.sidetoggle {
+  padding-bottom: 15px;
+}
+
+.collapse.in,
+.collapsing {
+  text-align: unset;
+}
+
+article h4 {
+  border-bottom: none;
+}
+
 .expander:after {
     font-family: 'Glyphicons Halflings';
     content: "\e260";
@@ -27,54 +58,165 @@
     transform: scale(1.1);
 }
 
-.contributionPanel {
-    z-index: 9999;
+.fab + .fab {
+  margin-right: 15px;
+}
+
+.contribution-panel {
+    z-index: 1000;
     position: fixed;
     right: 30px;
-    top: 20px;
+    top: 70px;
 }
 
-a.back-to-top {
-    background-color:#F44336;
-    background:#F44336;
-    color: white;
-    display: none;
-    z-index: 9999;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
+@media (min-width: 768px) {
+  .sidetoc, .sidefilter {
+    margin-left: -15px;
+  }
 }
 
-#toc_filter_input {
-    width: 100%;
+@media (max-width: 767px) {
+  .navbar-collapse {
+    text-align: center !important;
+  }
+
+  .navbar-collapse li .active {
+    border-radius: 20px;
+  }
 }
 
-#selector {
-    margin-top: 10px;
+/* sidebar */
+.affix h5 {
+  display: none;
 }
 
-.glyphicon-menu-left {
-    padding-right: -8px;
+/* active & hover links */
+.affix ul > li > a:hover,
+.affix ul > li.active > a,
+.affix ul > li > a:focus {
+  color: #563d7c;                 
+  text-decoration: none;          
+  background-color: transparent;  
+  border-left-color: #563d7c; 
 }
 
-.sidetoc,
-body .toc,
-.sidefilter { 
-  background-color: #f9fbe7; 
-} 
-
-article .collapse {
-    padding-left: 0;
+/* all active links */
+.affix ul > li.active > a, 
+.affix ul > li.active:hover > a,
+.affix ul > li.active:focus >a {
+    font-weight: 700;
 }
 
-.padTop {
-    padding-top: 5px;
+/* nested active links */
+.affix ul ul > li.active > a, 
+.affix ul ul > li.active:hover > a,
+.affix ul ul > li.active:focus > a {
+    font-weight: 500;
 }
 
+/* all links */
+.affix ul > li > a {
+  color: #999;
+  border-left: 2px solid transparent;
+  padding: 4px 20px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* nested links */
+.affix ul ul > li > a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 30px;
+  font-size: 12px;
+}
+
+/* hide inactive nested list */
+.affix ul ul {
+  display: none;
+}
+
+/* show active nested list */
+.affix ul > li.active > ul {
+  display: block;
+}
+
+.affix > ul > li > a:before {
+  content: '';
+}
+
+.affix ul ul > li > a:before {
+  content: '';
+}
+
+/* custom navbar */
 .navbar-inverse {
-    background-color: #00897b;
+  background-color: #318f7c;
+  opacity: 0.95;
+  border-color: #02735f;
+}
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #ecdbff;
+}
+.navbar-inverse .navbar-text {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ecdbff;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ecdbff;
+  background-color: #02735f;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #ecdbff;
+  background-color: #02735f;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #02735f;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #02735f;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border: none;
+}
+.navbar-inverse .navbar-link {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-link:hover {
+  color: #ecdbff;
 }
 
-.navbar .navbar-brand {
-    color: white;
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #02735f;
+  }
 }

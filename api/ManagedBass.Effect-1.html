@@ -1,325 +1,548 @@
 ﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+  
   <head>
-    <!-- AdSense -->
-    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-4251360406988977",
-        enable_page_level_ads: true
-      });
-    </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Effect&lt;T&gt; </title>
+    <title>Class Effect&lt;T&gt;
+   </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Effect&lt;T&gt; <small>Class</small>
- ">
+    <meta name="title" content="Class Effect&lt;T&gt;
+   ">
+    <meta name="generator" content="docfx 2.17.4.2">
     
-    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
     <meta property="docfx:tocrel" content="toc.html">
+    
+    
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
       <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
             <div class="navbar-header">
-              <span class="navbar-brand">ManagedBass</span>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
             </div>
           </div>
         </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </header>
-      <div role="main" class="container-fluid body-content">
-        <div class="sidenav">
-          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
             <div id="sidetoc"></div>
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-9" id="articleContainer">
-            <div id="selector"></div>
-            <article class="content wrap" id="_content">
-              
-              <div class="contributionPanel">
-              </div>
-              
-              <h1 id="" data-uid="ManagedBass.Effect`1">Effect&lt;T&gt; <small>Class</small>
-              </h1>
-              <div class="markdown level0 summary"><p>Wraps a Bass Effect such that you don&#39;t need to touch the Bass functions to Handle it.</p>
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ManagedBass.Effect`1">
+  <h1 id="ManagedBass_Effect_1" data-uid="ManagedBass.Effect`1">Class Effect&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Wraps a Bass Effect such that you don&#39;t need to touch the Bass functions to Handle it.</p>
 </div>
-
-              <div class="inheritance">
-                <h5>Inheritance</h5>
-                  <div class="level0" style="margin-left:0em"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
-                  <div class="level1" style="margin-left:1em"><span class="xref">Effect&lt;T&gt;</span></div>
-              </div>
-              
-              <h6><strong>Namespace</strong>: ManagedBass</h6>
-              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
-              <h5 id="_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public abstract class Effect&lt;T&gt; : INotifyPropertyChanged, IDisposable where T : class, IEffectParameter, new ()</code></pre>
-              </div>
-              <h5 class="typeParameters">Type Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>
-                    <td>
-                      <em>T</em>
-                      <p><p>Type of the <a class="xref" href="ManagedBass.IEffectParameter.html">IEffectParameter</a></p>
+  <div class="markdown level0 conceptual"></div>
+  
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
+    <div class="level1"><span class="xref">Effect&lt;T&gt;</span></div>
+  </div>
+  
+      <div class="level2"><a class="xref" href="ManagedBass.DirectX8.DX_ID3DL2ReverbEffect.html">DX_ID3DL2ReverbEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.DirectX8.DXChorusEffect.html">DXChorusEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.DirectX8.DXCompressorEffect.html">DXCompressorEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.DirectX8.DXDistortionEffect.html">DXDistortionEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.DirectX8.DXEchoEffect.html">DXEchoEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.DirectX8.DXFlangerEffect.html">DXFlangerEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.DirectX8.DXGargleEffect.html">DXGargleEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.DirectX8.DXParamEQEffect.html">DXParamEQEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.DirectX8.DXReverbEffect.html">DXReverbEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.AutoWahEffect.html">AutoWahEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.BQFEffect.html">BQFEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.ChorusEffect.html">ChorusEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.CompressorEffect.html">CompressorEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.DampEffect.html">DampEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.DistortionEffect.html">DistortionEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.EchoEffect.html">EchoEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.PhaserEffect.html">PhaserEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.PitchShiftEffect.html">PitchShiftEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.ReverbEffect.html">ReverbEffect</a></div>
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.RotateEffect.html">RotateEffect</a></div>
+  
+  
+  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
+  
+  <h5 id="ManagedBass_Effect_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Effect&lt;T&gt; : INotifyPropertyChanged, IDisposable where T : class, IEffectParameter, new ()</code></pre>
+  </div>
+  
+  
+  
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="parametername">T</span>
+        <p><p>Type of the <a class="xref" href="ManagedBass.IEffectParameter.html">IEffectParameter</a></p>
 </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="markdown level0 conceptual"></div>
-              <h3 id="properties">
-                Properties
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Effect`1.IsActive" data-uid="ManagedBass.Effect`1.IsActive">
-                <a href="#collapsible-ManagedBass.Effect`1.IsActive" data-toggle="collapse" class="expander">
-                  IsActive
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Effect`1.IsActive" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Checks whether the effect is currently enabled and active.</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Effect_1_IsActive.md&amp;value=---%0Auid%3A%20ManagedBass.Effect%601.IsActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Effects/Objects/Effect Base.cs/#L82" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Effect_1_IsActive_" data-uid="ManagedBass.Effect`1.IsActive*"></a>
+  
+  <h4 id="ManagedBass_Effect_1_IsActive" data-uid="ManagedBass.Effect`1.IsActive"><a href="#collapsible-ManagedBass_Effect_1_IsActive" class="expander" data-toggle="collapse">IsActive</a></h4>
+  
+  <div id="collapsible-ManagedBass_Effect_1_IsActive" class="collapse in">
+  <div class="markdown level1 summary"><p>Checks whether the effect is currently enabled and active.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool IsActive { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Effect`1.Parameters" data-uid="ManagedBass.Effect`1.Parameters">
-                <a href="#collapsible-ManagedBass.Effect`1.Parameters" data-toggle="collapse" class="expander">
-                  Parameters
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Effect`1.Parameters" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Effect&#39;s Parameters.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsActive { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Effect_1_Parameters.md&amp;value=---%0Auid%3A%20ManagedBass.Effect%601.Parameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Effects/Objects/Effect Base.cs/#L20" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Effect_1_Parameters_" data-uid="ManagedBass.Effect`1.Parameters*"></a>
+  
+  <h4 id="ManagedBass_Effect_1_Parameters" data-uid="ManagedBass.Effect`1.Parameters"><a href="#collapsible-ManagedBass_Effect_1_Parameters" class="expander" data-toggle="collapse">Parameters</a></h4>
+  
+  <div id="collapsible-ManagedBass_Effect_1_Parameters" class="collapse in">
+  <div class="markdown level1 summary"><p>Effect&#39;s Parameters.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">protected T Parameters { get; }</code></pre>
-              </div>
-              <em>Type</em>: <span class="xref">T</span>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Effect`1.Priority" data-uid="ManagedBass.Effect`1.Priority">
-                <a href="#collapsible-ManagedBass.Effect`1.Priority" data-toggle="collapse" class="expander">
-                  Priority
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Effect`1.Priority" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Priority of the Effect in DSP chain.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected T Parameters { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">T</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Effect_1_Priority.md&amp;value=---%0Auid%3A%20ManagedBass.Effect%601.Priority%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Effects/Objects/Effect Base.cs/#L43" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Effect_1_Priority_" data-uid="ManagedBass.Effect`1.Priority*"></a>
+  
+  <h4 id="ManagedBass_Effect_1_Priority" data-uid="ManagedBass.Effect`1.Priority"><a href="#collapsible-ManagedBass_Effect_1_Priority" class="expander" data-toggle="collapse">Priority</a></h4>
+  
+  <div id="collapsible-ManagedBass_Effect_1_Priority" class="collapse in">
+  <div class="markdown level1 summary"><p>Priority of the Effect in DSP chain.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public int Priority { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <h3 id="methods">
-                Methods
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Effect`1.ApplyOn(System.Int32,System.Int32)" data-uid="ManagedBass.Effect`1.ApplyOn(System.Int32,System.Int32)">
-                <a href="#collapsible-ManagedBass.Effect`1.ApplyOn(System.Int32,System.Int32)" data-toggle="collapse" class="expander">
-                  ApplyOn(Int32, Int32)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Effect`1.ApplyOn(System.Int32,System.Int32)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Applies the Effect on a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Priority { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Effect_1_ApplyOn_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ManagedBass.Effect%601.ApplyOn(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Effects/Objects/Effect Base.cs/#L27" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Effect_1_ApplyOn_" data-uid="ManagedBass.Effect`1.ApplyOn*"></a>
+  
+  <h4 id="ManagedBass_Effect_1_ApplyOn_System_Int32_System_Int32_" data-uid="ManagedBass.Effect`1.ApplyOn(System.Int32,System.Int32)"><a href="#collapsible-ManagedBass_Effect_1_ApplyOn_System_Int32_System_Int32_" class="expander" data-toggle="collapse">ApplyOn(Int32, Int32)</a></h4>
+  
+  <div id="collapsible-ManagedBass_Effect_1_ApplyOn_System_Int32_System_Int32_" class="collapse in">
+  <div class="markdown level1 summary"><p>Applies the Effect on a <span class="paramref">Channel</span>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void ApplyOn(int Channel, int Priority = 0)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>Channel</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
-                      <p class="padTop"><p>The Channel to apply the Effect on.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyOn(int Channel, int Priority = 0)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
+        <span class="parametername">Channel</span>
+        <p><p>The Channel to apply the Effect on.</p>
 </p>
-                    </td>
-                  </tr>
-                  <tr>      
-                    <td>
-                      <em>Priority</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
-                      <p class="padTop"><p>Priority of the Effect in DSP chain.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
+        <span class="parametername">Priority</span>
+        <p><p>Priority of the Effect in DSP chain.</p>
 </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Effect`1.Default" data-uid="ManagedBass.Effect`1.Default">
-                <a href="#collapsible-ManagedBass.Effect`1.Default" data-toggle="collapse" class="expander">
-                  Default()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Effect`1.Default" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Sets the effect parameters to default by initialising a new instance of <span class="typeparamref">T</span>.</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Effect_1_Default.md&amp;value=---%0Auid%3A%20ManagedBass.Effect%601.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Effects/Objects/Effect Base.cs/#L69" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Effect_1_Default_" data-uid="ManagedBass.Effect`1.Default*"></a>
+  
+  <h4 id="ManagedBass_Effect_1_Default" data-uid="ManagedBass.Effect`1.Default"><a href="#collapsible-ManagedBass_Effect_1_Default" class="expander" data-toggle="collapse">Default()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Effect_1_Default" class="collapse in">
+  <div class="markdown level1 summary"><p>Sets the effect parameters to default by initialising a new instance of <span class="typeparamref">T</span>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void Default()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Effect`1.Dispose" data-uid="ManagedBass.Effect`1.Dispose">
-                <a href="#collapsible-ManagedBass.Effect`1.Dispose" data-toggle="collapse" class="expander">
-                  Dispose()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Effect`1.Dispose" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Removes the effect from the Channel and frees allocated memory.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Default()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Effect_1_Dispose.md&amp;value=---%0Auid%3A%20ManagedBass.Effect%601.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Effects/Objects/Effect Base.cs/#L56" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Effect_1_Dispose_" data-uid="ManagedBass.Effect`1.Dispose*"></a>
+  
+  <h4 id="ManagedBass_Effect_1_Dispose" data-uid="ManagedBass.Effect`1.Dispose"><a href="#collapsible-ManagedBass_Effect_1_Dispose" class="expander" data-toggle="collapse">Dispose()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Effect_1_Dispose" class="collapse in">
+  <div class="markdown level1 summary"><p>Removes the effect from the Channel and frees allocated memory.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
-              </div>
-              <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="https://msdn.microsoft.com/en-us/library/es4s3w1d(v=vs.110).aspx">IDisposable.Dispose()</a></div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Effect`1.OnPreset" data-uid="ManagedBass.Effect`1.OnPreset">
-                <a href="#collapsible-ManagedBass.Effect`1.OnPreset" data-toggle="collapse" class="expander">
-                  OnPreset()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Effect`1.OnPreset" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Called after applying a Preset to notify that multiple properties have changed.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Effect_1_OnPreset.md&amp;value=---%0Auid%3A%20ManagedBass.Effect%601.OnPreset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Effects/Objects/Effect Base.cs/#L103" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Effect_1_OnPreset_" data-uid="ManagedBass.Effect`1.OnPreset*"></a>
+  
+  <h4 id="ManagedBass_Effect_1_OnPreset" data-uid="ManagedBass.Effect`1.OnPreset"><a href="#collapsible-ManagedBass_Effect_1_OnPreset" class="expander" data-toggle="collapse">OnPreset()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Effect_1_OnPreset" class="collapse in">
+  <div class="markdown level1 summary"><p>Called after applying a Preset to notify that multiple properties have changed.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">protected void OnPreset()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Effect`1.OnPropertyChanged(System.String)" data-uid="ManagedBass.Effect`1.OnPropertyChanged(System.String)">
-                <a href="#collapsible-ManagedBass.Effect`1.OnPropertyChanged(System.String)" data-toggle="collapse" class="expander">
-                  OnPropertyChanged(String)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Effect`1.OnPropertyChanged(System.String)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Fires the <a class="xref" href="ManagedBass.Effect-1.html">PropertyChanged</a> event.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnPreset()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Effect_1_OnPropertyChanged_System_String_.md&amp;value=---%0Auid%3A%20ManagedBass.Effect%601.OnPropertyChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Effects/Objects/Effect Base.cs/#L113" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Effect_1_OnPropertyChanged_" data-uid="ManagedBass.Effect`1.OnPropertyChanged*"></a>
+  
+  <h4 id="ManagedBass_Effect_1_OnPropertyChanged_System_String_" data-uid="ManagedBass.Effect`1.OnPropertyChanged(System.String)"><a href="#collapsible-ManagedBass_Effect_1_OnPropertyChanged_System_String_" class="expander" data-toggle="collapse">OnPropertyChanged(String)</a></h4>
+  
+  <div id="collapsible-ManagedBass_Effect_1_OnPropertyChanged_System_String_" class="collapse in">
+  <div class="markdown level1 summary"><p>Fires the <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_PropertyChanged">PropertyChanged</a> event.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string PropertyName = null)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>PropertyName</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
-                      <p class="padTop">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <h3 id="events">
-                Events
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Effect`1.PropertyChanged" data-uid="ManagedBass.Effect`1.PropertyChanged">
-                <a href="#collapsible-ManagedBass.Effect`1.PropertyChanged" data-toggle="collapse" class="expander">
-                  PropertyChanged
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Effect`1.PropertyChanged" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Fired when a property value changes.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string PropertyName = null)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></span>
+        <span class="parametername">PropertyName</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Effect_1_PropertyChanged.md&amp;value=---%0Auid%3A%20ManagedBass.Effect%601.PropertyChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Effects/Objects/Effect Base.cs/#L108" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  
+  <h4 id="ManagedBass_Effect_1_PropertyChanged" data-uid="ManagedBass.Effect`1.PropertyChanged"><a href="#collapsible-ManagedBass_Effect_1_PropertyChanged" class="expander" data-toggle="collapse">PropertyChanged</a></h4>
+  
+  <div id="collapsible-ManagedBass_Effect_1_PropertyChanged" class="collapse in">
+  <div class="markdown level1 summary"><p>Fired when a property value changes.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
-              </div>
-              <em>Event Type</em>: <span class="xref">PropertyChangedEventHandler</span>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              
-            </article>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  <h5 class="eventType">Event Type</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">PropertyChangedEventHandler</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
           </div>
-          <!-- Affix -->
-          <div class="hidden-sm col-md-3" role="complementary">
-            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            </nav>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Effect_1.md&amp;value=---%0Auid%3A%20ManagedBass.Effect%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Effects/Objects/Effect Base.cs/#L12" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
           </div>
         </div>
       </div>
-
-      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
-
-    <script src="../styles/docfx.js"></script>
-    <script src="../styles/main.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>

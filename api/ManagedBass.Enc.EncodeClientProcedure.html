@@ -1,162 +1,197 @@
 ﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+  
   <head>
-    <!-- AdSense -->
-    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-4251360406988977",
-        enable_page_level_ads: true
-      });
-    </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>EncodeClientProcedure </title>
+    <title>Delegate EncodeClientProcedure
+   </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="EncodeClientProcedure <small>Delegate</small>
- ">
+    <meta name="title" content="Delegate EncodeClientProcedure
+   ">
+    <meta name="generator" content="docfx 2.17.4.2">
     
-    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
     <meta property="docfx:tocrel" content="toc.html">
+    
+    
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
       <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
             <div class="navbar-header">
-              <span class="navbar-brand">ManagedBass</span>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
             </div>
           </div>
         </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </header>
-      <div role="main" class="container-fluid body-content">
-        <div class="sidenav">
-          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
             <div id="sidetoc"></div>
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-9" id="articleContainer">
-            <div id="selector"></div>
-            <article class="content wrap" id="_content">
-              
-              <div class="contributionPanel">
-              </div>
-              
-              <h1 id="" data-uid="ManagedBass.Enc.EncodeClientProcedure">EncodeClientProcedure <small>Delegate</small>
-              </h1>
-              <div class="markdown level0 summary"><p>User defined callback function to receive notification of client connections and disconnections, and optionally refuse connections.</p>
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ManagedBass.Enc.EncodeClientProcedure">
+  <h1 id="ManagedBass_Enc_EncodeClientProcedure" data-uid="ManagedBass.Enc.EncodeClientProcedure">Delegate EncodeClientProcedure
+  </h1>
+  <div class="markdown level0 summary"><p>User defined callback function to receive notification of client connections and disconnections, and optionally refuse connections.</p>
 </div>
-
-              
-              <h6><strong>Namespace</strong>: ManagedBass.Enc</h6>
-              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
-              <h5 id="_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public delegate bool EncodeClientProcedure(int Handle, bool Connect, string Client, IntPtr Headers, IntPtr User);</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>Handle</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></div>        
-                      <p class="padTop"><p>The encoder/server that the client is connecting to or disconnecting from.</p>
+  <div class="markdown level0 conceptual"></div>
+  
+  
+  
+  
+  <h6><strong>Namespace</strong>: ManagedBass.Enc</h6>
+  <h6><strong>Assembly</strong>: ManagedBass.Enc.dll</h6>
+  
+  <h5 id="ManagedBass_Enc_EncodeClientProcedure_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public delegate bool EncodeClientProcedure(int Handle, bool Connect, string Client, IntPtr Headers, IntPtr User);</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
+        <span class="parametername">Handle</span>
+        <p><p>The encoder/server that the client is connecting to or disconnecting from.</p>
 </p>
-                    </td>
-                  </tr>
-                  <tr>      
-                    <td>
-                      <em>Connect</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></div>        
-                      <p class="padTop"><p>The client is connecting? true = connecting, false = disconnecting.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></span>
+        <span class="parametername">Connect</span>
+        <p><p>The client is connecting? true = connecting, false = disconnecting.</p>
 </p>
-                    </td>
-                  </tr>
-                  <tr>      
-                    <td>
-                      <em>Client</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
-                      <p class="padTop"><p>The client&#39;s IP address and port number... &quot;IP:port&quot;.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></span>
+        <span class="parametername">Client</span>
+        <p><p>The client&#39;s IP address and port number... &quot;IP:port&quot;.</p>
 </p>
-                    </td>
-                  </tr>
-                  <tr>      
-                    <td>
-                      <em>Headers</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></div>        
-                      <p class="padTop"><p>The request headers... <span class="xref">null</span> = the client is disconnecting or HTTP headers have been disabled via the <a class="xref" href="ManagedBass.Enc.EncodeServer.html">NoHTTP</a> flag.
-The headers are in the same form as would be given by <a class="xref" href="ManagedBass.Bass.html">ChannelGetTags(Int32, TagType)</a>, which is a series of null-terminated strings, the final string ending with a double null.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">IntPtr</span></span>
+        <span class="parametername">Headers</span>
+        <p><p>The request headers... <span class="xref">null</span> = the client is disconnecting or HTTP headers have been disabled via the <a class="xref" href="ManagedBass.Enc.EncodeServer.html#ManagedBass_Enc_EncodeServer_NoHTTP">NoHTTP</a> flag.
+The headers are in the same form as would be given by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetTags_System_Int32_ManagedBass_TagType_">ChannelGetTags(Int32, TagType)</a>, which is a series of null-terminated strings, the final string ending with a double null.
 The request headers can optionally be replaced with response headers to send back to the client, each ending with a carriage return and line feed (&quot;\r\n&quot;).
 The response headers should not exceed 1KB in length.</p>
 </p>
-                    </td>
-                  </tr>
-                  <tr>      
-                    <td>
-                      <em>User</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.intptr(v=vs.110).aspx">IntPtr</a></div>        
-                      <p class="padTop"><p>The user instance data given when <a class="xref" href="ManagedBass.Enc.BassEnc.html">ServerInit(Int32, String, Int32, Int32, EncodeServer, EncodeClientProcedure, IntPtr)</a> was called.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">IntPtr</span></span>
+        <span class="parametername">User</span>
+        <p><p>The user instance data given when <a class="xref" href="ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_ServerInit_System_Int32_System_String_System_Int32_System_Int32_ManagedBass_Enc_EncodeServer_ManagedBass_Enc_EncodeClientProcedure_IntPtr_">ServerInit(Int32, String, Int32, Int32, EncodeServer, EncodeClientProcedure, IntPtr)</a> was called.</p>
 </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>
-                    <td>
-                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-                      <p class="padTop"><p>If the client is connecting, <span class="xref">false</span> means the connection is denied, otherwise it is accepted. The return value is ignored if the client is disconnecting.</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p><p>If the client is connecting, <span class="xref">false</span> means the connection is denied, otherwise it is accepted. The return value is ignored if the client is disconnecting.</p>
 </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 id="_remarks"><strong>Remarks</strong></h5>
-              <div class="markdown level0 remarks"><p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  <h5 id="ManagedBass_Enc_EncodeClientProcedure_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
 This function can be used to keep track of how many clients are connected, and who is connected.
 The request headers can be used to authenticate clients, and response headers can be used to pass information back to the clients.
 By default, connecting clients will be sent an &quot;HTTP/1.0 200 OK&quot; status line if accepted, and an &quot;HTTP/1.0 403 Forbidden&quot; status line if denied.
 That can be overridden in the first response header.
 </p>
-<p>Disconnection notifications will be received for clients that have disconnected themselves or that have been kicked by <a class="xref" href="ManagedBass.Enc.BassEnc.html">ServerKick(Int32, String)</a>, but there will no notification of any clients that are disconnected by the encoder being freed.</p>
+<p>Disconnection notifications will be received for clients that have disconnected themselves or that have been kicked by <a class="xref" href="ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_ServerKick_System_Int32_System_String_">ServerKick(Int32, String)</a>, but there will no notification of any clients that are disconnected by the encoder being freed.</p>
 <p>Each server has its own thread that handles new connections and sends data to its clients. The notification callbacks also come from that thread, so the callback function should avoid introducing long delays as that could result in clients missing some data and delay other clients connecting.</p>
 <p>
-Use <a class="xref" href="ManagedBass.Extensions.html">ExtractMultiStringAnsi(IntPtr)</a> to get the <span class="paramref">Headers</span>.
+Use <a class="xref" href="ManagedBass.Extensions.html#ManagedBass_Extensions_ExtractMultiStringAnsi_IntPtr_">ExtractMultiStringAnsi(IntPtr)</a> to get the <span class="paramref">Headers</span>.
 </p>
 </div>
-              <div class="markdown level0 conceptual"></div>
-              
-            </article>
+  
+  
+  
+</article>
           </div>
-          <!-- Affix -->
-          <div class="hidden-sm col-md-3" role="complementary">
-            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            </nav>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Enc_EncodeClientProcedure.md&amp;value=---%0Auid%3A%20ManagedBass.Enc.EncodeClientProcedure%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassEnc/Shared/Delegates/EncodeClientProcedure.cs/#L32" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
           </div>
         </div>
       </div>
-
-      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
-
-    <script src="../styles/docfx.js"></script>
-    <script src="../styles/main.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>

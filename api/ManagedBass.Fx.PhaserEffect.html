@@ -1,423 +1,756 @@
 ﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+  
   <head>
-    <!-- AdSense -->
-    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-4251360406988977",
-        enable_page_level_ads: true
-      });
-    </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>PhaserEffect </title>
+    <title>Class PhaserEffect
+   </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="PhaserEffect <small>Class</small>
- ">
+    <meta name="title" content="Class PhaserEffect
+   ">
+    <meta name="generator" content="docfx 2.17.4.2">
     
-    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
     <meta property="docfx:tocrel" content="toc.html">
+    
+    
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
       <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
             <div class="navbar-header">
-              <span class="navbar-brand">ManagedBass</span>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
             </div>
           </div>
         </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </header>
-      <div role="main" class="container-fluid body-content">
-        <div class="sidenav">
-          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
             <div id="sidetoc"></div>
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-9" id="articleContainer">
-            <div id="selector"></div>
-            <article class="content wrap" id="_content">
-              
-              <div class="contributionPanel">
-              </div>
-              
-              <h1 id="" data-uid="ManagedBass.Fx.PhaserEffect">PhaserEffect <small>Class</small>
-              </h1>
-              <div class="markdown level0 summary"><p>BassFx Phaser Effect.</p>
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ManagedBass.Fx.PhaserEffect">
+  <h1 id="ManagedBass_Fx_PhaserEffect" data-uid="ManagedBass.Fx.PhaserEffect">Class PhaserEffect
+  </h1>
+  <div class="markdown level0 summary"><p>BassFx Phaser Effect.</p>
 </div>
-
-              <div class="inheritance">
-                <h5>Inheritance</h5>
-                  <div class="level0" style="margin-left:0em"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
-                  <div class="level1" style="margin-left:1em"><a class="xref" href="ManagedBass.Effect-1.html">Effect</a>&lt;<a class="xref" href="ManagedBass.Fx.PhaserParameters.html">PhaserParameters</a>&gt;</div>
-                  <div class="level2" style="margin-left:2em"><span class="xref">PhaserEffect</span></div>
-              </div>
-              <div class="inheritedMembers">
-                <h5>Inherited Members</h5>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;PhaserParameters&gt;.Parameters</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;PhaserParameters&gt;.ApplyOn(Int32, Int32)</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;PhaserParameters&gt;.Priority</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;PhaserParameters&gt;.Dispose()</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;PhaserParameters&gt;.Default()</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;PhaserParameters&gt;.IsActive</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;PhaserParameters&gt;.OnPreset()</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;PhaserParameters&gt;.PropertyChanged</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;PhaserParameters&gt;.OnPropertyChanged(String)</a>
-                </div>
-              </div>
-              
-              <h6><strong>Namespace</strong>: ManagedBass.Fx</h6>
-              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
-              <h5 id="_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public sealed class PhaserEffect : Effect&lt;PhaserParameters&gt;, IDisposable</code></pre>
-              </div>
-              <div class="markdown level0 conceptual"></div>
-              <h3 id="properties">
-                Properties
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.Channels" data-uid="ManagedBass.Fx.PhaserEffect.Channels">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.Channels" data-toggle="collapse" class="expander">
-                  Channels
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.Channels" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>A <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a> flag to define on which channels to apply the effect. Default: <a class="xref" href="ManagedBass.FXChannelFlags.html">All</a></p>
+  <div class="markdown level0 conceptual"></div>
+  
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
+    <div class="level1"><a class="xref" href="ManagedBass.Effect-1.html">Effect</a>&lt;<a class="xref" href="ManagedBass.Fx.PhaserParameters.html">PhaserParameters</a>&gt;</div>
+    <div class="level2"><span class="xref">PhaserEffect</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_Parameters">Effect&lt;PhaserParameters&gt;.Parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_ApplyOn_System_Int32_System_Int32_">Effect&lt;PhaserParameters&gt;.ApplyOn(Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_Priority">Effect&lt;PhaserParameters&gt;.Priority</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_Dispose">Effect&lt;PhaserParameters&gt;.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_Default">Effect&lt;PhaserParameters&gt;.Default()</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_IsActive">Effect&lt;PhaserParameters&gt;.IsActive</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_OnPreset">Effect&lt;PhaserParameters&gt;.OnPreset()</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_PropertyChanged">Effect&lt;PhaserParameters&gt;.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_OnPropertyChanged_System_String_">Effect&lt;PhaserParameters&gt;.OnPropertyChanged(String)</a>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: ManagedBass.Fx</h6>
+  <h6><strong>Assembly</strong>: ManagedBass.Fx.dll</h6>
+  
+  <h5 id="ManagedBass_Fx_PhaserEffect_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class PhaserEffect : Effect&lt;PhaserParameters&gt;, IDisposable</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_Channels.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.Channels%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L217" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_Channels_" data-uid="ManagedBass.Fx.PhaserEffect.Channels*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_Channels" data-uid="ManagedBass.Fx.PhaserEffect.Channels"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_Channels" class="expander" data-toggle="collapse">Channels</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_Channels" class="collapse in">
+  <div class="markdown level1 summary"><p>A <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a> flag to define on which channels to apply the effect. Default: <a class="xref" href="ManagedBass.FXChannelFlags.html#ManagedBass_FXChannelFlags_All">All</a></p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public FXChannelFlags Channels { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.DryMix" data-uid="ManagedBass.Fx.PhaserEffect.DryMix">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.DryMix" data-toggle="collapse" class="expander">
-                  DryMix
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.DryMix" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Dry (unaffected) signal mix (-2...+2). Default = 0.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FXChannelFlags Channels { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_DryMix.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.DryMix%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L133" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_DryMix_" data-uid="ManagedBass.Fx.PhaserEffect.DryMix*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_DryMix" data-uid="ManagedBass.Fx.PhaserEffect.DryMix"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_DryMix" class="expander" data-toggle="collapse">DryMix</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_DryMix" class="collapse in">
+  <div class="markdown level1 summary"><p>Dry (unaffected) signal mix (-2...+2). Default = 0.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double DryMix { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.Feedback" data-uid="ManagedBass.Fx.PhaserEffect.Feedback">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.Feedback" data-toggle="collapse" class="expander">
-                  Feedback
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.Feedback" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Feedback (-1...+1). Default = 0.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DryMix { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_Feedback.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.Feedback%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L147" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_Feedback_" data-uid="ManagedBass.Fx.PhaserEffect.Feedback*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_Feedback" data-uid="ManagedBass.Fx.PhaserEffect.Feedback"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_Feedback" class="expander" data-toggle="collapse">Feedback</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_Feedback" class="collapse in">
+  <div class="markdown level1 summary"><p>Feedback (-1...+1). Default = 0.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double Feedback { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.Frequency" data-uid="ManagedBass.Fx.PhaserEffect.Frequency">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.Frequency" data-toggle="collapse" class="expander">
-                  Frequency
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.Frequency" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Base frequency of sweep range (0&lt;...1000). Default = 0.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Feedback { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_Frequency.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.Frequency%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L161" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_Frequency_" data-uid="ManagedBass.Fx.PhaserEffect.Frequency*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_Frequency" data-uid="ManagedBass.Fx.PhaserEffect.Frequency"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_Frequency" class="expander" data-toggle="collapse">Frequency</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_Frequency" class="collapse in">
+  <div class="markdown level1 summary"><p>Base frequency of sweep range (0&lt;...1000). Default = 0.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double Frequency { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.Range" data-uid="ManagedBass.Fx.PhaserEffect.Range">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.Range" data-toggle="collapse" class="expander">
-                  Range
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.Range" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Sweep range inoctaves (0&lt;...&lt;10). Default = 0.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Frequency { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_Range.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.Range%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L175" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_Range_" data-uid="ManagedBass.Fx.PhaserEffect.Range*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_Range" data-uid="ManagedBass.Fx.PhaserEffect.Range"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_Range" class="expander" data-toggle="collapse">Range</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_Range" class="collapse in">
+  <div class="markdown level1 summary"><p>Sweep range inoctaves (0&lt;...&lt;10). Default = 0.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double Range { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.Rate" data-uid="ManagedBass.Fx.PhaserEffect.Rate">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.Rate" data-toggle="collapse" class="expander">
-                  Rate
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.Rate" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Rate of sweep in cycles per second (0&lt;...&lt;10). Default = 0.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Range { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_Rate.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.Rate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L189" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_Rate_" data-uid="ManagedBass.Fx.PhaserEffect.Rate*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_Rate" data-uid="ManagedBass.Fx.PhaserEffect.Rate"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_Rate" class="expander" data-toggle="collapse">Rate</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_Rate" class="collapse in">
+  <div class="markdown level1 summary"><p>Rate of sweep in cycles per second (0&lt;...&lt;10). Default = 0.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double Rate { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.WetMix" data-uid="ManagedBass.Fx.PhaserEffect.WetMix">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.WetMix" data-toggle="collapse" class="expander">
-                  WetMix
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.WetMix" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Wet (affected) signal mix (-2...+2). Default = 0.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Rate { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_WetMix.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.WetMix%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L203" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_WetMix_" data-uid="ManagedBass.Fx.PhaserEffect.WetMix*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_WetMix" data-uid="ManagedBass.Fx.PhaserEffect.WetMix"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_WetMix" class="expander" data-toggle="collapse">WetMix</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_WetMix" class="collapse in">
+  <div class="markdown level1 summary"><p>Wet (affected) signal mix (-2...+2). Default = 0.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double WetMix { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <h3 id="methods">
-                Methods
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.BasicPhase" data-uid="ManagedBass.Fx.PhaserEffect.BasicPhase">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.BasicPhase" data-toggle="collapse" class="expander">
-                  BasicPhase()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.BasicPhase" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double WetMix { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_BasicPhase.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.BasicPhase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L42" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_BasicPhase_" data-uid="ManagedBass.Fx.PhaserEffect.BasicPhase*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_BasicPhase" data-uid="ManagedBass.Fx.PhaserEffect.BasicPhase"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_BasicPhase" class="expander" data-toggle="collapse">BasicPhase()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_BasicPhase" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void BasicPhase()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.Fast" data-uid="ManagedBass.Fx.PhaserEffect.Fast">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.Fast" data-toggle="collapse" class="expander">
-                  Fast()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.Fast" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BasicPhase()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_Fast.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.Fast%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L87" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_Fast_" data-uid="ManagedBass.Fx.PhaserEffect.Fast*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_Fast" data-uid="ManagedBass.Fx.PhaserEffect.Fast"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_Fast" class="expander" data-toggle="collapse">Fast()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_Fast" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void Fast()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.InvertWithInvertFeedback" data-uid="ManagedBass.Fx.PhaserEffect.InvertWithInvertFeedback">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.InvertWithInvertFeedback" data-toggle="collapse" class="expander">
-                  InvertWithInvertFeedback()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.InvertWithInvertFeedback" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Fast()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_InvertWithInvertFeedback.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.InvertWithInvertFeedback%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L102" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_InvertWithInvertFeedback_" data-uid="ManagedBass.Fx.PhaserEffect.InvertWithInvertFeedback*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_InvertWithInvertFeedback" data-uid="ManagedBass.Fx.PhaserEffect.InvertWithInvertFeedback"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_InvertWithInvertFeedback" class="expander" data-toggle="collapse">InvertWithInvertFeedback()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_InvertWithInvertFeedback" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void InvertWithInvertFeedback()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.Medium" data-uid="ManagedBass.Fx.PhaserEffect.Medium">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.Medium" data-toggle="collapse" class="expander">
-                  Medium()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.Medium" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InvertWithInvertFeedback()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_Medium.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.Medium%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L72" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_Medium_" data-uid="ManagedBass.Fx.PhaserEffect.Medium*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_Medium" data-uid="ManagedBass.Fx.PhaserEffect.Medium"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_Medium" class="expander" data-toggle="collapse">Medium()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_Medium" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void Medium()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.PhaseShift" data-uid="ManagedBass.Fx.PhaserEffect.PhaseShift">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.PhaseShift" data-toggle="collapse" class="expander">
-                  PhaseShift()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.PhaseShift" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Medium()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_PhaseShift.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.PhaseShift%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L12" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_PhaseShift_" data-uid="ManagedBass.Fx.PhaserEffect.PhaseShift*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_PhaseShift" data-uid="ManagedBass.Fx.PhaserEffect.PhaseShift"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_PhaseShift" class="expander" data-toggle="collapse">PhaseShift()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_PhaseShift" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void PhaseShift()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.PhaseWithFeedback" data-uid="ManagedBass.Fx.PhaserEffect.PhaseWithFeedback">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.PhaseWithFeedback" data-toggle="collapse" class="expander">
-                  PhaseWithFeedback()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.PhaseWithFeedback" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PhaseShift()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_PhaseWithFeedback.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.PhaseWithFeedback%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L57" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_PhaseWithFeedback_" data-uid="ManagedBass.Fx.PhaserEffect.PhaseWithFeedback*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_PhaseWithFeedback" data-uid="ManagedBass.Fx.PhaserEffect.PhaseWithFeedback"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_PhaseWithFeedback" class="expander" data-toggle="collapse">PhaseWithFeedback()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_PhaseWithFeedback" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void PhaseWithFeedback()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.SlowInvertPhaseShiftWithFeedback" data-uid="ManagedBass.Fx.PhaserEffect.SlowInvertPhaseShiftWithFeedback">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.SlowInvertPhaseShiftWithFeedback" data-toggle="collapse" class="expander">
-                  SlowInvertPhaseShiftWithFeedback()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.SlowInvertPhaseShiftWithFeedback" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PhaseWithFeedback()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_SlowInvertPhaseShiftWithFeedback.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.SlowInvertPhaseShiftWithFeedback%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L27" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_SlowInvertPhaseShiftWithFeedback_" data-uid="ManagedBass.Fx.PhaserEffect.SlowInvertPhaseShiftWithFeedback*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_SlowInvertPhaseShiftWithFeedback" data-uid="ManagedBass.Fx.PhaserEffect.SlowInvertPhaseShiftWithFeedback"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_SlowInvertPhaseShiftWithFeedback" class="expander" data-toggle="collapse">SlowInvertPhaseShiftWithFeedback()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_SlowInvertPhaseShiftWithFeedback" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void SlowInvertPhaseShiftWithFeedback()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.PhaserEffect.TremoloWah" data-uid="ManagedBass.Fx.PhaserEffect.TremoloWah">
-                <a href="#collapsible-ManagedBass.Fx.PhaserEffect.TremoloWah" data-toggle="collapse" class="expander">
-                  TremoloWah()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.PhaserEffect.TremoloWah" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SlowInvertPhaseShiftWithFeedback()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect_TremoloWah.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect.TremoloWah%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L117" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_PhaserEffect_TremoloWah_" data-uid="ManagedBass.Fx.PhaserEffect.TremoloWah*"></a>
+  
+  <h4 id="ManagedBass_Fx_PhaserEffect_TremoloWah" data-uid="ManagedBass.Fx.PhaserEffect.TremoloWah"><a href="#collapsible-ManagedBass_Fx_PhaserEffect_TremoloWah" class="expander" data-toggle="collapse">TremoloWah()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_PhaserEffect_TremoloWah" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void TremoloWah()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              
-            </article>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TremoloWah()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
           </div>
-          <!-- Affix -->
-          <div class="hidden-sm col-md-3" role="complementary">
-            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            </nav>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_PhaserEffect.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.PhaserEffect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/PhaserEffect.cs/#L6" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
           </div>
         </div>
       </div>
-
-      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
-
-    <script src="../styles/docfx.js"></script>
-    <script src="../styles/main.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>

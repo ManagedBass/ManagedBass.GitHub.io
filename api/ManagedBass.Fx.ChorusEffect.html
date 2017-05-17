@@ -1,437 +1,770 @@
 ﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+  
   <head>
-    <!-- AdSense -->
-    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-4251360406988977",
-        enable_page_level_ads: true
-      });
-    </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>ChorusEffect </title>
+    <title>Class ChorusEffect
+   </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="ChorusEffect <small>Class</small>
- ">
+    <meta name="title" content="Class ChorusEffect
+   ">
+    <meta name="generator" content="docfx 2.17.4.2">
     
-    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
     <meta property="docfx:tocrel" content="toc.html">
+    
+    
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
       <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
             <div class="navbar-header">
-              <span class="navbar-brand">ManagedBass</span>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
             </div>
           </div>
         </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </header>
-      <div role="main" class="container-fluid body-content">
-        <div class="sidenav">
-          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
             <div id="sidetoc"></div>
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-9" id="articleContainer">
-            <div id="selector"></div>
-            <article class="content wrap" id="_content">
-              
-              <div class="contributionPanel">
-              </div>
-              
-              <h1 id="" data-uid="ManagedBass.Fx.ChorusEffect">ChorusEffect <small>Class</small>
-              </h1>
-              <div class="markdown level0 summary"><p>BassFx Chorus Effect.</p>
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ManagedBass.Fx.ChorusEffect">
+  <h1 id="ManagedBass_Fx_ChorusEffect" data-uid="ManagedBass.Fx.ChorusEffect">Class ChorusEffect
+  </h1>
+  <div class="markdown level0 summary"><p>BassFx Chorus Effect.</p>
 </div>
-
-              <div class="inheritance">
-                <h5>Inheritance</h5>
-                  <div class="level0" style="margin-left:0em"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
-                  <div class="level1" style="margin-left:1em"><a class="xref" href="ManagedBass.Effect-1.html">Effect</a>&lt;<a class="xref" href="ManagedBass.Fx.ChorusParameters.html">ChorusParameters</a>&gt;</div>
-                  <div class="level2" style="margin-left:2em"><span class="xref">ChorusEffect</span></div>
-              </div>
-              <div class="inheritedMembers">
-                <h5>Inherited Members</h5>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ChorusParameters&gt;.Parameters</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ChorusParameters&gt;.ApplyOn(Int32, Int32)</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ChorusParameters&gt;.Priority</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ChorusParameters&gt;.Dispose()</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ChorusParameters&gt;.Default()</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ChorusParameters&gt;.IsActive</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ChorusParameters&gt;.OnPreset()</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ChorusParameters&gt;.PropertyChanged</a>
-                </div>
-                <div>
-                  <a class="xref" href="ManagedBass.Effect-1.html">Effect&lt;ChorusParameters&gt;.OnPropertyChanged(String)</a>
-                </div>
-              </div>
-              
-              <h6><strong>Namespace</strong>: ManagedBass.Fx</h6>
-              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
-              <h5 id="_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public sealed class ChorusEffect : Effect&lt;ChorusParameters&gt;, IDisposable</code></pre>
-              </div>
-              <h5 id="_remarks"><strong>Remarks</strong></h5>
-              <div class="markdown level0 remarks"><p>
+  <div class="markdown level0 conceptual"></div>
+  
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
+    <div class="level1"><a class="xref" href="ManagedBass.Effect-1.html">Effect</a>&lt;<a class="xref" href="ManagedBass.Fx.ChorusParameters.html">ChorusParameters</a>&gt;</div>
+    <div class="level2"><span class="xref">ChorusEffect</span></div>
+  </div>
+  
+  
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_Parameters">Effect&lt;ChorusParameters&gt;.Parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_ApplyOn_System_Int32_System_Int32_">Effect&lt;ChorusParameters&gt;.ApplyOn(Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_Priority">Effect&lt;ChorusParameters&gt;.Priority</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_Dispose">Effect&lt;ChorusParameters&gt;.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_Default">Effect&lt;ChorusParameters&gt;.Default()</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_IsActive">Effect&lt;ChorusParameters&gt;.IsActive</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_OnPreset">Effect&lt;ChorusParameters&gt;.OnPreset()</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_PropertyChanged">Effect&lt;ChorusParameters&gt;.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="ManagedBass.Effect-1.html#ManagedBass_Effect_1_OnPropertyChanged_System_String_">Effect&lt;ChorusParameters&gt;.OnPropertyChanged(String)</a>
+    </div>
+  </div>
+  
+  <h6><strong>Namespace</strong>: ManagedBass.Fx</h6>
+  <h6><strong>Assembly</strong>: ManagedBass.Fx.dll</h6>
+  
+  <h5 id="ManagedBass_Fx_ChorusEffect_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ChorusEffect : Effect&lt;ChorusParameters&gt;, IDisposable</code></pre>
+  </div>
+  
+  
+  
+  
+  <h5 id="ManagedBass_Fx_ChorusEffect_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
 True vintage chorus works the same way as flanging. 
 It mixes a varying delayed signal with the original to produce a large number of harmonically related notches in the frequency response. 
 Chorus uses a longer delay than flanging, so there is a perception of &quot;spaciousness&quot;, although the delay is too short to hear as a distinct slap-back echo. 
 There is also little or no feedback, so the effect is more subtle.
 </p>
 <p>
-The <a class="xref" href="ManagedBass.Fx.ChorusEffect.html">DryMix</a> is the volume of Input signal and the <a class="xref" href="ManagedBass.Fx.ChorusEffect.html">WetMix</a> is the volume of delayed signal. 
-The <a class="xref" href="ManagedBass.Fx.ChorusEffect.html">Feedback</a> sets feedback of chorus. 
-The <a class="xref" href="ManagedBass.Fx.ChorusEffect.html">Rate</a>, <a class="xref" href="ManagedBass.Fx.ChorusEffect.html">MinSweep</a> and <a class="xref" href="ManagedBass.Fx.ChorusEffect.html">MaxSweep</a> control how fast and far the frequency notches move. 
-The <a class="xref" href="ManagedBass.Fx.ChorusEffect.html">Rate</a> is the rate of delay change in millisecs per sec, <a class="xref" href="ManagedBass.Fx.ChorusEffect.html">MaxSweep</a>-<a class="xref" href="ManagedBass.Fx.ChorusEffect.html">MinSweep</a> is the range or width of sweep in ms.
+The <a class="xref" href="ManagedBass.Fx.ChorusEffect.html#ManagedBass_Fx_ChorusEffect_DryMix">DryMix</a> is the volume of Input signal and the <a class="xref" href="ManagedBass.Fx.ChorusEffect.html#ManagedBass_Fx_ChorusEffect_WetMix">WetMix</a> is the volume of delayed signal. 
+The <a class="xref" href="ManagedBass.Fx.ChorusEffect.html#ManagedBass_Fx_ChorusEffect_Feedback">Feedback</a> sets feedback of chorus. 
+The <a class="xref" href="ManagedBass.Fx.ChorusEffect.html#ManagedBass_Fx_ChorusEffect_Rate">Rate</a>, <a class="xref" href="ManagedBass.Fx.ChorusEffect.html#ManagedBass_Fx_ChorusEffect_MinSweep">MinSweep</a> and <a class="xref" href="ManagedBass.Fx.ChorusEffect.html#ManagedBass_Fx_ChorusEffect_MaxSweep">MaxSweep</a> control how fast and far the frequency notches move. 
+The <a class="xref" href="ManagedBass.Fx.ChorusEffect.html#ManagedBass_Fx_ChorusEffect_Rate">Rate</a> is the rate of delay change in millisecs per sec, <a class="xref" href="ManagedBass.Fx.ChorusEffect.html#ManagedBass_Fx_ChorusEffect_MaxSweep">MaxSweep</a>-<a class="xref" href="ManagedBass.Fx.ChorusEffect.html#ManagedBass_Fx_ChorusEffect_MinSweep">MinSweep</a> is the range or width of sweep in ms.
 </p>
 </div>
-              <div class="markdown level0 conceptual"></div>
-              <h3 id="properties">
-                Properties
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.Channels" data-uid="ManagedBass.Fx.ChorusEffect.Channels">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.Channels" data-toggle="collapse" class="expander">
-                  Channels
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.Channels" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>A <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a> flag to define on which channels to apply the effect. Default: <a class="xref" href="ManagedBass.FXChannelFlags.html">All</a></p>
+  
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_Channels.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.Channels%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L231" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_Channels_" data-uid="ManagedBass.Fx.ChorusEffect.Channels*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_Channels" data-uid="ManagedBass.Fx.ChorusEffect.Channels"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_Channels" class="expander" data-toggle="collapse">Channels</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_Channels" class="collapse in">
+  <div class="markdown level1 summary"><p>A <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a> flag to define on which channels to apply the effect. Default: <a class="xref" href="ManagedBass.FXChannelFlags.html#ManagedBass_FXChannelFlags_All">All</a></p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public FXChannelFlags Channels { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.DryMix" data-uid="ManagedBass.Fx.ChorusEffect.DryMix">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.DryMix" data-toggle="collapse" class="expander">
-                  DryMix
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.DryMix" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Dry (unaffected) signal mix (-2...+2). Default = 0.9</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FXChannelFlags Channels { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ManagedBass.FXChannelFlags.html">FXChannelFlags</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_DryMix.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.DryMix%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L147" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_DryMix_" data-uid="ManagedBass.Fx.ChorusEffect.DryMix*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_DryMix" data-uid="ManagedBass.Fx.ChorusEffect.DryMix"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_DryMix" class="expander" data-toggle="collapse">DryMix</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_DryMix" class="collapse in">
+  <div class="markdown level1 summary"><p>Dry (unaffected) signal mix (-2...+2). Default = 0.9</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double DryMix { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.Feedback" data-uid="ManagedBass.Fx.ChorusEffect.Feedback">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.Feedback" data-toggle="collapse" class="expander">
-                  Feedback
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.Feedback" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Feedback (-1...+1). Default = 0.5.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DryMix { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_Feedback.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.Feedback%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L161" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_Feedback_" data-uid="ManagedBass.Fx.ChorusEffect.Feedback*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_Feedback" data-uid="ManagedBass.Fx.ChorusEffect.Feedback"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_Feedback" class="expander" data-toggle="collapse">Feedback</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_Feedback" class="collapse in">
+  <div class="markdown level1 summary"><p>Feedback (-1...+1). Default = 0.5.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double Feedback { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.MaxSweep" data-uid="ManagedBass.Fx.ChorusEffect.MaxSweep">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.MaxSweep" data-toggle="collapse" class="expander">
-                  MaxSweep
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.MaxSweep" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Maximum delay in ms (0&lt;...6000). Default = 400.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Feedback { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_MaxSweep.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.MaxSweep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L175" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_MaxSweep_" data-uid="ManagedBass.Fx.ChorusEffect.MaxSweep*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_MaxSweep" data-uid="ManagedBass.Fx.ChorusEffect.MaxSweep"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_MaxSweep" class="expander" data-toggle="collapse">MaxSweep</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_MaxSweep" class="collapse in">
+  <div class="markdown level1 summary"><p>Maximum delay in ms (0&lt;...6000). Default = 400.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double MaxSweep { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.MinSweep" data-uid="ManagedBass.Fx.ChorusEffect.MinSweep">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.MinSweep" data-toggle="collapse" class="expander">
-                  MinSweep
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.MinSweep" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Minimum delay in ms (0&lt;...6000). Default = 1.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double MaxSweep { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_MinSweep.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.MinSweep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L189" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_MinSweep_" data-uid="ManagedBass.Fx.ChorusEffect.MinSweep*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_MinSweep" data-uid="ManagedBass.Fx.ChorusEffect.MinSweep"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_MinSweep" class="expander" data-toggle="collapse">MinSweep</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_MinSweep" class="collapse in">
+  <div class="markdown level1 summary"><p>Minimum delay in ms (0&lt;...6000). Default = 1.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double MinSweep { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.Rate" data-uid="ManagedBass.Fx.ChorusEffect.Rate">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.Rate" data-toggle="collapse" class="expander">
-                  Rate
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.Rate" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Rate in ms/s (0&lt;...1000). Default = 200.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double MinSweep { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_Rate.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.Rate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L203" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_Rate_" data-uid="ManagedBass.Fx.ChorusEffect.Rate*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_Rate" data-uid="ManagedBass.Fx.ChorusEffect.Rate"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_Rate" class="expander" data-toggle="collapse">Rate</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_Rate" class="collapse in">
+  <div class="markdown level1 summary"><p>Rate in ms/s (0&lt;...1000). Default = 200.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double Rate { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.WetMix" data-uid="ManagedBass.Fx.ChorusEffect.WetMix">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.WetMix" data-toggle="collapse" class="expander">
-                  WetMix
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.WetMix" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Wet (affected) signal mix (-2...+2). Default = 0.35.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Rate { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_WetMix.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.WetMix%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L217" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_WetMix_" data-uid="ManagedBass.Fx.ChorusEffect.WetMix*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_WetMix" data-uid="ManagedBass.Fx.ChorusEffect.WetMix"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_WetMix" class="expander" data-toggle="collapse">WetMix</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_WetMix" class="collapse in">
+  <div class="markdown level1 summary"><p>Wet (affected) signal mix (-2...+2). Default = 0.35.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double WetMix { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <h3 id="methods">
-                Methods
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.Airplane" data-uid="ManagedBass.Fx.ChorusEffect.Airplane">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.Airplane" data-toggle="collapse" class="expander">
-                  Airplane()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.Airplane" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double WetMix { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_Airplane.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.Airplane%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L131" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_Airplane_" data-uid="ManagedBass.Fx.ChorusEffect.Airplane*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_Airplane" data-uid="ManagedBass.Fx.ChorusEffect.Airplane"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_Airplane" class="expander" data-toggle="collapse">Airplane()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_Airplane" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void Airplane()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.BackChipmunk" data-uid="ManagedBass.Fx.ChorusEffect.BackChipmunk">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.BackChipmunk" data-toggle="collapse" class="expander">
-                  BackChipmunk()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.BackChipmunk" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Airplane()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_BackChipmunk.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.BackChipmunk%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L101" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_BackChipmunk_" data-uid="ManagedBass.Fx.ChorusEffect.BackChipmunk*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_BackChipmunk" data-uid="ManagedBass.Fx.ChorusEffect.BackChipmunk"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_BackChipmunk" class="expander" data-toggle="collapse">BackChipmunk()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_BackChipmunk" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void BackChipmunk()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.Devil" data-uid="ManagedBass.Fx.ChorusEffect.Devil">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.Devil" data-toggle="collapse" class="expander">
-                  Devil()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.Devil" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BackChipmunk()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_Devil.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.Devil%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L71" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_Devil_" data-uid="ManagedBass.Fx.ChorusEffect.Devil*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_Devil" data-uid="ManagedBass.Fx.ChorusEffect.Devil"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_Devil" class="expander" data-toggle="collapse">Devil()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_Devil" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void Devil()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.Exaggerated" data-uid="ManagedBass.Fx.ChorusEffect.Exaggerated">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.Exaggerated" data-toggle="collapse" class="expander">
-                  Exaggerated()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.Exaggerated" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Devil()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_Exaggerated.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.Exaggerated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L41" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_Exaggerated_" data-uid="ManagedBass.Fx.ChorusEffect.Exaggerated*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_Exaggerated" data-uid="ManagedBass.Fx.ChorusEffect.Exaggerated"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_Exaggerated" class="expander" data-toggle="collapse">Exaggerated()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_Exaggerated" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void Exaggerated()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.Flanger" data-uid="ManagedBass.Fx.ChorusEffect.Flanger">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.Flanger" data-toggle="collapse" class="expander">
-                  Flanger()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.Flanger" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Exaggerated()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_Flanger.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.Flanger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L26" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_Flanger_" data-uid="ManagedBass.Fx.ChorusEffect.Flanger*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_Flanger" data-uid="ManagedBass.Fx.ChorusEffect.Flanger"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_Flanger" class="expander" data-toggle="collapse">Flanger()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_Flanger" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void Flanger()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.ManyVoices" data-uid="ManagedBass.Fx.ChorusEffect.ManyVoices">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.ManyVoices" data-toggle="collapse" class="expander">
-                  ManyVoices()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.ManyVoices" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Flanger()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_ManyVoices.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.ManyVoices%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L86" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_ManyVoices_" data-uid="ManagedBass.Fx.ChorusEffect.ManyVoices*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_ManyVoices" data-uid="ManagedBass.Fx.ChorusEffect.ManyVoices"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_ManyVoices" class="expander" data-toggle="collapse">ManyVoices()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_ManyVoices" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void ManyVoices()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.MotorCycle" data-uid="ManagedBass.Fx.ChorusEffect.MotorCycle">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.MotorCycle" data-toggle="collapse" class="expander">
-                  MotorCycle()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.MotorCycle" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ManyVoices()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_MotorCycle.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.MotorCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L56" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_MotorCycle_" data-uid="ManagedBass.Fx.ChorusEffect.MotorCycle*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_MotorCycle" data-uid="ManagedBass.Fx.ChorusEffect.MotorCycle"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_MotorCycle" class="expander" data-toggle="collapse">MotorCycle()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_MotorCycle" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void MotorCycle()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.Fx.ChorusEffect.Water" data-uid="ManagedBass.Fx.ChorusEffect.Water">
-                <a href="#collapsible-ManagedBass.Fx.ChorusEffect.Water" data-toggle="collapse" class="expander">
-                  Water()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.Fx.ChorusEffect.Water" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Set up a Preset.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MotorCycle()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect_Water.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect.Water%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L116" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_Fx_ChorusEffect_Water_" data-uid="ManagedBass.Fx.ChorusEffect.Water*"></a>
+  
+  <h4 id="ManagedBass_Fx_ChorusEffect_Water" data-uid="ManagedBass.Fx.ChorusEffect.Water"><a href="#collapsible-ManagedBass_Fx_ChorusEffect_Water" class="expander" data-toggle="collapse">Water()</a></h4>
+  
+  <div id="collapsible-ManagedBass_Fx_ChorusEffect_Water" class="collapse in">
+  <div class="markdown level1 summary"><p>Set up a Preset.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public void Water()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              
-            </article>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Water()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
           </div>
-          <!-- Affix -->
-          <div class="hidden-sm col-md-3" role="complementary">
-            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            </nav>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Fx_ChorusEffect.md&amp;value=---%0Auid%3A%20ManagedBass.Fx.ChorusEffect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassFx/Shared/Effects/Objects/ChorusEffect.cs/#L20" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
           </div>
         </div>
       </div>
-
-      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
-
-    <script src="../styles/docfx.js"></script>
-    <script src="../styles/main.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>

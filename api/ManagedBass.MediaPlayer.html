@@ -1,77 +1,80 @@
 ﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
+  
   <head>
-    <!-- AdSense -->
-    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-4251360406988977",
-        enable_page_level_ads: true
-      });
-    </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>MediaPlayer </title>
+    <title>Class MediaPlayer
+   </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="MediaPlayer <small>Class</small>
- ">
+    <meta name="title" content="Class MediaPlayer
+   ">
+    <meta name="generator" content="docfx 2.17.4.2">
     
-    <link rel="shortcut icon" href="https://github.com/ManagedBass.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/solarized_light.min.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
     <meta property="docfx:tocrel" content="toc.html">
+    
+    
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
       <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
             <div class="navbar-header">
-              <span class="navbar-brand">ManagedBass</span>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
             </div>
           </div>
         </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </header>
-      <div role="main" class="container-fluid body-content">
-        <div class="sidenav">
-          <a class="text-center toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
             <div id="sidetoc"></div>
           </div>
         </div>
         <div class="article row grid-right">
-          <div class="col-md-9" id="articleContainer">
-            <div id="selector"></div>
-            <article class="content wrap" id="_content">
-              
-              <div class="contributionPanel">
-                <a href="https://github.com/ManagedBass/ManagedBass.DocFX/blob/master/apidoc/MediaPlayer.md/#L2" title="Improve this Doc" class="fab btn-warning pull-right mobile-hide"><i class="glyphicon glyphicon-pencil"></i></a>
-              </div>
-              
-              <h1 id="" data-uid="ManagedBass.MediaPlayer">MediaPlayer <small>Class</small>
-              </h1>
-              <div class="markdown level0 summary"><p>A Reusable Channel which can Load files like a Player.
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ManagedBass.MediaPlayer">
+  <h1 id="ManagedBass_MediaPlayer" data-uid="ManagedBass.MediaPlayer">Class MediaPlayer
+  </h1>
+  <div class="markdown level0 summary"><p>A Reusable Channel which can Load files like a Player.
 <p><a class="xref" href="ManagedBass.MediaPlayer.html">MediaPlayer</a> is perfect for UIs, as it implements <see cref="!:INotifyPropertyChanged"></see>.</p>
 <p>Also, unlike normal, Properties/Effects set on a <a class="xref" href="ManagedBass.MediaPlayer.html">MediaPlayer</a> persist through subsequent loads.</p></p>
 </div>
-
-              <div class="inheritance">
-                <h5>Inheritance</h5>
-                  <div class="level0" style="margin-left:0em"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
-                  <div class="level1" style="margin-left:1em"><span class="xref">MediaPlayer</span></div>
-              </div>
-              
-              <h6><strong>Namespace</strong>: ManagedBass</h6>
-              <!--<h6><strong>Package</strong>: <a href="http://nuget.org/packages/cs.temp.dll">cs.temp.dll</a></h6>-->
-              <h5 id="_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class MediaPlayer : INotifyPropertyChanged, IDisposable</code></pre>
-              </div>
-              <div class="markdown level0 conceptual"><h3 id="what-is-mediaplayer">What is MediaPlayer?</h3>
+  <div class="markdown level0 conceptual"><h3 id="what-is-mediaplayer">What is MediaPlayer?</h3>
 <p>A <strong>MediaPlayer</strong> associates properties to itself instead of a <strong>Channel</strong> (as done by BASS).</p>
 <p>This allows usage like a typical Music Player where you Load a Music, Play it, Load Another, Play it, and so on... while the properties or effects you set on it persist.</p>
 <p>You load different music files using the &lt;xref:ManagedBass.MediaPlayer.Load(System.String)&gt; method.
@@ -101,623 +104,1214 @@ namespace ManagedBass
     }
 }
 </code></pre></div>
-              <h3 id="constructors">
-                Constructors
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.#ctor" data-uid="ManagedBass.MediaPlayer.#ctor">
-                <a href="#collapsible-ManagedBass.MediaPlayer.#ctor" data-toggle="collapse" class="expander">
-                  MediaPlayer()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.#ctor" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Creates a new instance of <a class="xref" href="ManagedBass.MediaPlayer.html">MediaPlayer</a>.</p>
+  
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
+    <div class="level1"><span class="xref">MediaPlayer</span></div>
+  </div>
+  
+      <div class="level2"><a class="xref" href="ManagedBass.Fx.MediaPlayerFX.html">MediaPlayerFX</a></div>
+  
+  
+  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
+  
+  <h5 id="ManagedBass_MediaPlayer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MediaPlayer : INotifyPropertyChanged, IDisposable</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer__ctor.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L76" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer__ctor_" data-uid="ManagedBass.MediaPlayer.#ctor*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer__ctor" data-uid="ManagedBass.MediaPlayer.#ctor"><a href="#collapsible-ManagedBass_MediaPlayer__ctor" class="expander" data-toggle="collapse">MediaPlayer()</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer__ctor" class="collapse in">
+  <div class="markdown level1 summary"><p>Creates a new instance of <a class="xref" href="ManagedBass.MediaPlayer.html">MediaPlayer</a>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public MediaPlayer()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <h3 id="properties">
-                Properties
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Album" data-uid="ManagedBass.MediaPlayer.Album">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Album" data-toggle="collapse" class="expander">
-                  Album
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Album" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Album of the Loaded Media.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MediaPlayer()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Album.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Album%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L242" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Album_" data-uid="ManagedBass.MediaPlayer.Album*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Album" data-uid="ManagedBass.MediaPlayer.Album"><a href="#collapsible-ManagedBass_MediaPlayer_Album" class="expander" data-toggle="collapse">Album</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Album" class="collapse in">
+  <div class="markdown level1 summary"><p>Album of the Loaded Media.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string Album { get; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Artist" data-uid="ManagedBass.MediaPlayer.Artist">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Artist" data-toggle="collapse" class="expander">
-                  Artist
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Artist" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Artist of the Loaded Media.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Album { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Artist.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Artist%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L229" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Artist_" data-uid="ManagedBass.MediaPlayer.Artist*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Artist" data-uid="ManagedBass.MediaPlayer.Artist"><a href="#collapsible-ManagedBass_MediaPlayer_Artist" class="expander" data-toggle="collapse">Artist</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Artist" class="collapse in">
+  <div class="markdown level1 summary"><p>Artist of the Loaded Media.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string Artist { get; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Balance" data-uid="ManagedBass.MediaPlayer.Balance">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Balance" data-toggle="collapse" class="expander">
-                  Balance
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Balance" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Gets or Sets Balance (Panning) (-1 ... 0 ... 1).
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Artist { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Balance.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Balance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L125" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Balance_" data-uid="ManagedBass.MediaPlayer.Balance*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Balance" data-uid="ManagedBass.MediaPlayer.Balance"><a href="#collapsible-ManagedBass_MediaPlayer_Balance" class="expander" data-toggle="collapse">Balance</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Balance" class="collapse in">
+  <div class="markdown level1 summary"><p>Gets or Sets Balance (Panning) (-1 ... 0 ... 1).
 -1 Represents Completely Left.
 1 Represents Completely Right.
 Default is 0.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double Balance { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Device" data-uid="ManagedBass.MediaPlayer.Device">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Device" data-toggle="collapse" class="expander">
-                  Device
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Device" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Gets or Sets the Playback Device used.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Balance { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Device.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Device%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L145" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Device_" data-uid="ManagedBass.MediaPlayer.Device*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Device" data-uid="ManagedBass.MediaPlayer.Device"><a href="#collapsible-ManagedBass_MediaPlayer_Device" class="expander" data-toggle="collapse">Device</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Device" class="collapse in">
+  <div class="markdown level1 summary"><p>Gets or Sets the Playback Device used.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public int Device { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Duration" data-uid="ManagedBass.MediaPlayer.Duration">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Duration" data-toggle="collapse" class="expander">
-                  Duration
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Duration" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Gets the Playback Duration.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Device { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Duration.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Duration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L303" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Duration_" data-uid="ManagedBass.MediaPlayer.Duration*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Duration" data-uid="ManagedBass.MediaPlayer.Duration"><a href="#collapsible-ManagedBass_MediaPlayer_Duration" class="expander" data-toggle="collapse">Duration</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Duration" class="collapse in">
+  <div class="markdown level1 summary"><p>Gets the Playback Duration.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public TimeSpan Duration { get; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.timespan(v=vs.110).aspx">TimeSpan</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Frequency" data-uid="ManagedBass.MediaPlayer.Frequency">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Frequency" data-toggle="collapse" class="expander">
-                  Frequency
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Frequency" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Gets or Sets the Playback Frequency in Hertz.
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan Duration { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">TimeSpan</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Frequency.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Frequency%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L102" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Frequency_" data-uid="ManagedBass.MediaPlayer.Frequency*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Frequency" data-uid="ManagedBass.MediaPlayer.Frequency"><a href="#collapsible-ManagedBass_MediaPlayer_Frequency" class="expander" data-toggle="collapse">Frequency</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Frequency" class="collapse in">
+  <div class="markdown level1 summary"><p>Gets or Sets the Playback Frequency in Hertz.
 Default is 44100 Hz.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double Frequency { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Handle" data-uid="ManagedBass.MediaPlayer.Handle">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Handle" data-toggle="collapse" class="expander">
-                  Handle
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Handle" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Channel Handle of the loaded audio file.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Frequency { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Handle.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Handle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L24" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Handle_" data-uid="ManagedBass.MediaPlayer.Handle*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Handle" data-uid="ManagedBass.MediaPlayer.Handle"><a href="#collapsible-ManagedBass_MediaPlayer_Handle" class="expander" data-toggle="collapse">Handle</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Handle" class="collapse in">
+  <div class="markdown level1 summary"><p>Channel Handle of the loaded audio file.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">protected int Handle { get; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Loop" data-uid="ManagedBass.MediaPlayer.Loop">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Loop" data-toggle="collapse" class="expander">
-                  Loop
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Loop" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Gets or Sets whether the Playback is looped.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int Handle { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Loop.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Loop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L189" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Loop_" data-uid="ManagedBass.MediaPlayer.Loop*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Loop" data-uid="ManagedBass.MediaPlayer.Loop"><a href="#collapsible-ManagedBass_MediaPlayer_Loop" class="expander" data-toggle="collapse">Loop</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Loop" class="collapse in">
+  <div class="markdown level1 summary"><p>Gets or Sets whether the Playback is looped.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool Loop { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Position" data-uid="ManagedBass.MediaPlayer.Position">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Position" data-toggle="collapse" class="expander">
-                  Position
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Position" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Gets or Sets the Playback Position.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Loop { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Position.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Position%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L308" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Position_" data-uid="ManagedBass.MediaPlayer.Position*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Position" data-uid="ManagedBass.MediaPlayer.Position"><a href="#collapsible-ManagedBass_MediaPlayer_Position" class="expander" data-toggle="collapse">Position</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Position" class="collapse in">
+  <div class="markdown level1 summary"><p>Gets or Sets the Playback Position.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public TimeSpan Position { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.timespan(v=vs.110).aspx">TimeSpan</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.State" data-uid="ManagedBass.MediaPlayer.State">
-                <a href="#collapsible-ManagedBass.MediaPlayer.State" data-toggle="collapse" class="expander">
-                  State
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.State" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Gets the Playback State of the Channel.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan Position { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">TimeSpan</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_State.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L256" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_State_" data-uid="ManagedBass.MediaPlayer.State*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_State" data-uid="ManagedBass.MediaPlayer.State"><a href="#collapsible-ManagedBass_MediaPlayer_State" class="expander" data-toggle="collapse">State</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_State" class="collapse in">
+  <div class="markdown level1 summary"><p>Gets the Playback State of the Channel.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public PlaybackState State { get; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="ManagedBass.PlaybackState.html">PlaybackState</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Title" data-uid="ManagedBass.MediaPlayer.Title">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Title" data-toggle="collapse" class="expander">
-                  Title
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Title" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Title of the Loaded Media.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlaybackState State { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ManagedBass.PlaybackState.html">PlaybackState</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Title.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Title%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L216" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Title_" data-uid="ManagedBass.MediaPlayer.Title*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Title" data-uid="ManagedBass.MediaPlayer.Title"><a href="#collapsible-ManagedBass_MediaPlayer_Title" class="expander" data-toggle="collapse">Title</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Title" class="collapse in">
+  <div class="markdown level1 summary"><p>Title of the Loaded Media.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public string Title { get; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Volume" data-uid="ManagedBass.MediaPlayer.Volume">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Volume" data-toggle="collapse" class="expander">
-                  Volume
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Volume" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Gets or Sets the Playback Volume.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title { get; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Volume.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Volume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L169" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Volume_" data-uid="ManagedBass.MediaPlayer.Volume*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Volume" data-uid="ManagedBass.MediaPlayer.Volume"><a href="#collapsible-ManagedBass_MediaPlayer_Volume" class="expander" data-toggle="collapse">Volume</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Volume" class="collapse in">
+  <div class="markdown level1 summary"><p>Gets or Sets the Playback Volume.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public double Volume { get; set; }</code></pre>
-              </div>
-              <em>Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <h3 id="methods">
-                Methods
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Dispose" data-uid="ManagedBass.MediaPlayer.Dispose">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Dispose" data-toggle="collapse" class="expander">
-                  Dispose()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Dispose" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Frees all resources used by the player.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Volume { get; set; }</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  <h5 class="propertyValue">Property Value</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Dispose.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L367" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Dispose_" data-uid="ManagedBass.MediaPlayer.Dispose*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Dispose" data-uid="ManagedBass.MediaPlayer.Dispose"><a href="#collapsible-ManagedBass_MediaPlayer_Dispose" class="expander" data-toggle="collapse">Dispose()</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Dispose" class="collapse in">
+  <div class="markdown level1 summary"><p>Frees all resources used by the player.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public virtual void Dispose()</code></pre>
-              </div>
-              <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="https://msdn.microsoft.com/en-us/library/es4s3w1d(v=vs.110).aspx">IDisposable.Dispose()</a></div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.InitProperties" data-uid="ManagedBass.MediaPlayer.InitProperties">
-                <a href="#collapsible-ManagedBass.MediaPlayer.InitProperties" data-toggle="collapse" class="expander">
-                  InitProperties()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.InitProperties" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Initializes Properties on every call to <a class="xref" href="ManagedBass.MediaPlayer.html">LoadAsync(String)</a>.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Dispose()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_InitProperties.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.InitProperties%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L380" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_InitProperties_" data-uid="ManagedBass.MediaPlayer.InitProperties*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_InitProperties" data-uid="ManagedBass.MediaPlayer.InitProperties"><a href="#collapsible-ManagedBass_MediaPlayer_InitProperties" class="expander" data-toggle="collapse">InitProperties()</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_InitProperties" class="collapse in">
+  <div class="markdown level1 summary"><p>Initializes Properties on every call to <a class="xref" href="ManagedBass.MediaPlayer.html#ManagedBass_MediaPlayer_LoadAsync_System_String_">LoadAsync(String)</a>.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">protected virtual void InitProperties()</code></pre>
-              </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.LoadAsync(System.String)" data-uid="ManagedBass.MediaPlayer.LoadAsync(System.String)">
-                <a href="#collapsible-ManagedBass.MediaPlayer.LoadAsync(System.String)" data-toggle="collapse" class="expander">
-                  LoadAsync(String)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.LoadAsync(System.String)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Loads a file into the player.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void InitProperties()</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_LoadAsync_System_String_.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.LoadAsync(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L319" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_LoadAsync_" data-uid="ManagedBass.MediaPlayer.LoadAsync*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_LoadAsync_System_String_" data-uid="ManagedBass.MediaPlayer.LoadAsync(System.String)"><a href="#collapsible-ManagedBass_MediaPlayer_LoadAsync_System_String_" class="expander" data-toggle="collapse">LoadAsync(String)</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_LoadAsync_System_String_" class="collapse in">
+  <div class="markdown level1 summary"><p>Loads a file into the player.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; LoadAsync(string FileName)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>FileName</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
-                      <p class="padTop"><p>Path to the file to Load.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; LoadAsync(string FileName)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></span>
+        <span class="parametername">FileName</span>
+        <p><p>Path to the file to Load.</p>
 </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>
-                    <td>
-                      <span class="xref">Task</span>&lt;<a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>&gt;
-                      <p class="padTop"><p><span class="xref">true</span> on succes, <span class="xref">false</span> on failure.</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">Task</span>&lt;<a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>&gt;
+        <p><p><span class="xref">true</span> on succes, <span class="xref">false</span> on failure.</p>
 </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.OnLoad(System.String)" data-uid="ManagedBass.MediaPlayer.OnLoad(System.String)">
-                <a href="#collapsible-ManagedBass.MediaPlayer.OnLoad(System.String)" data-toggle="collapse" class="expander">
-                  OnLoad(String)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.OnLoad(System.String)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Override this method for custom loading procedure.</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_OnLoad_System_String_.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.OnLoad(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L208" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_OnLoad_" data-uid="ManagedBass.MediaPlayer.OnLoad*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_OnLoad_System_String_" data-uid="ManagedBass.MediaPlayer.OnLoad(System.String)"><a href="#collapsible-ManagedBass_MediaPlayer_OnLoad_System_String_" class="expander" data-toggle="collapse">OnLoad(String)</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_OnLoad_System_String_" class="collapse in">
+  <div class="markdown level1 summary"><p>Override this method for custom loading procedure.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">protected virtual int OnLoad(string FileName)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>FileName</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
-                      <p class="padTop"><p>Path to the File to Load.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual int OnLoad(string FileName)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></span>
+        <span class="parametername">FileName</span>
+        <p><p>Path to the File to Load.</p>
 </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>
-                    <td>
-                      <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-                      <p class="padTop"><p><span class="xref">true</span> on Success, <span class="xref">false</span> on failure</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
+        <p><p><span class="xref">true</span> on Success, <span class="xref">false</span> on failure</p>
 </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.OnPropertyChanged(System.String)" data-uid="ManagedBass.MediaPlayer.OnPropertyChanged(System.String)">
-                <a href="#collapsible-ManagedBass.MediaPlayer.OnPropertyChanged(System.String)" data-toggle="collapse" class="expander">
-                  OnPropertyChanged(String)
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.OnPropertyChanged(System.String)" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Fires the <a class="xref" href="ManagedBass.MediaPlayer.html">PropertyChanged</a> event.</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_OnPropertyChanged_System_String_.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.OnPropertyChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L398" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_OnPropertyChanged_" data-uid="ManagedBass.MediaPlayer.OnPropertyChanged*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_OnPropertyChanged_System_String_" data-uid="ManagedBass.MediaPlayer.OnPropertyChanged(System.String)"><a href="#collapsible-ManagedBass_MediaPlayer_OnPropertyChanged_System_String_" class="expander" data-toggle="collapse">OnPropertyChanged(String)</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_OnPropertyChanged_System_String_" class="collapse in">
+  <div class="markdown level1 summary"><p>Fires the <a class="xref" href="ManagedBass.MediaPlayer.html#ManagedBass_MediaPlayer_PropertyChanged">PropertyChanged</a> event.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string PropertyName = null)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <tbody>
-                  <tr>      
-                    <td>
-                      <em>PropertyName</em>
-                      <div class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></div>        
-                      <p class="padTop">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Pause" data-uid="ManagedBass.MediaPlayer.Pause">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Pause" data-toggle="collapse" class="expander">
-                  Pause()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Pause" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Pauses the Channel Playback.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPropertyChanged(string PropertyName = null)</code></pre>
+  </div>
+  
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></span>
+        <span class="parametername">PropertyName</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Pause.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Pause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L279" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Pause_" data-uid="ManagedBass.MediaPlayer.Pause*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Pause" data-uid="ManagedBass.MediaPlayer.Pause"><a href="#collapsible-ManagedBass_MediaPlayer_Pause" class="expander" data-toggle="collapse">Pause()</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Pause" class="collapse in">
+  <div class="markdown level1 summary"><p>Pauses the Channel Playback.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool Pause()</code></pre>
-              </div>
-              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Play" data-uid="ManagedBass.MediaPlayer.Play">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Play" data-toggle="collapse" class="expander">
-                  Play()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Play" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Starts the Channel Playback.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Pause()</code></pre>
+  </div>
+  
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Play.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Play%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L262" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Play_" data-uid="ManagedBass.MediaPlayer.Play*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Play" data-uid="ManagedBass.MediaPlayer.Play"><a href="#collapsible-ManagedBass_MediaPlayer_Play" class="expander" data-toggle="collapse">Play()</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Play" class="collapse in">
+  <div class="markdown level1 summary"><p>Starts the Channel Playback.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool Play()</code></pre>
-              </div>
-              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Stop" data-uid="ManagedBass.MediaPlayer.Stop">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Stop" data-toggle="collapse" class="expander">
-                  Stop()
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Stop" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Stops the Channel Playback.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Play()</code></pre>
+  </div>
+  
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Stop.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Stop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L289" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ManagedBass_MediaPlayer_Stop_" data-uid="ManagedBass.MediaPlayer.Stop*"></a>
+  
+  <h4 id="ManagedBass_MediaPlayer_Stop" data-uid="ManagedBass.MediaPlayer.Stop"><a href="#collapsible-ManagedBass_MediaPlayer_Stop" class="expander" data-toggle="collapse">Stop()</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Stop" class="collapse in">
+  <div class="markdown level1 summary"><p>Stops the Channel Playback.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public bool Stop()</code></pre>
-              </div>
-              <em>Returns</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-              <h5 id="methods_remarks">Remarks</h5>
-              <div class="markdown level1 remarks"><p>Difference from <a class="xref" href="ManagedBass.Bass.html">ChannelStop(Int32)</a>: Playback is restarted when <a class="xref" href="ManagedBass.MediaPlayer.html">Play()</a> is called.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Stop()</code></pre>
+  </div>
+  
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+  <h5 id="ManagedBass_MediaPlayer_Stop_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Difference from <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelStop_System_Int32_">ChannelStop(Int32)</a>: Playback is restarted when <a class="xref" href="ManagedBass.MediaPlayer.html#ManagedBass_MediaPlayer_Play">Play()</a> is called.</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <h3 id="events">
-                Events
-              </h3>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.Disposed" data-uid="ManagedBass.MediaPlayer.Disposed">
-                <a href="#collapsible-ManagedBass.MediaPlayer.Disposed" data-toggle="collapse" class="expander">
-                  Disposed
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.Disposed" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Fired when this Channel is Disposed.</p>
+  
+  
+  
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_Disposed.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.Disposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L82" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  
+  <h4 id="ManagedBass_MediaPlayer_Disposed" data-uid="ManagedBass.MediaPlayer.Disposed"><a href="#collapsible-ManagedBass_MediaPlayer_Disposed" class="expander" data-toggle="collapse">Disposed</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_Disposed" class="collapse in">
+  <div class="markdown level1 summary"><p>Fired when this Channel is Disposed.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public event EventHandler Disposed</code></pre>
-              </div>
-              <em>Event Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.eventhandler(v=vs.110).aspx">EventHandler</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.MediaEnded" data-uid="ManagedBass.MediaPlayer.MediaEnded">
-                <a href="#collapsible-ManagedBass.MediaPlayer.MediaEnded" data-toggle="collapse" class="expander">
-                  MediaEnded
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.MediaEnded" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Fired when the Media Playback Ends</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler Disposed</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  <h5 class="eventType">Event Type</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">EventHandler</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_MediaEnded.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.MediaEnded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L87" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  
+  <h4 id="ManagedBass_MediaPlayer_MediaEnded" data-uid="ManagedBass.MediaPlayer.MediaEnded"><a href="#collapsible-ManagedBass_MediaPlayer_MediaEnded" class="expander" data-toggle="collapse">MediaEnded</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_MediaEnded" class="collapse in">
+  <div class="markdown level1 summary"><p>Fired when the Media Playback Ends</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public event EventHandler MediaEnded</code></pre>
-              </div>
-              <em>Event Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.eventhandler(v=vs.110).aspx">EventHandler</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.MediaFailed" data-uid="ManagedBass.MediaPlayer.MediaFailed">
-                <a href="#collapsible-ManagedBass.MediaPlayer.MediaFailed" data-toggle="collapse" class="expander">
-                  MediaFailed
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.MediaFailed" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Fired when the Playback fails</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler MediaEnded</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  <h5 class="eventType">Event Type</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">EventHandler</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_MediaFailed.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.MediaFailed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L92" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  
+  <h4 id="ManagedBass_MediaPlayer_MediaFailed" data-uid="ManagedBass.MediaPlayer.MediaFailed"><a href="#collapsible-ManagedBass_MediaPlayer_MediaFailed" class="expander" data-toggle="collapse">MediaFailed</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_MediaFailed" class="collapse in">
+  <div class="markdown level1 summary"><p>Fired when the Playback fails</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public event EventHandler MediaFailed</code></pre>
-              </div>
-              <em>Event Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.eventhandler(v=vs.110).aspx">EventHandler</a>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.MediaLoaded" data-uid="ManagedBass.MediaPlayer.MediaLoaded">
-                <a href="#collapsible-ManagedBass.MediaPlayer.MediaLoaded" data-toggle="collapse" class="expander">
-                  MediaLoaded
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.MediaLoaded" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Fired when a Media is Loaded.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler MediaFailed</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  <h5 class="eventType">Event Type</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">EventHandler</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_MediaLoaded.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.MediaLoaded%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L362" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  
+  <h4 id="ManagedBass_MediaPlayer_MediaLoaded" data-uid="ManagedBass.MediaPlayer.MediaLoaded"><a href="#collapsible-ManagedBass_MediaPlayer_MediaLoaded" class="expander" data-toggle="collapse">MediaLoaded</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_MediaLoaded" class="collapse in">
+  <div class="markdown level1 summary"><p>Fired when a Media is Loaded.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public event Action&lt;int&gt; MediaLoaded</code></pre>
-              </div>
-              <em>Event Type</em>: <a class="xref" href="https://msdn.microsoft.com/en-us/library/018hxwa8(v=vs.110).aspx">Action</a>&lt;<a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>&gt;
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              <div>
-                
-              
-              </div>
-              
-              <h4 id="ManagedBass.MediaPlayer.PropertyChanged" data-uid="ManagedBass.MediaPlayer.PropertyChanged">
-                <a href="#collapsible-ManagedBass.MediaPlayer.PropertyChanged" data-toggle="collapse" class="expander">
-                  PropertyChanged
-                </a>
-              </h4>
-              <div id="collapsible-ManagedBass.MediaPlayer.PropertyChanged" class="container-fluid collapse in">
-              <div class="markdown level1 summary"><p>Fired when a property value changes.</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;int&gt; MediaLoaded</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  <h5 class="eventType">Event Type</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">Action</span>&lt;<a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>&gt;
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_MediaPlayer_PropertyChanged.md&amp;value=---%0Auid%3A%20ManagedBass.MediaPlayer.PropertyChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L393" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  
+  <h4 id="ManagedBass_MediaPlayer_PropertyChanged" data-uid="ManagedBass.MediaPlayer.PropertyChanged"><a href="#collapsible-ManagedBass_MediaPlayer_PropertyChanged" class="expander" data-toggle="collapse">PropertyChanged</a></h4>
+  
+  <div id="collapsible-ManagedBass_MediaPlayer_PropertyChanged" class="collapse in">
+  <div class="markdown level1 summary"><p>Fired when a property value changes.</p>
 </div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
-              </div>
-              <em>Event Type</em>: <span class="xref">PropertyChangedEventHandler</span>
-              <div class="markdown level1 conceptual"></div>
-              </div>
-              
-            </article>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+  </div>
+  
+  
+  
+  
+  
+  
+  <h5 class="eventType">Event Type</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">PropertyChangedEventHandler</span>
+        <p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+</article>
           </div>
-          <!-- Affix -->
-          <div class="hidden-sm col-md-3" role="complementary">
-            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-            </nav>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/ManagedBass/ManagedBass.DocFX/blob/master/apidoc/MediaPlayer.md/#L2" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/MediaPlayer.cs/#L15" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
           </div>
         </div>
       </div>
-
-      <a href="#" class="fab back-to-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/1.8.6/url.min.js"></script>
-
-    <script src="../styles/docfx.js"></script>
-    <script src="../styles/main.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
   </body>
 </html>
