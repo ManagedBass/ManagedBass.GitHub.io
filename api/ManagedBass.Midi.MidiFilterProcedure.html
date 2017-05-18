@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate EncoderProcedure
+    <title>Delegate MidiFilterProcedure
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate EncoderProcedure
+    <meta name="title" content="Delegate MidiFilterProcedure
    ">
     <meta name="generator" content="docfx 2.17.4.2">
     
@@ -67,22 +67,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ManagedBass.Enc.EncoderProcedure">
-  <h1 id="ManagedBass_Enc_EncoderProcedure" data-uid="ManagedBass.Enc.EncoderProcedure">Delegate EncoderProcedure
+            <article class="content wrap" id="_content" data-uid="ManagedBass.Midi.MidiFilterProcedure">
+  <h1 id="ManagedBass_Midi_MidiFilterProcedure" data-uid="ManagedBass.Midi.MidiFilterProcedure">Delegate MidiFilterProcedure
   </h1>
-  <div class="markdown level0 summary"><p>User defined callback function to encode sample data. </p>
+  <div class="markdown level0 summary"><p>User defined callback to filter events.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.Enc</h6>
-  <h6><strong>Assembly</strong>: ManagedBass.Enc.dll</h6>
+  <h6><strong>Namespace</strong>: ManagedBass.Midi</h6>
+  <h6><strong>Assembly</strong>: ManagedBass.Midi.dll</h6>
   
-  <h5 id="ManagedBass_Enc_EncoderProcedure_syntax">Syntax</h5>
+  <h5 id="ManagedBass_Midi_MidiFilterProcedure_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate int EncoderProcedure(int Handle, int Channel, IntPtr Buffer, int Length, int MaxOut, IntPtr User);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate bool MidiFilterProcedure(int Handle, int Track, MidiEvent Event, bool Seeking, IntPtr User);</code></pre>
   </div>
   
   <h5 class="parameters">Parameters</h5>
@@ -91,39 +91,31 @@
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
         <span class="parametername">Handle</span>
-        <p><p>The encoder handle.</p>
+        <p><p>The MIDI stream handle.</p>
 </p>
       </td>
     </tr>
     <tr>
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
-        <span class="parametername">Channel</span>
-        <p><p>The channel that the encoder is set on.</p>
+        <span class="parametername">Track</span>
+        <p><p>The track that the event is from... 0 = 1st track.</p>
 </p>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="pull-right"><span class="xref">IntPtr</span></span>
-        <span class="parametername">Buffer</span>
-        <p><p>Buffer containing the sample data on input, and containing the encoded data on output.</p>
+        <span class="pull-right"><a class="xref" href="ManagedBass.Midi.MidiEvent.html">MidiEvent</a></span>
+        <span class="parametername">Event</span>
+        <p><p>The event structure.</p>
 </p>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
-        <span class="parametername">Length</span>
-        <p><p>The number of bytes in the buffer... -1 = the encoder is being freed (no data in the buffer).</p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
-        <span class="parametername">MaxOut</span>
-        <p><p>The maximum amount of encoded data that can be placed in the buffer.</p>
+        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a></span>
+        <span class="parametername">Seeking</span>
+        <p><p>true = the event is being processed while seeking, false = the event is being played.</p>
 </p>
       </td>
     </tr>
@@ -131,7 +123,7 @@
       <td>
         <span class="pull-right"><span class="xref">IntPtr</span></span>
         <span class="parametername">User</span>
-        <p><p>The user instance data given when <a class="xref" href="ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_EncodeStart_System_Int32_System_String_ManagedBass_Enc_EncodeFlags_ManagedBass_Enc_EncoderProcedure_IntPtr_">EncodeStart(Int32, String, EncodeFlags, EncoderProcedure, IntPtr)</a> was called.</p>
+        <p><p>The user instance data given when <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamSetFilter_System_Int32_System_Boolean_ManagedBass_Midi_MidiFilterProcedure_IntPtr_">StreamSetFilter(Int32, Boolean, MidiFilterProcedure, IntPtr)</a> was called.</p>
 </p>
       </td>
     </tr>
@@ -141,17 +133,21 @@
   <table>
     <tr>
       <td>
-        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>The number of bytes of encoded data placed in buffer... -1 = stop encoding.</p>
+        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
+        <p><p>true to process the event, and false to drop the event.</p>
 </p>
       </td>
     </tr>
   </table>
   
   
-  <h5 id="ManagedBass_Enc_EncoderProcedure_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>If the encoder output exceeds the outmax value, then only the first outmax bytes should be delivered and the remainder retained.
-The function will be called again immediately to get the remainder.</p>
+  <h5 id="ManagedBass_Midi_MidiFilterProcedure_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The event&#39;s type, parameter, and channel can be modified, but not its position.
+It is also possible to apply additional events at the same time via <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_System_Byte_System_Byte_">StreamEvent(Int32, Int32, MidiEventType, Byte, Byte)</a>, but not <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvents_System_Int32_ManagedBass_Midi_MidiEventsMode_System_Byte___System_Int32_">StreamEvents(Int32, MidiEventsMode, Byte[], Int32)</a>.
+<a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Note">Note</a>, <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_NotesOff">NotesOff</a>, and <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_SoundOff">SoundOff</a> events are ignored while seeking so they will not be received by a filtering function then.
+<a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Tempo">Tempo</a> events can be changed while seeking but doing so when seeking in bytes (<a class="xref" href="ManagedBass.PositionFlags.html#ManagedBass_PositionFlags_Bytes">Bytes</a>) will result in reaching a different position.
+Seeking in ticks (<a class="xref" href="ManagedBass.PositionFlags.html#ManagedBass_PositionFlags_MIDITick">MIDITick</a>) is unaffected by tempo changes.
+The <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Speed">Speed</a> MIDI_EVENT_SPEED event can be used to modify the tempo without affecting seeking.</p>
 </div>
   
   
@@ -159,8 +155,8 @@ The function will be called again immediately to get the remainder.</p>
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
-              <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Enc_EncoderProcedure.md&amp;value=---%0Auid%3A%20ManagedBass.Enc.EncoderProcedure%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassEnc/Shared/Delegates/EncoderProcedure.cs/#L19" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Midi_MidiFilterProcedure.md&amp;value=---%0Auid%3A%20ManagedBass.Midi.MidiFilterProcedure%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassMidi/Shared/Delegates/MidiFilterProcedure.cs/#L22" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

@@ -239,6 +239,14 @@ param : cutoff level (0-127, 0=-64, 64=normal, 127=+63).</p>
         </td>
       </tr>
       <tr>
+        <td id="ManagedBass_Midi_MidiEventType_Decay">
+          Decay
+          <p><p>Set the decay time (MIDI controller 75, NRPN 164h)
+param : decay time (0-127, 0=-64, 64=normal, 127=+63).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
         <td id="ManagedBass_Midi_MidiEventType_DrumChorus">
           DrumChorus
           <p><p>Set the chorus send level of a drum key (MIDI NRPN 1Eknh).
@@ -312,6 +320,14 @@ param : use drums? (0=no, 1=yes).</p>
         </td>
       </tr>
       <tr>
+        <td id="ManagedBass_Midi_MidiEventType_DrumUserFX">
+          DrumUserFX
+          <p><p>Set the user effect send level of a drum key (MIDI NRPN 1Fknh)
+param : LOBYTE = key number (0-127), HIBYTE = user effect level (0-127, 127=normal/full).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
         <td id="ManagedBass_Midi_MidiEventType_End">
           End
           <p><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_CreateStream_ManagedBass_Midi_MidiEvent___System_Int32_ManagedBass_BassFlags_System_Int32_">CreateStream(MidiEvent[], Int32, BassFlags, Int32)</a> to mark the end of the event array.</p>
@@ -342,6 +358,46 @@ param : finetune in cents (0-16383, 0=-100, 8192=normal, 16383=+100).</p>
         </td>
       </tr>
       <tr>
+        <td id="ManagedBass_Midi_MidiEventType_KeyPressure">
+          KeyPressure
+          <p><p>Set a key&#39;s pressure/aftertouch.
+param : LOBYTE = key number (0-127), HIBYTE = pressure level (0-127).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_KeyPressureFilter">
+          KeyPressureFilter
+          <p><p>Set the maximum effect of key pressure/aftertouch on filter cutoff.
+param : filter cutoff effect in cents (0=-9600, 9600=none, 19200=+9600).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_KeyPressurePitch">
+          KeyPressurePitch
+          <p><p>Set the maximum effect of key pressure/aftertouch on pitch.
+param : pitch effect in semitones (0=-24, 24=none, 48=+24).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_KeyPressureVibrato">
+          KeyPressureVibrato
+          <p><p>Set the maximum effect of key pressure/aftertouch on vibrato depth.
+param : vibrato depth effect in cents (0=none, 128=100, 256=200, etc).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_KeyPressureVolume">
+          KeyPressureVolume
+          <p><p>Set the maximum effect of key pressure/aftertouch on volume.
+param : volume effect percentage (0=-100, 100=none, 200=+100).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
         <td id="ManagedBass_Midi_MidiEventType_Level">
           Level
           <p><p>Set the level.
@@ -366,6 +422,22 @@ param : mode (0=poly, 1=mono).</p>
         </td>
       </tr>
       <tr>
+        <td id="ManagedBass_Midi_MidiEventType_ModFilter">
+          ModFilter
+          <p><p>Set the maximum effect of modulation (MIDI controller 1) on filter cutoff.
+param : filter cutoff effect in cents (0=-9600, 9600=none, 19200=+9600).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_ModPitch">
+          ModPitch
+          <p><p>Set the maximum effect of modulation (MIDI controller 1) on pitch.
+param : pitch effect in semitones (0=-24, 24=none, 48=+24).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
         <td id="ManagedBass_Midi_MidiEventType_ModRange">
           ModRange
           <p><p>Mod Range.</p>
@@ -377,6 +449,14 @@ param : mode (0=poly, 1=mono).</p>
           Modulation
           <p><p>Set the modulation (MIDI controller 1).
 param : modulation level (0-127).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_ModVolume">
+          ModVolume
+          <p><p>Set the maximum effect of modulation (MIDI controller 1) on volume.
+param : volume effect percentage (0=-100, 100=none, 200=+100).</p>
 </p>
         </td>
       </tr>
@@ -399,6 +479,14 @@ param : modulation level (0-127).</p>
           Note
           <p><p>Press or release a key, or stop without sustain/decay.
 param : LOBYTE = key number (0-127, 60=middle C), HIBYTE = velocity (0=release, 1-127=press, 255=stop).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_Notes">
+          Notes
+          <p><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_">StreamGetEvent(Int32, Int32, MidiEventType)</a> to check the total no of keys pressed in the specified channel.
+If a key is simultaneously pressed multiple times, it will still only be counted once.</p>
 </p>
         </td>
       </tr>
@@ -565,10 +653,28 @@ param : soft is on? (0-63=no, 64-127=yes).</p>
         </td>
       </tr>
       <tr>
+        <td id="ManagedBass_Midi_MidiEventType_Sostenuto">
+          Sostenuto
+          <p><p>Set the sostenuto pedal/switch (MIDI controller 66).
+param : sostenuto is on? (0-63=no, 64-127=yes).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
         <td id="ManagedBass_Midi_MidiEventType_SoundOff">
           SoundOff
           <p><p>Stop all sounds (MIDI controller 120).
 param : not used.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_Speed">
+          Speed
+          <p><p>Set a tempo modification.
+Changing the tempo affects the stream length, and the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetLength_System_Int32_ManagedBass_PositionFlags_">ChannelGetLength(Int32, PositionFlags)</a> byte value will no longer be valid.
+The modification does not affect seeking.
+param : speed in 100ths of a percent (100=1%/min, 10000=100%/normal, 20000=200%).</p>
 </p>
         </td>
       </tr>
@@ -621,6 +727,45 @@ param : transposition amount in semitones (0=-100, 100=normal, 200=+100).</p>
         </td>
       </tr>
       <tr>
+        <td id="ManagedBass_Midi_MidiEventType_UserFX">
+          UserFX
+          <p><p>Set the user effect send level (MIDI controller 94).
+This will have no audible effect unless custom processing is applied to the user effect mix via <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetChannel_System_Int32_System_Int32_">StreamGetChannel(Int32, Int32)</a>.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_UserFXChorus">
+          UserFXChorus
+          <p><p>Set the user effect send to chorus level.
+param : user effect send to chorus level (0=off, 100=0dB, 200=+6dB).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_UserFXLevel">
+          UserFXLevel
+          <p><p>Set the user effect level.
+param : user effect level (0=off, 100=0dB, 200=+6dB).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_UserFXReverb">
+          UserFXReverb
+          <p><p>Set the user effect send to reverb level.
+param : user effect send to reverb level (0=off, 100=0dB, 200=+6dB).</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_Midi_MidiEventType_Voices">
+          Voices
+          <p><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_">StreamGetEvent(Int32, Int32, MidiEventType)</a> to check the total no of active voices.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
         <td id="ManagedBass_Midi_MidiEventType_Volume">
           Volume
           <p><p>Set the volume (MIDI controller 7).
@@ -633,8 +778,8 @@ param : volume level (0-127).</p>
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
-              <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_Midi_MidiEventType.md&amp;value=---%0Auid%3A%20ManagedBass.Midi.MidiEventType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/AddOns/BassMidi/Shared/Enumerations/MidiEventType.cs/#L6" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Midi_MidiEventType.md&amp;value=---%0Auid%3A%20ManagedBass.Midi.MidiEventType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassMidi/Shared/Enumerations/MidiEventType.cs/#L6" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

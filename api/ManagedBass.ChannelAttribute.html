@@ -216,6 +216,12 @@ By default, a MIDI stream will have no CPU limit.
         </td>
       </tr>
       <tr>
+        <td id="ManagedBass_ChannelAttribute_MidiKill">
+          MidiKill
+          <p>
+        </td>
+      </tr>
+      <tr>
         <td id="ManagedBass_ChannelAttribute_MidiPPQN">
           MidiPPQN
           <p><p>BASSMIDI: Gets the Pulses Per Quarter Note (or ticks per beat) value of the MIDI file.
@@ -224,6 +230,20 @@ This attribute is the number of ticks per beat as defined by the MIDI file;
 it will be 0 for MIDI streams created via <see cref="!:Midi.BassMidi.CreateStream(int,BassFlags,int)"></see>,
 It is read-only, so can&#39;t be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.
 </p></p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_ChannelAttribute_MidiSRC">
+          MidiSRC
+          <p><p>BASSMIDI: The sample rate conversion quality of a MIDI stream&#39;s samples.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td id="ManagedBass_ChannelAttribute_MidiState">
+          MidiState
+          <p><p>BASSMIDI: The current state of a MIDI stream.</p>
 </p>
         </td>
       </tr>
@@ -641,8 +661,8 @@ to slide this attribute, a negative volume value can be used to fade-out and the
 </article>
           </div>
           <div class="contribution-panel mobile-hide">
-              <a href="https://github.com/ManagedBass/ManagedBass/new/3035d3077829fe748b77ef66599dec10bffb287c/apiSpec/new?filename=ManagedBass_ChannelAttribute.md&amp;value=---%0Auid%3A%20ManagedBass.ChannelAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="https://github.com/ManagedBass/ManagedBass/blob/3035d3077829fe748b77ef66599dec10bffb287c/src/Bass/Shared/Bass/Enumerations/ChannelAttribute.cs/#L8" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_ChannelAttribute.md&amp;value=---%0Auid%3A%20ManagedBass.ChannelAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/Bass/Shared/Bass/Enumerations/ChannelAttribute.cs/#L8" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

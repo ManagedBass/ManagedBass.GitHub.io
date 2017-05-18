@@ -6361,12 +6361,30 @@ references:
   commentId: F:ManagedBass.ChannelAttribute.MidiCPU
   fullName: ManagedBass.ChannelAttribute.MidiCPU
   nameWithType: ChannelAttribute.MidiCPU
+- uid: ManagedBass.ChannelAttribute.MidiKill
+  name: MidiKill
+  href: api/ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MidiKill
+  commentId: F:ManagedBass.ChannelAttribute.MidiKill
+  fullName: ManagedBass.ChannelAttribute.MidiKill
+  nameWithType: ChannelAttribute.MidiKill
 - uid: ManagedBass.ChannelAttribute.MidiPPQN
   name: MidiPPQN
   href: api/ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MidiPPQN
   commentId: F:ManagedBass.ChannelAttribute.MidiPPQN
   fullName: ManagedBass.ChannelAttribute.MidiPPQN
   nameWithType: ChannelAttribute.MidiPPQN
+- uid: ManagedBass.ChannelAttribute.MidiSRC
+  name: MidiSRC
+  href: api/ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MidiSRC
+  commentId: F:ManagedBass.ChannelAttribute.MidiSRC
+  fullName: ManagedBass.ChannelAttribute.MidiSRC
+  nameWithType: ChannelAttribute.MidiSRC
+- uid: ManagedBass.ChannelAttribute.MidiState
+  name: MidiState
+  href: api/ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MidiState
+  commentId: F:ManagedBass.ChannelAttribute.MidiState
+  fullName: ManagedBass.ChannelAttribute.MidiState
+  nameWithType: ChannelAttribute.MidiState
 - uid: ManagedBass.ChannelAttribute.MidiTrackVolume
   name: MidiTrackVolume
   href: api/ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MidiTrackVolume
@@ -17279,6 +17297,21 @@ references:
   commentId: Overload:ManagedBass.Midi.BassMidi.StreamGetMarks
   fullName: ManagedBass.Midi.BassMidi.StreamGetMarks
   nameWithType: BassMidi.StreamGetMarks
+- uid: ManagedBass.Midi.BassMidi.StreamGetPreset(System.Int32,System.Int32,ManagedBass.Midi.MidiFont@)
+  name: StreamGetPreset(Int32, Int32, out MidiFont)
+  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetPreset_System_Int32_System_Int32_ManagedBass_Midi_MidiFont__
+  commentId: M:ManagedBass.Midi.BassMidi.StreamGetPreset(System.Int32,System.Int32,ManagedBass.Midi.MidiFont@)
+  name.vb: StreamGetPreset(Int32, Int32, ByRef MidiFont)
+  fullName: ManagedBass.Midi.BassMidi.StreamGetPreset(System.Int32, System.Int32, out ManagedBass.Midi.MidiFont)
+  fullName.vb: ManagedBass.Midi.BassMidi.StreamGetPreset(System.Int32, System.Int32, ByRef ManagedBass.Midi.MidiFont)
+  nameWithType: BassMidi.StreamGetPreset(Int32, Int32, out MidiFont)
+  nameWithType.vb: BassMidi.StreamGetPreset(Int32, Int32, ByRef MidiFont)
+- uid: ManagedBass.Midi.BassMidi.StreamGetPreset*
+  name: StreamGetPreset
+  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetPreset_
+  commentId: Overload:ManagedBass.Midi.BassMidi.StreamGetPreset
+  fullName: ManagedBass.Midi.BassMidi.StreamGetPreset
+  nameWithType: BassMidi.StreamGetPreset
 - uid: ManagedBass.Midi.BassMidi.StreamLoadSamples(System.Int32)
   name: StreamLoadSamples(Int32)
   href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamLoadSamples_System_Int32_
@@ -17291,6 +17324,18 @@ references:
   commentId: Overload:ManagedBass.Midi.BassMidi.StreamLoadSamples
   fullName: ManagedBass.Midi.BassMidi.StreamLoadSamples
   nameWithType: BassMidi.StreamLoadSamples
+- uid: ManagedBass.Midi.BassMidi.StreamSetFilter(System.Int32,System.Boolean,ManagedBass.Midi.MidiFilterProcedure,IntPtr)
+  name: StreamSetFilter(Int32, Boolean, MidiFilterProcedure, IntPtr)
+  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamSetFilter_System_Int32_System_Boolean_ManagedBass_Midi_MidiFilterProcedure_IntPtr_
+  commentId: M:ManagedBass.Midi.BassMidi.StreamSetFilter(System.Int32,System.Boolean,ManagedBass.Midi.MidiFilterProcedure,IntPtr)
+  fullName: ManagedBass.Midi.BassMidi.StreamSetFilter(System.Int32, System.Boolean, ManagedBass.Midi.MidiFilterProcedure, IntPtr)
+  nameWithType: BassMidi.StreamSetFilter(Int32, Boolean, MidiFilterProcedure, IntPtr)
+- uid: ManagedBass.Midi.BassMidi.StreamSetFilter*
+  name: StreamSetFilter
+  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamSetFilter_
+  commentId: Overload:ManagedBass.Midi.BassMidi.StreamSetFilter
+  fullName: ManagedBass.Midi.BassMidi.StreamSetFilter
+  nameWithType: BassMidi.StreamSetFilter
 - uid: ManagedBass.Midi.BassMidi.StreamSetFonts(System.Int32,ManagedBass.Midi.MidiFont[],System.Int32)
   name: StreamSetFonts(Int32, MidiFont[], Int32)
   href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamSetFonts_System_Int32_ManagedBass_Midi_MidiFont___System_Int32_
@@ -17639,6 +17684,12 @@ references:
   commentId: F:ManagedBass.Midi.MidiEventType.CutOff
   fullName: ManagedBass.Midi.MidiEventType.CutOff
   nameWithType: MidiEventType.CutOff
+- uid: ManagedBass.Midi.MidiEventType.Decay
+  name: Decay
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Decay
+  commentId: F:ManagedBass.Midi.MidiEventType.Decay
+  fullName: ManagedBass.Midi.MidiEventType.Decay
+  nameWithType: MidiEventType.Decay
 - uid: ManagedBass.Midi.MidiEventType.DrumChorus
   name: DrumChorus
   href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_DrumChorus
@@ -17693,6 +17744,12 @@ references:
   commentId: F:ManagedBass.Midi.MidiEventType.Drums
   fullName: ManagedBass.Midi.MidiEventType.Drums
   nameWithType: MidiEventType.Drums
+- uid: ManagedBass.Midi.MidiEventType.DrumUserFX
+  name: DrumUserFX
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_DrumUserFX
+  commentId: F:ManagedBass.Midi.MidiEventType.DrumUserFX
+  fullName: ManagedBass.Midi.MidiEventType.DrumUserFX
+  nameWithType: MidiEventType.DrumUserFX
 - uid: ManagedBass.Midi.MidiEventType.End
   name: End
   href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_End
@@ -17717,6 +17774,36 @@ references:
   commentId: F:ManagedBass.Midi.MidiEventType.FineTune
   fullName: ManagedBass.Midi.MidiEventType.FineTune
   nameWithType: MidiEventType.FineTune
+- uid: ManagedBass.Midi.MidiEventType.KeyPressure
+  name: KeyPressure
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_KeyPressure
+  commentId: F:ManagedBass.Midi.MidiEventType.KeyPressure
+  fullName: ManagedBass.Midi.MidiEventType.KeyPressure
+  nameWithType: MidiEventType.KeyPressure
+- uid: ManagedBass.Midi.MidiEventType.KeyPressureFilter
+  name: KeyPressureFilter
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_KeyPressureFilter
+  commentId: F:ManagedBass.Midi.MidiEventType.KeyPressureFilter
+  fullName: ManagedBass.Midi.MidiEventType.KeyPressureFilter
+  nameWithType: MidiEventType.KeyPressureFilter
+- uid: ManagedBass.Midi.MidiEventType.KeyPressurePitch
+  name: KeyPressurePitch
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_KeyPressurePitch
+  commentId: F:ManagedBass.Midi.MidiEventType.KeyPressurePitch
+  fullName: ManagedBass.Midi.MidiEventType.KeyPressurePitch
+  nameWithType: MidiEventType.KeyPressurePitch
+- uid: ManagedBass.Midi.MidiEventType.KeyPressureVibrato
+  name: KeyPressureVibrato
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_KeyPressureVibrato
+  commentId: F:ManagedBass.Midi.MidiEventType.KeyPressureVibrato
+  fullName: ManagedBass.Midi.MidiEventType.KeyPressureVibrato
+  nameWithType: MidiEventType.KeyPressureVibrato
+- uid: ManagedBass.Midi.MidiEventType.KeyPressureVolume
+  name: KeyPressureVolume
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_KeyPressureVolume
+  commentId: F:ManagedBass.Midi.MidiEventType.KeyPressureVolume
+  fullName: ManagedBass.Midi.MidiEventType.KeyPressureVolume
+  nameWithType: MidiEventType.KeyPressureVolume
 - uid: ManagedBass.Midi.MidiEventType.Level
   name: Level
   href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Level
@@ -17735,6 +17822,18 @@ references:
   commentId: F:ManagedBass.Midi.MidiEventType.Mode
   fullName: ManagedBass.Midi.MidiEventType.Mode
   nameWithType: MidiEventType.Mode
+- uid: ManagedBass.Midi.MidiEventType.ModFilter
+  name: ModFilter
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_ModFilter
+  commentId: F:ManagedBass.Midi.MidiEventType.ModFilter
+  fullName: ManagedBass.Midi.MidiEventType.ModFilter
+  nameWithType: MidiEventType.ModFilter
+- uid: ManagedBass.Midi.MidiEventType.ModPitch
+  name: ModPitch
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_ModPitch
+  commentId: F:ManagedBass.Midi.MidiEventType.ModPitch
+  fullName: ManagedBass.Midi.MidiEventType.ModPitch
+  nameWithType: MidiEventType.ModPitch
 - uid: ManagedBass.Midi.MidiEventType.ModRange
   name: ModRange
   href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_ModRange
@@ -17747,6 +17846,12 @@ references:
   commentId: F:ManagedBass.Midi.MidiEventType.Modulation
   fullName: ManagedBass.Midi.MidiEventType.Modulation
   nameWithType: MidiEventType.Modulation
+- uid: ManagedBass.Midi.MidiEventType.ModVolume
+  name: ModVolume
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_ModVolume
+  commentId: F:ManagedBass.Midi.MidiEventType.ModVolume
+  fullName: ManagedBass.Midi.MidiEventType.ModVolume
+  nameWithType: MidiEventType.ModVolume
 - uid: ManagedBass.Midi.MidiEventType.None
   name: None
   href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_None
@@ -17765,6 +17870,12 @@ references:
   commentId: F:ManagedBass.Midi.MidiEventType.Note
   fullName: ManagedBass.Midi.MidiEventType.Note
   nameWithType: MidiEventType.Note
+- uid: ManagedBass.Midi.MidiEventType.Notes
+  name: Notes
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Notes
+  commentId: F:ManagedBass.Midi.MidiEventType.Notes
+  fullName: ManagedBass.Midi.MidiEventType.Notes
+  nameWithType: MidiEventType.Notes
 - uid: ManagedBass.Midi.MidiEventType.NotesOff
   name: NotesOff
   href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_NotesOff
@@ -17885,12 +17996,24 @@ references:
   commentId: F:ManagedBass.Midi.MidiEventType.Soft
   fullName: ManagedBass.Midi.MidiEventType.Soft
   nameWithType: MidiEventType.Soft
+- uid: ManagedBass.Midi.MidiEventType.Sostenuto
+  name: Sostenuto
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Sostenuto
+  commentId: F:ManagedBass.Midi.MidiEventType.Sostenuto
+  fullName: ManagedBass.Midi.MidiEventType.Sostenuto
+  nameWithType: MidiEventType.Sostenuto
 - uid: ManagedBass.Midi.MidiEventType.SoundOff
   name: SoundOff
   href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_SoundOff
   commentId: F:ManagedBass.Midi.MidiEventType.SoundOff
   fullName: ManagedBass.Midi.MidiEventType.SoundOff
   nameWithType: MidiEventType.SoundOff
+- uid: ManagedBass.Midi.MidiEventType.Speed
+  name: Speed
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Speed
+  commentId: F:ManagedBass.Midi.MidiEventType.Speed
+  fullName: ManagedBass.Midi.MidiEventType.Speed
+  nameWithType: MidiEventType.Speed
 - uid: ManagedBass.Midi.MidiEventType.Sustain
   name: Sustain
   href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Sustain
@@ -17921,12 +18044,48 @@ references:
   commentId: F:ManagedBass.Midi.MidiEventType.Transpose
   fullName: ManagedBass.Midi.MidiEventType.Transpose
   nameWithType: MidiEventType.Transpose
+- uid: ManagedBass.Midi.MidiEventType.UserFX
+  name: UserFX
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_UserFX
+  commentId: F:ManagedBass.Midi.MidiEventType.UserFX
+  fullName: ManagedBass.Midi.MidiEventType.UserFX
+  nameWithType: MidiEventType.UserFX
+- uid: ManagedBass.Midi.MidiEventType.UserFXChorus
+  name: UserFXChorus
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_UserFXChorus
+  commentId: F:ManagedBass.Midi.MidiEventType.UserFXChorus
+  fullName: ManagedBass.Midi.MidiEventType.UserFXChorus
+  nameWithType: MidiEventType.UserFXChorus
+- uid: ManagedBass.Midi.MidiEventType.UserFXLevel
+  name: UserFXLevel
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_UserFXLevel
+  commentId: F:ManagedBass.Midi.MidiEventType.UserFXLevel
+  fullName: ManagedBass.Midi.MidiEventType.UserFXLevel
+  nameWithType: MidiEventType.UserFXLevel
+- uid: ManagedBass.Midi.MidiEventType.UserFXReverb
+  name: UserFXReverb
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_UserFXReverb
+  commentId: F:ManagedBass.Midi.MidiEventType.UserFXReverb
+  fullName: ManagedBass.Midi.MidiEventType.UserFXReverb
+  nameWithType: MidiEventType.UserFXReverb
+- uid: ManagedBass.Midi.MidiEventType.Voices
+  name: Voices
+  href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Voices
+  commentId: F:ManagedBass.Midi.MidiEventType.Voices
+  fullName: ManagedBass.Midi.MidiEventType.Voices
+  nameWithType: MidiEventType.Voices
 - uid: ManagedBass.Midi.MidiEventType.Volume
   name: Volume
   href: api/ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Volume
   commentId: F:ManagedBass.Midi.MidiEventType.Volume
   fullName: ManagedBass.Midi.MidiEventType.Volume
   nameWithType: MidiEventType.Volume
+- uid: ManagedBass.Midi.MidiFilterProcedure
+  name: MidiFilterProcedure
+  href: api/ManagedBass.Midi.MidiFilterProcedure.html
+  commentId: T:ManagedBass.Midi.MidiFilterProcedure
+  fullName: ManagedBass.Midi.MidiFilterProcedure
+  nameWithType: MidiFilterProcedure
 - uid: ManagedBass.Midi.MidiFont
   name: MidiFont
   href: api/ManagedBass.Midi.MidiFont.html
