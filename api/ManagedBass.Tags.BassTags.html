@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="">
+    <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     
@@ -104,7 +104,7 @@ The extracted tag values are formatted into text ouput according to given format
     <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Tags_BassTags_LastErrorDescription.md&amp;value=---%0Auid%3A%20ManagedBass.Tags.BassTags.LastErrorDescription%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassTags/Shared/BassTags.cs/#L66" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassTags/Shared/BassTags.cs/#L40" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ManagedBass_Tags_BassTags_LastErrorDescription_" data-uid="ManagedBass.Tags.BassTags.LastErrorDescription*"></a>
@@ -150,7 +150,7 @@ An empty string is returned if there was no error.</p>
     <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Tags_BassTags_Version.md&amp;value=---%0Auid%3A%20ManagedBass.Tags.BassTags.Version%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassTags/Shared/BassTags.cs/#L52" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassTags/Shared/BassTags.cs/#L26" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ManagedBass_Tags_BassTags_Version_" data-uid="ManagedBass.Tags.BassTags.Version*"></a>
@@ -194,77 +194,10 @@ Current version (in HIBYTE) and build (in LOBYTE).</p>
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Tags_BassTags_Load_System_String_.md&amp;value=---%0Auid%3A%20ManagedBass.Tags.BassTags.Load(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassTags/Shared/BassTags.cs/#L37" title="View Source"><i class="fa fa-code"></i></a>
-  </span>
-  
-  <a id="ManagedBass_Tags_BassTags_Load_" data-uid="ManagedBass.Tags.BassTags.Load*"></a>
-  
-  <h4 id="ManagedBass_Tags_BassTags_Load_System_String_" data-uid="ManagedBass.Tags.BassTags.Load(System.String)"><a href="#collapsible-ManagedBass_Tags_BassTags_Load_System_String_" class="expander" data-toggle="collapse">Load(String)</a></h4>
-  
-  <div id="collapsible-ManagedBass_Tags_BassTags_Load_System_String_" class="collapse in">
-  <div class="markdown level1 summary"><p>Load this library into Memory.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Load(string Folder = null)</code></pre>
-  </div>
-  
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></span>
-        <span class="parametername">Folder</span>
-        <p><p>Directory to Load from... <span class="xref">null</span> (default) = Load from Current Directory.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-        <p><p><span class="xref">true</span>, if the library loaded successfully, else <span class="xref">false</span>.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  <h5 id="ManagedBass_Tags_BassTags_Load_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>
-An external library is loaded into memory when any of its methods are called for the first time.
-This results in the first method call being slower than all subsequent calls.
-</p>
-<p>
-Some BASS libraries and add-ons may introduce new options to the main BASS lib like new parameters.
-But, before using these new options the respective library must be already loaded.
-This method can be used to make sure, that this library has been loaded.
-</p>
-</div>
-  
-  
-  
-  </div>
-  
-  <span class="small pull-right mobile-hide">
-    <span class="divider"> </span>
     <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Tags_BassTags_Read_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20ManagedBass.Tags.BassTags.Read(System.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassTags/Shared/BassTags.cs/#L93" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassTags/Shared/BassTags.cs/#L67" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ManagedBass_Tags_BassTags_Read_" data-uid="ManagedBass.Tags.BassTags.Read*"></a>
@@ -334,7 +267,7 @@ If a file contains APE, ID3v1 and ID3v2 tags, the order of precedence is: APE, I
     <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Tags_BassTags_Read_System_Int32_System_String_ManagedBass_TagType_System_Int32_.md&amp;value=---%0Auid%3A%20ManagedBass.Tags.BassTags.Read(System.Int32%2CSystem.String%2CManagedBass.TagType%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassTags/Shared/BassTags.cs/#L120" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassTags/Shared/BassTags.cs/#L94" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ManagedBass_Tags_BassTags_Read_" data-uid="ManagedBass.Tags.BassTags.Read*"></a>
@@ -416,51 +349,6 @@ A parser error message text, when format string is ill-formed.</p>
   
   </div>
   
-  <span class="small pull-right mobile-hide">
-    <span class="divider"> </span>
-    <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Tags_BassTags_Unload.md&amp;value=---%0Auid%3A%20ManagedBass.Tags.BassTags.Unload%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassTags/Shared/BassTags.cs/#L43" title="View Source"><i class="fa fa-code"></i></a>
-  </span>
-  
-  <a id="ManagedBass_Tags_BassTags_Unload_" data-uid="ManagedBass.Tags.BassTags.Unload*"></a>
-  
-  <h4 id="ManagedBass_Tags_BassTags_Unload" data-uid="ManagedBass.Tags.BassTags.Unload"><a href="#collapsible-ManagedBass_Tags_BassTags_Unload" class="expander" data-toggle="collapse">Unload()</a></h4>
-  
-  <div id="collapsible-ManagedBass_Tags_BassTags_Unload" class="collapse in">
-  <div class="markdown level1 summary"><p>Unloads this library from Memory.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool Unload()</code></pre>
-  </div>
-  
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-        <p><p><span class="xref">true</span>, if the library unloaded successfully, else <span class="xref">false</span>.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
   
 </article>
           </div>
@@ -485,8 +373,8 @@ A parser error message text, when format string is ill-formed.</p>
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
+            Copyright &copy; 2017 Mathew Sachin<br>Generated by DocFx
             
-            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

@@ -109,18 +109,6 @@ references:
   commentId: Overload:ManagedBass.Aac.BassAac.CreateStream
   fullName: ManagedBass.Aac.BassAac.CreateStream
   nameWithType: BassAac.CreateStream
-- uid: ManagedBass.Aac.BassAac.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Aac.BassAac.html#ManagedBass_Aac_BassAac_Load_System_String_
-  commentId: M:ManagedBass.Aac.BassAac.Load(System.String)
-  fullName: ManagedBass.Aac.BassAac.Load(System.String)
-  nameWithType: BassAac.Load(String)
-- uid: ManagedBass.Aac.BassAac.Load*
-  name: Load
-  href: api/ManagedBass.Aac.BassAac.html#ManagedBass_Aac_BassAac_Load_
-  commentId: Overload:ManagedBass.Aac.BassAac.Load
-  fullName: ManagedBass.Aac.BassAac.Load
-  nameWithType: BassAac.Load
 - uid: ManagedBass.Aac.BassAac.PlayAudioFromMp4
   name: PlayAudioFromMp4
   href: api/ManagedBass.Aac.BassAac.html#ManagedBass_Aac_BassAac_PlayAudioFromMp4
@@ -133,24 +121,6 @@ references:
   commentId: Overload:ManagedBass.Aac.BassAac.PlayAudioFromMp4
   fullName: ManagedBass.Aac.BassAac.PlayAudioFromMp4
   nameWithType: BassAac.PlayAudioFromMp4
-- uid: ManagedBass.Aac.BassAac.Plugin
-  name: Plugin
-  href: api/ManagedBass.Aac.BassAac.html#ManagedBass_Aac_BassAac_Plugin
-  commentId: F:ManagedBass.Aac.BassAac.Plugin
-  fullName: ManagedBass.Aac.BassAac.Plugin
-  nameWithType: BassAac.Plugin
-- uid: ManagedBass.Aac.BassAac.Unload
-  name: Unload()
-  href: api/ManagedBass.Aac.BassAac.html#ManagedBass_Aac_BassAac_Unload
-  commentId: M:ManagedBass.Aac.BassAac.Unload
-  fullName: ManagedBass.Aac.BassAac.Unload()
-  nameWithType: BassAac.Unload()
-- uid: ManagedBass.Aac.BassAac.Unload*
-  name: Unload
-  href: api/ManagedBass.Aac.BassAac.html#ManagedBass_Aac_BassAac_Unload_
-  commentId: Overload:ManagedBass.Aac.BassAac.Unload
-  fullName: ManagedBass.Aac.BassAac.Unload
-  nameWithType: BassAac.Unload
 - uid: ManagedBass.Ac3
   name: ManagedBass.Ac3
   href: api/ManagedBass.Ac3.html
@@ -214,36 +184,6 @@ references:
   commentId: Overload:ManagedBass.Ac3.BassAc3.DRC
   fullName: ManagedBass.Ac3.BassAc3.DRC
   nameWithType: BassAc3.DRC
-- uid: ManagedBass.Ac3.BassAc3.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Ac3.BassAc3.html#ManagedBass_Ac3_BassAc3_Load_System_String_
-  commentId: M:ManagedBass.Ac3.BassAc3.Load(System.String)
-  fullName: ManagedBass.Ac3.BassAc3.Load(System.String)
-  nameWithType: BassAc3.Load(String)
-- uid: ManagedBass.Ac3.BassAc3.Load*
-  name: Load
-  href: api/ManagedBass.Ac3.BassAc3.html#ManagedBass_Ac3_BassAc3_Load_
-  commentId: Overload:ManagedBass.Ac3.BassAc3.Load
-  fullName: ManagedBass.Ac3.BassAc3.Load
-  nameWithType: BassAc3.Load
-- uid: ManagedBass.Ac3.BassAc3.Plugin
-  name: Plugin
-  href: api/ManagedBass.Ac3.BassAc3.html#ManagedBass_Ac3_BassAc3_Plugin
-  commentId: F:ManagedBass.Ac3.BassAc3.Plugin
-  fullName: ManagedBass.Ac3.BassAc3.Plugin
-  nameWithType: BassAc3.Plugin
-- uid: ManagedBass.Ac3.BassAc3.Unload
-  name: Unload()
-  href: api/ManagedBass.Ac3.BassAc3.html#ManagedBass_Ac3_BassAc3_Unload
-  commentId: M:ManagedBass.Ac3.BassAc3.Unload
-  fullName: ManagedBass.Ac3.BassAc3.Unload()
-  nameWithType: BassAc3.Unload()
-- uid: ManagedBass.Ac3.BassAc3.Unload*
-  name: Unload
-  href: api/ManagedBass.Ac3.BassAc3.html#ManagedBass_Ac3_BassAc3_Unload_
-  commentId: Overload:ManagedBass.Ac3.BassAc3.Unload
-  fullName: ManagedBass.Ac3.BassAc3.Unload
-  nameWithType: BassAc3.Unload
 - uid: ManagedBass.Adx
   name: ManagedBass.Adx
   href: api/ManagedBass.Adx.html
@@ -343,36 +283,6 @@ references:
   commentId: Overload:ManagedBass.Adx.BassAdx.CreateStream
   fullName: ManagedBass.Adx.BassAdx.CreateStream
   nameWithType: BassAdx.CreateStream
-- uid: ManagedBass.Adx.BassAdx.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Adx.BassAdx.html#ManagedBass_Adx_BassAdx_Load_System_String_
-  commentId: M:ManagedBass.Adx.BassAdx.Load(System.String)
-  fullName: ManagedBass.Adx.BassAdx.Load(System.String)
-  nameWithType: BassAdx.Load(String)
-- uid: ManagedBass.Adx.BassAdx.Load*
-  name: Load
-  href: api/ManagedBass.Adx.BassAdx.html#ManagedBass_Adx_BassAdx_Load_
-  commentId: Overload:ManagedBass.Adx.BassAdx.Load
-  fullName: ManagedBass.Adx.BassAdx.Load
-  nameWithType: BassAdx.Load
-- uid: ManagedBass.Adx.BassAdx.Plugin
-  name: Plugin
-  href: api/ManagedBass.Adx.BassAdx.html#ManagedBass_Adx_BassAdx_Plugin
-  commentId: F:ManagedBass.Adx.BassAdx.Plugin
-  fullName: ManagedBass.Adx.BassAdx.Plugin
-  nameWithType: BassAdx.Plugin
-- uid: ManagedBass.Adx.BassAdx.Unload
-  name: Unload()
-  href: api/ManagedBass.Adx.BassAdx.html#ManagedBass_Adx_BassAdx_Unload
-  commentId: M:ManagedBass.Adx.BassAdx.Unload
-  fullName: ManagedBass.Adx.BassAdx.Unload()
-  nameWithType: BassAdx.Unload()
-- uid: ManagedBass.Adx.BassAdx.Unload*
-  name: Unload
-  href: api/ManagedBass.Adx.BassAdx.html#ManagedBass_Adx_BassAdx_Unload_
-  commentId: Overload:ManagedBass.Adx.BassAdx.Unload
-  fullName: ManagedBass.Adx.BassAdx.Unload
-  nameWithType: BassAdx.Unload
 - uid: ManagedBass.Aix
   name: ManagedBass.Aix
   href: api/ManagedBass.Aix.html
@@ -424,36 +334,6 @@ references:
   commentId: Overload:ManagedBass.Aix.BassAix.CreateStream
   fullName: ManagedBass.Aix.BassAix.CreateStream
   nameWithType: BassAix.CreateStream
-- uid: ManagedBass.Aix.BassAix.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Aix.BassAix.html#ManagedBass_Aix_BassAix_Load_System_String_
-  commentId: M:ManagedBass.Aix.BassAix.Load(System.String)
-  fullName: ManagedBass.Aix.BassAix.Load(System.String)
-  nameWithType: BassAix.Load(String)
-- uid: ManagedBass.Aix.BassAix.Load*
-  name: Load
-  href: api/ManagedBass.Aix.BassAix.html#ManagedBass_Aix_BassAix_Load_
-  commentId: Overload:ManagedBass.Aix.BassAix.Load
-  fullName: ManagedBass.Aix.BassAix.Load
-  nameWithType: BassAix.Load
-- uid: ManagedBass.Aix.BassAix.Plugin
-  name: Plugin
-  href: api/ManagedBass.Aix.BassAix.html#ManagedBass_Aix_BassAix_Plugin
-  commentId: F:ManagedBass.Aix.BassAix.Plugin
-  fullName: ManagedBass.Aix.BassAix.Plugin
-  nameWithType: BassAix.Plugin
-- uid: ManagedBass.Aix.BassAix.Unload
-  name: Unload()
-  href: api/ManagedBass.Aix.BassAix.html#ManagedBass_Aix_BassAix_Unload
-  commentId: M:ManagedBass.Aix.BassAix.Unload
-  fullName: ManagedBass.Aix.BassAix.Unload()
-  nameWithType: BassAix.Unload()
-- uid: ManagedBass.Aix.BassAix.Unload*
-  name: Unload
-  href: api/ManagedBass.Aix.BassAix.html#ManagedBass_Aix_BassAix_Unload_
-  commentId: Overload:ManagedBass.Aix.BassAix.Unload
-  fullName: ManagedBass.Aix.BassAix.Unload
-  nameWithType: BassAix.Unload
 - uid: ManagedBass.Alac
   name: ManagedBass.Alac
   href: api/ManagedBass.Alac.html
@@ -505,36 +385,6 @@ references:
   commentId: Overload:ManagedBass.Alac.BassAlac.CreateStream
   fullName: ManagedBass.Alac.BassAlac.CreateStream
   nameWithType: BassAlac.CreateStream
-- uid: ManagedBass.Alac.BassAlac.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Alac.BassAlac.html#ManagedBass_Alac_BassAlac_Load_System_String_
-  commentId: M:ManagedBass.Alac.BassAlac.Load(System.String)
-  fullName: ManagedBass.Alac.BassAlac.Load(System.String)
-  nameWithType: BassAlac.Load(String)
-- uid: ManagedBass.Alac.BassAlac.Load*
-  name: Load
-  href: api/ManagedBass.Alac.BassAlac.html#ManagedBass_Alac_BassAlac_Load_
-  commentId: Overload:ManagedBass.Alac.BassAlac.Load
-  fullName: ManagedBass.Alac.BassAlac.Load
-  nameWithType: BassAlac.Load
-- uid: ManagedBass.Alac.BassAlac.Plugin
-  name: Plugin
-  href: api/ManagedBass.Alac.BassAlac.html#ManagedBass_Alac_BassAlac_Plugin
-  commentId: F:ManagedBass.Alac.BassAlac.Plugin
-  fullName: ManagedBass.Alac.BassAlac.Plugin
-  nameWithType: BassAlac.Plugin
-- uid: ManagedBass.Alac.BassAlac.Unload
-  name: Unload()
-  href: api/ManagedBass.Alac.BassAlac.html#ManagedBass_Alac_BassAlac_Unload
-  commentId: M:ManagedBass.Alac.BassAlac.Unload
-  fullName: ManagedBass.Alac.BassAlac.Unload()
-  nameWithType: BassAlac.Unload()
-- uid: ManagedBass.Alac.BassAlac.Unload*
-  name: Unload
-  href: api/ManagedBass.Alac.BassAlac.html#ManagedBass_Alac_BassAlac_Unload_
-  commentId: Overload:ManagedBass.Alac.BassAlac.Unload
-  fullName: ManagedBass.Alac.BassAlac.Unload
-  nameWithType: BassAlac.Unload
 - uid: ManagedBass.Algorithm3D
   name: Algorithm3D
   href: api/ManagedBass.Algorithm3D.html
@@ -694,36 +544,6 @@ references:
   commentId: Overload:ManagedBass.Ape.BassApe.CreateStream
   fullName: ManagedBass.Ape.BassApe.CreateStream
   nameWithType: BassApe.CreateStream
-- uid: ManagedBass.Ape.BassApe.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Ape.BassApe.html#ManagedBass_Ape_BassApe_Load_System_String_
-  commentId: M:ManagedBass.Ape.BassApe.Load(System.String)
-  fullName: ManagedBass.Ape.BassApe.Load(System.String)
-  nameWithType: BassApe.Load(String)
-- uid: ManagedBass.Ape.BassApe.Load*
-  name: Load
-  href: api/ManagedBass.Ape.BassApe.html#ManagedBass_Ape_BassApe_Load_
-  commentId: Overload:ManagedBass.Ape.BassApe.Load
-  fullName: ManagedBass.Ape.BassApe.Load
-  nameWithType: BassApe.Load
-- uid: ManagedBass.Ape.BassApe.Plugin
-  name: Plugin
-  href: api/ManagedBass.Ape.BassApe.html#ManagedBass_Ape_BassApe_Plugin
-  commentId: F:ManagedBass.Ape.BassApe.Plugin
-  fullName: ManagedBass.Ape.BassApe.Plugin
-  nameWithType: BassApe.Plugin
-- uid: ManagedBass.Ape.BassApe.Unload
-  name: Unload()
-  href: api/ManagedBass.Ape.BassApe.html#ManagedBass_Ape_BassApe_Unload
-  commentId: M:ManagedBass.Ape.BassApe.Unload
-  fullName: ManagedBass.Ape.BassApe.Unload()
-  nameWithType: BassApe.Unload()
-- uid: ManagedBass.Ape.BassApe.Unload*
-  name: Unload
-  href: api/ManagedBass.Ape.BassApe.html#ManagedBass_Ape_BassApe_Unload_
-  commentId: Overload:ManagedBass.Ape.BassApe.Unload
-  fullName: ManagedBass.Ape.BassApe.Unload
-  nameWithType: BassApe.Unload
 - uid: ManagedBass.Asio
   name: ManagedBass.Asio
   href: api/ManagedBass.Asio.html
@@ -1825,18 +1645,6 @@ references:
   commentId: Overload:ManagedBass.Asio.BassAsio.LastError
   fullName: ManagedBass.Asio.BassAsio.LastError
   nameWithType: BassAsio.LastError
-- uid: ManagedBass.Asio.BassAsio.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Load_System_String_
-  commentId: M:ManagedBass.Asio.BassAsio.Load(System.String)
-  fullName: ManagedBass.Asio.BassAsio.Load(System.String)
-  nameWithType: BassAsio.Load(String)
-- uid: ManagedBass.Asio.BassAsio.Load*
-  name: Load
-  href: api/ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Load_
-  commentId: Overload:ManagedBass.Asio.BassAsio.Load
-  fullName: ManagedBass.Asio.BassAsio.Load
-  nameWithType: BassAsio.Load
 - uid: ManagedBass.Asio.BassAsio.Monitor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   name: Monitor(Int32, Int32, Int32, Int32, Int32)
   href: api/ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Monitor_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
@@ -1921,18 +1729,6 @@ references:
   commentId: Overload:ManagedBass.Asio.BassAsio.Unicode
   fullName: ManagedBass.Asio.BassAsio.Unicode
   nameWithType: BassAsio.Unicode
-- uid: ManagedBass.Asio.BassAsio.Unload
-  name: Unload()
-  href: api/ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Unload
-  commentId: M:ManagedBass.Asio.BassAsio.Unload
-  fullName: ManagedBass.Asio.BassAsio.Unload()
-  nameWithType: BassAsio.Unload()
-- uid: ManagedBass.Asio.BassAsio.Unload*
-  name: Unload
-  href: api/ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Unload_
-  commentId: Overload:ManagedBass.Asio.BassAsio.Unload
-  fullName: ManagedBass.Asio.BassAsio.Unload
-  nameWithType: BassAsio.Unload
 - uid: ManagedBass.Asio.BassAsio.Version
   name: Version
   href: api/ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Version
@@ -3019,18 +2815,6 @@ references:
   commentId: Overload:ManagedBass.Bass.LastError
   fullName: ManagedBass.Bass.LastError
   nameWithType: Bass.LastError
-- uid: ManagedBass.Bass.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Bass.html#ManagedBass_Bass_Load_System_String_
-  commentId: M:ManagedBass.Bass.Load(System.String)
-  fullName: ManagedBass.Bass.Load(System.String)
-  nameWithType: Bass.Load(String)
-- uid: ManagedBass.Bass.Load*
-  name: Load
-  href: api/ManagedBass.Bass.html#ManagedBass_Bass_Load_
-  commentId: Overload:ManagedBass.Bass.Load
-  fullName: ManagedBass.Bass.Load
-  nameWithType: Bass.Load
 - uid: ManagedBass.Bass.LogarithmicPanningCurve
   name: LogarithmicPanningCurve
   href: api/ManagedBass.Bass.html#ManagedBass_Bass_LogarithmicPanningCurve
@@ -3871,18 +3655,6 @@ references:
   commentId: Overload:ManagedBass.Bass.SuppressMP3ErrorCorruptionSilence
   fullName: ManagedBass.Bass.SuppressMP3ErrorCorruptionSilence
   nameWithType: Bass.SuppressMP3ErrorCorruptionSilence
-- uid: ManagedBass.Bass.Unload
-  name: Unload()
-  href: api/ManagedBass.Bass.html#ManagedBass_Bass_Unload
-  commentId: M:ManagedBass.Bass.Unload
-  fullName: ManagedBass.Bass.Unload()
-  nameWithType: Bass.Unload()
-- uid: ManagedBass.Bass.Unload*
-  name: Unload
-  href: api/ManagedBass.Bass.html#ManagedBass_Bass_Unload_
-  commentId: Overload:ManagedBass.Bass.Unload
-  fullName: ManagedBass.Bass.Unload
-  nameWithType: Bass.Unload
 - uid: ManagedBass.Bass.Update(System.Int32)
   name: Update(Int32)
   href: api/ManagedBass.Bass.html#ManagedBass_Bass_Update_System_Int32_
@@ -5599,24 +5371,6 @@ references:
   commentId: Overload:ManagedBass.Cd.BassCd.IsReady
   fullName: ManagedBass.Cd.BassCd.IsReady
   nameWithType: BassCd.IsReady
-- uid: ManagedBass.Cd.BassCd.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_Load_System_String_
-  commentId: M:ManagedBass.Cd.BassCd.Load(System.String)
-  fullName: ManagedBass.Cd.BassCd.Load(System.String)
-  nameWithType: BassCd.Load(String)
-- uid: ManagedBass.Cd.BassCd.Load*
-  name: Load
-  href: api/ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_Load_
-  commentId: Overload:ManagedBass.Cd.BassCd.Load
-  fullName: ManagedBass.Cd.BassCd.Load
-  nameWithType: BassCd.Load
-- uid: ManagedBass.Cd.BassCd.Plugin
-  name: Plugin
-  href: api/ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_Plugin
-  commentId: F:ManagedBass.Cd.BassCd.Plugin
-  fullName: ManagedBass.Cd.BassCd.Plugin
-  nameWithType: BassCd.Plugin
 - uid: ManagedBass.Cd.BassCd.Release(System.Int32)
   name: Release(Int32)
   href: api/ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_Release_System_Int32_
@@ -5719,18 +5473,6 @@ references:
   commentId: F:ManagedBass.Cd.BassCd.TrackPregap
   fullName: ManagedBass.Cd.BassCd.TrackPregap
   nameWithType: BassCd.TrackPregap
-- uid: ManagedBass.Cd.BassCd.Unload
-  name: Unload()
-  href: api/ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_Unload
-  commentId: M:ManagedBass.Cd.BassCd.Unload
-  fullName: ManagedBass.Cd.BassCd.Unload()
-  nameWithType: BassCd.Unload()
-- uid: ManagedBass.Cd.BassCd.Unload*
-  name: Unload
-  href: api/ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_Unload_
-  commentId: Overload:ManagedBass.Cd.BassCd.Unload
-  fullName: ManagedBass.Cd.BassCd.Unload
-  nameWithType: BassCd.Unload
 - uid: ManagedBass.Cd.CDDataProcedure
   name: CDDataProcedure
   href: api/ManagedBass.Cd.CDDataProcedure.html
@@ -9142,36 +8884,6 @@ references:
   commentId: Overload:ManagedBass.Dsd.BassDsd.DefaultGain
   fullName: ManagedBass.Dsd.BassDsd.DefaultGain
   nameWithType: BassDsd.DefaultGain
-- uid: ManagedBass.Dsd.BassDsd.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Dsd.BassDsd.html#ManagedBass_Dsd_BassDsd_Load_System_String_
-  commentId: M:ManagedBass.Dsd.BassDsd.Load(System.String)
-  fullName: ManagedBass.Dsd.BassDsd.Load(System.String)
-  nameWithType: BassDsd.Load(String)
-- uid: ManagedBass.Dsd.BassDsd.Load*
-  name: Load
-  href: api/ManagedBass.Dsd.BassDsd.html#ManagedBass_Dsd_BassDsd_Load_
-  commentId: Overload:ManagedBass.Dsd.BassDsd.Load
-  fullName: ManagedBass.Dsd.BassDsd.Load
-  nameWithType: BassDsd.Load
-- uid: ManagedBass.Dsd.BassDsd.Plugin
-  name: Plugin
-  href: api/ManagedBass.Dsd.BassDsd.html#ManagedBass_Dsd_BassDsd_Plugin
-  commentId: F:ManagedBass.Dsd.BassDsd.Plugin
-  fullName: ManagedBass.Dsd.BassDsd.Plugin
-  nameWithType: BassDsd.Plugin
-- uid: ManagedBass.Dsd.BassDsd.Unload
-  name: Unload()
-  href: api/ManagedBass.Dsd.BassDsd.html#ManagedBass_Dsd_BassDsd_Unload
-  commentId: M:ManagedBass.Dsd.BassDsd.Unload
-  fullName: ManagedBass.Dsd.BassDsd.Unload()
-  nameWithType: BassDsd.Unload()
-- uid: ManagedBass.Dsd.BassDsd.Unload*
-  name: Unload
-  href: api/ManagedBass.Dsd.BassDsd.html#ManagedBass_Dsd_BassDsd_Unload_
-  commentId: Overload:ManagedBass.Dsd.BassDsd.Unload
-  fullName: ManagedBass.Dsd.BassDsd.Unload
-  nameWithType: BassDsd.Unload
 - uid: ManagedBass.Dsd.DSDComment
   name: DSDComment
   href: api/ManagedBass.Dsd.DSDComment.html
@@ -9814,18 +9526,6 @@ references:
   commentId: Overload:ManagedBass.DShow.BassDShow.LastError
   fullName: ManagedBass.DShow.BassDShow.LastError
   nameWithType: BassDShow.LastError
-- uid: ManagedBass.DShow.BassDShow.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_Load_System_String_
-  commentId: M:ManagedBass.DShow.BassDShow.Load(System.String)
-  fullName: ManagedBass.DShow.BassDShow.Load(System.String)
-  nameWithType: BassDShow.Load(String)
-- uid: ManagedBass.DShow.BassDShow.Load*
-  name: Load
-  href: api/ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_Load_
-  commentId: Overload:ManagedBass.DShow.BassDShow.Load
-  fullName: ManagedBass.DShow.BassDShow.Load
-  nameWithType: BassDShow.Load
 - uid: ManagedBass.DShow.BassDShow.LoadPlugin(System.String)
   name: LoadPlugin(String)
   href: api/ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_LoadPlugin_System_String_
@@ -10021,18 +9721,6 @@ references:
   commentId: Overload:ManagedBass.DShow.BassDShow.StreamFree
   fullName: ManagedBass.DShow.BassDShow.StreamFree
   nameWithType: BassDShow.StreamFree
-- uid: ManagedBass.DShow.BassDShow.Unload
-  name: Unload()
-  href: api/ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_Unload
-  commentId: M:ManagedBass.DShow.BassDShow.Unload
-  fullName: ManagedBass.DShow.BassDShow.Unload()
-  nameWithType: BassDShow.Unload()
-- uid: ManagedBass.DShow.BassDShow.Unload*
-  name: Unload
-  href: api/ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_Unload_
-  commentId: Overload:ManagedBass.DShow.BassDShow.Unload
-  fullName: ManagedBass.DShow.BassDShow.Unload
-  nameWithType: BassDShow.Unload
 - uid: ManagedBass.DShow.BassDShow.VCamPush(System.Int32,IntPtr)
   name: VCamPush(Int32, IntPtr)
   href: api/ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_VCamPush_System_Int32_IntPtr_
@@ -11945,18 +11633,6 @@ references:
   commentId: Overload:ManagedBass.Enc.BassEnc.EncodeWrite
   fullName: ManagedBass.Enc.BassEnc.EncodeWrite
   nameWithType: BassEnc.EncodeWrite
-- uid: ManagedBass.Enc.BassEnc.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_Load_System_String_
-  commentId: M:ManagedBass.Enc.BassEnc.Load(System.String)
-  fullName: ManagedBass.Enc.BassEnc.Load(System.String)
-  nameWithType: BassEnc.Load(String)
-- uid: ManagedBass.Enc.BassEnc.Load*
-  name: Load
-  href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_Load_
-  commentId: Overload:ManagedBass.Enc.BassEnc.Load
-  fullName: ManagedBass.Enc.BassEnc.Load
-  nameWithType: BassEnc.Load
 - uid: ManagedBass.Enc.BassEnc.MimeAac
   name: MimeAac
   href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_MimeAac
@@ -12011,18 +11687,6 @@ references:
   commentId: Overload:ManagedBass.Enc.BassEnc.ServerKick
   fullName: ManagedBass.Enc.BassEnc.ServerKick
   nameWithType: BassEnc.ServerKick
-- uid: ManagedBass.Enc.BassEnc.Unload
-  name: Unload()
-  href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_Unload
-  commentId: M:ManagedBass.Enc.BassEnc.Unload
-  fullName: ManagedBass.Enc.BassEnc.Unload()
-  nameWithType: BassEnc.Unload()
-- uid: ManagedBass.Enc.BassEnc.Unload*
-  name: Unload
-  href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_Unload_
-  commentId: Overload:ManagedBass.Enc.BassEnc.Unload
-  fullName: ManagedBass.Enc.BassEnc.Unload
-  nameWithType: BassEnc.Unload
 - uid: ManagedBass.Enc.BassEnc.Version
   name: Version
   href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_Version
@@ -12041,18 +11705,6 @@ references:
   commentId: T:ManagedBass.Enc.BassEnc_Ogg
   fullName: ManagedBass.Enc.BassEnc_Ogg
   nameWithType: BassEnc_Ogg
-- uid: ManagedBass.Enc.BassEnc_Ogg.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Enc.BassEnc_Ogg.html#ManagedBass_Enc_BassEnc_Ogg_Load_System_String_
-  commentId: M:ManagedBass.Enc.BassEnc_Ogg.Load(System.String)
-  fullName: ManagedBass.Enc.BassEnc_Ogg.Load(System.String)
-  nameWithType: BassEnc_Ogg.Load(String)
-- uid: ManagedBass.Enc.BassEnc_Ogg.Load*
-  name: Load
-  href: api/ManagedBass.Enc.BassEnc_Ogg.html#ManagedBass_Enc_BassEnc_Ogg_Load_
-  commentId: Overload:ManagedBass.Enc.BassEnc_Ogg.Load
-  fullName: ManagedBass.Enc.BassEnc_Ogg.Load
-  nameWithType: BassEnc_Ogg.Load
 - uid: ManagedBass.Enc.BassEnc_Ogg.Start(System.Int32,System.String,ManagedBass.Enc.EncodeFlags,ManagedBass.Enc.EncodeProcedure,IntPtr)
   name: Start(Int32, String, EncodeFlags, EncodeProcedure, IntPtr)
   href: api/ManagedBass.Enc.BassEnc_Ogg.html#ManagedBass_Enc_BassEnc_Ogg_Start_System_Int32_System_String_ManagedBass_Enc_EncodeFlags_ManagedBass_Enc_EncodeProcedure_IntPtr_
@@ -12071,18 +11723,6 @@ references:
   commentId: Overload:ManagedBass.Enc.BassEnc_Ogg.Start
   fullName: ManagedBass.Enc.BassEnc_Ogg.Start
   nameWithType: BassEnc_Ogg.Start
-- uid: ManagedBass.Enc.BassEnc_Ogg.Unload
-  name: Unload()
-  href: api/ManagedBass.Enc.BassEnc_Ogg.html#ManagedBass_Enc_BassEnc_Ogg_Unload
-  commentId: M:ManagedBass.Enc.BassEnc_Ogg.Unload
-  fullName: ManagedBass.Enc.BassEnc_Ogg.Unload()
-  nameWithType: BassEnc_Ogg.Unload()
-- uid: ManagedBass.Enc.BassEnc_Ogg.Unload*
-  name: Unload
-  href: api/ManagedBass.Enc.BassEnc_Ogg.html#ManagedBass_Enc_BassEnc_Ogg_Unload_
-  commentId: Overload:ManagedBass.Enc.BassEnc_Ogg.Unload
-  fullName: ManagedBass.Enc.BassEnc_Ogg.Unload
-  nameWithType: BassEnc_Ogg.Unload
 - uid: ManagedBass.Enc.BassEnc_Ogg.Version
   name: Version
   href: api/ManagedBass.Enc.BassEnc_Ogg.html#ManagedBass_Enc_BassEnc_Ogg_Version
@@ -12101,18 +11741,6 @@ references:
   commentId: T:ManagedBass.Enc.BassEnc_Opus
   fullName: ManagedBass.Enc.BassEnc_Opus
   nameWithType: BassEnc_Opus
-- uid: ManagedBass.Enc.BassEnc_Opus.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Enc.BassEnc_Opus.html#ManagedBass_Enc_BassEnc_Opus_Load_System_String_
-  commentId: M:ManagedBass.Enc.BassEnc_Opus.Load(System.String)
-  fullName: ManagedBass.Enc.BassEnc_Opus.Load(System.String)
-  nameWithType: BassEnc_Opus.Load(String)
-- uid: ManagedBass.Enc.BassEnc_Opus.Load*
-  name: Load
-  href: api/ManagedBass.Enc.BassEnc_Opus.html#ManagedBass_Enc_BassEnc_Opus_Load_
-  commentId: Overload:ManagedBass.Enc.BassEnc_Opus.Load
-  fullName: ManagedBass.Enc.BassEnc_Opus.Load
-  nameWithType: BassEnc_Opus.Load
 - uid: ManagedBass.Enc.BassEnc_Opus.Start(System.Int32,System.String,ManagedBass.Enc.EncodeFlags,ManagedBass.Enc.EncodeProcedure,IntPtr)
   name: Start(Int32, String, EncodeFlags, EncodeProcedure, IntPtr)
   href: api/ManagedBass.Enc.BassEnc_Opus.html#ManagedBass_Enc_BassEnc_Opus_Start_System_Int32_System_String_ManagedBass_Enc_EncodeFlags_ManagedBass_Enc_EncodeProcedure_IntPtr_
@@ -12131,18 +11759,6 @@ references:
   commentId: Overload:ManagedBass.Enc.BassEnc_Opus.Start
   fullName: ManagedBass.Enc.BassEnc_Opus.Start
   nameWithType: BassEnc_Opus.Start
-- uid: ManagedBass.Enc.BassEnc_Opus.Unload
-  name: Unload()
-  href: api/ManagedBass.Enc.BassEnc_Opus.html#ManagedBass_Enc_BassEnc_Opus_Unload
-  commentId: M:ManagedBass.Enc.BassEnc_Opus.Unload
-  fullName: ManagedBass.Enc.BassEnc_Opus.Unload()
-  nameWithType: BassEnc_Opus.Unload()
-- uid: ManagedBass.Enc.BassEnc_Opus.Unload*
-  name: Unload
-  href: api/ManagedBass.Enc.BassEnc_Opus.html#ManagedBass_Enc_BassEnc_Opus_Unload_
-  commentId: Overload:ManagedBass.Enc.BassEnc_Opus.Unload
-  fullName: ManagedBass.Enc.BassEnc_Opus.Unload
-  nameWithType: BassEnc_Opus.Unload
 - uid: ManagedBass.Enc.BassEnc_Opus.Version
   name: Version
   href: api/ManagedBass.Enc.BassEnc_Opus.html#ManagedBass_Enc_BassEnc_Opus_Version
@@ -13160,36 +12776,6 @@ references:
   commentId: Overload:ManagedBass.Flac.BassFlac.CreateStream
   fullName: ManagedBass.Flac.BassFlac.CreateStream
   nameWithType: BassFlac.CreateStream
-- uid: ManagedBass.Flac.BassFlac.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Flac.BassFlac.html#ManagedBass_Flac_BassFlac_Load_System_String_
-  commentId: M:ManagedBass.Flac.BassFlac.Load(System.String)
-  fullName: ManagedBass.Flac.BassFlac.Load(System.String)
-  nameWithType: BassFlac.Load(String)
-- uid: ManagedBass.Flac.BassFlac.Load*
-  name: Load
-  href: api/ManagedBass.Flac.BassFlac.html#ManagedBass_Flac_BassFlac_Load_
-  commentId: Overload:ManagedBass.Flac.BassFlac.Load
-  fullName: ManagedBass.Flac.BassFlac.Load
-  nameWithType: BassFlac.Load
-- uid: ManagedBass.Flac.BassFlac.Plugin
-  name: Plugin
-  href: api/ManagedBass.Flac.BassFlac.html#ManagedBass_Flac_BassFlac_Plugin
-  commentId: F:ManagedBass.Flac.BassFlac.Plugin
-  fullName: ManagedBass.Flac.BassFlac.Plugin
-  nameWithType: BassFlac.Plugin
-- uid: ManagedBass.Flac.BassFlac.Unload
-  name: Unload()
-  href: api/ManagedBass.Flac.BassFlac.html#ManagedBass_Flac_BassFlac_Unload
-  commentId: M:ManagedBass.Flac.BassFlac.Unload
-  fullName: ManagedBass.Flac.BassFlac.Unload()
-  nameWithType: BassFlac.Unload()
-- uid: ManagedBass.Flac.BassFlac.Unload*
-  name: Unload
-  href: api/ManagedBass.Flac.BassFlac.html#ManagedBass_Flac_BassFlac_Unload_
-  commentId: Overload:ManagedBass.Flac.BassFlac.Unload
-  fullName: ManagedBass.Flac.BassFlac.Unload
-  nameWithType: BassFlac.Unload
 - uid: ManagedBass.Flac.CueSheetTrackType
   name: CueSheetTrackType
   href: api/ManagedBass.Flac.CueSheetTrackType.html
@@ -13763,18 +13349,6 @@ references:
   commentId: Overload:ManagedBass.Fx.BassFx.BPMFree
   fullName: ManagedBass.Fx.BassFx.BPMFree
   nameWithType: BassFx.BPMFree
-- uid: ManagedBass.Fx.BassFx.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_Load_System_String_
-  commentId: M:ManagedBass.Fx.BassFx.Load(System.String)
-  fullName: ManagedBass.Fx.BassFx.Load(System.String)
-  nameWithType: BassFx.Load(String)
-- uid: ManagedBass.Fx.BassFx.Load*
-  name: Load
-  href: api/ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_Load_
-  commentId: Overload:ManagedBass.Fx.BassFx.Load
-  fullName: ManagedBass.Fx.BassFx.Load
-  nameWithType: BassFx.Load
 - uid: ManagedBass.Fx.BassFx.ReverseCreate(System.Int32,System.Single,ManagedBass.BassFlags)
   name: ReverseCreate(Int32, Single, BassFlags)
   href: api/ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_ReverseCreate_System_Int32_System_Single_ManagedBass_BassFlags_
@@ -13835,18 +13409,6 @@ references:
   commentId: Overload:ManagedBass.Fx.BassFx.TempoGetSource
   fullName: ManagedBass.Fx.BassFx.TempoGetSource
   nameWithType: BassFx.TempoGetSource
-- uid: ManagedBass.Fx.BassFx.Unload
-  name: Unload()
-  href: api/ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_Unload
-  commentId: M:ManagedBass.Fx.BassFx.Unload
-  fullName: ManagedBass.Fx.BassFx.Unload()
-  nameWithType: BassFx.Unload()
-- uid: ManagedBass.Fx.BassFx.Unload*
-  name: Unload
-  href: api/ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_Unload_
-  commentId: Overload:ManagedBass.Fx.BassFx.Unload
-  fullName: ManagedBass.Fx.BassFx.Unload
-  nameWithType: BassFx.Unload
 - uid: ManagedBass.Fx.BassFx.Version
   name: Version
   href: api/ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_Version
@@ -16007,36 +15569,6 @@ references:
   commentId: Overload:ManagedBass.Hls.BassHls.CreateStream
   fullName: ManagedBass.Hls.BassHls.CreateStream
   nameWithType: BassHls.CreateStream
-- uid: ManagedBass.Hls.BassHls.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Hls.BassHls.html#ManagedBass_Hls_BassHls_Load_System_String_
-  commentId: M:ManagedBass.Hls.BassHls.Load(System.String)
-  fullName: ManagedBass.Hls.BassHls.Load(System.String)
-  nameWithType: BassHls.Load(String)
-- uid: ManagedBass.Hls.BassHls.Load*
-  name: Load
-  href: api/ManagedBass.Hls.BassHls.html#ManagedBass_Hls_BassHls_Load_
-  commentId: Overload:ManagedBass.Hls.BassHls.Load
-  fullName: ManagedBass.Hls.BassHls.Load
-  nameWithType: BassHls.Load
-- uid: ManagedBass.Hls.BassHls.Plugin
-  name: Plugin
-  href: api/ManagedBass.Hls.BassHls.html#ManagedBass_Hls_BassHls_Plugin
-  commentId: F:ManagedBass.Hls.BassHls.Plugin
-  fullName: ManagedBass.Hls.BassHls.Plugin
-  nameWithType: BassHls.Plugin
-- uid: ManagedBass.Hls.BassHls.Unload
-  name: Unload()
-  href: api/ManagedBass.Hls.BassHls.html#ManagedBass_Hls_BassHls_Unload
-  commentId: M:ManagedBass.Hls.BassHls.Unload
-  fullName: ManagedBass.Hls.BassHls.Unload()
-  nameWithType: BassHls.Unload()
-- uid: ManagedBass.Hls.BassHls.Unload*
-  name: Unload
-  href: api/ManagedBass.Hls.BassHls.html#ManagedBass_Hls_BassHls_Unload_
-  commentId: Overload:ManagedBass.Hls.BassHls.Unload
-  fullName: ManagedBass.Hls.BassHls.Unload
-  nameWithType: BassHls.Unload
 - uid: ManagedBass.ID3v1Tag
   name: ID3v1Tag
   href: api/ManagedBass.ID3v1Tag.html
@@ -17060,24 +16592,6 @@ references:
   commentId: Overload:ManagedBass.Midi.BassMidi.InStop
   fullName: ManagedBass.Midi.BassMidi.InStop
   nameWithType: BassMidi.InStop
-- uid: ManagedBass.Midi.BassMidi.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_Load_System_String_
-  commentId: M:ManagedBass.Midi.BassMidi.Load(System.String)
-  fullName: ManagedBass.Midi.BassMidi.Load(System.String)
-  nameWithType: BassMidi.Load(String)
-- uid: ManagedBass.Midi.BassMidi.Load*
-  name: Load
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_Load_
-  commentId: Overload:ManagedBass.Midi.BassMidi.Load
-  fullName: ManagedBass.Midi.BassMidi.Load
-  nameWithType: BassMidi.Load
-- uid: ManagedBass.Midi.BassMidi.Plugin
-  name: Plugin
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_Plugin
-  commentId: F:ManagedBass.Midi.BassMidi.Plugin
-  fullName: ManagedBass.Midi.BassMidi.Plugin
-  nameWithType: BassMidi.Plugin
 - uid: ManagedBass.Midi.BassMidi.ReverbChannel
   name: ReverbChannel
   href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_ReverbChannel
@@ -17360,18 +16874,6 @@ references:
   commentId: Overload:ManagedBass.Midi.BassMidi.StreamSetFonts
   fullName: ManagedBass.Midi.BassMidi.StreamSetFonts
   nameWithType: BassMidi.StreamSetFonts
-- uid: ManagedBass.Midi.BassMidi.Unload
-  name: Unload()
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_Unload
-  commentId: M:ManagedBass.Midi.BassMidi.Unload
-  fullName: ManagedBass.Midi.BassMidi.Unload()
-  nameWithType: BassMidi.Unload()
-- uid: ManagedBass.Midi.BassMidi.Unload*
-  name: Unload
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_Unload_
-  commentId: Overload:ManagedBass.Midi.BassMidi.Unload
-  fullName: ManagedBass.Midi.BassMidi.Unload
-  nameWithType: BassMidi.Unload
 - uid: ManagedBass.Midi.BassMidi.UserFXChannel
   name: UserFXChannel
   href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_UserFXChannel
@@ -18677,18 +18179,6 @@ references:
   commentId: Overload:ManagedBass.Mix.BassMix.CreateSplitStream
   fullName: ManagedBass.Mix.BassMix.CreateSplitStream
   nameWithType: BassMix.CreateSplitStream
-- uid: ManagedBass.Mix.BassMix.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Mix.BassMix.html#ManagedBass_Mix_BassMix_Load_System_String_
-  commentId: M:ManagedBass.Mix.BassMix.Load(System.String)
-  fullName: ManagedBass.Mix.BassMix.Load(System.String)
-  nameWithType: BassMix.Load(String)
-- uid: ManagedBass.Mix.BassMix.Load*
-  name: Load
-  href: api/ManagedBass.Mix.BassMix.html#ManagedBass_Mix_BassMix_Load_
-  commentId: Overload:ManagedBass.Mix.BassMix.Load
-  fullName: ManagedBass.Mix.BassMix.Load
-  nameWithType: BassMix.Load
 - uid: ManagedBass.Mix.BassMix.MixerAddChannel(System.Int32,System.Int32,ManagedBass.BassFlags)
   name: MixerAddChannel(Int32, Int32, BassFlags)
   href: api/ManagedBass.Mix.BassMix.html#ManagedBass_Mix_BassMix_MixerAddChannel_System_Int32_System_Int32_ManagedBass_BassFlags_
@@ -18809,18 +18299,6 @@ references:
   commentId: Overload:ManagedBass.Mix.BassMix.SplitStreamReset
   fullName: ManagedBass.Mix.BassMix.SplitStreamReset
   nameWithType: BassMix.SplitStreamReset
-- uid: ManagedBass.Mix.BassMix.Unload
-  name: Unload()
-  href: api/ManagedBass.Mix.BassMix.html#ManagedBass_Mix_BassMix_Unload
-  commentId: M:ManagedBass.Mix.BassMix.Unload
-  fullName: ManagedBass.Mix.BassMix.Unload()
-  nameWithType: BassMix.Unload()
-- uid: ManagedBass.Mix.BassMix.Unload*
-  name: Unload
-  href: api/ManagedBass.Mix.BassMix.html#ManagedBass_Mix_BassMix_Unload_
-  commentId: Overload:ManagedBass.Mix.BassMix.Unload
-  fullName: ManagedBass.Mix.BassMix.Unload
-  nameWithType: BassMix.Unload
 - uid: ManagedBass.Mix.MixEnvelope
   name: MixEnvelope
   href: api/ManagedBass.Mix.MixEnvelope.html
@@ -18956,36 +18434,6 @@ references:
   commentId: Overload:ManagedBass.Mpc.BassMpc.CreateStream
   fullName: ManagedBass.Mpc.BassMpc.CreateStream
   nameWithType: BassMpc.CreateStream
-- uid: ManagedBass.Mpc.BassMpc.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Mpc.BassMpc.html#ManagedBass_Mpc_BassMpc_Load_System_String_
-  commentId: M:ManagedBass.Mpc.BassMpc.Load(System.String)
-  fullName: ManagedBass.Mpc.BassMpc.Load(System.String)
-  nameWithType: BassMpc.Load(String)
-- uid: ManagedBass.Mpc.BassMpc.Load*
-  name: Load
-  href: api/ManagedBass.Mpc.BassMpc.html#ManagedBass_Mpc_BassMpc_Load_
-  commentId: Overload:ManagedBass.Mpc.BassMpc.Load
-  fullName: ManagedBass.Mpc.BassMpc.Load
-  nameWithType: BassMpc.Load
-- uid: ManagedBass.Mpc.BassMpc.Plugin
-  name: Plugin
-  href: api/ManagedBass.Mpc.BassMpc.html#ManagedBass_Mpc_BassMpc_Plugin
-  commentId: F:ManagedBass.Mpc.BassMpc.Plugin
-  fullName: ManagedBass.Mpc.BassMpc.Plugin
-  nameWithType: BassMpc.Plugin
-- uid: ManagedBass.Mpc.BassMpc.Unload
-  name: Unload()
-  href: api/ManagedBass.Mpc.BassMpc.html#ManagedBass_Mpc_BassMpc_Unload
-  commentId: M:ManagedBass.Mpc.BassMpc.Unload
-  fullName: ManagedBass.Mpc.BassMpc.Unload()
-  nameWithType: BassMpc.Unload()
-- uid: ManagedBass.Mpc.BassMpc.Unload*
-  name: Unload
-  href: api/ManagedBass.Mpc.BassMpc.html#ManagedBass_Mpc_BassMpc_Unload_
-  commentId: Overload:ManagedBass.Mpc.BassMpc.Unload
-  fullName: ManagedBass.Mpc.BassMpc.Unload
-  nameWithType: BassMpc.Unload
 - uid: ManagedBass.Ofr
   name: ManagedBass.Ofr
   href: api/ManagedBass.Ofr.html
@@ -19037,36 +18485,6 @@ references:
   commentId: Overload:ManagedBass.Ofr.BassOfr.CreateStream
   fullName: ManagedBass.Ofr.BassOfr.CreateStream
   nameWithType: BassOfr.CreateStream
-- uid: ManagedBass.Ofr.BassOfr.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Ofr.BassOfr.html#ManagedBass_Ofr_BassOfr_Load_System_String_
-  commentId: M:ManagedBass.Ofr.BassOfr.Load(System.String)
-  fullName: ManagedBass.Ofr.BassOfr.Load(System.String)
-  nameWithType: BassOfr.Load(String)
-- uid: ManagedBass.Ofr.BassOfr.Load*
-  name: Load
-  href: api/ManagedBass.Ofr.BassOfr.html#ManagedBass_Ofr_BassOfr_Load_
-  commentId: Overload:ManagedBass.Ofr.BassOfr.Load
-  fullName: ManagedBass.Ofr.BassOfr.Load
-  nameWithType: BassOfr.Load
-- uid: ManagedBass.Ofr.BassOfr.Plugin
-  name: Plugin
-  href: api/ManagedBass.Ofr.BassOfr.html#ManagedBass_Ofr_BassOfr_Plugin
-  commentId: F:ManagedBass.Ofr.BassOfr.Plugin
-  fullName: ManagedBass.Ofr.BassOfr.Plugin
-  nameWithType: BassOfr.Plugin
-- uid: ManagedBass.Ofr.BassOfr.Unload
-  name: Unload()
-  href: api/ManagedBass.Ofr.BassOfr.html#ManagedBass_Ofr_BassOfr_Unload
-  commentId: M:ManagedBass.Ofr.BassOfr.Unload
-  fullName: ManagedBass.Ofr.BassOfr.Unload()
-  nameWithType: BassOfr.Unload()
-- uid: ManagedBass.Ofr.BassOfr.Unload*
-  name: Unload
-  href: api/ManagedBass.Ofr.BassOfr.html#ManagedBass_Ofr_BassOfr_Unload_
-  commentId: Overload:ManagedBass.Ofr.BassOfr.Unload
-  fullName: ManagedBass.Ofr.BassOfr.Unload
-  nameWithType: BassOfr.Unload
 - uid: ManagedBass.Opus
   name: ManagedBass.Opus
   href: api/ManagedBass.Opus.html
@@ -19118,36 +18536,6 @@ references:
   commentId: Overload:ManagedBass.Opus.BassOpus.CreateStream
   fullName: ManagedBass.Opus.BassOpus.CreateStream
   nameWithType: BassOpus.CreateStream
-- uid: ManagedBass.Opus.BassOpus.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Opus.BassOpus.html#ManagedBass_Opus_BassOpus_Load_System_String_
-  commentId: M:ManagedBass.Opus.BassOpus.Load(System.String)
-  fullName: ManagedBass.Opus.BassOpus.Load(System.String)
-  nameWithType: BassOpus.Load(String)
-- uid: ManagedBass.Opus.BassOpus.Load*
-  name: Load
-  href: api/ManagedBass.Opus.BassOpus.html#ManagedBass_Opus_BassOpus_Load_
-  commentId: Overload:ManagedBass.Opus.BassOpus.Load
-  fullName: ManagedBass.Opus.BassOpus.Load
-  nameWithType: BassOpus.Load
-- uid: ManagedBass.Opus.BassOpus.Plugin
-  name: Plugin
-  href: api/ManagedBass.Opus.BassOpus.html#ManagedBass_Opus_BassOpus_Plugin
-  commentId: F:ManagedBass.Opus.BassOpus.Plugin
-  fullName: ManagedBass.Opus.BassOpus.Plugin
-  nameWithType: BassOpus.Plugin
-- uid: ManagedBass.Opus.BassOpus.Unload
-  name: Unload()
-  href: api/ManagedBass.Opus.BassOpus.html#ManagedBass_Opus_BassOpus_Unload
-  commentId: M:ManagedBass.Opus.BassOpus.Unload
-  fullName: ManagedBass.Opus.BassOpus.Unload()
-  nameWithType: BassOpus.Unload()
-- uid: ManagedBass.Opus.BassOpus.Unload*
-  name: Unload
-  href: api/ManagedBass.Opus.BassOpus.html#ManagedBass_Opus_BassOpus_Unload_
-  commentId: Overload:ManagedBass.Opus.BassOpus.Unload
-  fullName: ManagedBass.Opus.BassOpus.Unload
-  nameWithType: BassOpus.Unload
 - uid: ManagedBass.PictureTag
   name: PictureTag
   href: api/ManagedBass.PictureTag.html
@@ -19988,18 +19376,6 @@ references:
   commentId: Overload:ManagedBass.Sfx.BassSfx.LastError
   fullName: ManagedBass.Sfx.BassSfx.LastError
   nameWithType: BassSfx.LastError
-- uid: ManagedBass.Sfx.BassSfx.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Sfx.BassSfx.html#ManagedBass_Sfx_BassSfx_Load_System_String_
-  commentId: M:ManagedBass.Sfx.BassSfx.Load(System.String)
-  fullName: ManagedBass.Sfx.BassSfx.Load(System.String)
-  nameWithType: BassSfx.Load(String)
-- uid: ManagedBass.Sfx.BassSfx.Load*
-  name: Load
-  href: api/ManagedBass.Sfx.BassSfx.html#ManagedBass_Sfx_BassSfx_Load_
-  commentId: Overload:ManagedBass.Sfx.BassSfx.Load
-  fullName: ManagedBass.Sfx.BassSfx.Load
-  nameWithType: BassSfx.Load
 - uid: ManagedBass.Sfx.BassSfx.PluginClicked(System.Int32,System.Int32,System.Int32)
   name: PluginClicked(Int32, Int32, Int32)
   href: api/ManagedBass.Sfx.BassSfx.html#ManagedBass_Sfx_BassSfx_PluginClicked_System_Int32_System_Int32_System_Int32_
@@ -20204,18 +19580,6 @@ references:
   commentId: Overload:ManagedBass.Sfx.BassSfx.PluginStop
   fullName: ManagedBass.Sfx.BassSfx.PluginStop
   nameWithType: BassSfx.PluginStop
-- uid: ManagedBass.Sfx.BassSfx.Unload
-  name: Unload()
-  href: api/ManagedBass.Sfx.BassSfx.html#ManagedBass_Sfx_BassSfx_Unload
-  commentId: M:ManagedBass.Sfx.BassSfx.Unload
-  fullName: ManagedBass.Sfx.BassSfx.Unload()
-  nameWithType: BassSfx.Unload()
-- uid: ManagedBass.Sfx.BassSfx.Unload*
-  name: Unload
-  href: api/ManagedBass.Sfx.BassSfx.html#ManagedBass_Sfx_BassSfx_Unload_
-  commentId: Overload:ManagedBass.Sfx.BassSfx.Unload
-  fullName: ManagedBass.Sfx.BassSfx.Unload
-  nameWithType: BassSfx.Unload
 - uid: ManagedBass.Sfx.BassSfx.Version
   name: Version
   href: api/ManagedBass.Sfx.BassSfx.html#ManagedBass_Sfx_BassSfx_Version
@@ -20474,36 +19838,6 @@ references:
   commentId: Overload:ManagedBass.Spx.BassSpx.CreateStream
   fullName: ManagedBass.Spx.BassSpx.CreateStream
   nameWithType: BassSpx.CreateStream
-- uid: ManagedBass.Spx.BassSpx.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Spx.BassSpx.html#ManagedBass_Spx_BassSpx_Load_System_String_
-  commentId: M:ManagedBass.Spx.BassSpx.Load(System.String)
-  fullName: ManagedBass.Spx.BassSpx.Load(System.String)
-  nameWithType: BassSpx.Load(String)
-- uid: ManagedBass.Spx.BassSpx.Load*
-  name: Load
-  href: api/ManagedBass.Spx.BassSpx.html#ManagedBass_Spx_BassSpx_Load_
-  commentId: Overload:ManagedBass.Spx.BassSpx.Load
-  fullName: ManagedBass.Spx.BassSpx.Load
-  nameWithType: BassSpx.Load
-- uid: ManagedBass.Spx.BassSpx.Plugin
-  name: Plugin
-  href: api/ManagedBass.Spx.BassSpx.html#ManagedBass_Spx_BassSpx_Plugin
-  commentId: F:ManagedBass.Spx.BassSpx.Plugin
-  fullName: ManagedBass.Spx.BassSpx.Plugin
-  nameWithType: BassSpx.Plugin
-- uid: ManagedBass.Spx.BassSpx.Unload
-  name: Unload()
-  href: api/ManagedBass.Spx.BassSpx.html#ManagedBass_Spx_BassSpx_Unload
-  commentId: M:ManagedBass.Spx.BassSpx.Unload
-  fullName: ManagedBass.Spx.BassSpx.Unload()
-  nameWithType: BassSpx.Unload()
-- uid: ManagedBass.Spx.BassSpx.Unload*
-  name: Unload
-  href: api/ManagedBass.Spx.BassSpx.html#ManagedBass_Spx_BassSpx_Unload_
-  commentId: Overload:ManagedBass.Spx.BassSpx.Unload
-  fullName: ManagedBass.Spx.BassSpx.Unload
-  nameWithType: BassSpx.Unload
 - uid: ManagedBass.StreamProcedure
   name: StreamProcedure
   href: api/ManagedBass.StreamProcedure.html
@@ -21285,18 +20619,6 @@ references:
   commentId: Overload:ManagedBass.Tags.BassTags.LastErrorDescription
   fullName: ManagedBass.Tags.BassTags.LastErrorDescription
   nameWithType: BassTags.LastErrorDescription
-- uid: ManagedBass.Tags.BassTags.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Tags.BassTags.html#ManagedBass_Tags_BassTags_Load_System_String_
-  commentId: M:ManagedBass.Tags.BassTags.Load(System.String)
-  fullName: ManagedBass.Tags.BassTags.Load(System.String)
-  nameWithType: BassTags.Load(String)
-- uid: ManagedBass.Tags.BassTags.Load*
-  name: Load
-  href: api/ManagedBass.Tags.BassTags.html#ManagedBass_Tags_BassTags_Load_
-  commentId: Overload:ManagedBass.Tags.BassTags.Load
-  fullName: ManagedBass.Tags.BassTags.Load
-  nameWithType: BassTags.Load
 - uid: ManagedBass.Tags.BassTags.Read(System.Int32,System.String)
   name: Read(Int32, String)
   href: api/ManagedBass.Tags.BassTags.html#ManagedBass_Tags_BassTags_Read_System_Int32_System_String_
@@ -21315,18 +20637,6 @@ references:
   commentId: Overload:ManagedBass.Tags.BassTags.Read
   fullName: ManagedBass.Tags.BassTags.Read
   nameWithType: BassTags.Read
-- uid: ManagedBass.Tags.BassTags.Unload
-  name: Unload()
-  href: api/ManagedBass.Tags.BassTags.html#ManagedBass_Tags_BassTags_Unload
-  commentId: M:ManagedBass.Tags.BassTags.Unload
-  fullName: ManagedBass.Tags.BassTags.Unload()
-  nameWithType: BassTags.Unload()
-- uid: ManagedBass.Tags.BassTags.Unload*
-  name: Unload
-  href: api/ManagedBass.Tags.BassTags.html#ManagedBass_Tags_BassTags_Unload_
-  commentId: Overload:ManagedBass.Tags.BassTags.Unload
-  fullName: ManagedBass.Tags.BassTags.Unload
-  nameWithType: BassTags.Unload
 - uid: ManagedBass.Tags.BassTags.Version
   name: Version
   href: api/ManagedBass.Tags.BassTags.html#ManagedBass_Tags_BassTags_Version
@@ -21612,36 +20922,6 @@ references:
   commentId: Overload:ManagedBass.Tta.BassTta.CreateStream
   fullName: ManagedBass.Tta.BassTta.CreateStream
   nameWithType: BassTta.CreateStream
-- uid: ManagedBass.Tta.BassTta.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Tta.BassTta.html#ManagedBass_Tta_BassTta_Load_System_String_
-  commentId: M:ManagedBass.Tta.BassTta.Load(System.String)
-  fullName: ManagedBass.Tta.BassTta.Load(System.String)
-  nameWithType: BassTta.Load(String)
-- uid: ManagedBass.Tta.BassTta.Load*
-  name: Load
-  href: api/ManagedBass.Tta.BassTta.html#ManagedBass_Tta_BassTta_Load_
-  commentId: Overload:ManagedBass.Tta.BassTta.Load
-  fullName: ManagedBass.Tta.BassTta.Load
-  nameWithType: BassTta.Load
-- uid: ManagedBass.Tta.BassTta.Plugin
-  name: Plugin
-  href: api/ManagedBass.Tta.BassTta.html#ManagedBass_Tta_BassTta_Plugin
-  commentId: F:ManagedBass.Tta.BassTta.Plugin
-  fullName: ManagedBass.Tta.BassTta.Plugin
-  nameWithType: BassTta.Plugin
-- uid: ManagedBass.Tta.BassTta.Unload
-  name: Unload()
-  href: api/ManagedBass.Tta.BassTta.html#ManagedBass_Tta_BassTta_Unload
-  commentId: M:ManagedBass.Tta.BassTta.Unload
-  fullName: ManagedBass.Tta.BassTta.Unload()
-  nameWithType: BassTta.Unload()
-- uid: ManagedBass.Tta.BassTta.Unload*
-  name: Unload
-  href: api/ManagedBass.Tta.BassTta.html#ManagedBass_Tta_BassTta_Unload_
-  commentId: Overload:ManagedBass.Tta.BassTta.Unload
-  fullName: ManagedBass.Tta.BassTta.Unload
-  nameWithType: BassTta.Unload
 - uid: ManagedBass.VAMMode
   name: VAMMode
   href: api/ManagedBass.VAMMode.html
@@ -21960,18 +21240,6 @@ references:
   commentId: Overload:ManagedBass.Vst.BassVst.GetProgramParam
   fullName: ManagedBass.Vst.BassVst.GetProgramParam
   nameWithType: BassVst.GetProgramParam
-- uid: ManagedBass.Vst.BassVst.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Vst.BassVst.html#ManagedBass_Vst_BassVst_Load_System_String_
-  commentId: M:ManagedBass.Vst.BassVst.Load(System.String)
-  fullName: ManagedBass.Vst.BassVst.Load(System.String)
-  nameWithType: BassVst.Load(String)
-- uid: ManagedBass.Vst.BassVst.Load*
-  name: Load
-  href: api/ManagedBass.Vst.BassVst.html#ManagedBass_Vst_BassVst_Load_
-  commentId: Overload:ManagedBass.Vst.BassVst.Load
-  fullName: ManagedBass.Vst.BassVst.Load
-  nameWithType: BassVst.Load
 - uid: ManagedBass.Vst.BassVst.ProcessEvent(System.Int32,System.Int32,System.Int32,System.Int32)
   name: ProcessEvent(Int32, Int32, Int32, Int32)
   href: api/ManagedBass.Vst.BassVst.html#ManagedBass_Vst_BassVst_ProcessEvent_System_Int32_System_Int32_System_Int32_System_Int32_
@@ -22140,18 +21408,6 @@ references:
   commentId: Overload:ManagedBass.Vst.BassVst.SetScope
   fullName: ManagedBass.Vst.BassVst.SetScope
   nameWithType: BassVst.SetScope
-- uid: ManagedBass.Vst.BassVst.Unload
-  name: Unload()
-  href: api/ManagedBass.Vst.BassVst.html#ManagedBass_Vst_BassVst_Unload
-  commentId: M:ManagedBass.Vst.BassVst.Unload
-  fullName: ManagedBass.Vst.BassVst.Unload()
-  nameWithType: BassVst.Unload()
-- uid: ManagedBass.Vst.BassVst.Unload*
-  name: Unload
-  href: api/ManagedBass.Vst.BassVst.html#ManagedBass_Vst_BassVst_Unload_
-  commentId: Overload:ManagedBass.Vst.BassVst.Unload
-  fullName: ManagedBass.Vst.BassVst.Unload
-  nameWithType: BassVst.Unload
 - uid: ManagedBass.Vst.BassVstAction
   name: BassVstAction
   href: api/ManagedBass.Vst.BassVstAction.html
@@ -23040,18 +22296,6 @@ references:
   commentId: Overload:ManagedBass.WA.BassWA.IsPlaying
   fullName: ManagedBass.WA.BassWA.IsPlaying
   nameWithType: BassWA.IsPlaying
-- uid: ManagedBass.WA.BassWA.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.WA.BassWA.html#ManagedBass_WA_BassWA_Load_System_String_
-  commentId: M:ManagedBass.WA.BassWA.Load(System.String)
-  fullName: ManagedBass.WA.BassWA.Load(System.String)
-  nameWithType: BassWA.Load(String)
-- uid: ManagedBass.WA.BassWA.Load*
-  name: Load
-  href: api/ManagedBass.WA.BassWA.html#ManagedBass_WA_BassWA_Load_
-  commentId: Overload:ManagedBass.WA.BassWA.Load
-  fullName: ManagedBass.WA.BassWA.Load
-  nameWithType: BassWA.Load
 - uid: ManagedBass.WA.BassWA.LoadAllVis
   name: LoadAllVis()
   href: api/ManagedBass.WA.BassWA.html#ManagedBass_WA_BassWA_LoadAllVis
@@ -23184,18 +22428,6 @@ references:
   commentId: Overload:ManagedBass.WA.BassWA.StopVis
   fullName: ManagedBass.WA.BassWA.StopVis
   nameWithType: BassWA.StopVis
-- uid: ManagedBass.WA.BassWA.Unload
-  name: Unload()
-  href: api/ManagedBass.WA.BassWA.html#ManagedBass_WA_BassWA_Unload
-  commentId: M:ManagedBass.WA.BassWA.Unload
-  fullName: ManagedBass.WA.BassWA.Unload()
-  nameWithType: BassWA.Unload()
-- uid: ManagedBass.WA.BassWA.Unload*
-  name: Unload
-  href: api/ManagedBass.WA.BassWA.html#ManagedBass_WA_BassWA_Unload_
-  commentId: Overload:ManagedBass.WA.BassWA.Unload
-  fullName: ManagedBass.WA.BassWA.Unload
-  nameWithType: BassWA.Unload
 - uid: ManagedBass.WA.BassWA.WinampPluginCount
   name: WinampPluginCount
   href: api/ManagedBass.WA.BassWA.html#ManagedBass_WA_BassWA_WinampPluginCount
@@ -23364,12 +22596,6 @@ references:
   commentId: Overload:ManagedBass.WaDsp.BassWaDsp.Init
   fullName: ManagedBass.WaDsp.BassWaDsp.Init
   nameWithType: BassWaDsp.Init
-- uid: ManagedBass.WaDsp.BassWaDsp.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.WaDsp.BassWaDsp.html#ManagedBass_WaDsp_BassWaDsp_Load_System_String_
-  commentId: M:ManagedBass.WaDsp.BassWaDsp.Load(System.String)
-  fullName: ManagedBass.WaDsp.BassWaDsp.Load(System.String)
-  nameWithType: BassWaDsp.Load(String)
 - uid: ManagedBass.WaDsp.BassWaDsp.Load(System.String,System.Int32,System.Int32,System.Int32,System.Int32,ManagedBass.WaDsp.WinampWinProcedure)
   name: Load(String, Int32, Int32, Int32, Int32, WinampWinProcedure)
   href: api/ManagedBass.WaDsp.BassWaDsp.html#ManagedBass_WaDsp_BassWaDsp_Load_System_String_System_Int32_System_Int32_System_Int32_System_Int32_ManagedBass_WaDsp_WinampWinProcedure_
@@ -23610,18 +22836,6 @@ references:
   commentId: Overload:ManagedBass.WaDsp.BassWaDsp.Stop
   fullName: ManagedBass.WaDsp.BassWaDsp.Stop
   nameWithType: BassWaDsp.Stop
-- uid: ManagedBass.WaDsp.BassWaDsp.Unload
-  name: Unload()
-  href: api/ManagedBass.WaDsp.BassWaDsp.html#ManagedBass_WaDsp_BassWaDsp_Unload
-  commentId: M:ManagedBass.WaDsp.BassWaDsp.Unload
-  fullName: ManagedBass.WaDsp.BassWaDsp.Unload()
-  nameWithType: BassWaDsp.Unload()
-- uid: ManagedBass.WaDsp.BassWaDsp.Unload*
-  name: Unload
-  href: api/ManagedBass.WaDsp.BassWaDsp.html#ManagedBass_WaDsp_BassWaDsp_Unload_
-  commentId: Overload:ManagedBass.WaDsp.BassWaDsp.Unload
-  fullName: ManagedBass.WaDsp.BassWaDsp.Unload
-  nameWithType: BassWaDsp.Unload
 - uid: ManagedBass.WaDsp.BassWaDsp.Version
   name: Version
   href: api/ManagedBass.WaDsp.BassWaDsp.html#ManagedBass_WaDsp_BassWaDsp_Version
@@ -23958,18 +23172,6 @@ references:
   commentId: Overload:ManagedBass.Wasapi.BassWasapi.IsStarted
   fullName: ManagedBass.Wasapi.BassWasapi.IsStarted
   nameWithType: BassWasapi.IsStarted
-- uid: ManagedBass.Wasapi.BassWasapi.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Load_System_String_
-  commentId: M:ManagedBass.Wasapi.BassWasapi.Load(System.String)
-  fullName: ManagedBass.Wasapi.BassWasapi.Load(System.String)
-  nameWithType: BassWasapi.Load(String)
-- uid: ManagedBass.Wasapi.BassWasapi.Load*
-  name: Load
-  href: api/ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Load_
-  commentId: Overload:ManagedBass.Wasapi.BassWasapi.Load
-  fullName: ManagedBass.Wasapi.BassWasapi.Load
-  nameWithType: BassWasapi.Load
 - uid: ManagedBass.Wasapi.BassWasapi.Lock(System.Boolean)
   name: Lock(Boolean)
   href: api/ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Lock_System_Boolean_
@@ -24063,18 +23265,6 @@ references:
   commentId: Overload:ManagedBass.Wasapi.BassWasapi.Stop
   fullName: ManagedBass.Wasapi.BassWasapi.Stop
   nameWithType: BassWasapi.Stop
-- uid: ManagedBass.Wasapi.BassWasapi.Unload
-  name: Unload()
-  href: api/ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Unload
-  commentId: M:ManagedBass.Wasapi.BassWasapi.Unload
-  fullName: ManagedBass.Wasapi.BassWasapi.Unload()
-  nameWithType: BassWasapi.Unload()
-- uid: ManagedBass.Wasapi.BassWasapi.Unload*
-  name: Unload
-  href: api/ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Unload_
-  commentId: Overload:ManagedBass.Wasapi.BassWasapi.Unload
-  fullName: ManagedBass.Wasapi.BassWasapi.Unload
-  nameWithType: BassWasapi.Unload
 - uid: ManagedBass.Wasapi.BassWasapi.Version
   name: Version
   href: api/ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Version
@@ -25983,18 +25173,6 @@ references:
   commentId: Overload:ManagedBass.Winamp.BassWinamp.IsSeekable
   fullName: ManagedBass.Winamp.BassWinamp.IsSeekable
   nameWithType: BassWinamp.IsSeekable
-- uid: ManagedBass.Winamp.BassWinamp.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Winamp.BassWinamp.html#ManagedBass_Winamp_BassWinamp_Load_System_String_
-  commentId: M:ManagedBass.Winamp.BassWinamp.Load(System.String)
-  fullName: ManagedBass.Winamp.BassWinamp.Load(System.String)
-  nameWithType: BassWinamp.Load(String)
-- uid: ManagedBass.Winamp.BassWinamp.Load*
-  name: Load
-  href: api/ManagedBass.Winamp.BassWinamp.html#ManagedBass_Winamp_BassWinamp_Load_
-  commentId: Overload:ManagedBass.Winamp.BassWinamp.Load
-  fullName: ManagedBass.Winamp.BassWinamp.Load
-  nameWithType: BassWinamp.Load
 - uid: ManagedBass.Winamp.BassWinamp.LoadPlugin(System.String)
   name: LoadPlugin(String)
   href: api/ManagedBass.Winamp.BassWinamp.html#ManagedBass_Winamp_BassWinamp_LoadPlugin_System_String_
@@ -26007,18 +25185,6 @@ references:
   commentId: Overload:ManagedBass.Winamp.BassWinamp.LoadPlugin
   fullName: ManagedBass.Winamp.BassWinamp.LoadPlugin
   nameWithType: BassWinamp.LoadPlugin
-- uid: ManagedBass.Winamp.BassWinamp.Unload
-  name: Unload()
-  href: api/ManagedBass.Winamp.BassWinamp.html#ManagedBass_Winamp_BassWinamp_Unload
-  commentId: M:ManagedBass.Winamp.BassWinamp.Unload
-  fullName: ManagedBass.Winamp.BassWinamp.Unload()
-  nameWithType: BassWinamp.Unload()
-- uid: ManagedBass.Winamp.BassWinamp.Unload*
-  name: Unload
-  href: api/ManagedBass.Winamp.BassWinamp.html#ManagedBass_Winamp_BassWinamp_Unload_
-  commentId: Overload:ManagedBass.Winamp.BassWinamp.Unload
-  fullName: ManagedBass.Winamp.BassWinamp.Unload
-  nameWithType: BassWinamp.Unload
 - uid: ManagedBass.Winamp.BassWinamp.UnloadPlugin(System.Int32)
   name: UnloadPlugin(Int32)
   href: api/ManagedBass.Winamp.BassWinamp.html#ManagedBass_Winamp_BassWinamp_UnloadPlugin_System_Int32_
@@ -26382,18 +25548,6 @@ references:
   commentId: Overload:ManagedBass.Wma.BassWma.GetWMObject
   fullName: ManagedBass.Wma.BassWma.GetWMObject
   nameWithType: BassWma.GetWMObject
-- uid: ManagedBass.Wma.BassWma.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_Load_System_String_
-  commentId: M:ManagedBass.Wma.BassWma.Load(System.String)
-  fullName: ManagedBass.Wma.BassWma.Load(System.String)
-  nameWithType: BassWma.Load(String)
-- uid: ManagedBass.Wma.BassWma.Load*
-  name: Load
-  href: api/ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_Load_
-  commentId: Overload:ManagedBass.Wma.BassWma.Load
-  fullName: ManagedBass.Wma.BassWma.Load
-  nameWithType: BassWma.Load
 - uid: ManagedBass.Wma.BassWma.PlayWMVAudio
   name: PlayWMVAudio
   href: api/ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_PlayWMVAudio
@@ -26406,12 +25560,6 @@ references:
   commentId: Overload:ManagedBass.Wma.BassWma.PlayWMVAudio
   fullName: ManagedBass.Wma.BassWma.PlayWMVAudio
   nameWithType: BassWma.PlayWMVAudio
-- uid: ManagedBass.Wma.BassWma.Plugin
-  name: Plugin
-  href: api/ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_Plugin
-  commentId: F:ManagedBass.Wma.BassWma.Plugin
-  fullName: ManagedBass.Wma.BassWma.Plugin
-  nameWithType: BassWma.Plugin
 - uid: ManagedBass.Wma.BassWma.PrebufferInternetStreams
   name: PrebufferInternetStreams
   href: api/ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_PrebufferInternetStreams
@@ -26424,18 +25572,6 @@ references:
   commentId: Overload:ManagedBass.Wma.BassWma.PrebufferInternetStreams
   fullName: ManagedBass.Wma.BassWma.PrebufferInternetStreams
   nameWithType: BassWma.PrebufferInternetStreams
-- uid: ManagedBass.Wma.BassWma.Unload
-  name: Unload()
-  href: api/ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_Unload
-  commentId: M:ManagedBass.Wma.BassWma.Unload
-  fullName: ManagedBass.Wma.BassWma.Unload()
-  nameWithType: BassWma.Unload()
-- uid: ManagedBass.Wma.BassWma.Unload*
-  name: Unload
-  href: api/ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_Unload_
-  commentId: Overload:ManagedBass.Wma.BassWma.Unload
-  fullName: ManagedBass.Wma.BassWma.Unload
-  nameWithType: BassWma.Unload
 - uid: ManagedBass.Wma.BassWma.UseBassFileHandling
   name: UseBassFileHandling
   href: api/ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_UseBassFileHandling
@@ -26649,36 +25785,6 @@ references:
   commentId: Overload:ManagedBass.Wv.BassWv.CreateStream
   fullName: ManagedBass.Wv.BassWv.CreateStream
   nameWithType: BassWv.CreateStream
-- uid: ManagedBass.Wv.BassWv.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Wv.BassWv.html#ManagedBass_Wv_BassWv_Load_System_String_
-  commentId: M:ManagedBass.Wv.BassWv.Load(System.String)
-  fullName: ManagedBass.Wv.BassWv.Load(System.String)
-  nameWithType: BassWv.Load(String)
-- uid: ManagedBass.Wv.BassWv.Load*
-  name: Load
-  href: api/ManagedBass.Wv.BassWv.html#ManagedBass_Wv_BassWv_Load_
-  commentId: Overload:ManagedBass.Wv.BassWv.Load
-  fullName: ManagedBass.Wv.BassWv.Load
-  nameWithType: BassWv.Load
-- uid: ManagedBass.Wv.BassWv.Plugin
-  name: Plugin
-  href: api/ManagedBass.Wv.BassWv.html#ManagedBass_Wv_BassWv_Plugin
-  commentId: F:ManagedBass.Wv.BassWv.Plugin
-  fullName: ManagedBass.Wv.BassWv.Plugin
-  nameWithType: BassWv.Plugin
-- uid: ManagedBass.Wv.BassWv.Unload
-  name: Unload()
-  href: api/ManagedBass.Wv.BassWv.html#ManagedBass_Wv_BassWv_Unload
-  commentId: M:ManagedBass.Wv.BassWv.Unload
-  fullName: ManagedBass.Wv.BassWv.Unload()
-  nameWithType: BassWv.Unload()
-- uid: ManagedBass.Wv.BassWv.Unload*
-  name: Unload
-  href: api/ManagedBass.Wv.BassWv.html#ManagedBass_Wv_BassWv_Unload_
-  commentId: Overload:ManagedBass.Wv.BassWv.Unload
-  fullName: ManagedBass.Wv.BassWv.Unload
-  nameWithType: BassWv.Unload
 - uid: ManagedBass.ZXTune
   name: ManagedBass.ZXTune
   href: api/ManagedBass.ZXTune.html
@@ -26724,18 +25830,6 @@ references:
   commentId: Overload:ManagedBass.ZXTune.BassZXTune.CreateStream
   fullName: ManagedBass.ZXTune.BassZXTune.CreateStream
   nameWithType: BassZXTune.CreateStream
-- uid: ManagedBass.ZXTune.BassZXTune.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.ZXTune.BassZXTune.html#ManagedBass_ZXTune_BassZXTune_Load_System_String_
-  commentId: M:ManagedBass.ZXTune.BassZXTune.Load(System.String)
-  fullName: ManagedBass.ZXTune.BassZXTune.Load(System.String)
-  nameWithType: BassZXTune.Load(String)
-- uid: ManagedBass.ZXTune.BassZXTune.Load*
-  name: Load
-  href: api/ManagedBass.ZXTune.BassZXTune.html#ManagedBass_ZXTune_BassZXTune_Load_
-  commentId: Overload:ManagedBass.ZXTune.BassZXTune.Load
-  fullName: ManagedBass.ZXTune.BassZXTune.Load
-  nameWithType: BassZXTune.Load
 - uid: ManagedBass.ZXTune.BassZXTune.MaxFileSize
   name: MaxFileSize
   href: api/ManagedBass.ZXTune.BassZXTune.html#ManagedBass_ZXTune_BassZXTune_MaxFileSize
@@ -26748,21 +25842,3 @@ references:
   commentId: Overload:ManagedBass.ZXTune.BassZXTune.MaxFileSize
   fullName: ManagedBass.ZXTune.BassZXTune.MaxFileSize
   nameWithType: BassZXTune.MaxFileSize
-- uid: ManagedBass.ZXTune.BassZXTune.Plugin
-  name: Plugin
-  href: api/ManagedBass.ZXTune.BassZXTune.html#ManagedBass_ZXTune_BassZXTune_Plugin
-  commentId: F:ManagedBass.ZXTune.BassZXTune.Plugin
-  fullName: ManagedBass.ZXTune.BassZXTune.Plugin
-  nameWithType: BassZXTune.Plugin
-- uid: ManagedBass.ZXTune.BassZXTune.Unload
-  name: Unload()
-  href: api/ManagedBass.ZXTune.BassZXTune.html#ManagedBass_ZXTune_BassZXTune_Unload
-  commentId: M:ManagedBass.ZXTune.BassZXTune.Unload
-  fullName: ManagedBass.ZXTune.BassZXTune.Unload()
-  nameWithType: BassZXTune.Unload()
-- uid: ManagedBass.ZXTune.BassZXTune.Unload*
-  name: Unload
-  href: api/ManagedBass.ZXTune.BassZXTune.html#ManagedBass_ZXTune_BassZXTune_Unload_
-  commentId: Overload:ManagedBass.ZXTune.BassZXTune.Unload
-  fullName: ManagedBass.ZXTune.BassZXTune.Unload
-  nameWithType: BassZXTune.Unload
