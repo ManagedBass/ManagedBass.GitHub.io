@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct DeviceInfo
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,18 +74,18 @@
   <div class="markdown level0 summary"><p>Used with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_GetDeviceInfo_System_Int32_ManagedBass_DeviceInfo__">GetDeviceInfo(Int32, out DeviceInfo)</a> or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_RecordGetDeviceInfo_System_Int32_ManagedBass_DeviceInfo__">RecordGetDeviceInfo(Int32, out DeviceInfo)</a> to retrieve information on a device.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
   
   <h5 id="ManagedBass_DeviceInfo_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public struct DeviceInfo</code></pre>
   </div>
-  
+
   
   
   
@@ -101,8 +102,8 @@ If an affected device is initialized, it will stop working and will need to be r
 <p>
 On Windows, <a class="xref" href="ManagedBass.DeviceInfo.html#ManagedBass_DeviceInfo_Driver">Driver</a> can reveal the Type of driver being used on systems that support both VxD and WDM drivers (Windows Me/98SE).
 Further information can be obtained from the file via the GetFileVersionInfo function.
-On Vista and newer, the device&#39;s endpoint ID is given rather than its driver filename.
-On OSX, driver is the device&#39;s UID, and on Linux it is the ALSA device name.
+On Vista and newer, the device&apos;s endpoint ID is given rather than its driver filename.
+On OSX, driver is the device&apos;s UID, and on Linux it is the ALSA device name.
 It is unused on other platforms.
 The device Type is only available on Windows (Vista and newer) and OSX.
 On Windows, DisplayPort devices will have <a class="xref" href="ManagedBass.DeviceType.html#ManagedBass_DeviceType_HDMI">HDMI</a> rather than <a class="xref" href="ManagedBass.DeviceType.html#ManagedBass_DeviceType_DisplayPort">DisplayPort</a>.
@@ -135,11 +136,11 @@ They are always in UTF-16 form on Windows CE, and UTF-8 on other platforms.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Driver { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -179,11 +180,11 @@ They are always in UTF-16 form on Windows CE, and UTF-8 on other platforms.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsDefault { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -223,11 +224,11 @@ They are always in UTF-16 form on Windows CE, and UTF-8 on other platforms.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsEnabled { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -267,11 +268,11 @@ They are always in UTF-16 form on Windows CE, and UTF-8 on other platforms.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsInitialized { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -311,11 +312,11 @@ They are always in UTF-16 form on Windows CE, and UTF-8 on other platforms.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsLoopback { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -355,11 +356,11 @@ They are always in UTF-16 form on Windows CE, and UTF-8 on other platforms.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -395,15 +396,15 @@ They are always in UTF-16 form on Windows CE, and UTF-8 on other platforms.
   <h4 id="ManagedBass_DeviceInfo_Type" data-uid="ManagedBass.DeviceInfo.Type"><a href="#collapsible-ManagedBass_DeviceInfo_Type" class="expander" data-toggle="collapse">Type</a></h4>
   
   <div id="collapsible-ManagedBass_DeviceInfo_Type" class="collapse in">
-  <div class="markdown level1 summary"><p>The device&#39;s Type.</p>
+  <div class="markdown level1 summary"><p>The device&apos;s Type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public DeviceType Type { get; }</code></pre>
   </div>
-  
+
   
   
   

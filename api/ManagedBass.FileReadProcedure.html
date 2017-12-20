@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Delegate FileReadProcedure
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,18 +74,18 @@
   <div class="markdown level0 summary"><p>User file stream read callback function (to be used with <a class="xref" href="ManagedBass.FileProcedures.html">FileProcedures</a>).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
   
   <h5 id="ManagedBass_FileReadProcedure_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public delegate int FileReadProcedure(IntPtr Buffer, int Length, IntPtr User);</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -131,7 +132,7 @@ After that, it can just return whatever is available up to the requested amount.
 <p>For an unbuffered file stream during playback, this function should be as quick as possible -
 any delays will not only affect the decoding of the current stream, but also all other streams and MOD musics that are playing.
 It is better to return less data (even none) rather than wait for more data.
-A buffered file stream isn&#39;t affected by delays like this, as this function runs in its own thread then.</p></p>
+A buffered file stream isn&apos;t affected by delays like this, as this function runs in its own thread then.</p></p>
 </div>
   
   

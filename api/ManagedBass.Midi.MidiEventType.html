@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum MidiEventType
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,707 +74,618 @@
   <div class="markdown level0 summary"><p>The MIDI event type, to be used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_System_Int32_">StreamEvent(Int32, Int32, MidiEventType, Int32)</a> or <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_">StreamGetEvent(Int32, Int32, MidiEventType)</a> or <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_CreateStream_ManagedBass_Midi_MidiEvent___System_Int32_ManagedBass_BassFlags_System_Int32_">CreateStream(MidiEvent[], Int32, BassFlags, Int32)</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Midi</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Midi.dll</h6>
   
   <h5 id="ManagedBass_Midi_MidiEventType_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum MidiEventType : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_Midi_MidiEventType_Attack"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Attack" class="expander" data-toggle="collapse">Attack</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Attack">
-          Attack
-          <p><p>Set the attack time (MIDI controller 73, NRPN 163h).
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Attack" class="collapse in">
+        <p><p>Set the attack time (MIDI controller 73, NRPN 163h).
 param : attack time (0-127, 0=-64, 64=normal, 127=+63).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Bank">
-          Bank
-          <p><p>Select the bank to use (MIDI controller 0).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Bank"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Bank" class="expander" data-toggle="collapse">Bank</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Bank" class="collapse in">
+        <p><p>Select the bank to use (MIDI controller 0).
 param : bank number (0-127).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_BankLSB">
-          BankLSB
-          <p><p>Bank LSB.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_BankLSB"><a href="#collapsible-ManagedBass_Midi_MidiEventType_BankLSB" class="expander" data-toggle="collapse">BankLSB</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_BankLSB" class="collapse in">
+        <p><p>Bank LSB.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChangePresetFilter">
-          ChangePresetFilter
-          <p><p>Change Preset Filter.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChangePresetFilter"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChangePresetFilter" class="expander" data-toggle="collapse">ChangePresetFilter</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChangePresetFilter" class="collapse in">
+        <p><p>Change Preset Filter.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChangePresetPitch">
-          ChangePresetPitch
-          <p><p>Change Preset Pitch.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChangePresetPitch"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChangePresetPitch" class="expander" data-toggle="collapse">ChangePresetPitch</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChangePresetPitch" class="collapse in">
+        <p><p>Change Preset Pitch.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChangePresetVibrato">
-          ChangePresetVibrato
-          <p><p>Change Preset Vibrato.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChangePresetVibrato"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChangePresetVibrato" class="expander" data-toggle="collapse">ChangePresetVibrato</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChangePresetVibrato" class="collapse in">
+        <p><p>Change Preset Vibrato.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChangePresetVolume">
-          ChangePresetVolume
-          <p><p>Change Preset Volume.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChangePresetVolume"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChangePresetVolume" class="expander" data-toggle="collapse">ChangePresetVolume</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChangePresetVolume" class="collapse in">
+        <p><p>Change Preset Volume.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChannelPressure">
-          ChannelPressure
-          <p><p>Set the channel pressure.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChannelPressure"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChannelPressure" class="expander" data-toggle="collapse">ChannelPressure</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChannelPressure" class="collapse in">
+        <p><p>Set the channel pressure.
 param : pressure level (0-127).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Chorus">
-          Chorus
-          <p><p>Set the chorus send level (MIDI controller 93).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Chorus"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Chorus" class="expander" data-toggle="collapse">Chorus</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Chorus" class="collapse in">
+        <p><p>Set the chorus send level (MIDI controller 93).
 param : chorus level (0-127).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChorusDelay">
-          ChorusDelay
-          <p><p>Set the chorus delay.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChorusDelay"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChorusDelay" class="expander" data-toggle="collapse">ChorusDelay</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChorusDelay" class="collapse in">
+        <p><p>Set the chorus delay.
 param : chorus delay in millisecond 10ths.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChorusDepth">
-          ChorusDepth
-          <p><p>Set the chorus depth.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChorusDepth"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChorusDepth" class="expander" data-toggle="collapse">ChorusDepth</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChorusDepth" class="collapse in">
+        <p><p>Set the chorus depth.
 param : chorus depth in millisecond 10ths.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChorusFeedback">
-          ChorusFeedback
-          <p><p>Set the chorus feedback level.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChorusFeedback"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChorusFeedback" class="expander" data-toggle="collapse">ChorusFeedback</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChorusFeedback" class="collapse in">
+        <p><p>Set the chorus feedback level.
 param : chorus feedback level (0=-100%, 100=off, 200=+100%).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChorusLevel">
-          ChorusLevel
-          <p><p>Set the chorus level.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChorusLevel"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChorusLevel" class="expander" data-toggle="collapse">ChorusLevel</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChorusLevel" class="collapse in">
+        <p><p>Set the chorus level.
 param : chorus level (0=off, 100=0dB, 200=+6dB).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChorusMacro">
-          ChorusMacro
-          <p><p>To be defined.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChorusMacro"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChorusMacro" class="expander" data-toggle="collapse">ChorusMacro</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChorusMacro" class="collapse in">
+        <p><p>To be defined.
 param : to be defined.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChorusRate">
-          ChorusRate
-          <p><p>Set the chorus rate.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChorusRate"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChorusRate" class="expander" data-toggle="collapse">ChorusRate</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChorusRate" class="collapse in">
+        <p><p>Set the chorus rate.
 param : chorus rate in hertz 100ths.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ChorusReverb">
-          ChorusReverb
-          <p><p>Set the chorus send to reverb level.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ChorusReverb"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ChorusReverb" class="expander" data-toggle="collapse">ChorusReverb</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ChorusReverb" class="collapse in">
+        <p><p>Set the chorus send to reverb level.
 param : chorus send to reverb level (0=off, 100=0dB, 200=+6dB).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_CoarseTune">
-          CoarseTune
-          <p><p>Set the coarse tuning (MIDI RPN 2).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_CoarseTune"><a href="#collapsible-ManagedBass_Midi_MidiEventType_CoarseTune" class="expander" data-toggle="collapse">CoarseTune</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_CoarseTune" class="collapse in">
+        <p><p>Set the coarse tuning (MIDI RPN 2).
 param : finetune in semitones (0-127, 0=-64, 64=normal, 127=+63).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Control">
-          Control
-          <p><p>Control event.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Control"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Control" class="expander" data-toggle="collapse">Control</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Control" class="collapse in">
+        <p><p>Control event.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_CutOff">
-          CutOff
-          <p><p>Set the low-pass filter cutoff (MIDI controller 74, NRPN 120h).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_CutOff"><a href="#collapsible-ManagedBass_Midi_MidiEventType_CutOff" class="expander" data-toggle="collapse">CutOff</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_CutOff" class="collapse in">
+        <p><p>Set the low-pass filter cutoff (MIDI controller 74, NRPN 120h).
 param : cutoff level (0-127, 0=-64, 64=normal, 127=+63).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Decay">
-          Decay
-          <p><p>Set the decay time (MIDI controller 75, NRPN 164h)
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Decay"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Decay" class="expander" data-toggle="collapse">Decay</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Decay" class="collapse in">
+        <p><p>Set the decay time (MIDI controller 75, NRPN 164h)
 param : decay time (0-127, 0=-64, 64=normal, 127=+63).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_DrumChorus">
-          DrumChorus
-          <p><p>Set the chorus send level of a drum key (MIDI NRPN 1Eknh).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_DrumChorus"><a href="#collapsible-ManagedBass_Midi_MidiEventType_DrumChorus" class="expander" data-toggle="collapse">DrumChorus</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_DrumChorus" class="collapse in">
+        <p><p>Set the chorus send level of a drum key (MIDI NRPN 1Eknh).
 param : LOBYTE = key number (0-127), HIBYTE = chorus level (0-127).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_DrumCoarseTune">
-          DrumCoarseTune
-          <p><p>Set the coarse tuning of a drum key (MIDI NRPN 18knh).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_DrumCoarseTune"><a href="#collapsible-ManagedBass_Midi_MidiEventType_DrumCoarseTune" class="expander" data-toggle="collapse">DrumCoarseTune</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_DrumCoarseTune" class="collapse in">
+        <p><p>Set the coarse tuning of a drum key (MIDI NRPN 18knh).
 param : LOBYTE = key number (0-127), HIBYTE = finetune in semitones (0-127, 0=-64, 64=normal, 127=+63).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_DrumCutOff">
-          DrumCutOff
-          <p><p>Set the low-pass filter cutoff of a drum key (MIDI NRPN 14knh).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_DrumCutOff"><a href="#collapsible-ManagedBass_Midi_MidiEventType_DrumCutOff" class="expander" data-toggle="collapse">DrumCutOff</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_DrumCutOff" class="collapse in">
+        <p><p>Set the low-pass filter cutoff of a drum key (MIDI NRPN 14knh).
 param : LOBYTE = key number (0-127), HIBYTE = cutoff level (0-127, 0=-64, 64=normal, 127=+63).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_DrumFineTune">
-          DrumFineTune
-          <p><p>Set the fine tuning of a drum key (MIDI NRPN 19knh).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_DrumFineTune"><a href="#collapsible-ManagedBass_Midi_MidiEventType_DrumFineTune" class="expander" data-toggle="collapse">DrumFineTune</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_DrumFineTune" class="collapse in">
+        <p><p>Set the fine tuning of a drum key (MIDI NRPN 19knh).
 param : LOBYTE = key number (0-127), HIBYTE = finetune in cents (0-127, 0=-100, 64=normal, 127=+100).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_DrumLevel">
-          DrumLevel
-          <p><p>Set the drum level NRPN of a drum key (MIDI NRPN 16knh).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_DrumLevel"><a href="#collapsible-ManagedBass_Midi_MidiEventType_DrumLevel" class="expander" data-toggle="collapse">DrumLevel</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_DrumLevel" class="collapse in">
+        <p><p>Set the drum level NRPN of a drum key (MIDI NRPN 16knh).
 param : LOBYTE = key number (0-127), HIBYTE = level (0-127, 127=full/normal).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_DrumPan">
-          DrumPan
-          <p><p>Set the pan position of a drum key (MIDI NRPN 1Cknh).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_DrumPan"><a href="#collapsible-ManagedBass_Midi_MidiEventType_DrumPan" class="expander" data-toggle="collapse">DrumPan</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_DrumPan" class="collapse in">
+        <p><p>Set the pan position of a drum key (MIDI NRPN 1Cknh).
 param : LOBYTE = key number (0-127), HIBYTE = pan position (0-127, 0=random, 64=middle).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_DrumResonance">
-          DrumResonance
-          <p><p>Set the low-pass filter resonance of a drum key (MIDI NRPN 15knh).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_DrumResonance"><a href="#collapsible-ManagedBass_Midi_MidiEventType_DrumResonance" class="expander" data-toggle="collapse">DrumResonance</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_DrumResonance" class="collapse in">
+        <p><p>Set the low-pass filter resonance of a drum key (MIDI NRPN 15knh).
 param : LOBYTE = key number (0-127), HIBYTE = resonance level (0-127, 0=-64, 64=normal, 127=+63).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_DrumReverb">
-          DrumReverb
-          <p><p>Set the reverb send level of a drum key (MIDI NRPN 1Dknh).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_DrumReverb"><a href="#collapsible-ManagedBass_Midi_MidiEventType_DrumReverb" class="expander" data-toggle="collapse">DrumReverb</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_DrumReverb" class="collapse in">
+        <p><p>Set the reverb send level of a drum key (MIDI NRPN 1Dknh).
 param : LOBYTE = key number (0-127), HIBYTE = reverb level (0-127).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Drums">
-          Drums
-          <p><p>Set the percussion/drums channel switch. 
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Drums"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Drums" class="expander" data-toggle="collapse">Drums</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Drums" class="collapse in">
+        <p><p>Set the percussion/drums channel switch. 
 The bank and program are reset to 0 when this changes.
 param : use drums? (0=no, 1=yes).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_DrumUserFX">
-          DrumUserFX
-          <p><p>Set the user effect send level of a drum key (MIDI NRPN 1Fknh)
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_DrumUserFX"><a href="#collapsible-ManagedBass_Midi_MidiEventType_DrumUserFX" class="expander" data-toggle="collapse">DrumUserFX</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_DrumUserFX" class="collapse in">
+        <p><p>Set the user effect send level of a drum key (MIDI NRPN 1Fknh)
 param : LOBYTE = key number (0-127), HIBYTE = user effect level (0-127, 127=normal/full).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_End">
-          End
-          <p><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_CreateStream_ManagedBass_Midi_MidiEvent___System_Int32_ManagedBass_BassFlags_System_Int32_">CreateStream(MidiEvent[], Int32, BassFlags, Int32)</a> to mark the end of the event array.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_End"><a href="#collapsible-ManagedBass_Midi_MidiEventType_End" class="expander" data-toggle="collapse">End</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_End" class="collapse in">
+        <p><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_CreateStream_ManagedBass_Midi_MidiEvent___System_Int32_ManagedBass_BassFlags_System_Int32_">CreateStream(MidiEvent[], Int32, BassFlags, Int32)</a> to mark the end of the event array.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_EndTrack">
-          EndTrack
-          <p><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_CreateStream_ManagedBass_Midi_MidiEvent___System_Int32_ManagedBass_BassFlags_System_Int32_">CreateStream(MidiEvent[], Int32, BassFlags, Int32)</a> to mark the end of a track (the next event will be in a new track).</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_EndTrack"><a href="#collapsible-ManagedBass_Midi_MidiEventType_EndTrack" class="expander" data-toggle="collapse">EndTrack</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_EndTrack" class="collapse in">
+        <p><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_CreateStream_ManagedBass_Midi_MidiEvent___System_Int32_ManagedBass_BassFlags_System_Int32_">CreateStream(MidiEvent[], Int32, BassFlags, Int32)</a> to mark the end of a track (the next event will be in a new track).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Expression">
-          Expression
-          <p><p>Set the expression (MIDI controller 11).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Expression"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Expression" class="expander" data-toggle="collapse">Expression</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Expression" class="collapse in">
+        <p><p>Set the expression (MIDI controller 11).
 param : expression level (0-127).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_FineTune">
-          FineTune
-          <p><p>Set the fine tuning (MIDI RPN 1).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_FineTune"><a href="#collapsible-ManagedBass_Midi_MidiEventType_FineTune" class="expander" data-toggle="collapse">FineTune</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_FineTune" class="collapse in">
+        <p><p>Set the fine tuning (MIDI RPN 1).
 param : finetune in cents (0-16383, 0=-100, 8192=normal, 16383=+100).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_KeyPressure">
-          KeyPressure
-          <p><p>Set a key&#39;s pressure/aftertouch.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_KeyPressure"><a href="#collapsible-ManagedBass_Midi_MidiEventType_KeyPressure" class="expander" data-toggle="collapse">KeyPressure</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_KeyPressure" class="collapse in">
+        <p><p>Set a key&apos;s pressure/aftertouch.
 param : LOBYTE = key number (0-127), HIBYTE = pressure level (0-127).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_KeyPressureFilter">
-          KeyPressureFilter
-          <p><p>Set the maximum effect of key pressure/aftertouch on filter cutoff.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_KeyPressureFilter"><a href="#collapsible-ManagedBass_Midi_MidiEventType_KeyPressureFilter" class="expander" data-toggle="collapse">KeyPressureFilter</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_KeyPressureFilter" class="collapse in">
+        <p><p>Set the maximum effect of key pressure/aftertouch on filter cutoff.
 param : filter cutoff effect in cents (0=-9600, 9600=none, 19200=+9600).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_KeyPressurePitch">
-          KeyPressurePitch
-          <p><p>Set the maximum effect of key pressure/aftertouch on pitch.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_KeyPressurePitch"><a href="#collapsible-ManagedBass_Midi_MidiEventType_KeyPressurePitch" class="expander" data-toggle="collapse">KeyPressurePitch</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_KeyPressurePitch" class="collapse in">
+        <p><p>Set the maximum effect of key pressure/aftertouch on pitch.
 param : pitch effect in semitones (0=-24, 24=none, 48=+24).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_KeyPressureVibrato">
-          KeyPressureVibrato
-          <p><p>Set the maximum effect of key pressure/aftertouch on vibrato depth.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_KeyPressureVibrato"><a href="#collapsible-ManagedBass_Midi_MidiEventType_KeyPressureVibrato" class="expander" data-toggle="collapse">KeyPressureVibrato</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_KeyPressureVibrato" class="collapse in">
+        <p><p>Set the maximum effect of key pressure/aftertouch on vibrato depth.
 param : vibrato depth effect in cents (0=none, 128=100, 256=200, etc).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_KeyPressureVolume">
-          KeyPressureVolume
-          <p><p>Set the maximum effect of key pressure/aftertouch on volume.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_KeyPressureVolume"><a href="#collapsible-ManagedBass_Midi_MidiEventType_KeyPressureVolume" class="expander" data-toggle="collapse">KeyPressureVolume</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_KeyPressureVolume" class="collapse in">
+        <p><p>Set the maximum effect of key pressure/aftertouch on volume.
 param : volume effect percentage (0=-100, 100=none, 200=+100).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Level">
-          Level
-          <p><p>Set the level.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Level"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Level" class="expander" data-toggle="collapse">Level</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Level" class="collapse in">
+        <p><p>Set the level.
 param : the level (0=silent, 100=0dB, 200=+6dB).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_MasterVolume">
-          MasterVolume
-          <p><p>Set the master volume.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_MasterVolume"><a href="#collapsible-ManagedBass_Midi_MidiEventType_MasterVolume" class="expander" data-toggle="collapse">MasterVolume</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_MasterVolume" class="collapse in">
+        <p><p>Set the master volume.
 param : volume level (0-16383, 0=silent, 16363=normal/full).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Mode">
-          Mode
-          <p><p>Set poly/mono mode (MIDI controllers 126 and 127).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Mode"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Mode" class="expander" data-toggle="collapse">Mode</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Mode" class="collapse in">
+        <p><p>Set poly/mono mode (MIDI controllers 126 and 127).
 param : mode (0=poly, 1=mono).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ModFilter">
-          ModFilter
-          <p><p>Set the maximum effect of modulation (MIDI controller 1) on filter cutoff.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ModFilter"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ModFilter" class="expander" data-toggle="collapse">ModFilter</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ModFilter" class="collapse in">
+        <p><p>Set the maximum effect of modulation (MIDI controller 1) on filter cutoff.
 param : filter cutoff effect in cents (0=-9600, 9600=none, 19200=+9600).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ModPitch">
-          ModPitch
-          <p><p>Set the maximum effect of modulation (MIDI controller 1) on pitch.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ModPitch"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ModPitch" class="expander" data-toggle="collapse">ModPitch</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ModPitch" class="collapse in">
+        <p><p>Set the maximum effect of modulation (MIDI controller 1) on pitch.
 param : pitch effect in semitones (0=-24, 24=none, 48=+24).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ModRange">
-          ModRange
-          <p><p>Mod Range.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ModRange"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ModRange" class="expander" data-toggle="collapse">ModRange</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ModRange" class="collapse in">
+        <p><p>Mod Range.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Modulation">
-          Modulation
-          <p><p>Set the modulation (MIDI controller 1).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Modulation"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Modulation" class="expander" data-toggle="collapse">Modulation</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Modulation" class="collapse in">
+        <p><p>Set the modulation (MIDI controller 1).
 param : modulation level (0-127).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ModVolume">
-          ModVolume
-          <p><p>Set the maximum effect of modulation (MIDI controller 1) on volume.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ModVolume"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ModVolume" class="expander" data-toggle="collapse">ModVolume</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ModVolume" class="collapse in">
+        <p><p>Set the maximum effect of modulation (MIDI controller 1) on volume.
 param : volume effect percentage (0=-100, 100=none, 200=+100).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_None">
-          None
-          <p><p>No event.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_None"><a href="#collapsible-ManagedBass_Midi_MidiEventType_None" class="expander" data-toggle="collapse">None</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_None" class="collapse in">
+        <p><p>No event.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_NoRunningStatus">
-          NoRunningStatus
-          <p><p>Flag: no running status.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_NoRunningStatus"><a href="#collapsible-ManagedBass_Midi_MidiEventType_NoRunningStatus" class="expander" data-toggle="collapse">NoRunningStatus</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_NoRunningStatus" class="collapse in">
+        <p><p>Flag: no running status.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Note">
-          Note
-          <p><p>Press or release a key, or stop without sustain/decay.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Note"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Note" class="expander" data-toggle="collapse">Note</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Note" class="collapse in">
+        <p><p>Press or release a key, or stop without sustain/decay.
 param : LOBYTE = key number (0-127, 60=middle C), HIBYTE = velocity (0=release, 1-127=press, 255=stop).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Notes">
-          Notes
-          <p><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_">StreamGetEvent(Int32, Int32, MidiEventType)</a> to check the total no of keys pressed in the specified channel.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Notes"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Notes" class="expander" data-toggle="collapse">Notes</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Notes" class="collapse in">
+        <p><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_">StreamGetEvent(Int32, Int32, MidiEventType)</a> to check the total no of keys pressed in the specified channel.
 If a key is simultaneously pressed multiple times, it will still only be counted once.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_NotesOff">
-          NotesOff
-          <p><p>Release all keys (MIDI controller 123).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_NotesOff"><a href="#collapsible-ManagedBass_Midi_MidiEventType_NotesOff" class="expander" data-toggle="collapse">NotesOff</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_NotesOff" class="collapse in">
+        <p><p>Release all keys (MIDI controller 123).
 param : not used.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Pan">
-          Pan
-          <p><p>Set the pan position (MIDI controller 10).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Pan"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Pan" class="expander" data-toggle="collapse">Pan</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Pan" class="collapse in">
+        <p><p>Set the pan position (MIDI controller 10).
 param : pan position (0-128, 0=left, 64=middle, 127=right, 128=random).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Pitch">
-          Pitch
-          <p><p>Set the pitch wheel.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Pitch"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Pitch" class="expander" data-toggle="collapse">Pitch</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Pitch" class="collapse in">
+        <p><p>Set the pitch wheel.
 param : pitch wheel position (0-16383, 8192=normal/middle).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_PitchRange">
-          PitchRange
-          <p><p>Set pitch wheel range (MIDI RPN 0).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_PitchRange"><a href="#collapsible-ManagedBass_Midi_MidiEventType_PitchRange" class="expander" data-toggle="collapse">PitchRange</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_PitchRange" class="collapse in">
+        <p><p>Set pitch wheel range (MIDI RPN 0).
 param : range in semitones.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Portamento">
-          Portamento
-          <p><p>Set the portamento switch (MIDI controller 65).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Portamento"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Portamento" class="expander" data-toggle="collapse">Portamento</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Portamento" class="collapse in">
+        <p><p>Set the portamento switch (MIDI controller 65).
 param : enable portamento? (0-63=no, 64-127=yes).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_PortamentoNote">
-          PortamentoNote
-          <p><p>Set the portamento start key - the next note starts at this key (MIDI controller 84).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_PortamentoNote"><a href="#collapsible-ManagedBass_Midi_MidiEventType_PortamentoNote" class="expander" data-toggle="collapse">PortamentoNote</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_PortamentoNote" class="collapse in">
+        <p><p>Set the portamento start key - the next note starts at this key (MIDI controller 84).
 param : key number (1-127, 60=middle C).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_PortamentoTime">
-          PortamentoTime
-          <p><p>Set the portamento time (MIDI controller 5).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_PortamentoTime"><a href="#collapsible-ManagedBass_Midi_MidiEventType_PortamentoTime" class="expander" data-toggle="collapse">PortamentoTime</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_PortamentoTime" class="collapse in">
+        <p><p>Set the portamento time (MIDI controller 5).
 param : portamento time (0-127).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Program">
-          Program
-          <p><p>Select the preset/instrument to use. Standard soundfont presets follow the
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Program"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Program" class="expander" data-toggle="collapse">Program</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Program" class="collapse in">
+        <p><p>Select the preset/instrument to use. Standard soundfont presets follow the
 General MIDI standard, and generally also include Roland GS variations in other banks (accessible via the <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Bank">Bank</a> event).
 param : preset number (0-127).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Release">
-          Release
-          <p><p>Set the release time (MIDI controller 72, NRPN 166h).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Release"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Release" class="expander" data-toggle="collapse">Release</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Release" class="collapse in">
+        <p><p>Set the release time (MIDI controller 72, NRPN 166h).
 param : release time (0-127, 0=-64, 64=normal, 127=+63).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Reset">
-          Reset
-          <p><p>Reset controllers (MIDI controller 121), that is modulation=0, expression=127,
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Reset"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Reset" class="expander" data-toggle="collapse">Reset</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Reset" class="collapse in">
+        <p><p>Reset controllers (MIDI controller 121), that is modulation=0, expression=127,
 sustain=0, pitch wheel=8192, channel pressure=0.
 param : not used.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Resonance">
-          Resonance
-          <p><p>Set the low-pass filter resonance (MIDI controller 71, NRPN 121h).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Resonance"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Resonance" class="expander" data-toggle="collapse">Resonance</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Resonance" class="collapse in">
+        <p><p>Set the low-pass filter resonance (MIDI controller 71, NRPN 121h).
 param : resonance level (0-127, 0=-64, 64=normal, 127=+63).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Reverb">
-          Reverb
-          <p><p>Set the reverb send level (MIDI controller 91).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Reverb"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Reverb" class="expander" data-toggle="collapse">Reverb</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Reverb" class="collapse in">
+        <p><p>Set the reverb send level (MIDI controller 91).
 param : reverb level (0-127).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ReverbDelay">
-          ReverbDelay
-          <p><p>Set the reverb delay.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ReverbDelay"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ReverbDelay" class="expander" data-toggle="collapse">ReverbDelay</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ReverbDelay" class="collapse in">
+        <p><p>Set the reverb delay.
 param : reverb delay in millisecond 10ths.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ReverbHighPassCutOff">
-          ReverbHighPassCutOff
-          <p><p>Set the reverb high-pass cutoff.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ReverbHighPassCutOff"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ReverbHighPassCutOff" class="expander" data-toggle="collapse">ReverbHighPassCutOff</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ReverbHighPassCutOff" class="collapse in">
+        <p><p>Set the reverb high-pass cutoff.
 param : reverb high-pass cutoff in hertz (0=off).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ReverbLevel">
-          ReverbLevel
-          <p><p>Set the reverb level.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ReverbLevel"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ReverbLevel" class="expander" data-toggle="collapse">ReverbLevel</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ReverbLevel" class="collapse in">
+        <p><p>Set the reverb level.
 param : reverb level (0=off, 100=0dB, 200=+6dB).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ReverbLowPassCutOff">
-          ReverbLowPassCutOff
-          <p><p>Set the reverb low-pass cutoff.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ReverbLowPassCutOff"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ReverbLowPassCutOff" class="expander" data-toggle="collapse">ReverbLowPassCutOff</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ReverbLowPassCutOff" class="collapse in">
+        <p><p>Set the reverb low-pass cutoff.
 param : reverb low-pass cutoff in hertz (0=off).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ReverbMacro">
-          ReverbMacro
-          <p><p>To be defined.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ReverbMacro"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ReverbMacro" class="expander" data-toggle="collapse">ReverbMacro</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ReverbMacro" class="collapse in">
+        <p><p>To be defined.
 param : to be defined.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ReverbTime">
-          ReverbTime
-          <p><p>Set the reverb time.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ReverbTime"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ReverbTime" class="expander" data-toggle="collapse">ReverbTime</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ReverbTime" class="collapse in">
+        <p><p>Set the reverb time.
 param : reverb time in milliseconds.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_ScaleTuning">
-          ScaleTuning
-          <p><p>Set the tuning of a note in every octave.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_ScaleTuning"><a href="#collapsible-ManagedBass_Midi_MidiEventType_ScaleTuning" class="expander" data-toggle="collapse">ScaleTuning</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_ScaleTuning" class="collapse in">
+        <p><p>Set the tuning of a note in every octave.
 param : LOWORD = tuning change in cents (0-16383, 0=-100, 8192=normal, 16383=+100), HIWORD = note (0-11, 0=C).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Soft">
-          Soft
-          <p><p>Set the soft pedal/switch (MIDI controller 67).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Soft"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Soft" class="expander" data-toggle="collapse">Soft</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Soft" class="collapse in">
+        <p><p>Set the soft pedal/switch (MIDI controller 67).
 param : soft is on? (0-63=no, 64-127=yes).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Sostenuto">
-          Sostenuto
-          <p><p>Set the sostenuto pedal/switch (MIDI controller 66).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Sostenuto"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Sostenuto" class="expander" data-toggle="collapse">Sostenuto</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Sostenuto" class="collapse in">
+        <p><p>Set the sostenuto pedal/switch (MIDI controller 66).
 param : sostenuto is on? (0-63=no, 64-127=yes).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_SoundOff">
-          SoundOff
-          <p><p>Stop all sounds (MIDI controller 120).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_SoundOff"><a href="#collapsible-ManagedBass_Midi_MidiEventType_SoundOff" class="expander" data-toggle="collapse">SoundOff</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_SoundOff" class="collapse in">
+        <p><p>Stop all sounds (MIDI controller 120).
 param : not used.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Speed">
-          Speed
-          <p><p>Set a tempo modification.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Speed"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Speed" class="expander" data-toggle="collapse">Speed</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Speed" class="collapse in">
+        <p><p>Set a tempo modification.
 Changing the tempo affects the stream length, and the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetLength_System_Int32_ManagedBass_PositionFlags_">ChannelGetLength(Int32, PositionFlags)</a> byte value will no longer be valid.
 The modification does not affect seeking.
 param : speed in 100ths of a percent (100=1%/min, 10000=100%/normal, 20000=200%).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Sustain">
-          Sustain
-          <p><p>Set the sustain switch (MIDI controller 64).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Sustain"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Sustain" class="expander" data-toggle="collapse">Sustain</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Sustain" class="collapse in">
+        <p><p>Set the sustain switch (MIDI controller 64).
 param : enable sustain? (0-63=no, 64-127=yes).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_System">
-          System
-          <p><p>Set the system mode, resetting everything to the system&#39;s defaults.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_System"><a href="#collapsible-ManagedBass_Midi_MidiEventType_System" class="expander" data-toggle="collapse">System</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_System" class="collapse in">
+        <p><p>Set the system mode, resetting everything to the system&apos;s defaults.
 <a class="xref" href="ManagedBass.Midi.MidiSystem.html#ManagedBass_Midi_MidiSystem_Default">Default</a> is identical to <a class="xref" href="ManagedBass.Midi.MidiSystem.html#ManagedBass_Midi_MidiSystem_GS">GS</a>, except that channel 10 is melodic if there are not 16 channels.
 This does not reset things in any additional channels allocated to a MIDI file stream via the <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MidiChannels">MidiChannels</a> attribute,
 while <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_SystemEx">SystemEx</a> does.
 param : system mode (see <a class="xref" href="ManagedBass.Midi.MidiSystem.html">MidiSystem</a>).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_SystemEx">
-          SystemEx
-          <p><p>Set the system mode, resetting everything to the system&#39;s defaults. 
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_SystemEx"><a href="#collapsible-ManagedBass_Midi_MidiEventType_SystemEx" class="expander" data-toggle="collapse">SystemEx</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_SystemEx" class="collapse in">
+        <p><p>Set the system mode, resetting everything to the system&apos;s defaults. 
 <a class="xref" href="ManagedBass.Midi.MidiSystem.html#ManagedBass_Midi_MidiSystem_Default">Default</a> is identical to <a class="xref" href="ManagedBass.Midi.MidiSystem.html#ManagedBass_Midi_MidiSystem_GS">GS</a>, except that channel 10 is melodic if there are not 16 channels.
 <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_System">System</a> does not reset things in any additional channels allocated to a MIDI file stream 
 via the <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MidiChannels">MidiChannels</a> attribute, while this does.
 param : system mode (see <a class="xref" href="ManagedBass.Midi.MidiSystem.html">MidiSystem</a>).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Tempo">
-          Tempo
-          <p><p>Set the tempo (MIDI meta event 81).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Tempo"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Tempo" class="expander" data-toggle="collapse">Tempo</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Tempo" class="collapse in">
+        <p><p>Set the tempo (MIDI meta event 81).
 Changing the tempo affects the stream Length, and the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetLength_System_Int32_ManagedBass_PositionFlags_">ChannelGetLength(Int32, PositionFlags)</a> value will no longer be valid.
 param : tempo in microseconds per quarter note.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Transpose">
-          Transpose
-          <p><p>Transpose all notes. 
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Transpose"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Transpose" class="expander" data-toggle="collapse">Transpose</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Transpose" class="collapse in">
+        <p><p>Transpose all notes. 
 Changes take effect from the next note played, and affect melodic channels only (not drum channels).
 param : transposition amount in semitones (0=-100, 100=normal, 200=+100).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_UserFX">
-          UserFX
-          <p><p>Set the user effect send level (MIDI controller 94).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_UserFX"><a href="#collapsible-ManagedBass_Midi_MidiEventType_UserFX" class="expander" data-toggle="collapse">UserFX</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_UserFX" class="collapse in">
+        <p><p>Set the user effect send level (MIDI controller 94).
 This will have no audible effect unless custom processing is applied to the user effect mix via <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetChannel_System_Int32_System_Int32_">StreamGetChannel(Int32, Int32)</a>.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_UserFXChorus">
-          UserFXChorus
-          <p><p>Set the user effect send to chorus level.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_UserFXChorus"><a href="#collapsible-ManagedBass_Midi_MidiEventType_UserFXChorus" class="expander" data-toggle="collapse">UserFXChorus</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_UserFXChorus" class="collapse in">
+        <p><p>Set the user effect send to chorus level.
 param : user effect send to chorus level (0=off, 100=0dB, 200=+6dB).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_UserFXLevel">
-          UserFXLevel
-          <p><p>Set the user effect level.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_UserFXLevel"><a href="#collapsible-ManagedBass_Midi_MidiEventType_UserFXLevel" class="expander" data-toggle="collapse">UserFXLevel</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_UserFXLevel" class="collapse in">
+        <p><p>Set the user effect level.
 param : user effect level (0=off, 100=0dB, 200=+6dB).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_UserFXReverb">
-          UserFXReverb
-          <p><p>Set the user effect send to reverb level.
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_UserFXReverb"><a href="#collapsible-ManagedBass_Midi_MidiEventType_UserFXReverb" class="expander" data-toggle="collapse">UserFXReverb</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_UserFXReverb" class="collapse in">
+        <p><p>Set the user effect send to reverb level.
 param : user effect send to reverb level (0=off, 100=0dB, 200=+6dB).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Voices">
-          Voices
-          <p><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_">StreamGetEvent(Int32, Int32, MidiEventType)</a> to check the total no of active voices.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Voices"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Voices" class="expander" data-toggle="collapse">Voices</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Voices" class="collapse in">
+        <p><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_">StreamGetEvent(Int32, Int32, MidiEventType)</a> to check the total no of active voices.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventType_Volume">
-          Volume
-          <p><p>Set the volume (MIDI controller 7).
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventType_Volume"><a href="#collapsible-ManagedBass_Midi_MidiEventType_Volume" class="expander" data-toggle="collapse">Volume</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventType_Volume" class="collapse in">
+        <p><p>Set the volume (MIDI controller 7).
 param : volume level (0-127).</p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

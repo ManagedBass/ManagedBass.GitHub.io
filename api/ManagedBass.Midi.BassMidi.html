@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BassMidi
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>BassMidi is a BASS addon enabling the playback of MIDI files and real-time events, using SF2 soundfonts to provide the sounds.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,14 +83,14 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.Midi</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Midi.dll</h6>
   
   <h5 id="ManagedBass_Midi_BassMidi_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class BassMidi : object</code></pre>
   </div>
-  
+
   
   
   
@@ -116,11 +117,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public const int ChorusChannel = null</code></pre>
   </div>
-  
+
   
   
   
@@ -159,11 +160,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public const int ReverbChannel = null</code></pre>
   </div>
-  
+
   
   
   
@@ -202,11 +203,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public const int UserFXChannel = null</code></pre>
   </div>
-  
+
   
   
   
@@ -249,11 +250,11 @@ If set to 1 (default), BASSMIDI will try to load a soundfont matching the MIDI f
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int AutoFont { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -291,9 +292,9 @@ If set to 1 (default), BASSMIDI will try to load a soundfont matching the MIDI f
   <div id="collapsible-ManagedBass_Midi_BassMidi_Compact" class="collapse in">
   <div class="markdown level1 summary"><p>Automatically compact all soundfonts following a configuration change?
 compact (bool): If true, all soundfonts are compacted following a MIDI stream being freed, or a <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamSetFonts_System_Int32_ManagedBass_Midi_MidiFont___System_Int32_">StreamSetFonts(Int32, MidiFont[], Int32)</a> call.
-The compacting isn&#39;t performed immediately upon a MIDI stream being freed or <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamSetFonts_System_Int32_ManagedBass_Midi_MidiFont___System_Int32_">StreamSetFonts(Int32, MidiFont[], Int32)</a> being called.
-It&#39;s actually done 2 seconds later (in another thread), 
-so that if another MIDI stream starts using the soundfonts in the meantime, they aren&#39;t needlessly closed and reopened.
+The compacting isn&apos;t performed immediately upon a MIDI stream being freed or <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamSetFonts_System_Int32_ManagedBass_Midi_MidiFont___System_Int32_">StreamSetFonts(Int32, MidiFont[], Int32)</a> being called.
+It&apos;s actually done 2 seconds later (in another thread), 
+so that if another MIDI stream starts using the soundfonts in the meantime, they aren&apos;t needlessly closed and reopened.
 Samples that have been preloaded by <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_FontLoad_System_Int32_System_Int32_System_Int32_">FontLoad(Int32, Int32, Int32)</a> are not affected by automatic compacting.
 Other samples that have been preloaded by <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamLoadSamples_System_Int32_">StreamLoadSamples(Int32)</a> are affected though,
 so it is probably wise to disable this option when using that function.
@@ -301,11 +302,11 @@ By default, this option is enabled.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Compact { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -349,11 +350,11 @@ if present in the windows system directory.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string DefaultFont { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -363,50 +364,6 @@ if present in the windows system directory.</p>
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a>
-        <p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  <span class="small pull-right mobile-hide">
-    <span class="divider"> </span>
-    <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Midi_BassMidi_InDeviceCount.md&amp;value=---%0Auid%3A%20ManagedBass.Midi.BassMidi.InDeviceCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassMidi/Shared/PInvoke/MidiIn.cs/#L55" title="View Source"><i class="fa fa-code"></i></a>
-  </span>
-  
-  <a id="ManagedBass_Midi_BassMidi_InDeviceCount_" data-uid="ManagedBass.Midi.BassMidi.InDeviceCount*"></a>
-  
-  <h4 id="ManagedBass_Midi_BassMidi_InDeviceCount" data-uid="ManagedBass.Midi.BassMidi.InDeviceCount"><a href="#collapsible-ManagedBass_Midi_BassMidi_InDeviceCount" class="expander" data-toggle="collapse">InDeviceCount</a></h4>
-  
-  <div id="collapsible-ManagedBass_Midi_BassMidi_InDeviceCount" class="collapse in">
-  <div class="markdown level1 summary"><p>Gets the number of MidiIn devices available.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int InDeviceCount { get; }</code></pre>
-  </div>
-  
-  
-  
-  
-  
-  <h5 class="propertyValue">Property Value</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
         <p>
       </td>
     </tr>
@@ -436,7 +393,7 @@ if present in the windows system directory.</p>
   <div class="markdown level1 summary"><p>The number of MIDI Input ports to make available (Linux Only).
 ports (int): Number of Input ports... 0 (min) - 10 (max).
 MIDI Input ports allow MIDI data to be received from other software, not only MIDI devices. 
-Once a port has been initialized via <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InInit_System_Int32_ManagedBass_Midi_MidiInProcedure_IntPtr_">InInit(Int32, MidiInProcedure, IntPtr)</a>, the ALSA client and port IDs can be retrieved from <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_ManagedBass_Midi_MidiDeviceInfo__">InGetDeviceInfo(Int32, out MidiDeviceInfo)</a>,
+Once a port has been initialized via <see cref="!:InInit"></see>, the ALSA client and port IDs can be retrieved from <see cref="!:InGetDeviceInfo(int, out MidiDeviceInfo)"></see>,
 which other software can use to connect to the port and send data to it.
 Prior to initialization, an Input port will have a client ID of 0.
 The default is for 1 Input port to be available. 
@@ -444,11 +401,11 @@ Note: This option is only available on Linux.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int InputPorts { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -487,7 +444,7 @@ Note: This option is only available on Linux.</p>
   <div class="markdown level1 summary"><p>The maximum number of samples to play at a time (polyphony).
 voices (int): Maximum number of samples to play at a time... 1 (min) - 1000 (max).
 This setting determines the maximum number of samples that can play together in a single MIDI stream. 
-This isn&#39;t necessarily the same thing as the maximum number of notes, due to presets often layering multiple samples. 
+This isn&apos;t necessarily the same thing as the maximum number of notes, due to presets often layering multiple samples. 
 When there are no voices available to play a new sample, the voice with the lowest volume will be killed to make way for it.
 The more voices that are used, the more CPU that is required. 
 So this option can be used to restrict that, for example on a less powerful system. 
@@ -499,11 +456,11 @@ The default setting is 100, except on iOS, where it is 40.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int Voices { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -538,11 +495,11 @@ The default setting is 100, except on iOS, where it is 40.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ConvertEvents(IntPtr Data, int Length, MidiEvent[] Events, int Count, MidiEventsMode Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -619,11 +576,11 @@ The default setting is 100, except on iOS, where it is 40.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ConvertEvents(byte[] Data, int Length, MidiEvent[] Events, int Count, MidiEventsMode Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -707,11 +664,11 @@ The default setting is 100, except on iOS, where it is 40.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(IntPtr Memory, long Offset, long Length, BassFlags Flags = BassFlags.Default, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -782,11 +739,11 @@ The default setting is 100, except on iOS, where it is 40.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(MidiEvent[] Events, int PulsesPerQuarterNote, BassFlags Flags = BassFlags.Default, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -817,7 +774,7 @@ The default setting is 100, except on iOS, where it is 40.</p>
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
         <span class="parametername">Frequency</span>
-        <p><p>Sample rate to render/play the MIDI at (0 = the rate specified in the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a> call; 1 = the device&#39;s current output rate (or the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a> BASS_Init rate if that is not available).</p>
+        <p><p>Sample rate to render/play the MIDI at (0 = the rate specified in the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a> call; 1 = the device&apos;s current output rate (or the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a> BASS_Init rate if that is not available).</p>
 </p>
       </td>
     </tr>
@@ -828,7 +785,7 @@ The default setting is 100, except on iOS, where it is 40.</p>
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -881,11 +838,11 @@ Sinc interpolation is not available on Windows CE.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(StreamSystem System, BassFlags Flags, FileProcedures Procedures, IntPtr User = null, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -963,11 +920,11 @@ Sinc interpolation is not available on Windows CE.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(byte[] Memory, long Offset, long Length, BassFlags Flags, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1038,11 +995,11 @@ Sinc interpolation is not available on Windows CE.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(int Channels, BassFlags Flags = BassFlags.Default, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1065,7 +1022,7 @@ Sinc interpolation is not available on Windows CE.
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
         <span class="parametername">Frequency</span>
-        <p><p>Sample rate (in Hz) to render/play the MIDI at (0 = the rate specified in the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a> call; 1 = the device&#39;s current output rate or the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a> rate if that is not available).</p>
+        <p><p>Sample rate (in Hz) to render/play the MIDI at (0 = the rate specified in the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a> call; 1 = the device&apos;s current output rate or the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a> rate if that is not available).</p>
 </p>
       </td>
     </tr>
@@ -1076,7 +1033,7 @@ Sinc interpolation is not available on Windows CE.
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1091,12 +1048,12 @@ Sinc interpolation is not available on Windows CE.
   <h5 id="ManagedBass_Midi_BassMidi_CreateStream_System_Int32_ManagedBass_BassFlags_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
 This function creates a stream solely for real-time MIDI events.
-As it&#39;s not based on any file, the stream has no predetermined length and is never-ending.
-Seeking isn&#39;t possible, but it is possible to reset everything, including playback buffer, by calling <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelPlay_System_Int32_System_Boolean_">ChannelPlay(Int32, Boolean)</a> (Restart = <span class="xref">true</span>) or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetPosition_System_Int32_System_Int64_ManagedBass_PositionFlags_">ChannelSetPosition(Int32, Int64, PositionFlags)</a> (Position = 0).
+As it&apos;s not based on any file, the stream has no predetermined length and is never-ending.
+Seeking isn&apos;t possible, but it is possible to reset everything, including playback buffer, by calling <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelPlay_System_Int32_System_Boolean_">ChannelPlay(Int32, Boolean)</a> (Restart = <span class="xref">true</span>) or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetPosition_System_Int32_System_Int64_ManagedBass_PositionFlags_">ChannelSetPosition(Int32, Int64, PositionFlags)</a> (Position = 0).
 </p>
 <p>
 MIDI events are applied using the <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_System_Int32_">StreamEvent(Int32, Int32, MidiEventType, Int32)</a> function.
-If the stream is being played (it&#39;s not a decoding channel), then there will be some delay in the effect of the events being heard. 
+If the stream is being played (it&apos;s not a decoding channel), then there will be some delay in the effect of the events being heard. 
 This latency can be reduced by making use of the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_UpdatePeriod">UpdatePeriod</a> options.
 </p>
 <p>
@@ -1136,11 +1093,11 @@ Sinc interpolation is not available on Windows CE.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(string Url, int Offset, BassFlags Flags, DownloadProcedure Procedure, IntPtr User = null, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1225,11 +1182,11 @@ Sinc interpolation is not available on Windows CE.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(string File, long Offset = null, long Length = null, BassFlags Flags = BassFlags.Default, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1296,15 +1253,15 @@ Sinc interpolation is not available on Windows CE.
   <h4 id="ManagedBass_Midi_BassMidi_FontCompact_System_Int32_" data-uid="ManagedBass.Midi.BassMidi.FontCompact(System.Int32)"><a href="#collapsible-ManagedBass_Midi_BassMidi_FontCompact_System_Int32_" class="expander" data-toggle="collapse">FontCompact(Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_Midi_BassMidi_FontCompact_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Compact a soundfont&#39;s memory usage.</p>
+  <div class="markdown level1 summary"><p>Compact a soundfont&apos;s memory usage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool FontCompact(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1353,11 +1310,11 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool FontFree(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1412,11 +1369,11 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static MidiFontInfo FontGetInfo(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1461,11 +1418,11 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool FontGetInfo(int Handle, out MidiFontInfo Info)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1525,11 +1482,11 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string FontGetPreset(int Handle, int Preset, int Bank)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1597,11 +1554,11 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int[] FontGetPresets(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1649,11 +1606,11 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool FontGetPresets(int Handle, int[] Presets)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1705,15 +1662,15 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
   <h4 id="ManagedBass_Midi_BassMidi_FontGetVolume_System_Int32_" data-uid="ManagedBass.Midi.BassMidi.FontGetVolume(System.Int32)"><a href="#collapsible-ManagedBass_Midi_BassMidi_FontGetVolume_System_Int32_" class="expander" data-toggle="collapse">FontGetVolume(Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_Midi_BassMidi_FontGetVolume_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Retrieves a soundfont&#39;s volume level.</p>
+  <div class="markdown level1 summary"><p>Retrieves a soundfont&apos;s volume level.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float FontGetVolume(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1731,7 +1688,7 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.single(v=vs.110).aspx">Single</a>
-        <p><p>If successful, the soundfont&#39;s volume level is returned, else -1 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the soundfont&apos;s volume level is returned, else -1 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1758,11 +1715,11 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int FontInit(FileProcedures Procedures, IntPtr User, FontInitFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1796,7 +1753,7 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the soundfont&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the soundfont&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1833,11 +1790,11 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int FontInit(string File, FontInitFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1863,7 +1820,7 @@ The amount of sample data currently loaded can be retrieved using <a class="xref
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the soundfont&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the soundfont&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1901,7 +1858,7 @@ The combined EG and LFO entries in the opcode list reflect that there is a share
 Information on these (and other) SFZ opcodes can be found at www.sfzformat.com.
 </p>
 <p><strong>Platform-specific</strong></p>
-<p>The <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_MidiFontMemoryMap">MidiFontMemoryMap</a> option is not available on big-endian systems (eg. PowerPC) as a soundfont&#39;s little-endian sample data cannot be played directly from a mapping; its byte order needs to be reversed.</p>
+<p>The <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_MidiFontMemoryMap">MidiFontMemoryMap</a> option is not available on big-endian systems (eg. PowerPC) as a soundfont&apos;s little-endian sample data cannot be played directly from a mapping; its byte order needs to be reversed.</p>
 </div>
   
   
@@ -1918,11 +1875,11 @@ Information on these (and other) SFZ opcodes can be found at www.sfzformat.com.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool FontLoad(int Handle, int Preset, int Bank)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1971,116 +1928,11 @@ Information on these (and other) SFZ opcodes can be found at www.sfzformat.com.
   <h5 id="ManagedBass_Midi_BassMidi_FontLoad_System_Int32_System_Int32_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
 Samples are normally loaded as they are needed while rendering a MIDI stream, which can result in CPU spikes, particularly with packed soundfonts.
-That generally won&#39;t cause any problems, but when smooth/constant performance is critical this function can be used to preload the samples before rendering, so avoiding the need to load them while rendering.
+That generally won&apos;t cause any problems, but when smooth/constant performance is critical this function can be used to preload the samples before rendering, so avoiding the need to load them while rendering.
 </p>
 <p>When preloading samples to render a particular MIDI stream, it is more efficient to use <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamLoadSamples_System_Int32_">StreamLoadSamples(Int32)</a> to preload the specific samples that the MIDI stream will use, rather than preloading the entire soundfont.</p>
 <p>Samples that are preloaded by this function are not affected by automatic compacting via the <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_Compact">Compact</a> option, but can be compacted/unloaded manually with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_FontCompact_System_Int32_">FontCompact(Int32)</a>.</p>
-<p>A soundfont should not be preloaded while it&#39;s being used to render any MIDI streams, as that could delay the rendering.</p>
-</div>
-  
-  
-  
-  </div>
-  
-  <span class="small pull-right mobile-hide">
-    <span class="divider"> </span>
-    <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Midi_BassMidi_FontPack_System_Int32_System_String_System_String_ManagedBass_BassFlags_.md&amp;value=---%0Auid%3A%20ManagedBass.Midi.BassMidi.FontPack(System.Int32%2CSystem.String%2CSystem.String%2CManagedBass.BassFlags)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassMidi/Shared/PInvoke/SoundFonts.cs/#L224" title="View Source"><i class="fa fa-code"></i></a>
-  </span>
-  
-  <a id="ManagedBass_Midi_BassMidi_FontPack_" data-uid="ManagedBass.Midi.BassMidi.FontPack*"></a>
-  
-  <h4 id="ManagedBass_Midi_BassMidi_FontPack_System_Int32_System_String_System_String_ManagedBass_BassFlags_" data-uid="ManagedBass.Midi.BassMidi.FontPack(System.Int32,System.String,System.String,ManagedBass.BassFlags)"><a href="#collapsible-ManagedBass_Midi_BassMidi_FontPack_System_Int32_System_String_System_String_ManagedBass_BassFlags_" class="expander" data-toggle="collapse">FontPack(Int32, String, String, BassFlags)</a></h4>
-  
-  <div id="collapsible-ManagedBass_Midi_BassMidi_FontPack_System_Int32_System_String_System_String_ManagedBass_BassFlags_" class="collapse in">
-  <div class="markdown level1 summary"><p>Produces a compressed version of a soundfont.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool FontPack(int Handle, string OutFile, string Encoder, BassFlags Flags)</code></pre>
-  </div>
-  
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
-        <span class="parametername">Handle</span>
-        <p><p>The soundfont to pack.</p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></span>
-        <span class="parametername">OutFile</span>
-        <p><p>Filename for the packed soundfont.</p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></span>
-        <span class="parametername">Encoder</span>
-        <p><p>Encoder command-line.</p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="ManagedBass.BassFlags.html">BassFlags</a></span>
-        <span class="parametername">Flags</span>
-        <p><p>Any combination of <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_MidiNoHeader">MidiNoHeader</a> and <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Midi16Bit">Midi16Bit</a>.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-        <p><p>If successful, the <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  <h5 id="ManagedBass_Midi_BassMidi_FontPack_System_Int32_System_String_System_String_ManagedBass_BassFlags__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Standard soundfonts use PCM samples, so they can be quite large, which can be a problem if they&#39;re to be distributed. 
-To reduce the size, BASSMIDI can compress the samples using any command-line encoder with STDIN and STDOUT support. 
-Packed soundfonts can be used for rendering by BASSMIDI just like normal soundfonts. 
-They can also be unpacked using <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_FontUnpack_System_Int32_System_String_">FontUnpack(Int32, String)</a>.
-<p>
-Although any command-line encoder can be used, it is best to use a lossless format like FLAC or WavPack, rather than a lossy one like OGG or MP3. 
-Using a lossless encoder, the packed soundfont will produce exactly the same results as the original soundfont, and will be identical to the original when unpacked. 
-As a compromise between quality and size, the WavPack hybrid/lossy mode also produces good sounding results.
-</p>
-<p>The encoder must be told (via the command-line) to expect input from STDIN and to send it&#39;s output to STDOUT.</p>
-<p>
-Before using a packed soundfont, the appropriate BASS add-on needs to be loaded via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PluginLoad_System_String_">PluginLoad(String)</a>. 
-For example, if the samples are FLAC encoded, BASSFLAC would need to be loaded.
-During rendering, the samples are unpacked as they&#39;re needed, which could result in CPU spikes. 
-Where smooth performance is critical, it may be wise to preload the samples using <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_FontLoad_System_Int32_System_Int32_System_Int32_">FontLoad(Int32, Int32, Int32)</a> or <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamLoadSamples_System_Int32_">StreamLoadSamples(Int32)</a>.
-</p>
-<p>
-A soundfont should not be packed while it is being used to render any MIDI streams, as that could delay the rendering. 
-This function only applies to SF2 soundfonts.
-SFZ samples can be compressed using standard encoding tools.
-</p>
-<p><strong>Platform-specific</strong></p>
-<p>This function is not available on iOS or Android.</p></p>
+<p>A soundfont should not be preloaded while it&apos;s being used to render any MIDI streams, as that could delay the rendering.</p>
 </div>
   
   
@@ -2093,15 +1945,15 @@ SFZ samples can be compressed using standard encoding tools.
   <h4 id="ManagedBass_Midi_BassMidi_FontSetVolume_System_Int32_System_Single_" data-uid="ManagedBass.Midi.BassMidi.FontSetVolume(System.Int32,System.Single)"><a href="#collapsible-ManagedBass_Midi_BassMidi_FontSetVolume_System_Int32_System_Single_" class="expander" data-toggle="collapse">FontSetVolume(Int32, Single)</a></h4>
   
   <div id="collapsible-ManagedBass_Midi_BassMidi_FontSetVolume_System_Int32_System_Single_" class="collapse in">
-  <div class="markdown level1 summary"><p>Sets a soundfont&#39;s volume level.</p>
+  <div class="markdown level1 summary"><p>Sets a soundfont&apos;s volume level.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool FontSetVolume(int Handle, float Volume)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2159,11 +2011,11 @@ This function can be used to compensate for any differences, by raising the leve
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool FontUnload(int Handle, int Preset, int Bank)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2235,11 +2087,11 @@ Any samples that are currently being used by a MIDI stream will not be unloaded.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool FontUnpack(int Handle, string OutFile)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2292,346 +2144,6 @@ A soundfont should not be unpacked while it is being used to render any MIDI str
   
   </div>
   
-  
-  <a id="ManagedBass_Midi_BassMidi_InFree_" data-uid="ManagedBass.Midi.BassMidi.InFree*"></a>
-  
-  <h4 id="ManagedBass_Midi_BassMidi_InFree_System_Int32_" data-uid="ManagedBass.Midi.BassMidi.InFree(System.Int32)"><a href="#collapsible-ManagedBass_Midi_BassMidi_InFree_System_Int32_" class="expander" data-toggle="collapse">InFree(Int32)</a></h4>
-  
-  <div id="collapsible-ManagedBass_Midi_BassMidi_InFree_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Frees a MIDI input device.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool InFree(int Device)</code></pre>
-  </div>
-  
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
-        <span class="parametername">Device</span>
-        <p><p>The device to free.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-        <p><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  <span class="small pull-right mobile-hide">
-    <span class="divider"> </span>
-    <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_.md&amp;value=---%0Auid%3A%20ManagedBass.Midi.BassMidi.InGetDeviceInfo(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ManagedBass/ManagedBass/blob/master/src/AddOns/BassMidi/Shared/PInvoke/MidiIn.cs/#L45" title="View Source"><i class="fa fa-code"></i></a>
-  </span>
-  
-  <a id="ManagedBass_Midi_BassMidi_InGetDeviceInfo_" data-uid="ManagedBass.Midi.BassMidi.InGetDeviceInfo*"></a>
-  
-  <h4 id="ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_" data-uid="ManagedBass.Midi.BassMidi.InGetDeviceInfo(System.Int32)"><a href="#collapsible-ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_" class="expander" data-toggle="collapse">InGetDeviceInfo(Int32)</a></h4>
-  
-  <div id="collapsible-ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Retrieves information on a MIDI input device.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MidiDeviceInfo InGetDeviceInfo(int Device)</code></pre>
-  </div>
-  
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
-        <span class="parametername">Device</span>
-        <p><p>The device to get the information of... 0 = first.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="ManagedBass.Midi.MidiDeviceInfo.html">MidiDeviceInfo</a>
-        <p><p>If successful, an instance of the <a class="xref" href="ManagedBass.Midi.MidiDeviceInfo.html">MidiDeviceInfo</a> structure is returned. Throws <a class="xref" href="ManagedBass.BassException.html">BassException</a> on Error.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  <h5 id="ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This function can be used to enumerate the available MIDI input devices for a setup dialog.
-<p><strong>Platform-specific</strong></p>
-<p>MIDI input is not available on Android.</p></p>
-</div>
-  
-  
-  
-  </div>
-  
-  
-  <a id="ManagedBass_Midi_BassMidi_InGetDeviceInfo_" data-uid="ManagedBass.Midi.BassMidi.InGetDeviceInfo*"></a>
-  
-  <h4 id="ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_ManagedBass_Midi_MidiDeviceInfo__" data-uid="ManagedBass.Midi.BassMidi.InGetDeviceInfo(System.Int32,ManagedBass.Midi.MidiDeviceInfo@)"><a href="#collapsible-ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_ManagedBass_Midi_MidiDeviceInfo__" class="expander" data-toggle="collapse">InGetDeviceInfo(Int32, out MidiDeviceInfo)</a></h4>
-  
-  <div id="collapsible-ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_ManagedBass_Midi_MidiDeviceInfo__" class="collapse in">
-  <div class="markdown level1 summary"><p>Retrieves information on a MIDI input device.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool InGetDeviceInfo(int Device, out MidiDeviceInfo Info)</code></pre>
-  </div>
-  
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
-        <span class="parametername">Device</span>
-        <p><p>The device to get the information of... 0 = first.</p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="ManagedBass.Midi.MidiDeviceInfo.html">MidiDeviceInfo</a></span>
-        <span class="parametername">Info</span>
-        <p><p>An instance of the <a class="xref" href="ManagedBass.Midi.MidiDeviceInfo.html">MidiDeviceInfo</a> class to store the information at.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-        <p><p>If successful, then <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  <h5 id="ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_ManagedBass_Midi_MidiDeviceInfo___remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This function can be used to enumerate the available MIDI input devices for a setup dialog. 
-<p><strong>Platform-specific</strong></p>
-<p>MIDI input is not available on Android.</p></p>
-</div>
-  
-  
-  
-  </div>
-  
-  
-  <a id="ManagedBass_Midi_BassMidi_InInit_" data-uid="ManagedBass.Midi.BassMidi.InInit*"></a>
-  
-  <h4 id="ManagedBass_Midi_BassMidi_InInit_System_Int32_ManagedBass_Midi_MidiInProcedure_IntPtr_" data-uid="ManagedBass.Midi.BassMidi.InInit(System.Int32,ManagedBass.Midi.MidiInProcedure,IntPtr)"><a href="#collapsible-ManagedBass_Midi_BassMidi_InInit_System_Int32_ManagedBass_Midi_MidiInProcedure_IntPtr_" class="expander" data-toggle="collapse">InInit(Int32, MidiInProcedure, IntPtr)</a></h4>
-  
-  <div id="collapsible-ManagedBass_Midi_BassMidi_InInit_System_Int32_ManagedBass_Midi_MidiInProcedure_IntPtr_" class="collapse in">
-  <div class="markdown level1 summary"><p>Initializes a MIDI input device.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool InInit(int Device, MidiInProcedure Procedure, IntPtr User = null)</code></pre>
-  </div>
-  
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
-        <span class="parametername">Device</span>
-        <p><p>The device to use... 0 = first. <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_ManagedBass_Midi_MidiDeviceInfo__">InGetDeviceInfo(Int32, out MidiDeviceInfo)</a> can be used to enumerate the available devices.</p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="ManagedBass.Midi.MidiInProcedure.html">MidiInProcedure</a></span>
-        <span class="parametername">Procedure</span>
-        <p><p>Callback delegate to receive MIDI data from the device.</p>
-</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="pull-right"><span class="xref">IntPtr</span></span>
-        <span class="parametername">User</span>
-        <p><p>User instance data to pass to the callback delegate.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-        <p><p>If the device was successfully initialized, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  <h5 id="ManagedBass_Midi_BassMidi_InInit_System_Int32_ManagedBass_Midi_MidiInProcedure_IntPtr__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This function must be successfully called before using any MIDI input functions.</p>
-<p><strong>Platform-specific</strong></p>
-<p>MIDI input is not available on Android.</p>
-</div>
-  
-  
-  
-  </div>
-  
-  
-  <a id="ManagedBass_Midi_BassMidi_InStart_" data-uid="ManagedBass.Midi.BassMidi.InStart*"></a>
-  
-  <h4 id="ManagedBass_Midi_BassMidi_InStart_System_Int32_" data-uid="ManagedBass.Midi.BassMidi.InStart(System.Int32)"><a href="#collapsible-ManagedBass_Midi_BassMidi_InStart_System_Int32_" class="expander" data-toggle="collapse">InStart(Int32)</a></h4>
-  
-  <div id="collapsible-ManagedBass_Midi_BassMidi_InStart_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Starts a MIDI input device.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool InStart(int Device)</code></pre>
-  </div>
-  
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
-        <span class="parametername">Device</span>
-        <p><p>The device to start.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-        <p><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
-  
-  <a id="ManagedBass_Midi_BassMidi_InStop_" data-uid="ManagedBass.Midi.BassMidi.InStop*"></a>
-  
-  <h4 id="ManagedBass_Midi_BassMidi_InStop_System_Int32_" data-uid="ManagedBass.Midi.BassMidi.InStop(System.Int32)"><a href="#collapsible-ManagedBass_Midi_BassMidi_InStop_System_Int32_" class="expander" data-toggle="collapse">InStop(Int32)</a></h4>
-  
-  <div id="collapsible-ManagedBass_Midi_BassMidi_InStop_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Stops a MIDI input device.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool InStop(int Device)</code></pre>
-  </div>
-  
-  <h5 class="parameters">Parameters</h5>
-  <table>
-    <tr>
-      <td>
-        <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
-        <span class="parametername">Device</span>
-        <p><p>The device to stop.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  <h5 class="returns">Returns</h5>
-  <table>
-    <tr>
-      <td>
-        <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.boolean(v=vs.110).aspx">Boolean</a>
-        <p><p>If successful, <span class="xref">true</span> is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
-</p>
-      </td>
-    </tr>
-  </table>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div>
-  
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
     <a href="https://github.com/ManagedBass/ManagedBass/new/master/apiSpec/new?filename=ManagedBass_Midi_BassMidi_StreamEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_System_Byte_System_Byte_.md&amp;value=---%0Auid%3A%20ManagedBass.Midi.BassMidi.StreamEvent(System.Int32%2CSystem.Int32%2CManagedBass.Midi.MidiEventType%2CSystem.Byte%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
@@ -2649,11 +2161,11 @@ A soundfont should not be unpacked while it is being used to render any MIDI str
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool StreamEvent(int Handle, int Channel, MidiEventType Event, byte LowParameter, byte HighParameter)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2726,7 +2238,7 @@ Event syncs (see <a class="xref" href="ManagedBass.SyncFlags.html">SyncFlags</a>
 If sync triggering is wanted, <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvents_System_Int32_ManagedBass_Midi_MidiEventsMode_ManagedBass_Midi_MidiEvent___System_Int32_">StreamEvents(Int32, MidiEventsMode, MidiEvent[], Int32)</a> can be used instead.
 </p>
 <p>
-If the MIDI stream is being played (it&#39;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
+If the MIDI stream is being played (it&apos;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
 This latency can be reduced by making use of the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_UpdatePeriod">UpdatePeriod</a> config options when creating the stream.
 </p>
 </div>
@@ -2745,11 +2257,11 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool StreamEvent(int Handle, int Channel, MidiEventType Event, int Parameter)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2814,7 +2326,7 @@ Event syncs (see <a class="xref" href="ManagedBass.SyncFlags.html">SyncFlags</a>
 If sync triggering is wanted, <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvents_System_Int32_ManagedBass_Midi_MidiEventsMode_ManagedBass_Midi_MidiEvent___System_Int32_">StreamEvents(Int32, MidiEventsMode, MidiEvent[], Int32)</a> can be used instead.
 </p>
 <p>
-If the MIDI stream is being played (it&#39;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
+If the MIDI stream is being played (it&apos;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
 This latency can be reduced by making use of the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_UpdatePeriod">UpdatePeriod</a> config options when creating the stream.
 </p>
 </div>
@@ -2833,11 +2345,11 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamEvents(int Handle, MidiEventsMode Mode, IntPtr Events, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2868,7 +2380,7 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
         <span class="parametername">Length</span>
-        <p><p>Length of Events data according to <span class="paramref">Mode</span>.</p>
+        <p><p>Length of Events data according to <code data-dev-comment-type="paramref" class="paramref">Mode</code>.</p>
 </p>
       </td>
     </tr>
@@ -2897,7 +2409,7 @@ Events applied to a MIDI file stream can subsequently be overridden by events in
 That can be avoided by using additional channels, allocated via the <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MidiChannels">MidiChannels</a> attribute.
 </p>
 <p>
-If the MIDI stream is being played (it&#39;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
+If the MIDI stream is being played (it&apos;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
 This latency can be reduced by making use of the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_UpdatePeriod">UpdatePeriod</a> config options when creating the stream.
 </p>
 </div>
@@ -2923,11 +2435,11 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamEvents(int Handle, MidiEventsMode Mode, MidiEvent[] Events, int Length = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2958,7 +2470,7 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
         <span class="parametername">Length</span>
-        <p><p>No of <a class="xref" href="ManagedBass.Midi.MidiEvent.html">MidiEvent</a> items... 0 = No of items in <span class="paramref">Events</span> array.</p>
+        <p><p>No of <a class="xref" href="ManagedBass.Midi.MidiEvent.html">MidiEvent</a> items... 0 = No of items in <code data-dev-comment-type="paramref" class="paramref">Events</code> array.</p>
 </p>
       </td>
     </tr>
@@ -2987,7 +2499,7 @@ Events applied to a MIDI file stream can subsequently be overridden by events in
 That can be avoided by using additional channels, allocated via the <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MidiChannels">MidiChannels</a> attribute.
 </p>
 <p>
-If the MIDI stream is being played (it&#39;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
+If the MIDI stream is being played (it&apos;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
 This latency can be reduced by making use of the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_UpdatePeriod">UpdatePeriod</a> config options when creating the stream.
 </p>
 </div>
@@ -3013,11 +2525,11 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamEvents(int Handle, MidiEventsMode Mode, byte[] Raw, int Length = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3048,7 +2560,7 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
         <span class="parametername">Length</span>
-        <p><p>No of <see cref="!:System.Byte"></see>s... 0 = No of items in <span class="paramref">Raw</span> array.</p>
+        <p><p>No of <see cref="!:System.Byte"></see>s... 0 = No of items in <code data-dev-comment-type="paramref" class="paramref">Raw</code> array.</p>
 </p>
       </td>
     </tr>
@@ -3077,7 +2589,7 @@ Events applied to a MIDI file stream can subsequently be overridden by events in
 That can be avoided by using additional channels, allocated via the <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MidiChannels">MidiChannels</a> attribute.
 </p>
 <p>
-If the MIDI stream is being played (it&#39;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
+If the MIDI stream is being played (it&apos;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
 This latency can be reduced by making use of the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_UpdatePeriod">UpdatePeriod</a> config options when creating the stream.
 </p>
 </div>
@@ -3103,11 +2615,11 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamEvents(int Handle, MidiEventsMode Mode, int Channel, byte[] Raw, int Length = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3130,7 +2642,7 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
         <span class="parametername">Channel</span>
-        <p><p>To overcome the 16 channel limit, the event data&#39;s channel information can optionally be overridden by adding the new channel number to this parameter, where 1 = the 1st channel - else leave to 0.</p>
+        <p><p>To overcome the 16 channel limit, the event data&apos;s channel information can optionally be overridden by adding the new channel number to this parameter, where 1 = the 1st channel - else leave to 0.</p>
 </p>
       </td>
     </tr>
@@ -3146,7 +2658,7 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
         <span class="parametername">Length</span>
-        <p><p>No of <see cref="!:System.Byte"></see>s... 0 = No of items in <span class="paramref">Raw</span> array.</p>
+        <p><p>No of <see cref="!:System.Byte"></see>s... 0 = No of items in <code data-dev-comment-type="paramref" class="paramref">Raw</code> array.</p>
 </p>
       </td>
     </tr>
@@ -3175,7 +2687,7 @@ Events applied to a MIDI file stream can subsequently be overridden by events in
 That can be avoided by using additional channels, allocated via the <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MidiChannels">MidiChannels</a> attribute.
 </p>
 <p>
-If the MIDI stream is being played (it&#39;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
+If the MIDI stream is being played (it&apos;s not a decoding channel), then there will be some delay in the effect of the event being heard. 
 This latency can be reduced by making use of the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_UpdatePeriod">UpdatePeriod</a> config options when creating the stream.
 </p>
 </div>
@@ -3194,11 +2706,11 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamGetChannel(int Handle, int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3214,8 +2726,8 @@ This latency can be reduced by making use of the <a class="xref" href="ManagedBa
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
         <span class="parametername">Channel</span>
         <p><p>The MIDI channel... 0 = channel 1. Or one of the following special channels:
-<p><a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_ChorusChannel">ChorusChannel</a> = Chorus mix channel. The default chorus processing is replaced by the stream&#39;s processing.</p>
-<p><a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_ReverbChannel">ReverbChannel</a> = Reverb mix channel. The default reverb processing is replaced by the stream&#39;s processing.</p>
+<p><a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_ChorusChannel">ChorusChannel</a> = Chorus mix channel. The default chorus processing is replaced by the stream&apos;s processing.</p>
+<p><a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_ReverbChannel">ReverbChannel</a> = Reverb mix channel. The default reverb processing is replaced by the stream&apos;s processing.</p>
 <p><a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_UserFXChannel">UserFXChannel</a> = User effect mix channel.</p></p>
 </p>
       </td>
@@ -3248,7 +2760,7 @@ Each MIDI channel stream increases the CPU usage slightly, even if there are no 
 </p>
 <p>
 The MIDI channel streams have a different path to the final mix than the BASSMIDI reverb/chorus processing, which means that the reverb/chorus will not be present in the data received by any DSP/FX set on the streams and nor will the reverb/chorus be applied to the DSP/FX output; 
-the reverb/chorus processing will use the channel&#39;s original data.
+the reverb/chorus processing will use the channel&apos;s original data.
 </p>
 <p>
 The MIDI channel streams can only be used to set DSP/FX on the channels. 
@@ -3271,11 +2783,11 @@ but that could be achieved via a DSP function instead.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamGetEvent(int Handle, int Channel, MidiEventType Event)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3347,11 +2859,11 @@ With the drum key events (<a class="xref" href="ManagedBass.Midi.MidiEventType.h
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static MidiEvent[] StreamGetEvents(int Handle, int Track, MidiEventType Filter)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3412,11 +2924,11 @@ With the drum key events (<a class="xref" href="ManagedBass.Midi.MidiEventType.h
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamGetEvents(int Handle, int Track, MidiEventType Filter, MidiEvent[] Events)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3471,7 +2983,7 @@ With the drum key events (<a class="xref" href="ManagedBass.Midi.MidiEventType.h
   
   
   <h5 id="ManagedBass_Midi_BassMidi_StreamGetEvents_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_ManagedBass_Midi_MidiEvent____remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This function should first be called with <span class="paramref">Events</span> = <span class="xref">null</span> to get the number of events, before allocating an array of the required size and retrieving the events.</p>
+  <div class="markdown level1 remarks"><p>This function should first be called with <code data-dev-comment-type="paramref" class="paramref">Events</code> = <span class="xref">null</span> to get the number of events, before allocating an array of the required size and retrieving the events.</p>
 </div>
   
   
@@ -3488,11 +3000,11 @@ With the drum key events (<a class="xref" href="ManagedBass.Midi.MidiEventType.h
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamGetEvents(int Handle, int Track, MidiEventType Filter, MidiEvent[] Events, int Start, int Count)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3563,7 +3075,7 @@ With the drum key events (<a class="xref" href="ManagedBass.Midi.MidiEventType.h
   
   
   <h5 id="ManagedBass_Midi_BassMidi_StreamGetEvents_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_ManagedBass_Midi_MidiEvent___System_Int32_System_Int32__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This function should first be called with <span class="paramref">Events</span> = <span class="xref">null</span> to get the number of events, before allocating an array of the required size and retrieving the events.
+  <div class="markdown level1 remarks"><p>This function should first be called with <code data-dev-comment-type="paramref" class="paramref">Events</code> = <span class="xref">null</span> to get the number of events, before allocating an array of the required size and retrieving the events.
 This function is identical to <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetEvents_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_ManagedBass_Midi_MidiEvent___">StreamGetEvents(Int32, Int32, MidiEventType, MidiEvent[])</a> except that it can retrieve a portion of the events instead of all of them.</p>
 </div>
   
@@ -3588,11 +3100,11 @@ This function is identical to <a class="xref" href="ManagedBass.Midi.BassMidi.ht
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static MidiFont[] StreamGetFonts(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3637,11 +3149,11 @@ This function is identical to <a class="xref" href="ManagedBass.Midi.BassMidi.ht
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamGetFonts(int Handle, IntPtr Fonts, int Count)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3705,11 +3217,11 @@ This function is identical to <a class="xref" href="ManagedBass.Midi.BassMidi.ht
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamGetFonts(int Handle, MidiFont[] Fonts, int Count)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3780,11 +3292,11 @@ This function is identical to <a class="xref" href="ManagedBass.Midi.BassMidi.ht
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamGetFonts(int Handle, MidiFontEx[] Fonts, int Count)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3855,11 +3367,11 @@ This function is identical to <a class="xref" href="ManagedBass.Midi.BassMidi.ht
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamGetFontsCount(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3911,11 +3423,11 @@ This function is identical to <a class="xref" href="ManagedBass.Midi.BassMidi.ht
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static MidiFontEx[] StreamGetFontsEx(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3967,11 +3479,11 @@ This function is identical to <a class="xref" href="ManagedBass.Midi.BassMidi.ht
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static MidiMarker StreamGetMark(int Handle, MidiMarkerType Type, int Index)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4021,8 +3533,8 @@ This function is identical to <a class="xref" href="ManagedBass.Midi.BassMidi.ht
   <div class="markdown level1 remarks"><p>The markers are ordered chronologically.
 <p>Syncs can be used to be informed of when markers are encountered during playback.</p>
 <p>
-If a lyric marker text begins with a &#39;/&#39; (slash) character, that means a new line should be started.
-If the text begins with a &#39;\&#39; (backslash) character, the display should be cleared. 
+If a lyric marker text begins with a &apos;/&apos; (slash) character, that means a new line should be started.
+If the text begins with a &apos;&amp;apos; (backslash) character, the display should be cleared. 
 Lyrics can sometimes be found in <a class="xref" href="ManagedBass.Midi.MidiMarkerType.html#ManagedBass_Midi_MidiMarkerType_Text">Text</a> instead of <a class="xref" href="ManagedBass.Midi.MidiMarkerType.html#ManagedBass_Midi_MidiMarkerType_Lyric">Lyric</a> markers.
 </p></p>
 </div>
@@ -4041,11 +3553,11 @@ Lyrics can sometimes be found in <a class="xref" href="ManagedBass.Midi.MidiMark
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool StreamGetMark(int Handle, MidiMarkerType Type, int Index, out MidiMarker Mark)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4103,8 +3615,8 @@ Lyrics can sometimes be found in <a class="xref" href="ManagedBass.Midi.MidiMark
   <div class="markdown level1 remarks"><p>The markers are ordered chronologically.
 <p>Syncs can be used to be informed of when markers are encountered during playback.</p>
 <p>
-If a lyric marker text begins with a &#39;/&#39; (slash) character, that means a new line should be started.
-If the text begins with a &#39;\&#39; (backslash) character, the display should be cleared. 
+If a lyric marker text begins with a &apos;/&apos; (slash) character, that means a new line should be started.
+If the text begins with a &apos;&amp;apos; (backslash) character, the display should be cleared. 
 Lyrics can sometimes be found in <a class="xref" href="ManagedBass.Midi.MidiMarkerType.html#ManagedBass_Midi_MidiMarkerType_Text">Text</a> instead of <a class="xref" href="ManagedBass.Midi.MidiMarkerType.html#ManagedBass_Midi_MidiMarkerType_Lyric">Lyric</a> markers.
 </p></p>
 </div>
@@ -4130,11 +3642,11 @@ Lyrics can sometimes be found in <a class="xref" href="ManagedBass.Midi.MidiMark
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static MidiMarker[] StreamGetMarks(int Handle, int Track, MidiMarkerType Type)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4204,11 +3716,11 @@ Lyrics can sometimes be found in <a class="xref" href="ManagedBass.Midi.MidiMark
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamGetMarks(int Handle, int Track, MidiMarkerType Type, MidiMarker[] Marks)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4286,11 +3798,11 @@ Lyrics can sometimes be found in <a class="xref" href="ManagedBass.Midi.MidiMark
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool StreamGetPreset(int Handle, int Channel, out MidiFont Font)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4338,9 +3850,9 @@ Lyrics can sometimes be found in <a class="xref" href="ManagedBass.Midi.MidiMark
   
   <h5 id="ManagedBass_Midi_BassMidi_StreamGetPreset_System_Int32_System_Int32_ManagedBass_Midi_MidiFont___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This function tells what preset from what soundfont is currently being used on a particular MIDI channel.
-That information can be used to get the preset&#39;s name from <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_FontGetPreset_System_Int32_System_Int32_System_Int32_">FontGetPreset(Int32, Int32, Int32)</a>.
+That information can be used to get the preset&apos;s name from <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_FontGetPreset_System_Int32_System_Int32_System_Int32_">FontGetPreset(Int32, Int32, Int32)</a>.
 No preset information will be available for a MIDI channel until a note is played in that channel.
-The present and bank numbers will not necessarily match the channel&#39;s current <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Program">Program</a> and <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Bank">Bank</a> event values, but rather what the MIDI stream&#39;s soundfont configuration maps those event values to.</p>
+The present and bank numbers will not necessarily match the channel&apos;s current <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Program">Program</a> and <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Bank">Bank</a> event values, but rather what the MIDI stream&apos;s soundfont configuration maps those event values to.</p>
 </div>
   
   
@@ -4357,11 +3869,11 @@ The present and bank numbers will not necessarily match the channel&#39;s curren
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool StreamLoadSamples(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4394,7 +3906,7 @@ The present and bank numbers will not necessarily match the channel&#39;s curren
   <h5 id="ManagedBass_Midi_BassMidi_StreamLoadSamples_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
 Samples are normally loaded as they are needed while rendering a MIDI stream, which can result in CPU spikes, particularly with packed soundfonts.
-That generally won&#39;t cause any problems, but when smooth/constant performance is critical this function can be used to preload the samples before rendering, so avoiding the need to load them while rendering.
+That generally won&apos;t cause any problems, but when smooth/constant performance is critical this function can be used to preload the samples before rendering, so avoiding the need to load them while rendering.
 </p>
 <p>Preloaded samples can be compacted/unloaded just like any other samples, so it is probably wise to disable the <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_Compact">Compact</a> option when preloading samples, to avoid any chance of the samples subsequently being automatically unloaded.</p>
 <p>This function should not be used while the MIDI stream is being rendered, as that could interrupt the rendering.</p>
@@ -4414,11 +3926,11 @@ That generally won&#39;t cause any problems, but when smooth/constant performanc
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool StreamSetFilter(int Handle, bool Seeking, MidiFilterProcedure Procedure, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4476,7 +3988,7 @@ That generally won&#39;t cause any problems, but when smooth/constant performanc
   <div class="markdown level1 remarks"><p>This function allows a MIDI stream to have its events modified during playback via a callback function.
 The callback function will be called before an event is processed, and it can choose to keep the event as is, or it can modify or drop the event.
 The filtering can also be applied to events while seeking, so that playback begins in a filtered state after seeking.
-Filtering only applies to a MIDI stream&#39;s defined event sequence, not any events that are applied via <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_System_Byte_System_Byte_">StreamEvent(Int32, Int32, MidiEventType, Byte, Byte)</a> or <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvents_System_Int32_ManagedBass_Midi_MidiEventsMode_System_Byte___System_Int32_">StreamEvents(Int32, MidiEventsMode, Byte[], Int32)</a>.</p>
+Filtering only applies to a MIDI stream&apos;s defined event sequence, not any events that are applied via <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_System_Byte_System_Byte_">StreamEvent(Int32, Int32, MidiEventType, Byte, Byte)</a> or <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvents_System_Int32_ManagedBass_Midi_MidiEventsMode_System_Byte___System_Int32_">StreamEvents(Int32, MidiEventsMode, Byte[], Int32)</a>.</p>
 </div>
   
   
@@ -4493,11 +4005,11 @@ Filtering only applies to a MIDI stream&#39;s defined event sequence, not any ev
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamSetFonts(int Handle, MidiFont[] Fonts, int Count)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4576,11 +4088,11 @@ Existing streams that are using the previous default configuration will continue
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamSetFonts(int Handle, MidiFontEx[] Fonts, int Count)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum SyncFlags
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,316 +74,281 @@
   <div class="markdown level0 summary"><p>Sync types to be used with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetSync_System_Int32_ManagedBass_SyncFlags_System_Int64_ManagedBass_SyncProcedure_IntPtr_">ChannelSetSync(Int32, SyncFlags, Int64, SyncProcedure, IntPtr)</a> (param flag) and <a class="xref" href="ManagedBass.SyncProcedure.html">SyncProcedure</a> (data flag).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
   
   <h5 id="ManagedBass_SyncFlags_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum SyncFlags : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_SyncFlags_CDError"><a href="#collapsible-ManagedBass_SyncFlags_CDError" class="expander" data-toggle="collapse">CDError</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_SyncFlags_CDError">
-          CDError
-          <p><p>CD add-on: Sync when playback is stopped due to an error.
+      <div id="collapsible-ManagedBass_SyncFlags_CDError" class="collapse in">
+        <p><p>CD add-on: Sync when playback is stopped due to an error.
 For example, the drive door being opened.
 param : not used
 data : the position that was being read from the CD track at the time.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_CDSpeed">
-          CDSpeed
-          <p><p>CD add-on: Sync when the read speed is automatically changed due to the BassCd.AutoSpeedReduction setting.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_CDSpeed"><a href="#collapsible-ManagedBass_SyncFlags_CDSpeed" class="expander" data-toggle="collapse">CDSpeed</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_CDSpeed" class="collapse in">
+        <p><p>CD add-on: Sync when the read speed is automatically changed due to the BassCd.AutoSpeedReduction setting.
 param : not used
 data : the new read speed.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_Downloaded">
-          Downloaded
-          <p><p>Sync when downloading of an internet (or &quot;buffered&quot; User file) stream has ended.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_Downloaded"><a href="#collapsible-ManagedBass_SyncFlags_Downloaded" class="expander" data-toggle="collapse">Downloaded</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_Downloaded" class="collapse in">
+        <p><p>Sync when downloading of an internet (or &quot;buffered&quot; User file) stream has ended.
 param : not used
 data : not used</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_End">
-          End
-          <p><p>Sync when a channel reaches the end.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_End"><a href="#collapsible-ManagedBass_SyncFlags_End" class="expander" data-toggle="collapse">End</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_End" class="collapse in">
+        <p><p>Sync when a channel reaches the end.
 param : not used
 data : 1 = the sync is triggered by a backward jump in a MOD music, otherwise not used</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_Free">
-          Free
-          <p><p>Sync when a channel is freed.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_Free"><a href="#collapsible-ManagedBass_SyncFlags_Free" class="expander" data-toggle="collapse">Free</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_Free" class="collapse in">
+        <p><p>Sync when a channel is freed.
 param : not used
 data : not used</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_HlsSegement">
-          HlsSegement
-          <p><p>Sync when a new segment begins downloading.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_HlsSegement"><a href="#collapsible-ManagedBass_SyncFlags_HlsSegement" class="expander" data-toggle="collapse">HlsSegement</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_HlsSegement" class="collapse in">
+        <p><p>Sync when a new segment begins downloading.
 Mixtime only.
 param: not used.
 data: not used.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MetadataReceived">
-          MetadataReceived
-          <p><p>Sync when metadata is received in a stream.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MetadataReceived"><a href="#collapsible-ManagedBass_SyncFlags_MetadataReceived" class="expander" data-toggle="collapse">MetadataReceived</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MetadataReceived" class="collapse in">
+        <p><p>Sync when metadata is received in a stream.
 param : not used
 data : not used - the updated metadata is available from <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetTags_System_Int32_ManagedBass_TagType_">ChannelGetTags(Int32, TagType)</a></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MidiCue">
-          MidiCue
-          <p><p>MIDI add-on: Sync when a cue is encountered.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MidiCue"><a href="#collapsible-ManagedBass_SyncFlags_MidiCue" class="expander" data-toggle="collapse">MidiCue</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MidiCue" class="collapse in">
+        <p><p>MIDI add-on: Sync when a cue is encountered.
 param : not used
 data : the marker index, which can be used in a <see cref="!:Midi.BassMidi.StreamGetMark(int,Midi.MidiMarkerType,int,out Midi.MidiMarker)"></see> call.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MidiEvent">
-          MidiEvent
-          <p><p>MIDI add-on: Sync when a Type of event is processed, in either a MIDI file or <see cref="!:Midi.BassMidi.StreamEvent(int,int,Midi.MidiEventType,int)"></see>.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MidiEvent"><a href="#collapsible-ManagedBass_SyncFlags_MidiEvent" class="expander" data-toggle="collapse">MidiEvent</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MidiEvent" class="collapse in">
+        <p><p>MIDI add-on: Sync when a Type of event is processed, in either a MIDI file or <see cref="!:Midi.BassMidi.StreamEvent(int,int,Midi.MidiEventType,int)"></see>.
 param : event Type (0 = all types).
 data : LOWORD = event parameter, HIWORD = channel (high 8 bits contain the event Type when syncing on all types).
 See <see cref="!:Midi.BassMidi.StreamEvent(int,int,Midi.MidiEventType,int)"></see> for a list of event types and their parameters.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MidiKeySignature">
-          MidiKeySignature
-          <p><p>MIDI add-on: Sync when a key signature event is processed.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MidiKeySignature"><a href="#collapsible-ManagedBass_SyncFlags_MidiKeySignature" class="expander" data-toggle="collapse">MidiKeySignature</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MidiKeySignature" class="collapse in">
+        <p><p>MIDI add-on: Sync when a key signature event is processed.
 param : event Type.
 data : The key signature events are given (by <see cref="!:Midi.BassMidi.StreamGetMark(int,Midi.MidiMarkerType,int,out Midi.MidiMarker)"></see>) in the form of &quot;a b&quot;,
 where a is the number of sharps (if positive) or flats (if negative),
 and b signifies major (if 0) or minor (if 1).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MidiLyric">
-          MidiLyric
-          <p><p>MIDI add-on: Sync when a lyric event is encountered.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MidiLyric"><a href="#collapsible-ManagedBass_SyncFlags_MidiLyric" class="expander" data-toggle="collapse">MidiLyric</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MidiLyric" class="collapse in">
+        <p><p>MIDI add-on: Sync when a lyric event is encountered.
 param : not used
 data : the marker index, which can be used in a <see cref="!:Midi.BassMidi.StreamGetMark(int,Midi.MidiMarkerType,int,out Midi.MidiMarker)"></see> call.
-If the text begins with a &#39;/&#39; (slash) character, a new line should be started.
-If it begins with a &#39;\&#39; (backslash) character, the display should be cleared.</p>
+If the text begins with a &apos;/&apos; (slash) character, a new line should be started.
+If it begins with a &apos;&amp;apos; (backslash) character, the display should be cleared.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MidiMarker">
-          MidiMarker
-          <p><p>MIDI add-on: Sync when a marker is encountered.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MidiMarker"><a href="#collapsible-ManagedBass_SyncFlags_MidiMarker" class="expander" data-toggle="collapse">MidiMarker</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MidiMarker" class="collapse in">
+        <p><p>MIDI add-on: Sync when a marker is encountered.
 param : not used
 data : the marker index, which can be used in a <see cref="!:Midi.BassMidi.StreamGetMark(int,Midi.MidiMarkerType,int,out Midi.MidiMarker)"></see> call.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MidiText">
-          MidiText
-          <p><p>MIDI add-on: Sync when a text event is encountered.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MidiText"><a href="#collapsible-ManagedBass_SyncFlags_MidiText" class="expander" data-toggle="collapse">MidiText</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MidiText" class="collapse in">
+        <p><p>MIDI add-on: Sync when a text event is encountered.
 param : not used
 data : the marker index, which can be used in a <see cref="!:Midi.BassMidi.StreamGetMark(int,Midi.MidiMarkerType,int,out Midi.MidiMarker)"></see> call.
 Lyrics can sometimes be found in <see cref="!:Midi.MidiMarkerType.Text"></see> instead of <see cref="!:Midi.MidiMarkerType.Lyric"></see> markers.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MidiTick">
-          MidiTick
-          <p><p>MIDI add-on: Sync when reaching a tick position.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MidiTick"><a href="#collapsible-ManagedBass_SyncFlags_MidiTick" class="expander" data-toggle="collapse">MidiTick</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MidiTick" class="collapse in">
+        <p><p>MIDI add-on: Sync when reaching a tick position.
 param : tick position.
 data : not used</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MidiTimeSignature">
-          MidiTimeSignature
-          <p><p>MIDI add-on: Sync when a time signature event is processed.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MidiTimeSignature"><a href="#collapsible-ManagedBass_SyncFlags_MidiTimeSignature" class="expander" data-toggle="collapse">MidiTimeSignature</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MidiTimeSignature" class="collapse in">
+        <p><p>MIDI add-on: Sync when a time signature event is processed.
 param : event Type.
 data : The time signature events are given (by <see cref="!:Midi.BassMidi.StreamGetMark(int,Midi.MidiMarkerType,int,out Midi.MidiMarker)"></see>)
 in the form of &quot;numerator/denominator metronome-pulse 32nd-notes-per-MIDI-quarter-note&quot;, eg. &quot;4/4 24 8&quot;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MixerEnvelope">
-          MixerEnvelope
-          <p><p>MIX add-on: Sync when an envelope reaches the end.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MixerEnvelope"><a href="#collapsible-ManagedBass_SyncFlags_MixerEnvelope" class="expander" data-toggle="collapse">MixerEnvelope</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MixerEnvelope" class="collapse in">
+        <p><p>MIX add-on: Sync when an envelope reaches the end.
 param : not used
 data : envelope Type</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MixerEnvelopeNode">
-          MixerEnvelopeNode
-          <p><p>MIX add-on: Sync when an envelope node is reached.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MixerEnvelopeNode"><a href="#collapsible-ManagedBass_SyncFlags_MixerEnvelopeNode" class="expander" data-toggle="collapse">MixerEnvelopeNode</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MixerEnvelopeNode" class="collapse in">
+        <p><p>MIX add-on: Sync when an envelope node is reached.
 param : Optional limit the sync to a certain envelope Type (one of the BASSMIXEnvelope values).
 data : Will contain the envelope Type in the LOWORD and the current node number in the HIWORD.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_Mixtime">
-          Mixtime
-          <p><p>FLAG: sync at mixtime, else at playtime</p>
+      </div>
+      <h4 id="ManagedBass_SyncFlags_Mixtime"><a href="#collapsible-ManagedBass_SyncFlags_Mixtime" class="expander" data-toggle="collapse">Mixtime</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_Mixtime" class="collapse in">
+        <p><p>FLAG: sync at mixtime, else at playtime</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MusicFx">
-          MusicFx
-          <p><p>Sync when the &quot;sync&quot; effect (XM/MTM/MOD: E8x/Wxx, IT/S3M: S2x) is used.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MusicFx"><a href="#collapsible-ManagedBass_SyncFlags_MusicFx" class="expander" data-toggle="collapse">MusicFx</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MusicFx" class="collapse in">
+        <p><p>Sync when the &quot;sync&quot; effect (XM/MTM/MOD: E8x/Wxx, IT/S3M: S2x) is used.
 param : 0:data=Position, 1:data=&quot;x&quot; value
 data : param=0: LOWORD=order HIWORD=row, param=1: &quot;x&quot; value</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MusicInstrument">
-          MusicInstrument
-          <p><p>Sync when an instrument (sample for the non-instrument based formats) is played in a MOD music (not including retrigs).
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MusicInstrument"><a href="#collapsible-ManagedBass_SyncFlags_MusicInstrument" class="expander" data-toggle="collapse">MusicInstrument</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MusicInstrument" class="collapse in">
+        <p><p>Sync when an instrument (sample for the non-instrument based formats) is played in a MOD music (not including retrigs).
 param : LOWORD=instrument (1=first) HIWORD=note (0=c0...119=b9, -1=all)
 data : LOWORD=note HIWORD=volume (0-64)</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_MusicPosition">
-          MusicPosition
-          <p><p>Sync when a MOD music reaches an order:row position.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_MusicPosition"><a href="#collapsible-ManagedBass_SyncFlags_MusicPosition" class="expander" data-toggle="collapse">MusicPosition</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_MusicPosition" class="collapse in">
+        <p><p>Sync when a MOD music reaches an order:row position.
 param : LOWORD=order (0=first, -1=all) HIWORD=row (0=first, -1=all)
 data : LOWORD=order HIWORD=row</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_OggChange">
-          OggChange
-          <p><p>Sync when a new logical bitstream begins in a chained OGG stream.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_OggChange"><a href="#collapsible-ManagedBass_SyncFlags_OggChange" class="expander" data-toggle="collapse">OggChange</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_OggChange" class="collapse in">
+        <p><p>Sync when a new logical bitstream begins in a chained OGG stream.
 Updated tags are available from <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetTags_System_Int32_ManagedBass_TagType_">ChannelGetTags(Int32, TagType)</a>.
 param : not used
 data : not used</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_Onetime">
-          Onetime
-          <p><p>FLAG: sync only once, else continuously</p>
+      </div>
+      <h4 id="ManagedBass_SyncFlags_Onetime"><a href="#collapsible-ManagedBass_SyncFlags_Onetime" class="expander" data-toggle="collapse">Onetime</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_Onetime" class="collapse in">
+        <p><p>FLAG: sync only once, else continuously</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_Position">
-          Position
-          <p><p>Sync when a channel reaches a position.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_Position"><a href="#collapsible-ManagedBass_SyncFlags_Position" class="expander" data-toggle="collapse">Position</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_Position" class="collapse in">
+        <p><p>Sync when a channel reaches a position.
 param : position in bytes
 data : not used</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_Seeking">
-          Seeking
-          <p><p>Sync when seeking (inc. looping and restarting).
+      </div>
+      <h4 id="ManagedBass_SyncFlags_Seeking"><a href="#collapsible-ManagedBass_SyncFlags_Seeking" class="expander" data-toggle="collapse">Seeking</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_Seeking" class="collapse in">
+        <p><p>Sync when seeking (inc. looping and restarting).
 So it could be used to reset DSP/etc.
 param : position in bytes
 data : 0=playback is unbroken, 1=if is it broken (eg. Buffer flushed).
 The latter would be the time to reset DSP/etc.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_Slided">
-          Slided
-          <p><p>Sync when an attribute slide is completed.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_Slided"><a href="#collapsible-ManagedBass_SyncFlags_Slided" class="expander" data-toggle="collapse">Slided</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_Slided" class="collapse in">
+        <p><p>Sync when an attribute slide is completed.
 param : not used
 data : the Type of slide completed (one of the <a class="xref" href="ManagedBass.ChannelAttribute.html">ChannelAttribute</a> values)</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_Stalled">
-          Stalled
-          <p><p>Sync when playback has stalled.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_Stalled"><a href="#collapsible-ManagedBass_SyncFlags_Stalled" class="expander" data-toggle="collapse">Stalled</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_Stalled" class="collapse in">
+        <p><p>Sync when playback has stalled.
 param : not used
 data : 0=stalled, 1=resumed</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_Stop">
-          Stop
-          <p><p>Sync when the DirectSound Buffer fails during playback, eg. when the device is no longer available.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_Stop"><a href="#collapsible-ManagedBass_SyncFlags_Stop" class="expander" data-toggle="collapse">Stop</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_Stop" class="collapse in">
+        <p><p>Sync when the DirectSound Buffer fails during playback, eg. when the device is no longer available.
 param : not used
 data : not used</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_WinampBitRate">
-          WinampBitRate
-          <p><p>WINAMP add-on: Sync when bitrate is changed or retrieved from a winamp Input plug-in.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_WinampBitRate"><a href="#collapsible-ManagedBass_SyncFlags_WinampBitRate" class="expander" data-toggle="collapse">WinampBitRate</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_WinampBitRate" class="collapse in">
+        <p><p>WINAMP add-on: Sync when bitrate is changed or retrieved from a winamp Input plug-in.
 param : not used
 data : the bitrate retrieved from the winamp Input plug-in -
 called when it is retrieved or changed (VBR MP3s, OGGs, etc).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_WmaChange">
-          WmaChange
-          <p><p>WMA add-on: Sync on a track change in a server-side playlist.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_WmaChange"><a href="#collapsible-ManagedBass_SyncFlags_WmaChange" class="expander" data-toggle="collapse">WmaChange</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_WmaChange" class="collapse in">
+        <p><p>WMA add-on: Sync on a track change in a server-side playlist.
 Updated tags are available via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetTags_System_Int32_ManagedBass_TagType_">ChannelGetTags(Int32, TagType)</a>.
 param : not used
 data : not used</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_SyncFlags_WmaMeta">
-          WmaMeta
-          <p><p>WMA add-on: Sync on a mid-stream tag change in a server-side playlist.
+      </div>
+      <h4 id="ManagedBass_SyncFlags_WmaMeta"><a href="#collapsible-ManagedBass_SyncFlags_WmaMeta" class="expander" data-toggle="collapse">WmaMeta</a></h4>
+  
+      <div id="collapsible-ManagedBass_SyncFlags_WmaMeta" class="collapse in">
+        <p><p>WMA add-on: Sync on a mid-stream tag change in a server-side playlist.
 Updated tags are available via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetTags_System_Int32_ManagedBass_TagType_">ChannelGetTags(Int32, TagType)</a>.
 param : not used
 data : not used - the updated metadata is available from <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetTags_System_Int32_ManagedBass_TagType_">ChannelGetTags(Int32, TagType)</a>.</p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

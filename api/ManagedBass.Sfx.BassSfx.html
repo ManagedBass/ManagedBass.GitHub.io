@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BassSfx
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>BassSfx is an extention to the BASS audio library, providing a set of functions for rendering Sonique Visualization plugins or Winamp visualization plugins on a provided device context (hDC).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,14 +83,14 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.Sfx</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Sfx.dll</h6>
   
   <h5 id="ManagedBass_Sfx_BassSfx_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class BassSfx : object</code></pre>
   </div>
-  
+
   
   
   
@@ -114,11 +115,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassSfxError LastError { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -160,11 +161,11 @@ See the function description for an explanation of what the error code means.</p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Version Version { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -199,11 +200,11 @@ See the function description for an explanation of what the error code means.</p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Free()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -240,11 +241,11 @@ See the function description for an explanation of what the error code means.</p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Init(IntPtr hInstance, IntPtr hWnd)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -297,15 +298,15 @@ See the function description for an explanation of what the error code means.</p
   <h4 id="ManagedBass_Sfx_BassSfx_PluginClicked_System_Int32_System_Int32_System_Int32_" data-uid="ManagedBass.Sfx.BassSfx.PluginClicked(System.Int32,System.Int32,System.Int32)"><a href="#collapsible-ManagedBass_Sfx_BassSfx_PluginClicked_System_Int32_System_Int32_System_Int32_" class="expander" data-toggle="collapse">PluginClicked(Int32, Int32, Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_Sfx_BassSfx_PluginClicked_System_Int32_System_Int32_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Calls the &#39;clicked&#39; function of a Sonique visual plugin.</p>
+  <div class="markdown level1 summary"><p>Calls the &apos;clicked&apos; function of a Sonique visual plugin.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginClicked(int Handle, int X, int Y)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -370,11 +371,11 @@ You must have created a plugin object using <a class="xref" href="ManagedBass.Sf
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginConfig(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -419,11 +420,11 @@ You must have created a plugin object using <a class="xref" href="ManagedBass.Sf
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int PluginCreate(string File, IntPtr hWnd, int Width, int Height, BassSfxFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -487,7 +488,7 @@ You must have created a plugin object using <a class="xref" href="ManagedBass.Sf
   
   <h5 id="ManagedBass_Sfx_BassSfx_PluginCreate_System_String_IntPtr_System_Int32_System_Int32_ManagedBass_Sfx_BassSfxFlags__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Once you create a plugin using this function you can perform a number of different function calls on it.
-The <span class="paramref">Width</span> and <span class="paramref">Height</span> parameters are only useful for BassBox, WMP, and Sonique plugins.
+The <code data-dev-comment-type="paramref" class="paramref">Width</code> and <code data-dev-comment-type="paramref" class="paramref">Height</code> parameters are only useful for BassBox, WMP, and Sonique plugins.
 Winamp ignores these parameters so you can just pass in 0 for winamp plugins.
 Windows Media Player plugins can be created using the full path to a dll file or by using the CLSID GUID from the registry.
 <p>Mainly you might use the <a class="xref" href="ManagedBass.Sfx.BassSfx.html#ManagedBass_Sfx_BassSfx_PluginStart_System_Int32_">PluginStart(Int32)</a>, <a class="xref" href="ManagedBass.Sfx.BassSfx.html#ManagedBass_Sfx_BassSfx_PluginSetStream_System_Int32_System_Int32_">PluginSetStream(Int32, Int32)</a> or <a class="xref" href="ManagedBass.Sfx.BassSfx.html#ManagedBass_Sfx_BassSfx_PluginRender_System_Int32_System_Int32_IntPtr_">PluginRender(Int32, Int32, IntPtr)</a> methods.</p></p>
@@ -503,15 +504,15 @@ Windows Media Player plugins can be created using the full path to a dll file or
   <h4 id="ManagedBass_Sfx_BassSfx_PluginFlags_System_Int32_ManagedBass_Sfx_BassSfxFlags_ManagedBass_Sfx_BassSfxFlags_" data-uid="ManagedBass.Sfx.BassSfx.PluginFlags(System.Int32,ManagedBass.Sfx.BassSfxFlags,ManagedBass.Sfx.BassSfxFlags)"><a href="#collapsible-ManagedBass_Sfx_BassSfx_PluginFlags_System_Int32_ManagedBass_Sfx_BassSfxFlags_ManagedBass_Sfx_BassSfxFlags_" class="expander" data-toggle="collapse">PluginFlags(Int32, BassSfxFlags, BassSfxFlags)</a></h4>
   
   <div id="collapsible-ManagedBass_Sfx_BassSfx_PluginFlags_System_Int32_ManagedBass_Sfx_BassSfxFlags_ManagedBass_Sfx_BassSfxFlags_" class="collapse in">
-  <div class="markdown level1 summary"><p>Modifies and/or retrieves a plugin&#39;s flags.</p>
+  <div class="markdown level1 summary"><p>Modifies and/or retrieves a plugin&apos;s flags.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassSfxFlags PluginFlags(int Handle, BassSfxFlags Flags, BassSfxFlags Mask)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -545,7 +546,7 @@ Windows Media Player plugins can be created using the full path to a dll file or
     <tr>
       <td>
         <a class="xref" href="ManagedBass.Sfx.BassSfxFlags.html">BassSfxFlags</a>
-        <p><p>If successful, the plugin&#39;s updated flags are returned, else -1 is returned. Use <a class="xref" href="ManagedBass.Sfx.BassSfx.html#ManagedBass_Sfx_BassSfx_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the plugin&apos;s updated flags are returned, else -1 is returned. Use <a class="xref" href="ManagedBass.Sfx.BassSfx.html#ManagedBass_Sfx_BassSfx_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -572,11 +573,11 @@ Windows Media Player plugins can be created using the full path to a dll file or
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginFree(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -631,11 +632,11 @@ Windows Media Player plugins can be created using the full path to a dll file or
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string PluginGetName(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -680,11 +681,11 @@ Windows Media Player plugins can be created using the full path to a dll file or
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassSfxPlugin PluginGetType(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -732,11 +733,11 @@ Windows Media Player plugins can be created using the full path to a dll file or
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int PluginModuleGetActive(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -787,11 +788,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int PluginModuleGetCount(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -843,11 +844,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string PluginModuleGetName(int Handle, int Module)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -907,11 +908,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginModuleSetActive(int Handle, int Module)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -970,11 +971,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginRender(int Handle, int Channel, IntPtr hDC)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1038,11 +1039,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginResize(int Handle, int Width, int Height)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1106,11 +1107,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginResizeMove(int Handle, int Left, int Top, int Width, int Height)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1190,11 +1191,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginSetStream(int Handle, int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1247,11 +1248,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginStart(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1299,11 +1300,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginStop(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1358,11 +1359,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassSfxPluginInfo WMPGetPlugin(int Index)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1407,11 +1408,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool WMPGetPlugin(int Index, out BassSfxPluginInfo Info)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1471,11 +1472,11 @@ However, you can only start/activate one module at a time for a certain visual p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int WMPGetPluginCount()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>

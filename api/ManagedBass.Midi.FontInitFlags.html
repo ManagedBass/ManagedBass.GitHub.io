@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum FontInitFlags
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,57 +74,49 @@
   <div class="markdown level0 summary"><p>Font Init Flags to be used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_FontInit_System_String_ManagedBass_Midi_FontInitFlags_">FontInit(String, FontInitFlags)</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Midi</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Midi.dll</h6>
   
   <h5 id="ManagedBass_Midi_FontInitFlags_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum FontInitFlags : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_Midi_FontInitFlags_MemoryMap"><a href="#collapsible-ManagedBass_Midi_FontInitFlags_MemoryMap" class="expander" data-toggle="collapse">MemoryMap</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_Midi_FontInitFlags_MemoryMap">
-          MemoryMap
-          <p><p>Map the file into memory.
+      <div id="collapsible-ManagedBass_Midi_FontInitFlags_MemoryMap" class="collapse in">
+        <p><p>Map the file into memory.
 This flag is ignored if the soundfont is packed as the sample data cannot be played directly from a mapping; it needs to be decoded.
 This flag is also ignored if the file is too large to be mapped into memory.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_FontInitFlags_NoFx">
-          NoFx
-          <p><p>Ignore the reverb/chorus levels of the presets in the soundfont (only use the levels in the MIDI events).</p>
+      </div>
+      <h4 id="ManagedBass_Midi_FontInitFlags_NoFx"><a href="#collapsible-ManagedBass_Midi_FontInitFlags_NoFx" class="expander" data-toggle="collapse">NoFx</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_FontInitFlags_NoFx" class="collapse in">
+        <p><p>Ignore the reverb/chorus levels of the presets in the soundfont (only use the levels in the MIDI events).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_FontInitFlags_Unicode">
-          Unicode
-          <p><p>Unicode File Names.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_FontInitFlags_Unicode"><a href="#collapsible-ManagedBass_Midi_FontInitFlags_Unicode" class="expander" data-toggle="collapse">Unicode</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_FontInitFlags_Unicode" class="collapse in">
+        <p><p>Unicode File Names.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_FontInitFlags_XGDrums">
-          XGDrums
-          <p><p>Use bank 127 in the soundfont for XG drum kits.
+      </div>
+      <h4 id="ManagedBass_Midi_FontInitFlags_XGDrums"><a href="#collapsible-ManagedBass_Midi_FontInitFlags_XGDrums" class="expander" data-toggle="collapse">XGDrums</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_FontInitFlags_XGDrums" class="collapse in">
+        <p><p>Use bank 127 in the soundfont for XG drum kits.
 When an XG drum kit is needed, bank 127 in soundfonts that have this flag set will be checked first, before falling back to bank 128 (the standard SF2 drum kit bank) if it is not available there.</p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

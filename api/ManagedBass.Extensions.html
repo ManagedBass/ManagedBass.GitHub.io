@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Extensions
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>Contains Helper and Extension methods.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,14 +83,14 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
   
   <h5 id="ManagedBass_Extensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class Extensions : object</code></pre>
   </div>
-  
+
   
   
   
@@ -114,11 +115,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static StreamProcedure SilenceStreamProcedure { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -158,11 +159,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool SupportsFloatingPoint { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -204,11 +205,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ApplyOn&lt;T&gt;(this Effect&lt;T&gt; Effect, MediaPlayer Player, int Priority = 0)where T : class, IEffectParameter, new ()</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -275,11 +276,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string ChannelCountToString(int Channels)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -329,11 +330,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Clip&lt;T&gt;(this T Item, T MinValue, T MaxValue)where T : IComparable&lt;T&gt;</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -406,11 +407,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string[] ExtractMultiStringAnsi(IntPtr Ptr)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -460,11 +461,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string[] ExtractMultiStringUtf8(IntPtr Ptr)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -514,11 +515,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Version GetVersion(int Num)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -568,11 +569,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string PtrToStringUtf8(IntPtr Ptr)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -618,15 +619,15 @@
   <h4 id="ManagedBass_Extensions_SpeakerN_System_Int32_" data-uid="ManagedBass.Extensions.SpeakerN(System.Int32)"><a href="#collapsible-ManagedBass_Extensions_SpeakerN_System_Int32_" class="expander" data-toggle="collapse">SpeakerN(Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_Extensions_SpeakerN_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Returns the <param name="N">n&#39;th (max 15) pair of Speaker Assignment Flags</p>
+  <div class="markdown level1 summary"><p>Returns the <param name="N">n&apos;th (max 15) pair of Speaker Assignment Flags</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassFlags SpeakerN(int N)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -676,11 +677,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static FileProcedures StreamFileProcedures(Stream InputStream)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -731,11 +732,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassFlags ToBassFlag(this Resolution Resolution)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>

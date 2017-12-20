@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum BassDShowSync
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,74 +74,64 @@
   <div class="markdown level0 summary"><p>Channel Sync type to be used with <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_ChannelSetSync_System_Int32_ManagedBass_DShow_VideoSyncProcedure_IntPtr_">ChannelSetSync(Int32, VideoSyncProcedure, IntPtr)</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.DShow</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.DShow.dll</h6>
   
   <h5 id="ManagedBass_DShow_BassDShowSync_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum BassDShowSync : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_DShow_BassDShowSync_DvdChapterStart"><a href="#collapsible-ManagedBass_DShow_BassDShowSync_DvdChapterStart" class="expander" data-toggle="collapse">DvdChapterStart</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_DShow_BassDShowSync_DvdChapterStart">
-          DvdChapterStart
-          <p><p>Triggered when a new DVD chapter starts.
+      <div id="collapsible-ManagedBass_DShow_BassDShowSync_DvdChapterStart" class="collapse in">
+        <p><p>Triggered when a new DVD chapter starts.
 <p>data: the new chapter index.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DShow_BassDShowSync_DvdError">
-          DvdError
-          <p><p>Triggered when an error occured on a DVD stream.
+      </div>
+      <h4 id="ManagedBass_DShow_BassDShowSync_DvdError"><a href="#collapsible-ManagedBass_DShow_BassDShowSync_DvdError" class="expander" data-toggle="collapse">DvdError</a></h4>
+  
+      <div id="collapsible-ManagedBass_DShow_BassDShowSync_DvdError" class="collapse in">
+        <p><p>Triggered when an error occured on a DVD stream.
 <p>data: alwqays 0.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DShow_BassDShowSync_DvdTitleChange">
-          DvdTitleChange
-          <p><p>Triggered when a title change occured in a DVD stream.
+      </div>
+      <h4 id="ManagedBass_DShow_BassDShowSync_DvdTitleChange"><a href="#collapsible-ManagedBass_DShow_BassDShowSync_DvdTitleChange" class="expander" data-toggle="collapse">DvdTitleChange</a></h4>
+  
+      <div id="collapsible-ManagedBass_DShow_BassDShowSync_DvdTitleChange" class="collapse in">
+        <p><p>Triggered when a title change occured in a DVD stream.
 <p>data: new title number.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DShow_BassDShowSync_End">
-          End
-          <p><p>Triggered when the stream ends.
+      </div>
+      <h4 id="ManagedBass_DShow_BassDShowSync_End"><a href="#collapsible-ManagedBass_DShow_BassDShowSync_End" class="expander" data-toggle="collapse">End</a></h4>
+  
+      <div id="collapsible-ManagedBass_DShow_BassDShowSync_End" class="collapse in">
+        <p><p>Triggered when the stream ends.
 <p>data: alwqays 0.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DShow_BassDShowSync_Repaint">
-          Repaint
-          <p><p>Triggered by video renderers when it needs a repaint. A call to <span class="xref">Un4seen.Bass.AddOn.DShow.BassDShow.BASS_DSHOW_ChannelRepaint(System.Int32,System.IntPtr,System.IntPtr)</span> should be done, but not necessary.
+      </div>
+      <h4 id="ManagedBass_DShow_BassDShowSync_Repaint"><a href="#collapsible-ManagedBass_DShow_BassDShowSync_Repaint" class="expander" data-toggle="collapse">Repaint</a></h4>
+  
+      <div id="collapsible-ManagedBass_DShow_BassDShowSync_Repaint" class="collapse in">
+        <p><p>Triggered by video renderers when it needs a repaint. A call to <span class="xref">Un4seen.Bass.AddOn.DShow.BassDShow.BASS_DSHOW_ChannelRepaint(System.Int32,System.IntPtr,System.IntPtr)</span> should be done, but not necessary.
 <p>data: alwqays 0.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DShow_BassDShowSync_VideoSizeChanged">
-          VideoSizeChanged
-          <p><p>Triggered by video renderers when the video size changed.
+      </div>
+      <h4 id="ManagedBass_DShow_BassDShowSync_VideoSizeChanged"><a href="#collapsible-ManagedBass_DShow_BassDShowSync_VideoSizeChanged" class="expander" data-toggle="collapse">VideoSizeChanged</a></h4>
+  
+      <div id="collapsible-ManagedBass_DShow_BassDShowSync_VideoSizeChanged" class="collapse in">
+        <p><p>Triggered by video renderers when the video size changed.
 <p>data: the new video width/height (the HiWord represents the new width; the LoWord represents the new height).</p></p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

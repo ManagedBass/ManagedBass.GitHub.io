@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Delegate EncodeClientProcedure
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,18 +74,18 @@
   <div class="markdown level0 summary"><p>User defined callback function to receive notification of client connections and disconnections, and optionally refuse connections.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Enc</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Enc.dll</h6>
   
   <h5 id="ManagedBass_Enc_EncodeClientProcedure_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public delegate bool EncodeClientProcedure(int Handle, bool Connect, string Client, IntPtr Headers, IntPtr User);</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -107,7 +108,7 @@
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></span>
         <span class="parametername">Client</span>
-        <p><p>The client&#39;s IP address and port number... &quot;IP:port&quot;.</p>
+        <p><p>The client&apos;s IP address and port number... &quot;IP:port&quot;.</p>
 </p>
       </td>
     </tr>
@@ -154,7 +155,7 @@ That can be overridden in the first response header.
 <p>Disconnection notifications will be received for clients that have disconnected themselves or that have been kicked by <a class="xref" href="ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_ServerKick_System_Int32_System_String_">ServerKick(Int32, String)</a>, but there will no notification of any clients that are disconnected by the encoder being freed.</p>
 <p>Each server has its own thread that handles new connections and sends data to its clients. The notification callbacks also come from that thread, so the callback function should avoid introducing long delays as that could result in clients missing some data and delay other clients connecting.</p>
 <p>
-Use <a class="xref" href="ManagedBass.Extensions.html#ManagedBass_Extensions_ExtractMultiStringAnsi_IntPtr_">ExtractMultiStringAnsi(IntPtr)</a> to get the <span class="paramref">Headers</span>.
+Use <a class="xref" href="ManagedBass.Extensions.html#ManagedBass_Extensions_ExtractMultiStringAnsi_IntPtr_">ExtractMultiStringAnsi(IntPtr)</a> to get the <code data-dev-comment-type="paramref" class="paramref">Headers</code>.
 </p>
 </div>
   

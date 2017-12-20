@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BassDShow
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>BassDShow/xVideo is a BASS addon providing a set of functions for rendering direct show audio and video content.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,14 +83,14 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.DShow</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.DShow.dll</h6>
   
   <h5 id="ManagedBass_DShow_BassDShow_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class BassDShow : object</code></pre>
   </div>
-  
+
   
   
   
@@ -114,11 +115,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassDShowError LastError { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -160,11 +161,11 @@ See the function description for an explanation of what the error code means.</p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Version Version { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -199,11 +200,11 @@ See the function description for an explanation of what the error code means.</p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string CallbackItemByIndex(BassDShowCallbackItem CallbackType, int Index)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -256,11 +257,11 @@ See the function description for an explanation of what the error code means.</p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CaptureCreate(int Audio, int Video, int AudioProfile, int VideoProfile, BassFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -337,11 +338,11 @@ See the function description for an explanation of what the error code means.</p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CaptureDeviceProfiles(int Device, BassDShowCapture DeviceType, EnumProfilesProcedure Procedure, IntPtr User)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -410,11 +411,11 @@ See the function description for an explanation of what the error code means.</p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool CaptureFree(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -459,11 +460,11 @@ See the function description for an explanation of what the error code means.</p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CaptureGetDevices(BassDShowCapture DeviceType, EnumDevicesProcedure Procedure, IntPtr User)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -510,7 +511,7 @@ See the function description for an explanation of what the error code means.</p
   
   
   <h5 id="ManagedBass_DShow_BassDShow_CaptureGetDevices_ManagedBass_DShow_BassDShowCapture_ManagedBass_DShow_EnumDevicesProcedure_IntPtr__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>When using <span class="xref">null</span> as a <span class="paramref">Procedure</span> callback value this will return the number of the devices from the system only.</p>
+  <div class="markdown level1 remarks"><p>When using <span class="xref">null</span> as a <code data-dev-comment-type="paramref" class="paramref">Procedure</code> callback value this will return the number of the devices from the system only.</p>
 <p>Another way to get the capture devices is by using the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_CallbackItemByIndex_ManagedBass_DShow_BassDShowCallbackItem_System_Int32_">CallbackItemByIndex(BassDShowCallbackItem, Int32)</a> method.</p>
 </div>
   
@@ -535,11 +536,11 @@ See the function description for an explanation of what the error code means.</p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelAddFile(int Handle, string Filename)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -595,11 +596,11 @@ See the function description for an explanation of what the error code means.</p
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ChannelAddWindow(int Handle, IntPtr hWnd)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -664,11 +665,11 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassDShowColorRange ChannelColorRange(int Handle, BassDShowColorControl Id)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -724,11 +725,11 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelColorRange(int Handle, BassDShowColorControl Id, out BassDShowColorRange Ctrl)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -792,11 +793,11 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelEnableStream(int Handle, int Index)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -849,11 +850,11 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ChannelEnumerateStreams(int Handle, VideoStreamsProcedure Procedure, IntPtr User)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -914,11 +915,11 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float ChannelGetAttribute(int Handle, BassDShowAttribute Attribute)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -971,11 +972,11 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IntPtr ChannelGetBitmap(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1006,7 +1007,7 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
   
   
   <h5 id="ManagedBass_DShow_BassDShow_ChannelGetBitmap_System_Int32__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>If the current video renderer is the NULL one, or a stream don&#39;t have video then a NULL value will be returned.</p>
+  <div class="markdown level1 remarks"><p>If the current video renderer is the NULL one, or a stream don&apos;t have video then a NULL value will be returned.</p>
 </div>
   
   
@@ -1023,11 +1024,11 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ChannelGetConnectedFilters(int Handle, ConnectedFiltersProcedure Procedure, IntPtr User)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1074,7 +1075,7 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
   
   
   <h5 id="ManagedBass_DShow_BassDShow_ChannelGetConnectedFilters_System_Int32_ManagedBass_DShow_ConnectedFiltersProcedure_IntPtr__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>When using <span class="xref">null</span> as a <span class="paramref">Procedure</span> callback value this will return the number of connected filters only.</p>
+  <div class="markdown level1 remarks"><p>When using <span class="xref">null</span> as a <code data-dev-comment-type="paramref" class="paramref">Procedure</code> callback value this will return the number of connected filters only.</p>
 <p>Another way to get the connected filters is by using the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_CallbackItemByIndex_ManagedBass_DShow_BassDShowCallbackItem_System_Int32_">CallbackItemByIndex(BassDShowCallbackItem, Int32)</a> method.</p>
 </div>
   
@@ -1099,11 +1100,11 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassDShowChannelInfo ChannelGetInfo(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1148,11 +1149,11 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ChannelGetInfo(int Handle, out BassDShowChannelInfo Info)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1195,11 +1196,11 @@ You can use the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static double ChannelGetLength(int Handle, BassDShowMode Mode)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1239,7 +1240,7 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
   
   
   <h5 id="ManagedBass_DShow_BassDShow_ChannelGetLength_System_Int32_ManagedBass_DShow_BassDShowMode__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>0 is ussualy returned when the stream doesn&#39;t contain video or if an invalid channel handle was specified.</p>
+  <div class="markdown level1 remarks"><p>0 is ussualy returned when the stream doesn&apos;t contain video or if an invalid channel handle was specified.</p>
 </div>
   
   
@@ -1256,11 +1257,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static double ChannelGetPosition(int Handle, BassDShowMode Mode)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1314,11 +1315,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassDShowState ChannelGetState(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1370,11 +1371,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassDShowStreams ChannelGetStream(int Handle, int Index)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1427,11 +1428,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelOverlayBMP(int Handle, BassDShowVideoBitmap Bitmap)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1484,11 +1485,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelPause(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1533,11 +1534,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelPlay(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1582,11 +1583,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelRemoveDVP(int Handle, int Dvp)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1639,11 +1640,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelRemoveWindow(int Handle, int Window)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1696,11 +1697,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelRepaint(int Handle, IntPtr Window, IntPtr HDC)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1764,11 +1765,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ChannelResizeWindow(int Handle, int Window, int Left, int Top, int Right, int Bottom)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1843,11 +1844,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ChannelSetAttribute(int Handle, BassDShowAttribute Attribute, float NewValue)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1901,11 +1902,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelSetColors(int Handle, BassDShowColorControl Id, BassDShowVideoColors Colors)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1969,11 +1970,11 @@ else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#M
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ChannelSetDVP(int Handle, DvpProcedure Procedure, IntPtr User)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2038,11 +2039,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ChannelSetFullscreen(int Handle, bool FullScreen)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2085,11 +2086,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelSetPosition(int Handle, double Position, BassDShowMode Mode)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2149,11 +2150,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelSetSync(int Handle, VideoSyncProcedure Procedure, IntPtr User)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2214,11 +2215,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ChannelSetWindow(int Handle, int Window, IntPtr hWnd)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2269,11 +2270,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelStop(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2318,11 +2319,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ChannelStreamsCount(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2367,11 +2368,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool DVDChannelMenu(int Handle, BassDShowDVDMenu Option, int Value1, int Value2)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2440,11 +2441,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int DVDGetProperty(int Handle, BassDShowDVDGetProperty Property, int Value)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2505,11 +2506,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool DVDSetProperty(int Handle, BassDShowDVDSetProperty Property, int NewValue)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2566,15 +2567,15 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
   <h4 id="ManagedBass_DShow_BassDShow_Free" data-uid="ManagedBass.DShow.BassDShow.Free"><a href="#collapsible-ManagedBass_DShow_BassDShow_Free" class="expander" data-toggle="collapse">Free()</a></h4>
   
   <div id="collapsible-ManagedBass_DShow_BassDShow_Free" class="collapse in">
-  <div class="markdown level1 summary"><p>Frees all resources used by DSHOW, including all it&#39;s streams.</p>
+  <div class="markdown level1 summary"><p>Frees all resources used by DSHOW, including all it&apos;s streams.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Free()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -2611,11 +2612,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetAudioRenderers(EnumDevicesProcedure Procedure, IntPtr User)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2654,7 +2655,7 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
   
   
   <h5 id="ManagedBass_DShow_BassDShow_GetAudioRenderers_ManagedBass_DShow_EnumDevicesProcedure_IntPtr__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>When using <span class="xref">null</span> as a <span class="paramref">Procedure</span> callback value this will return the number of the audio render devices from the system only.</p>
+  <div class="markdown level1 remarks"><p>When using <span class="xref">null</span> as a <code data-dev-comment-type="paramref" class="paramref">Procedure</code> callback value this will return the number of the audio render devices from the system only.</p>
 <p>Another way to get the capture devices is by using the <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_CallbackItemByIndex_ManagedBass_DShow_BassDShowCallbackItem_System_Int32_">CallbackItemByIndex(BassDShowCallbackItem, Int32)</a> method.</p>
 </div>
   
@@ -2672,11 +2673,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetConfig(BassDShowConfig Option)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2721,11 +2722,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IntPtr GetGraph(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2773,11 +2774,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float GetVideoAlpha(int Handle, int Window, int Layer)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2838,18 +2839,18 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Init(IntPtr hWnd, BassDShowInit Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
         <span class="pull-right"><span class="xref">IntPtr</span></span>
         <span class="parametername">hWnd</span>
-        <p><p>The application&#39;s main window or 0 = the current foreground window (use this for console applications).</p>
+        <p><p>The application&apos;s main window or 0 = the current foreground window (use this for console applications).</p>
 </p>
       </td>
     </tr>
@@ -2905,11 +2906,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int LoadPlugin(string File)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2961,11 +2962,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int LoadPluginDS(string Guid, string Name)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3021,11 +3022,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool MIXChannelResize(int Handle, int Layer, int Left, int Top, int Right, int Bottom)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3117,11 +3118,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static BassDShowPluginInfo PluginGetInfo(int Plugin)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3166,11 +3167,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginGetInfo(int Plugin, out BassDShowPluginInfo Info)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3230,11 +3231,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Register(string Email, string Code)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3287,11 +3288,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool RemovePlugin(int Plugin)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3336,11 +3337,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void SetConfig(BassDShowConfig Option, BassDShowConfigFlag NewValue)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3383,11 +3384,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void SetConfig(BassDShowConfig Option, int NewValue)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3430,11 +3431,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool SetVideoAlpha(int Handle, int Window, int Layer, float Alpha)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3503,11 +3504,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ShowFilterPropertyPage(int Handle, int Filter, IntPtr Parent)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3565,11 +3566,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamCreateDVD(string Dvd, IntPtr Window, BassFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3603,7 +3604,7 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -3640,11 +3641,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamCreateFile(string File, int Position, IntPtr Window, BassFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3686,7 +3687,7 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -3717,11 +3718,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamCreateFileUser(BassFlags Flags, IntPtr Window, FileProcedures Procedures, IntPtr User)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3763,7 +3764,7 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -3800,11 +3801,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamCreateFilter(string File, string Filter, IntPtr Window, BassFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3846,7 +3847,7 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -3876,11 +3877,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamCreateMemory(IntPtr Memory, long Length, IntPtr Window, BassFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -3922,7 +3923,7 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_BassDShow_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -3952,11 +3953,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool StreamFree(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4001,11 +4002,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool VCamPush(int Window, IntPtr Data)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4045,7 +4046,7 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
   
   <h5 id="ManagedBass_DShow_BassDShow_VCamPush_System_Int32_IntPtr__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Make sure that xVirtualCam is registered and running when calling this function, otherwise this function will return <span class="xref">false</span>.
-<p>The <span class="paramref">Data</span> parameter can&#39;t be <see cref="!:IntPtr.Zero"></see>, and MUST be 320 * 240 * 4 in size (320 Width, 240 Height, 32 bits).</p></p>
+<p>The <code data-dev-comment-type="paramref" class="paramref">Data</code> parameter can&apos;t be <see cref="!:IntPtr.Zero"></see>, and MUST be 320 * 240 * 4 in size (320 Width, 240 Height, 32 bits).</p></p>
 </div>
   
   
@@ -4062,11 +4063,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool VCamPush(int Window, byte[] Data)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4106,7 +4107,7 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
   
   <h5 id="ManagedBass_DShow_BassDShow_VCamPush_System_Int32_System_Byte____remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Make sure that xVirtualCam is registered and running when calling this function, otherwise this function will return <span class="xref">false</span>.
-<p>The <span class="paramref">Data</span> parameter can&#39;t be <see cref="!:IntPtr.Zero"></see>, and MUST be 320 * 240 * 4 in size (320 Width, 240 Height, 32 bits).</p></p>
+<p>The <code data-dev-comment-type="paramref" class="paramref">Data</code> parameter can&apos;t be <see cref="!:IntPtr.Zero"></see>, and MUST be 320 * 240 * 4 in size (320 Width, 240 Height, 32 bits).</p></p>
 </div>
   
   
@@ -4123,11 +4124,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool VCamPush(int Window, long[] Data)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -4167,7 +4168,7 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
   
   <h5 id="ManagedBass_DShow_BassDShow_VCamPush_System_Int32_System_Int64____remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Make sure that xVirtualCam is registered and running when calling this function, otherwise this function will return <span class="xref">false</span>.
-<p>The <span class="paramref">Data</span> parameter can&#39;t be <see cref="!:IntPtr.Zero"></see>, and MUST be 320 * 240 * 4 in size (320 Width, 240 Height, 32 bits).</p></p>
+<p>The <code data-dev-comment-type="paramref" class="paramref">Data</code> parameter can&apos;t be <see cref="!:IntPtr.Zero"></see>, and MUST be 320 * 240 * 4 in size (320 Width, 240 Height, 32 bits).</p></p>
 </div>
   
   
@@ -4184,11 +4185,11 @@ Use <a class="xref" href="ManagedBass.DShow.BassDShow.html#ManagedBass_DShow_Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool VCamStreamChannel(int Handle, bool Stream)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>

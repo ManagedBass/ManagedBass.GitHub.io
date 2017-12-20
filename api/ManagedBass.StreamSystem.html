@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum StreamSystem
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,65 +74,58 @@
   <div class="markdown level0 summary"><p>User file system flag to be used with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_ManagedBass_StreamSystem_ManagedBass_BassFlags_ManagedBass_FileProcedures_IntPtr_">CreateStream(StreamSystem, BassFlags, FileProcedures, IntPtr)</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
   
   <h5 id="ManagedBass_StreamSystem_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum StreamSystem : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_StreamSystem_Buffer"><a href="#collapsible-ManagedBass_StreamSystem_Buffer" class="expander" data-toggle="collapse">Buffer</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_StreamSystem_Buffer">
-          Buffer
-          <p><p>Buffered file system (like also used by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_String_System_Int32_ManagedBass_BassFlags_ManagedBass_DownloadProcedure_IntPtr_">CreateStream(String, Int32, BassFlags, DownloadProcedure, IntPtr)</a>).
+      <div id="collapsible-ManagedBass_StreamSystem_Buffer" class="collapse in">
+        <p><p>Buffered file system (like also used by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_String_System_Int32_ManagedBass_BassFlags_ManagedBass_DownloadProcedure_IntPtr_">CreateStream(String, Int32, BassFlags, DownloadProcedure, IntPtr)</a>).
 <p>
 The buffered file system is what is used by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_String_System_Int32_ManagedBass_BassFlags_ManagedBass_DownloadProcedure_IntPtr_">CreateStream(String, Int32, BassFlags, DownloadProcedure, IntPtr)</a>.
-As the name suggests, data from the file is buffered so that it&#39;s readily available for decoding -
+As the name suggests, data from the file is buffered so that it&apos;s readily available for decoding -
 BASS creates a thread dedicated to &quot;downloading&quot; the data. This is ideal for when the data is coming from a source that has high latency, like the internet.
-It&#39;s not possible to seek in buffered file streams, until the download has reached the requested position - it&#39;s not possible to seek at all if it&#39;s being streamed in blocks.
+It&apos;s not possible to seek in buffered file streams, until the download has reached the requested position - it&apos;s not possible to seek at all if it&apos;s being streamed in blocks.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_StreamSystem_BufferPush">
-          BufferPush
-          <p><p>Buffered, with the data pushed to BASS via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_StreamPutFileData_System_Int32_IntPtr_System_Int32_">StreamPutFileData(Int32, IntPtr, Int32)</a>.
+      </div>
+      <h4 id="ManagedBass_StreamSystem_BufferPush"><a href="#collapsible-ManagedBass_StreamSystem_BufferPush" class="expander" data-toggle="collapse">BufferPush</a></h4>
+  
+      <div id="collapsible-ManagedBass_StreamSystem_BufferPush" class="collapse in">
+        <p><p>Buffered, with the data pushed to BASS via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_StreamPutFileData_System_Int32_IntPtr_System_Int32_">StreamPutFileData(Int32, IntPtr, Int32)</a>.
 <p>
 The push buffered file system is the same as <a class="xref" href="ManagedBass.StreamSystem.html#ManagedBass_StreamSystem_Buffer">Buffer</a>, except that instead of the file data being pulled from the <a class="xref" href="ManagedBass.FileReadProcedure.html">FileReadProcedure</a> function in a &quot;download&quot; thread,
 the data is pushed to BASS via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_StreamPutFileData_System_Int32_IntPtr_System_Int32_">StreamPutFileData(Int32, IntPtr, Int32)</a>.
 A <a class="xref" href="ManagedBass.FileReadProcedure.html">FileReadProcedure</a> function is still required, to get the initial data used in the creation of the stream.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_StreamSystem_NoBuffer">
-          NoBuffer
-          <p><p>Unbuffered file system (like also used by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_String_System_Int64_System_Int64_ManagedBass_BassFlags_">CreateStream(String, Int64, Int64, BassFlags)</a>).
+      </div>
+      <h4 id="ManagedBass_StreamSystem_NoBuffer"><a href="#collapsible-ManagedBass_StreamSystem_NoBuffer" class="expander" data-toggle="collapse">NoBuffer</a></h4>
+  
+      <div id="collapsible-ManagedBass_StreamSystem_NoBuffer" class="collapse in">
+        <p><p>Unbuffered file system (like also used by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_String_System_Int64_System_Int64_ManagedBass_BassFlags_">CreateStream(String, Int64, Int64, BassFlags)</a>).
 <p>
 The unbuffered file system is what is used by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_String_System_Int64_System_Int64_ManagedBass_BassFlags_">CreateStream(String, Int64, Int64, BassFlags)</a>.
 In this system, BASS does not do any intermediate buffering - it simply requests data from the file as and when it needs it.
 This means that reading (<a class="xref" href="ManagedBass.FileReadProcedure.html">FileReadProcedure</a>) must be quick,
 otherwise the decoding will be delayed and playback Buffer underruns (old data repeated) are a possibility.
-It&#39;s not so important for seeking (<a class="xref" href="ManagedBass.FileSeekProcedure.html">FileSeekProcedure</a>) to be fast, as that is generally not required during decoding, except when looping a file.
+It&apos;s not so important for seeking (<a class="xref" href="ManagedBass.FileSeekProcedure.html">FileSeekProcedure</a>) to be fast, as that is generally not required during decoding, except when looping a file.
 </p></p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

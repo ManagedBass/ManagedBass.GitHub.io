@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum PositionFlags
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -74,136 +75,117 @@
 <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetPosition_System_Int32_System_Int64_ManagedBass_PositionFlags_">ChannelSetPosition(Int32, Int64, PositionFlags)</a> or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_StreamGetFilePosition_System_Int32_ManagedBass_FileStreamPosition_">StreamGetFilePosition(Int32, FileStreamPosition)</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
   
   <h5 id="ManagedBass_PositionFlags_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum PositionFlags : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_PositionFlags_Bytes"><a href="#collapsible-ManagedBass_PositionFlags_Bytes" class="expander" data-toggle="collapse">Bytes</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_PositionFlags_Bytes">
-          Bytes
-          <p><p>Byte position.</p>
+      <div id="collapsible-ManagedBass_PositionFlags_Bytes" class="collapse in">
+        <p><p>Byte position.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_CDTrack">
-          CDTrack
-          <p><p>CD Add-On: the track number.</p>
+      </div>
+      <h4 id="ManagedBass_PositionFlags_CDTrack"><a href="#collapsible-ManagedBass_PositionFlags_CDTrack" class="expander" data-toggle="collapse">CDTrack</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_CDTrack" class="collapse in">
+        <p><p>CD Add-On: the track number.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_Decode">
-          Decode
-          <p><p>Get the decoding (not playing) position.</p>
+      </div>
+      <h4 id="ManagedBass_PositionFlags_Decode"><a href="#collapsible-ManagedBass_PositionFlags_Decode" class="expander" data-toggle="collapse">Decode</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_Decode" class="collapse in">
+        <p><p>Get the decoding (not playing) position.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_DecodeTo">
-          DecodeTo
-          <p><p>Flag: decode to the position instead of seeking.</p>
+      </div>
+      <h4 id="ManagedBass_PositionFlags_DecodeTo"><a href="#collapsible-ManagedBass_PositionFlags_DecodeTo" class="expander" data-toggle="collapse">DecodeTo</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_DecodeTo" class="collapse in">
+        <p><p>Flag: decode to the position instead of seeking.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_Inexact">
-          Inexact
-          <p><p>Flag: Allow inexact seeking.
+      </div>
+      <h4 id="ManagedBass_PositionFlags_Inexact"><a href="#collapsible-ManagedBass_PositionFlags_Inexact" class="expander" data-toggle="collapse">Inexact</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_Inexact" class="collapse in">
+        <p><p>Flag: Allow inexact seeking.
 For speed, seeking may stop at the beginning of a block rather than partially processing the block to reach the requested position.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_MIDIDecaySeek">
-          MIDIDecaySeek
-          <p><p>Midi Add-On: Let the old sound decay naturally (including reverb) when changing the position,
+      </div>
+      <h4 id="ManagedBass_PositionFlags_MIDIDecaySeek"><a href="#collapsible-ManagedBass_PositionFlags_MIDIDecaySeek" class="expander" data-toggle="collapse">MIDIDecaySeek</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_MIDIDecaySeek" class="collapse in">
+        <p><p>Midi Add-On: Let the old sound decay naturally (including reverb) when changing the position,
 including looping and such can also be used in <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetPosition_System_Int32_System_Int64_ManagedBass_PositionFlags_">ChannelSetPosition(Int32, Int64, PositionFlags)</a> calls to have it apply to particular position changes.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_MIDITick">
-          MIDITick
-          <p><p>Tick position (MIDI streams only).</p>
+      </div>
+      <h4 id="ManagedBass_PositionFlags_MIDITick"><a href="#collapsible-ManagedBass_PositionFlags_MIDITick" class="expander" data-toggle="collapse">MIDITick</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_MIDITick" class="collapse in">
+        <p><p>Tick position (MIDI streams only).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_MixerNoRampIn">
-          MixerNoRampIn
-          <p><p>Mixer Flag: Don&#39;t ramp-in the start after seeking.</p>
+      </div>
+      <h4 id="ManagedBass_PositionFlags_MixerNoRampIn"><a href="#collapsible-ManagedBass_PositionFlags_MixerNoRampIn" class="expander" data-toggle="collapse">MixerNoRampIn</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_MixerNoRampIn" class="collapse in">
+        <p><p>Mixer Flag: Don&apos;t ramp-in the start after seeking.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_MusicOrders">
-          MusicOrders
-          <p><p>Order.Row position (HMUSIC only).
+      </div>
+      <h4 id="ManagedBass_PositionFlags_MusicOrders"><a href="#collapsible-ManagedBass_PositionFlags_MusicOrders" class="expander" data-toggle="collapse">MusicOrders</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_MusicOrders" class="collapse in">
+        <p><p>Order.Row position (HMUSIC only).
 LoWord = order, HiWord = row * scaler (<a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_MusicPositionScaler">MusicPositionScaler</a>).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_MusicPositionReset">
-          MusicPositionReset
-          <p><p>MOD Music Flag: Stop all notes when moving position.</p>
+      </div>
+      <h4 id="ManagedBass_PositionFlags_MusicPositionReset"><a href="#collapsible-ManagedBass_PositionFlags_MusicPositionReset" class="expander" data-toggle="collapse">MusicPositionReset</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_MusicPositionReset" class="collapse in">
+        <p><p>MOD Music Flag: Stop all notes when moving position.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_MusicPositionResetEx">
-          MusicPositionResetEx
-          <p><p>MOD Music Flag: Stop all notes and reset bmp/etc when moving position.</p>
+      </div>
+      <h4 id="ManagedBass_PositionFlags_MusicPositionResetEx"><a href="#collapsible-ManagedBass_PositionFlags_MusicPositionResetEx" class="expander" data-toggle="collapse">MusicPositionResetEx</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_MusicPositionResetEx" class="collapse in">
+        <p><p>MOD Music Flag: Stop all notes and reset bmp/etc when moving position.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_OGG">
-          OGG
-          <p><p>OGG bitstream number.</p>
+      </div>
+      <h4 id="ManagedBass_PositionFlags_OGG"><a href="#collapsible-ManagedBass_PositionFlags_OGG" class="expander" data-toggle="collapse">OGG</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_OGG" class="collapse in">
+        <p><p>OGG bitstream number.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_Scan">
-          Scan
-          <p><p>Scan the file to build a seek table up to the position, if it has not already been scanned.
+      </div>
+      <h4 id="ManagedBass_PositionFlags_Scan"><a href="#collapsible-ManagedBass_PositionFlags_Scan" class="expander" data-toggle="collapse">Scan</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_Scan" class="collapse in">
+        <p><p>Scan the file to build a seek table up to the position, if it has not already been scanned.
 Scanning will continue from where it left off previously rather than restarting from the beginning of the file each time.
 This flag only applies to MP3/MP2/MP1 files and will be ignored with other file formats.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_ZXTuneSubCount">
-          ZXTuneSubCount
-          <p><p>ZXTune Sub Count.</p>
+      </div>
+      <h4 id="ManagedBass_PositionFlags_ZXTuneSubCount"><a href="#collapsible-ManagedBass_PositionFlags_ZXTuneSubCount" class="expander" data-toggle="collapse">ZXTuneSubCount</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_ZXTuneSubCount" class="collapse in">
+        <p><p>ZXTune Sub Count.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_PositionFlags_ZXTuneSubLength">
-          ZXTuneSubLength
-          <p><p>ZXTune Sub Length.</p>
+      </div>
+      <h4 id="ManagedBass_PositionFlags_ZXTuneSubLength"><a href="#collapsible-ManagedBass_PositionFlags_ZXTuneSubLength" class="expander" data-toggle="collapse">ZXTuneSubLength</a></h4>
+  
+      <div id="collapsible-ManagedBass_PositionFlags_ZXTuneSubLength" class="collapse in">
+        <p><p>ZXTune Sub Length.</p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

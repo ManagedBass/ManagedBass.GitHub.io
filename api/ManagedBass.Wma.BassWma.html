@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BassWma
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>BassWma is a BASS addon enabling the playback of WMA files and streams (including user file streams), and also WMA file encoding and network broadcasting.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,14 +83,14 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.Wma</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Wma.dll</h6>
   
   <h5 id="ManagedBass_Wma_BassWma_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class BassWma : object</code></pre>
   </div>
-  
+
   
   
   
@@ -125,11 +126,11 @@ but local files can use either, and BASSWMA uses the synchronous system by defau
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool AsyncDecoding { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -168,15 +169,15 @@ but local files can use either, and BASSWMA uses the synchronous system by defau
   <div class="markdown level1 summary"><p>Enable network seeking?
 seek (bool): If true seeking in network files/streams is enabled (default is false).
 If true, it allows seeking before the entire file has been downloaded/cached.
-Seeking is slow that way, so it&#39;s disabled by default.</p>
+Seeking is slow that way, so it&apos;s disabled by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool CanSeekNetworkStreams { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -218,11 +219,11 @@ If false WMV files will not be played.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PlayWMVAudio { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -271,11 +272,11 @@ This option is enabled by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PrebufferInternetStreams { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -313,18 +314,18 @@ This option is enabled by default.</p>
   <div id="collapsible-ManagedBass_Wma_BassWma_UseBassFileHandling" class="collapse in">
   <div class="markdown level1 summary"><p>Use BASS file handling.
 bassfile (bool): Default is disabled (false).
-When enabled (true) BASSWMA uses BASS&#39;s file routines when playing local files.
+When enabled (true) BASSWMA uses BASS&apos;s file routines when playing local files.
 It uses the IStream interface to do that.
 This would also allow to support the &quot;offset&quot; parameter for WMA files with Bass.CreateStream().
 The downside of enabling this feature is, that it stops playback while encoding from working.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool UseBassFileHandling { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -362,15 +363,15 @@ The downside of enabling this feature is, that it stops playback while encoding 
   <h4 id="ManagedBass_Wma_BassWma_CreateStream_IntPtr_System_Int64_ManagedBass_BassFlags_System_String_System_String_" data-uid="ManagedBass.Wma.BassWma.CreateStream(IntPtr,System.Int64,ManagedBass.BassFlags,System.String,System.String)"><a href="#collapsible-ManagedBass_Wma_BassWma_CreateStream_IntPtr_System_Int64_ManagedBass_BassFlags_System_String_System_String_" class="expander" data-toggle="collapse">CreateStream(IntPtr, Int64, BassFlags, String, String)</a></h4>
   
   <div id="collapsible-ManagedBass_Wma_BassWma_CreateStream_IntPtr_System_Int64_ManagedBass_BassFlags_System_String_System_String_" class="collapse in">
-  <div class="markdown level1 summary"><p>Streams a WMA file from Memory (<see cref="!:IntPtr"></see>) authenticating using given <span class="paramref">UserName</span> and <span class="paramref">Password</span>.</p>
+  <div class="markdown level1 summary"><p>Streams a WMA file from Memory (<see cref="!:IntPtr"></see>) authenticating using given <code data-dev-comment-type="paramref" class="paramref">UserName</code> and <code data-dev-comment-type="paramref" class="paramref">Password</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(IntPtr Memory, long Length, BassFlags Flags, string UserName, string Password)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -448,11 +449,11 @@ The downside of enabling this feature is, that it stops playback while encoding 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(IntPtr Memory, long Offset, long Length, BassFlags Flags = BassFlags.Default)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -523,11 +524,11 @@ The downside of enabling this feature is, that it stops playback while encoding 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(StreamSystem System, BassFlags Flags, FileProcedures Procedures, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -594,15 +595,15 @@ The downside of enabling this feature is, that it stops playback while encoding 
   <h4 id="ManagedBass_Wma_BassWma_CreateStream_System_Byte___System_Int64_ManagedBass_BassFlags_System_String_System_String_" data-uid="ManagedBass.Wma.BassWma.CreateStream(System.Byte[],System.Int64,ManagedBass.BassFlags,System.String,System.String)"><a href="#collapsible-ManagedBass_Wma_BassWma_CreateStream_System_Byte___System_Int64_ManagedBass_BassFlags_System_String_System_String_" class="expander" data-toggle="collapse">CreateStream(Byte[], Int64, BassFlags, String, String)</a></h4>
   
   <div id="collapsible-ManagedBass_Wma_BassWma_CreateStream_System_Byte___System_Int64_ManagedBass_BassFlags_System_String_System_String_" class="collapse in">
-  <div class="markdown level1 summary"><p>Streams a WMA file from Memory (byte[]) authenticating using given <span class="paramref">UserName</span> and <span class="paramref">Password</span>.</p>
+  <div class="markdown level1 summary"><p>Streams a WMA file from Memory (byte[]) authenticating using given <code data-dev-comment-type="paramref" class="paramref">UserName</code> and <code data-dev-comment-type="paramref" class="paramref">Password</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(byte[] Memory, long Length, BassFlags Flags, string UserName, string Password)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -680,11 +681,11 @@ The downside of enabling this feature is, that it stops playback while encoding 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(byte[] Memory, long Offset, long Length, BassFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -751,15 +752,15 @@ The downside of enabling this feature is, that it stops playback while encoding 
   <h4 id="ManagedBass_Wma_BassWma_CreateStream_System_String_ManagedBass_BassFlags_System_String_System_String_" data-uid="ManagedBass.Wma.BassWma.CreateStream(System.String,ManagedBass.BassFlags,System.String,System.String)"><a href="#collapsible-ManagedBass_Wma_BassWma_CreateStream_System_String_ManagedBass_BassFlags_System_String_System_String_" class="expander" data-toggle="collapse">CreateStream(String, BassFlags, String, String)</a></h4>
   
   <div id="collapsible-ManagedBass_Wma_BassWma_CreateStream_System_String_ManagedBass_BassFlags_System_String_System_String_" class="collapse in">
-  <div class="markdown level1 summary"><p>Streams a WMA file authenticating using given <span class="paramref">UserName</span> and <span class="paramref">Password</span>.</p>
+  <div class="markdown level1 summary"><p>Streams a WMA file authenticating using given <code data-dev-comment-type="paramref" class="paramref">UserName</code> and <code data-dev-comment-type="paramref" class="paramref">Password</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(string File, BassFlags Flags, string UserName, string Password)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -830,11 +831,11 @@ The downside of enabling this feature is, that it stops playback while encoding 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(string Url, int Offset, BassFlags Flags, DownloadProcedure Procedure, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -912,11 +913,11 @@ The downside of enabling this feature is, that it stops playback while encoding 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(string File, long Offset = null, long Length = null, BassFlags Flags = BassFlags.Default)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -980,11 +981,11 @@ The downside of enabling this feature is, that it stops playback while encoding 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool EncodeClose(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1029,11 +1030,11 @@ The downside of enabling this feature is, that it stops playback while encoding 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int EncodeGetClients(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1078,11 +1079,11 @@ The downside of enabling this feature is, that it stops playback while encoding 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int EncodeGetPort(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1138,11 +1139,11 @@ this is the function to retrieve the port actually being used.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int[] EncodeGetRates(int Frequency, int Channels, WMAEncodeFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1216,11 +1217,11 @@ To encode other sample formats, the data will first have to be resampled to a su
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int EncodeOpen(int Frequency, int Channels, WMAEncodeFlags Flags, int Bitrate, WMEncodeProcedure Procedure, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1278,7 +1279,7 @@ To encode other sample formats, the data will first have to be resampled to a su
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If succesful, the new encoder&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If succesful, the new encoder&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1318,11 +1319,11 @@ The WMA codec expects 16-bit or 24-bit sample data depending on the <a class="xr
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int EncodeOpenFile(int Frequency, int Channels, WMAEncodeFlags Flags, int Bitrate, string File)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1372,7 +1373,7 @@ The WMA codec expects 16-bit or 24-bit sample data depending on the <a class="xr
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If succesful, the new encoder&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If succesful, the new encoder&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1402,11 +1403,11 @@ The WMA codec expects 16-bit or 24-bit sample data depending on the <a class="xr
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int EncodeOpenNetwork(int Frequency, int Channels, WMAEncodeFlags Flags, int Bitrate, int Port, int Clients)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1464,7 +1465,7 @@ The WMA codec expects 16-bit or 24-bit sample data depending on the <a class="xr
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If succesful, the new encoder&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If succesful, the new encoder&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1499,11 +1500,11 @@ VBR encoding is not recommended for network encoding.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int EncodeOpenNetwork(int Frequency, int Channels, WMAEncodeFlags Flags, int[] Bitrates, int Port, int Clients)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1561,7 +1562,7 @@ VBR encoding is not recommended for network encoding.
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If succesful, the new encoder&#39;s handle is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If succesful, the new encoder&apos;s handle is returned, else <span class="xref">false</span> is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1603,11 +1604,11 @@ VBR encoding is not recommended for network encoding.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int EncodeOpenPublish(int Frequency, int Channels, WMAEncodeFlags Flags, int Bitrate, string Url, string UserName, string Password)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1673,7 +1674,7 @@ VBR encoding is not recommended for network encoding.
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If succesful, the new encoder&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If succesful, the new encoder&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1713,11 +1714,11 @@ VBR encoding is not recommended for network encoding.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int EncodeOpenPublish(int Frequency, int Channels, WMAEncodeFlags Flags, int[] Bitrates, string Url, string UserName, string Password)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1783,7 +1784,7 @@ VBR encoding is not recommended for network encoding.</p>
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If succesful, the new encoder&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If succesful, the new encoder&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1817,11 +1818,11 @@ VBR encoding is not recommended for network encoding.</p></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool EncodeSetNotify(int Handle, ClientConnectProcedure Procedure, IntPtr User)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1885,11 +1886,11 @@ VBR encoding is not recommended for network encoding.</p></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool EncodeSetTag(int Handle, IntPtr Tag, IntPtr Value, WMATagFormat Format)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1912,7 +1913,7 @@ VBR encoding is not recommended for network encoding.</p></p>
       <td>
         <span class="pull-right"><span class="xref">IntPtr</span></span>
         <span class="parametername">Value</span>
-        <p><p>The pointer to the tag&#39;s text/data.</p>
+        <p><p>The pointer to the tag&apos;s text/data.</p>
 </p>
       </td>
     </tr>
@@ -1945,16 +1946,16 @@ VBR encoding is not recommended for network encoding.</p></p>
   
   <h5 id="ManagedBass_Wma_BassWma_EncodeSetTag_System_Int32_IntPtr_IntPtr_ManagedBass_Wma_WMATagFormat__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Where the tags are located in the encoded stream depends on when this function is used.
-Calling this function before beginning encoding data puts the tags in the stream&#39;s header.
+Calling this function before beginning encoding data puts the tags in the stream&apos;s header.
 Calling this function after encoding has begun puts the tags in the actual stream data, at the current encoding position.
 <p>Header tags must be set before encoding any data - no more header tags can be set once <a class="xref" href="ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_EncodeWrite_System_Int32_IntPtr_System_Int32_">EncodeWrite(Int32, IntPtr, Int32)</a> has been called.</p>
 <p>
-To set tags mid-stream (after encoding has begun), the <a class="xref" href="ManagedBass.Wma.WMAEncodeFlags.html#ManagedBass_Wma_WMAEncodeFlags_Script">Script</a> flag needs to have been specified in the encoder&#39;s creation.
-A mid-stream tag typically used is &quot;Caption&quot;, which get&#39;s displayed in Windows Media Player 9 and above (if the user has enabled captions).
+To set tags mid-stream (after encoding has begun), the <a class="xref" href="ManagedBass.Wma.WMAEncodeFlags.html#ManagedBass_Wma_WMAEncodeFlags_Script">Script</a> flag needs to have been specified in the encoder&apos;s creation.
+A mid-stream tag typically used is &quot;Caption&quot;, which get&apos;s displayed in Windows Media Player 9 and above (if the user has enabled captions).
 </p>
 <p>
 When using a network encoder, it should be noted that while all header tags are sent to newly connecting clients, prior mid-stream tags are not.
-So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the current song title, it should be sent at fairly regular intervals (not only at the start of the song).
+So if, for example, you&apos;re using the &quot;Caption&quot; tag to indicate the current song title, it should be sent at fairly regular intervals (not only at the start of the song).
 </p>
 <p>On the playback side, mid-stream tags can be processed using <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetSync_System_Int32_ManagedBass_SyncFlags_System_Int64_ManagedBass_SyncProcedure_IntPtr_">ChannelSetSync(Int32, SyncFlags, Int64, SyncProcedure, IntPtr)</a> (with <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_MetadataReceived">MetadataReceived</a>).</p></p>
 </div>
@@ -1980,11 +1981,11 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool EncodeSetTag(int Handle, string Tag, IntPtr Value, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2007,7 +2008,7 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
       <td>
         <span class="pull-right"><span class="xref">IntPtr</span></span>
         <span class="parametername">Value</span>
-        <p><p>The pointer to the binary tag&#39;s data.</p>
+        <p><p>The pointer to the binary tag&apos;s data.</p>
 </p>
       </td>
     </tr>
@@ -2040,16 +2041,16 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
   
   <h5 id="ManagedBass_Wma_BassWma_EncodeSetTag_System_Int32_System_String_IntPtr_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Where the tags are located in the encoded stream depends on when this function is used.
-Calling this function before beginning encoding data puts the tags in the stream&#39;s header.
+Calling this function before beginning encoding data puts the tags in the stream&apos;s header.
 Calling this function after encoding has begun puts the tags in the actual stream data, at the current encoding position.
 <p>Header tags must be set before encoding any data - no more header tags can be set once <a class="xref" href="ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_EncodeWrite_System_Int32_IntPtr_System_Int32_">EncodeWrite(Int32, IntPtr, Int32)</a> has been called.</p>
 <p>
-To set tags mid-stream (after encoding has begun), the <a class="xref" href="ManagedBass.Wma.WMAEncodeFlags.html#ManagedBass_Wma_WMAEncodeFlags_Script">Script</a> flag needs to have been specified in the encoder&#39;s creation.
-A mid-stream tag typically used is &quot;Caption&quot;, which get&#39;s displayed in Windows Media Player 9 and above (if the user has enabled captions).
+To set tags mid-stream (after encoding has begun), the <a class="xref" href="ManagedBass.Wma.WMAEncodeFlags.html#ManagedBass_Wma_WMAEncodeFlags_Script">Script</a> flag needs to have been specified in the encoder&apos;s creation.
+A mid-stream tag typically used is &quot;Caption&quot;, which get&apos;s displayed in Windows Media Player 9 and above (if the user has enabled captions).
 </p>
 <p>
 When using a network encoder, it should be noted that while all header tags are sent to newly connecting clients, prior mid-stream tags are not.
-So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the current song title, it should be sent at fairly regular intervals (not only at the start of the song).
+So if, for example, you&apos;re using the &quot;Caption&quot; tag to indicate the current song title, it should be sent at fairly regular intervals (not only at the start of the song).
 </p>
 <p>On the playback side, mid-stream tags can be processed using <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetSync_System_Int32_ManagedBass_SyncFlags_System_Int64_ManagedBass_SyncProcedure_IntPtr_">ChannelSetSync(Int32, SyncFlags, Int64, SyncProcedure, IntPtr)</a> (with <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_MetadataReceived">MetadataReceived</a>).</p></p>
 </div>
@@ -2075,11 +2076,11 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool EncodeSetTag(int Handle, string Tag, byte[] Value, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2102,7 +2103,7 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.byte(v=vs.110).aspx">Byte</a>[]</span>
         <span class="parametername">Value</span>
-        <p><p>The byte[] containing the binary tag&#39;s data.</p>
+        <p><p>The byte[] containing the binary tag&apos;s data.</p>
 </p>
       </td>
     </tr>
@@ -2135,16 +2136,16 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
   
   <h5 id="ManagedBass_Wma_BassWma_EncodeSetTag_System_Int32_System_String_System_Byte___System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Where the tags are located in the encoded stream depends on when this function is used.
-Calling this function before beginning encoding data puts the tags in the stream&#39;s header.
+Calling this function before beginning encoding data puts the tags in the stream&apos;s header.
 Calling this function after encoding has begun puts the tags in the actual stream data, at the current encoding position.
 <p>Header tags must be set before encoding any data - no more header tags can be set once <a class="xref" href="ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_EncodeWrite_System_Int32_IntPtr_System_Int32_">EncodeWrite(Int32, IntPtr, Int32)</a> has been called.</p>
 <p>
-To set tags mid-stream (after encoding has begun), the <a class="xref" href="ManagedBass.Wma.WMAEncodeFlags.html#ManagedBass_Wma_WMAEncodeFlags_Script">Script</a> flag needs to have been specified in the encoder&#39;s creation.
-A mid-stream tag typically used is &quot;Caption&quot;, which get&#39;s displayed in Windows Media Player 9 and above (if the user has enabled captions).
+To set tags mid-stream (after encoding has begun), the <a class="xref" href="ManagedBass.Wma.WMAEncodeFlags.html#ManagedBass_Wma_WMAEncodeFlags_Script">Script</a> flag needs to have been specified in the encoder&apos;s creation.
+A mid-stream tag typically used is &quot;Caption&quot;, which get&apos;s displayed in Windows Media Player 9 and above (if the user has enabled captions).
 </p>
 <p>
 When using a network encoder, it should be noted that while all header tags are sent to newly connecting clients, prior mid-stream tags are not.
-So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the current song title, it should be sent at fairly regular intervals (not only at the start of the song).
+So if, for example, you&apos;re using the &quot;Caption&quot; tag to indicate the current song title, it should be sent at fairly regular intervals (not only at the start of the song).
 </p>
 <p>On the playback side, mid-stream tags can be processed using <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetSync_System_Int32_ManagedBass_SyncFlags_System_Int64_ManagedBass_SyncProcedure_IntPtr_">ChannelSetSync(Int32, SyncFlags, Int64, SyncProcedure, IntPtr)</a> (with <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_MetadataReceived">MetadataReceived</a>).</p></p>
 </div>
@@ -2170,11 +2171,11 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool EncodeSetTag(int Handle, string Tag, string Value)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2197,7 +2198,7 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.string(v=vs.110).aspx">String</a></span>
         <span class="parametername">Value</span>
-        <p><p>The tag&#39;s text/data.</p>
+        <p><p>The tag&apos;s text/data.</p>
 </p>
       </td>
     </tr>
@@ -2222,16 +2223,16 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
   
   <h5 id="ManagedBass_Wma_BassWma_EncodeSetTag_System_Int32_System_String_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Where the tags are located in the encoded stream depends on when this function is used.
-Calling this function before beginning encoding data puts the tags in the stream&#39;s header.
+Calling this function before beginning encoding data puts the tags in the stream&apos;s header.
 Calling this function after encoding has begun puts the tags in the actual stream data, at the current encoding position.
 <p>Header tags must be set before encoding any data - no more header tags can be set once <a class="xref" href="ManagedBass.Wma.BassWma.html#ManagedBass_Wma_BassWma_EncodeWrite_System_Int32_IntPtr_System_Int32_">EncodeWrite(Int32, IntPtr, Int32)</a> has been called.</p>
 <p>
-To set tags mid-stream (after encoding has begun), the <a class="xref" href="ManagedBass.Wma.WMAEncodeFlags.html#ManagedBass_Wma_WMAEncodeFlags_Script">Script</a> flag needs to have been specified in the encoder&#39;s creation.
-A mid-stream tag typically used is &quot;Caption&quot;, which get&#39;s displayed in Windows Media Player 9 and above (if the user has enabled captions).
+To set tags mid-stream (after encoding has begun), the <a class="xref" href="ManagedBass.Wma.WMAEncodeFlags.html#ManagedBass_Wma_WMAEncodeFlags_Script">Script</a> flag needs to have been specified in the encoder&apos;s creation.
+A mid-stream tag typically used is &quot;Caption&quot;, which get&apos;s displayed in Windows Media Player 9 and above (if the user has enabled captions).
 </p>
 <p>
 When using a network encoder, it should be noted that while all header tags are sent to newly connecting clients, prior mid-stream tags are not.
-So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the current song title, it should be sent at fairly regular intervals (not only at the start of the song).
+So if, for example, you&apos;re using the &quot;Caption&quot; tag to indicate the current song title, it should be sent at fairly regular intervals (not only at the start of the song).
 </p>
 <p>On the playback side, mid-stream tags can be processed using <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetSync_System_Int32_ManagedBass_SyncFlags_System_Int64_ManagedBass_SyncProcedure_IntPtr_">ChannelSetSync(Int32, SyncFlags, Int64, SyncProcedure, IntPtr)</a> (with <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_MetadataReceived">MetadataReceived</a>).</p></p>
 </div>
@@ -2250,11 +2251,11 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool EncodeWrite(int Handle, IntPtr Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2319,11 +2320,11 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool EncodeWrite(int Handle, byte[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2388,11 +2389,11 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool EncodeWrite(int Handle, short[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2457,11 +2458,11 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool EncodeWrite(int Handle, int[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2526,11 +2527,11 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool EncodeWrite(int Handle, float[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2602,11 +2603,11 @@ So if, for example, you&#39;re using the &quot;Caption&quot; tag to indicate the
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string[] GetTags(string File)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2655,11 +2656,11 @@ Unlike <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetTa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IntPtr GetWMObject(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>

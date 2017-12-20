@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum ChannelAttribute
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,41 +74,37 @@
   <div class="markdown level0 summary"><p>Channel attribute options used by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single__">ChannelGetAttribute(Int32, ChannelAttribute, out Single)</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
   
   <h5 id="ManagedBass_ChannelAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum ChannelAttribute : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_ChannelAttribute_Bitrate"><a href="#collapsible-ManagedBass_ChannelAttribute_Bitrate" class="expander" data-toggle="collapse">Bitrate</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_Bitrate">
-          Bitrate
-          <p><p>The average bitrate of a file stream. </p>
+      <div id="collapsible-ManagedBass_ChannelAttribute_Bitrate" class="collapse in">
+        <p><p>The average bitrate of a file stream. </p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_CPUUsage">
-          CPUUsage
-          <p><p>The CPU usage of a channel. (in percentage).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_CPUUsage"><a href="#collapsible-ManagedBass_ChannelAttribute_CPUUsage" class="expander" data-toggle="collapse">CPUUsage</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_CPUUsage" class="collapse in">
+        <p><p>The CPU usage of a channel. (in percentage).
 <p>
 This attribute gives the percentage of CPU that the channel is using,
 including the time taken by decoding and DSP processing, and any FX that are
 not using the &quot;with FX flag&quot; DX8 effect implementation.
-It does not include the time taken to add the channel&#39;s data to the final output mix during playback.
+It does not include the time taken to add the channel&apos;s data to the final output mix during playback.
 The processing of some add-on stream formats may also not be entirely included,
 if they use additional decoding threads; see the add-on documentation for details.
 </p>
@@ -116,34 +113,31 @@ Like <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CPUUsage">CPUU
 For example, if it takes 10ms to generate 100ms of data, that would be 10%.
 </p>
 <p>
-If the reported usage exceeds 100%, that means the channel&#39;s data is taking longer to generate than to play.
-The duration of the data is based on the channel&#39;s current sample rate (<a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_Frequency">Frequency</a>).
-A channel&#39;s CPU usage is updated whenever it generates data.
+If the reported usage exceeds 100%, that means the channel&apos;s data is taking longer to generate than to play.
+The duration of the data is based on the channel&apos;s current sample rate (<a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_Frequency">Frequency</a>).
+A channel&apos;s CPU usage is updated whenever it generates data.
 That could be during a playback Buffer update cycle, or a <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Update_System_Int32_">Update(Int32)</a> call, or a <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelUpdate_System_Int32_System_Int32_">ChannelUpdate(Int32, Int32)</a> call.
 For a decoding channel, it would be in a <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetData_System_Int32_IntPtr_System_Int32_">ChannelGetData(Int32, IntPtr, Int32)</a> or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetLevel_System_Int32_">ChannelGetLevel(Int32)</a> call.
 </p>
 <p>This attribute is read-only, so cannot be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_DSDGain">
-          DSDGain
-          <p><p>BassDSD: The gain (in decibels) applied when converting to PCM.</p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_DSDGain"><a href="#collapsible-ManagedBass_ChannelAttribute_DSDGain" class="expander" data-toggle="collapse">DSDGain</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_DSDGain" class="collapse in">
+        <p><p>BassDSD: The gain (in decibels) applied when converting to PCM.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_DSDRate">
-          DSDRate
-          <p><p>BassDSD: The DSD sample rate.</p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_DSDRate"><a href="#collapsible-ManagedBass_ChannelAttribute_DSDRate" class="expander" data-toggle="collapse">DSDRate</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_DSDRate" class="collapse in">
+        <p><p>BassDSD: The DSD sample rate.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_EaxMix">
-          EaxMix
-          <p><p>The wet (reverb) / dry (no reverb) mix ratio... 0 (full dry) to 1 (full wet), -1 = automatically calculate the mix based on the distance (the default).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_EaxMix"><a href="#collapsible-ManagedBass_ChannelAttribute_EaxMix" class="expander" data-toggle="collapse">EaxMix</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_EaxMix" class="collapse in">
+        <p><p>The wet (reverb) / dry (no reverb) mix ratio... 0 (full dry) to 1 (full wet), -1 = automatically calculate the mix based on the distance (the default).
 <p>For a sample, stream, or MOD music channel with 3D functionality.</p>
 <p>
 Obviously, EAX functions have no effect if the output device does not support EAX.
@@ -157,15 +151,14 @@ EAX only applies to 3D channels that are mixed by the hardware/drivers.
 EAX is only supported on Windows.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_Frequency">
-          Frequency
-          <p><p>The sample rate of a channel... 0 = original rate (when the channel was created).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_Frequency"><a href="#collapsible-ManagedBass_ChannelAttribute_Frequency" class="expander" data-toggle="collapse">Frequency</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_Frequency" class="collapse in">
+        <p><p>The sample rate of a channel... 0 = original rate (when the channel was created).
 <p>
 This attribute applies to playback of the channel, and does not affect the
-channel&#39;s sample data, so has no real effect on decoding channels.
+channel&apos;s sample data, so has no real effect on decoding channels.
 It is still adjustable though, so that it can be used by the BassMix add-on,
 and anything else that wants to use it.
 </p>
@@ -183,29 +176,27 @@ config option to avoid break-ups in the sound.
 <p><strong>Platform-specific</strong></p>
 <p>On Windows, the sample rate will get rounded down to a whole number during playback.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MidiChannels">
-          MidiChannels
-          <p><p>BASSMIDI: The number of MIDI channels in a MIDI stream... 1 (min) - 128 (max).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MidiChannels"><a href="#collapsible-ManagedBass_ChannelAttribute_MidiChannels" class="expander" data-toggle="collapse">MidiChannels</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MidiChannels" class="collapse in">
+        <p><p>BASSMIDI: The number of MIDI channels in a MIDI stream... 1 (min) - 128 (max).
 <p>
 For a MIDI file stream, the minimum is 16.
 New channels are melodic by default.
 Any notes playing on a removed channel are immediately stopped.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MidiCPU">
-          MidiCPU
-          <p><p>BASSMIDI: The maximum percentage of CPU time that a MIDI stream can use... 0 to 100, 0 = unlimited.
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MidiCPU"><a href="#collapsible-ManagedBass_ChannelAttribute_MidiCPU" class="expander" data-toggle="collapse">MidiCPU</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MidiCPU" class="collapse in">
+        <p><p>BASSMIDI: The maximum percentage of CPU time that a MIDI stream can use... 0 to 100, 0 = unlimited.
 <p>
 It is not strictly the CPU usage that is measured, but rather how timely the stream is able to render data.
 For example, a limit of 50% would mean that the rendering would need to be at least 2x real-time speed.
 When the limit is exceeded, <see cref="!:Midi.BassMidi"></see> will begin killing voices, starting with the  most quiet.
-When the CPU usage is limited, the stream&#39;s samples are loaded asynchronously
+When the CPU usage is limited, the stream&apos;s samples are loaded asynchronously
 so that any loading delays (eg. due to slow disk) do not hold up the stream for too long.
 If a sample cannot be loaded in time, then it will be silenced
 until it is available and the stream will continue playing other samples as normal in the meantime.
@@ -213,44 +204,39 @@ This does not affect sample loading via <see cref="!:Midi.BassMidi.StreamLoadSam
 By default, a MIDI stream will have no CPU limit.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MidiKill">
-          MidiKill
-          <p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MidiPPQN">
-          MidiPPQN
-          <p><p>BASSMIDI: Gets the Pulses Per Quarter Note (or ticks per beat) value of the MIDI file.
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MidiKill"><a href="#collapsible-ManagedBass_ChannelAttribute_MidiKill" class="expander" data-toggle="collapse">MidiKill</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MidiKill" class="collapse in">
+        <p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MidiPPQN"><a href="#collapsible-ManagedBass_ChannelAttribute_MidiPPQN" class="expander" data-toggle="collapse">MidiPPQN</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MidiPPQN" class="collapse in">
+        <p><p>BASSMIDI: Gets the Pulses Per Quarter Note (or ticks per beat) value of the MIDI file.
 <p>
 This attribute is the number of ticks per beat as defined by the MIDI file;
 it will be 0 for MIDI streams created via <see cref="!:Midi.BassMidi.CreateStream(int,BassFlags,int)"></see>,
-It is read-only, so can&#39;t be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.
+It is read-only, so can&apos;t be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MidiSRC">
-          MidiSRC
-          <p><p>BASSMIDI: The sample rate conversion quality of a MIDI stream&#39;s samples.</p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MidiSRC"><a href="#collapsible-ManagedBass_ChannelAttribute_MidiSRC" class="expander" data-toggle="collapse">MidiSRC</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MidiSRC" class="collapse in">
+        <p><p>BASSMIDI: The sample rate conversion quality of a MIDI stream&apos;s samples.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MidiState">
-          MidiState
-          <p><p>BASSMIDI: The current state of a MIDI stream.</p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MidiState"><a href="#collapsible-ManagedBass_ChannelAttribute_MidiState" class="expander" data-toggle="collapse">MidiState</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MidiState" class="collapse in">
+        <p><p>BASSMIDI: The current state of a MIDI stream.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MidiTrackVolume">
-          MidiTrackVolume
-          <p><p>BASSMIDI: The volume level (0.0=silent, 1.0=normal/default) of a track in a MIDI file stream + track#.
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MidiTrackVolume"><a href="#collapsible-ManagedBass_ChannelAttribute_MidiTrackVolume" class="expander" data-toggle="collapse">MidiTrackVolume</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MidiTrackVolume" class="collapse in">
+        <p><p>BASSMIDI: The volume level (0.0=silent, 1.0=normal/default) of a track in a MIDI file stream + track#.
 <p>track#: The track to set the volume of... 0 = first track.</p>
 <p>
 The volume curve used by this attribute is always linear, eg. 0.5 = 50%.
@@ -261,39 +247,35 @@ This attribute can also be used to count the number of tracks in a MIDI file str
 MIDI streams created via <see cref="!:Midi.BassMidi.CreateStream(int,BassFlags,int)"></see> do not have any tracks.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MidiVoices">
-          MidiVoices
-          <p><p>BASSMIDI: The maximum number of samples to play at a time (polyphony) in a MIDI stream... 1 (min) - 1000 (max).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MidiVoices"><a href="#collapsible-ManagedBass_ChannelAttribute_MidiVoices" class="expander" data-toggle="collapse">MidiVoices</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MidiVoices" class="collapse in">
+        <p><p>BASSMIDI: The maximum number of samples to play at a time (polyphony) in a MIDI stream... 1 (min) - 1000 (max).
 <p>
 If there are currently more voices active than the new limit, then some voices will be killed to meet the limit.
 The number of voices currently active is available via the Voices attribute.
 A MIDI stream will initially have a default number of voices as determined by the Voices config option.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MidiVoicesActive">
-          MidiVoicesActive
-          <p><p>BASSMIDI: The number of samples (voices) currently playing in a MIDI stream.
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MidiVoicesActive"><a href="#collapsible-ManagedBass_ChannelAttribute_MidiVoicesActive" class="expander" data-toggle="collapse">MidiVoicesActive</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MidiVoicesActive" class="collapse in">
+        <p><p>BASSMIDI: The number of samples (voices) currently playing in a MIDI stream.
 <p>This attribute is read-only, so cannot be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MixerLatency">
-          MixerLatency
-          <p><p>BassMix: Custom output latency in seconds... default = 0 (no accounting for latency). Changes take immediate effect.</p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MixerLatency"><a href="#collapsible-ManagedBass_ChannelAttribute_MixerLatency" class="expander" data-toggle="collapse">MixerLatency</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MixerLatency" class="collapse in">
+        <p><p>BassMix: Custom output latency in seconds... default = 0 (no accounting for latency). Changes take immediate effect.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MusicActiveChannelCount">
-          MusicActiveChannelCount
-          <p><p>The number of active channels in a MOD music.
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MusicActiveChannelCount"><a href="#collapsible-ManagedBass_ChannelAttribute_MusicActiveChannelCount" class="expander" data-toggle="collapse">MusicActiveChannelCount</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MusicActiveChannelCount" class="collapse in">
+        <p><p>The number of active channels in a MOD music.
 <p>
 This attribute gives the number of channels (including virtual) that are currently active in the decoder,
 which may not match what is being heard during playback due to buffering.
@@ -301,18 +283,17 @@ To reduce the time difference, use the <a class="xref" href="ManagedBass.Bass.ht
 This attribute is read-only, so cannot be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MusicAmplify">
-          MusicAmplify
-          <p><p>The amplification level of a MOD music... 0 (min) to 100 (max).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MusicAmplify"><a href="#collapsible-ManagedBass_ChannelAttribute_MusicAmplify" class="expander" data-toggle="collapse">MusicAmplify</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MusicAmplify" class="collapse in">
+        <p><p>The amplification level of a MOD music... 0 (min) to 100 (max).
 <p>This will be rounded down to a whole number.</p>
 <p>
-As the amplification level get&#39;s higher, the sample data&#39;s range increases, and therefore, the resolution increases.
+As the amplification level get&apos;s higher, the sample data&apos;s range increases, and therefore, the resolution increases.
 But if the level is set too high, then clipping can occur, which can result in distortion of the sound.
 You can check the current level of a MOD music at any time by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetLevel_System_Int32_">ChannelGetLevel(Int32)</a>.
-By doing so, you can decide if a MOD music&#39;s amplification level needs adjusting.
+By doing so, you can decide if a MOD music&apos;s amplification level needs adjusting.
 The default amplification level is 50.
 </p>
 <p>
@@ -320,26 +301,24 @@ During playback, the effect of changes to this attribute are not heard instantan
 To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MusicBPM">
-          MusicBPM
-          <p><p>The BPM of a MOD music... 1 (min) to 255 (max).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MusicBPM"><a href="#collapsible-ManagedBass_ChannelAttribute_MusicBPM" class="expander" data-toggle="collapse">MusicBPM</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MusicBPM" class="collapse in">
+        <p><p>The BPM of a MOD music... 1 (min) to 255 (max).
 <p>
 This will be rounded down to a whole number.
-This attribute is a direct mapping of the MOD&#39;s BPM, so the value can be changed via effects in the MOD itself.
+This attribute is a direct mapping of the MOD&apos;s BPM, so the value can be changed via effects in the MOD itself.
 Note that by changing this attribute, you are changing the playback Length.
 During playback, the effect of changes to this attribute are not heard instantaneously, due to buffering.
 To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MusicPanSeparation">
-          MusicPanSeparation
-          <p><p>The pan separation level of a MOD music... 0 (min) to 100 (max), 50 = linear.
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MusicPanSeparation"><a href="#collapsible-ManagedBass_ChannelAttribute_MusicPanSeparation" class="expander" data-toggle="collapse">MusicPanSeparation</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MusicPanSeparation" class="collapse in">
+        <p><p>The pan separation level of a MOD music... 0 (min) to 100 (max), 50 = linear.
 <p>
 This will be rounded down to a whole number.
 By default BASS uses a linear panning &quot;curve&quot;.
@@ -347,12 +326,11 @@ If you want to use the panning of FT2, use a pan separation setting of around 35
 To use the Amiga panning (ie. full left and right) set it to 100.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MusicPositionScaler">
-          MusicPositionScaler
-          <p><p>The position scaler of a MOD music... 1 (min) to 256 (max).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MusicPositionScaler"><a href="#collapsible-ManagedBass_ChannelAttribute_MusicPositionScaler" class="expander" data-toggle="collapse">MusicPositionScaler</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MusicPositionScaler" class="collapse in">
+        <p><p>The position scaler of a MOD music... 1 (min) to 256 (max).
 <p>
 This will be rounded down to a whole number.
 When calling <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetPosition_System_Int32_ManagedBass_PositionFlags_">ChannelGetPosition(Int32, PositionFlags)</a>, the row (HIWORD) will be scaled by this value.
@@ -360,15 +338,14 @@ By using a higher scaler, you can get a more precise position indication.
 The default scaler is 1.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MusicSpeed">
-          MusicSpeed
-          <p><p>The speed of a MOD music... 0 (min) to 255 (max).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MusicSpeed"><a href="#collapsible-ManagedBass_ChannelAttribute_MusicSpeed" class="expander" data-toggle="collapse">MusicSpeed</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MusicSpeed" class="collapse in">
+        <p><p>The speed of a MOD music... 0 (min) to 255 (max).
 <p>
 This will be rounded down to a whole number.
-This attribute is a direct mapping of the MOD&#39;s speed, so the value can be changed via effects in the MOD itself.
+This attribute is a direct mapping of the MOD&apos;s speed, so the value can be changed via effects in the MOD itself.
 The &quot;speed&quot; is the number of ticks per row.
 Setting it to 0, stops and ends the music.
 Note that by changing this attribute, you are changing the playback Length.
@@ -376,12 +353,11 @@ During playback, the effect of changes to this attribute are not heard instantan
 To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MusicVolumeChannel">
-          MusicVolumeChannel
-          <p><p>The volume level... 0 (silent) to 1 (full) of a channel in a MOD music + channel#.
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MusicVolumeChannel"><a href="#collapsible-ManagedBass_ChannelAttribute_MusicVolumeChannel" class="expander" data-toggle="collapse">MusicVolumeChannel</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MusicVolumeChannel" class="collapse in">
+        <p><p>The volume level... 0 (silent) to 1 (full) of a channel in a MOD music + channel#.
 <p>channel: The channel to set the volume of... 0 = 1st channel.</p>
 <p>
 The volume curve used by this attribute is always linear, eg. 0.5 = 50%.
@@ -392,15 +368,14 @@ During playback, the effect of changes to this attribute are not heard instantan
 To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MusicVolumeGlobal">
-          MusicVolumeGlobal
-          <p><p>The global volume level of a MOD music... 0 (min) to 64 (max, 128 for IT format).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MusicVolumeGlobal"><a href="#collapsible-ManagedBass_ChannelAttribute_MusicVolumeGlobal" class="expander" data-toggle="collapse">MusicVolumeGlobal</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MusicVolumeGlobal" class="collapse in">
+        <p><p>The global volume level of a MOD music... 0 (min) to 64 (max, 128 for IT format).
 <p>
 This will be rounded down to a whole number.
-This attribute is a direct mapping of the MOD&#39;s global volume, so the value can be changed via effects in the MOD itself.
+This attribute is a direct mapping of the MOD&apos;s global volume, so the value can be changed via effects in the MOD itself.
 The &quot;speed&quot; is the number of ticks per row.
 Setting it to 0, stops and ends the music.
 Note that by changing this attribute, you are changing the playback Length.
@@ -408,12 +383,11 @@ During playback, the effect of changes to this attribute are not heard instantan
 To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_MusicVolumeInstrument">
-          MusicVolumeInstrument
-          <p><p>The volume level... 0 (silent) to 1 (full) of an instrument in a MOD music + inst#.
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_MusicVolumeInstrument"><a href="#collapsible-ManagedBass_ChannelAttribute_MusicVolumeInstrument" class="expander" data-toggle="collapse">MusicVolumeInstrument</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_MusicVolumeInstrument" class="collapse in">
+        <p><p>The volume level... 0 (silent) to 1 (full) of an instrument in a MOD music + inst#.
 <p>inst: The instrument to set the volume of... 0 = 1st instrument.</p>
 <p>
 The volume curve used by this attribute is always linear, eg. 0.5 = 50%.
@@ -425,24 +399,22 @@ During playback, the effect of changes to this attribute are not heard instantan
 To reduce the delay, use the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_PlaybackBufferLength">PlaybackBufferLength</a> config option to reduce the Buffer Length.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_NetworkResumeBufferLevel">
-          NetworkResumeBufferLevel
-          <p><p>The download Buffer level required to resume stalled playback in percent... 0 - 100 (the default is 50%).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_NetworkResumeBufferLevel"><a href="#collapsible-ManagedBass_ChannelAttribute_NetworkResumeBufferLevel" class="expander" data-toggle="collapse">NetworkResumeBufferLevel</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_NetworkResumeBufferLevel" class="collapse in">
+        <p><p>The download Buffer level required to resume stalled playback in percent... 0 - 100 (the default is 50%).
 <p>
 This attribute determines what percentage of the download Buffer (<a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_NetBufferLength">NetBufferLength</a>)
 needs to be filled before playback of a stalled internet stream will resume.
-It also applies to &#39;buffered&#39; User file streams created with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_ManagedBass_StreamSystem_ManagedBass_BassFlags_ManagedBass_FileProcedures_IntPtr_">CreateStream(StreamSystem, BassFlags, FileProcedures, IntPtr)</a>.
+It also applies to &apos;buffered&apos; User file streams created with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_ManagedBass_StreamSystem_ManagedBass_BassFlags_ManagedBass_FileProcedures_IntPtr_">CreateStream(StreamSystem, BassFlags, FileProcedures, IntPtr)</a>.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_NoBuffer">
-          NoBuffer
-          <p><p>Non-Windows: Disable playback buffering?... 0 = no, else yes..
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_NoBuffer"><a href="#collapsible-ManagedBass_ChannelAttribute_NoBuffer" class="expander" data-toggle="collapse">NoBuffer</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_NoBuffer" class="collapse in">
+        <p><p>Non-Windows: Disable playback buffering?... 0 = no, else yes..
 <p>
 A playing channel is normally asked to render data to its playback Buffer in advance,
 via automatic Buffer updates or the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Update_System_Int32_">Update(Int32)</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelUpdate_System_Int32_System_Int32_">ChannelUpdate(Int32, Int32)</a> functions,
@@ -456,7 +428,7 @@ on the channel to produce its data and apply any DSP/FX (and run mixtime syncs) 
 if too long is taken, there will be a break in the output, affecting all channels that are playing on the same device.
 </p>
 <p>
-The channel&#39;s data is still placed in its playback Buffer when this attribute is on,
+The channel&apos;s data is still placed in its playback Buffer when this attribute is on,
 which allows <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetData_System_Int32_IntPtr_System_Int32_">ChannelGetData(Int32, IntPtr, Int32)</a> and <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetLevel_System_Int32_">ChannelGetLevel(Int32)</a> to be used, although there is
 likely to be less data available to them due to the Buffer being less full.
 </p>
@@ -464,34 +436,31 @@ likely to be less data available to them due to the Buffer being less full.
 <p>If switched on, any already buffered data will still be played, so that there is no break in sound.</p>
 <p>This attribute is not available on Windows, as BASS does not generate the final mix.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_NoRamp">
-          NoRamp
-          <p><p>Disable playback ramping? </p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_NoRamp"><a href="#collapsible-ManagedBass_ChannelAttribute_NoRamp" class="expander" data-toggle="collapse">NoRamp</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_NoRamp" class="collapse in">
+        <p><p>Disable playback ramping? </p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_OpusOriginalFrequency">
-          OpusOriginalFrequency
-          <p><p>BassOpus: The sample rate of an Opus stream&#39;s source material.
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_OpusOriginalFrequency"><a href="#collapsible-ManagedBass_ChannelAttribute_OpusOriginalFrequency" class="expander" data-toggle="collapse">OpusOriginalFrequency</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_OpusOriginalFrequency" class="collapse in">
+        <p><p>BassOpus: The sample rate of an Opus stream&apos;s source material.
 <p>
 Opus streams always have a sample rate of 48000 Hz, and an Opus encoder will resample the source material to that if necessary.
 This attribute presents the original sample rate, which may be stored in the Opus file header.
 This attribute is read-only, so cannot be modified via <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSetAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_">ChannelSetAttribute(Int32, ChannelAttribute, Single)</a>.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_Pan">
-          Pan
-          <p><p>The panning/balance position of a channel... -1 (Full Left) to +1 (Full Right), 0 = Centre.
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_Pan"><a href="#collapsible-ManagedBass_ChannelAttribute_Pan" class="expander" data-toggle="collapse">Pan</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_Pan" class="collapse in">
+        <p><p>The panning/balance position of a channel... -1 (Full Left) to +1 (Full Right), 0 = Centre.
 <p>
 This attribute applies to playback of the channel, and does not affect the
-channel&#39;s sample data, so has no real effect on decoding channels.
+channel&apos;s sample data, so has no real effect on decoding channels.
 It is still adjustable though, so that it can be used by the <see cref="!:Mix.BassMix"></see> add-on,
 and anything else that wants to use it.
 </p>
@@ -507,145 +476,131 @@ except on Windows Vista and newer with the Bass.VistaSpeakerAssignment config op
 Balance control could be implemented via a <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> instead
 </p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_Pitch">
-          Pitch
-          <p><p>BassFx Tempo: The Pitch in semitones (-60..0..+60).</p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_Pitch"><a href="#collapsible-ManagedBass_ChannelAttribute_Pitch" class="expander" data-toggle="collapse">Pitch</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_Pitch" class="collapse in">
+        <p><p>BassFx Tempo: The Pitch in semitones (-60..0..+60).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_ReverseDirection">
-          ReverseDirection
-          <p><p>Playback direction (-1 = Reverse or 1 = Forward).</p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_ReverseDirection"><a href="#collapsible-ManagedBass_ChannelAttribute_ReverseDirection" class="expander" data-toggle="collapse">ReverseDirection</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_ReverseDirection" class="collapse in">
+        <p><p>Playback direction (-1 = Reverse or 1 = Forward).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_SampleRateConversion">
-          SampleRateConversion
-          <p><p>The sample rate conversion quality of a channel
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_SampleRateConversion"><a href="#collapsible-ManagedBass_ChannelAttribute_SampleRateConversion" class="expander" data-toggle="collapse">SampleRateConversion</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_SampleRateConversion" class="collapse in">
+        <p><p>The sample rate conversion quality of a channel
 <p>
 0 = linear interpolation, 1 = 8 point sinc interpolation, 2 = 16 point sinc interpolation, 3 = 32 point sinc interpolation.
 Other values are also accepted but will be interpreted as 0 or 3, depending on whether they are lower or higher.
 </p>
 <p>
 When a channel has a different sample rate to what the output device is using,
-the channel&#39;s sample data will need to be converted to match the output device&#39;s rate during playback.
+the channel&apos;s sample data will need to be converted to match the output device&apos;s rate during playback.
 This attribute determines how that is done.
 The linear interpolation option uses less CPU, but the sinc interpolation gives better sound quality (less aliasing),
 with the quality and CPU usage increasing with the number of points.
 A good compromise for lower spec systems could be to use sinc interpolation for music playback and linear interpolation for sound effects.
 </p>
 <p>
-Whenever possible, a channel&#39;s sample rate should match the output device&#39;s rate to avoid the need for any sample rate conversion.
-The device&#39;s sample rate could be used in <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_Int32_System_Int32_ManagedBass_BassFlags_ManagedBass_StreamProcedure_IntPtr_">CreateStream(Int32, Int32, BassFlags, StreamProcedure, IntPtr)</a>
+Whenever possible, a channel&apos;s sample rate should match the output device&apos;s rate to avoid the need for any sample rate conversion.
+The device&apos;s sample rate could be used in <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_CreateStream_System_Int32_System_Int32_ManagedBass_BassFlags_ManagedBass_StreamProcedure_IntPtr_">CreateStream(Int32, Int32, BassFlags, StreamProcedure, IntPtr)</a>
 or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_MusicLoad_System_String_System_Int64_System_Int32_ManagedBass_BassFlags_System_Int32_">MusicLoad(String, Int64, Int32, BassFlags, Int32)</a> or <see cref="!:Midi.BassMidi"></see> stream creation calls, for example.
 </p>
 <p>
 The sample rate conversion occurs (when required) during playback,
-after the sample data has left the channel&#39;s playback Buffer, so it does not affect the data delivered by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetData_System_Int32_IntPtr_System_Int32_">ChannelGetData(Int32, IntPtr, Int32)</a>.
+after the sample data has left the channel&apos;s playback Buffer, so it does not affect the data delivered by <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelGetData_System_Int32_IntPtr_System_Int32_">ChannelGetData(Int32, IntPtr, Int32)</a>.
 Although this attribute has no direct effect on decoding channels,
 it is still available so that it can be used by the <see cref="!:Mix.BassMix"></see> add-on and anything else that wants to use it.
 </p>
 <p>
 This attribute can be set at any time, and changes take immediate effect.
-A channel&#39;s initial setting is determined by the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_SRCQuality">SRCQuality</a> config option,
+A channel&apos;s initial setting is determined by the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_SRCQuality">SRCQuality</a> config option,
 or <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_SampleSRCQuality">SampleSRCQuality</a> in the case of a sample channel.
 </p>
 <p><strong>Platform-specific</strong></p>
 <p>On Windows, sample rate conversion is handled by Windows or the output device/driver rather than BASS, so this setting has no effect on playback there.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_ScannedInfo">
-          ScannedInfo
-          <p><p>The scanned info of a channel.</p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_ScannedInfo"><a href="#collapsible-ManagedBass_ChannelAttribute_ScannedInfo" class="expander" data-toggle="collapse">ScannedInfo</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_ScannedInfo" class="collapse in">
+        <p><p>The scanned info of a channel.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_Tempo">
-          Tempo
-          <p><p>BassFx Tempo: The Tempo in percents (-95%..0..+5000%).</p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_Tempo"><a href="#collapsible-ManagedBass_ChannelAttribute_Tempo" class="expander" data-toggle="collapse">Tempo</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_Tempo" class="collapse in">
+        <p><p>BassFx Tempo: The Tempo in percents (-95%..0..+5000%).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_TempoAAFilterLength">
-          TempoAAFilterLength
-          <p><p>BassFx Tempo Option: FIR low-pass (anti-alias) filter Length in taps (8 .. 128 taps, default = 32, should be %4).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_TempoAAFilterLength"><a href="#collapsible-ManagedBass_ChannelAttribute_TempoAAFilterLength" class="expander" data-toggle="collapse">TempoAAFilterLength</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_TempoAAFilterLength" class="collapse in">
+        <p><p>BassFx Tempo Option: FIR low-pass (anti-alias) filter Length in taps (8 .. 128 taps, default = 32, should be %4).
 <p>See <see cref="!:Fx.BassFx.TempoCreate"></see> for details.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_TempoFrequency">
-          TempoFrequency
-          <p><p>BassFx Tempo: The Samplerate in Hz, but calculates by the same % as <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_Tempo">Tempo</a>.</p>
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_TempoFrequency"><a href="#collapsible-ManagedBass_ChannelAttribute_TempoFrequency" class="expander" data-toggle="collapse">TempoFrequency</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_TempoFrequency" class="collapse in">
+        <p><p>BassFx Tempo: The Samplerate in Hz, but calculates by the same % as <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_Tempo">Tempo</a>.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_TempoOverlapMilliseconds">
-          TempoOverlapMilliseconds
-          <p><p>BassFx Tempo Option: Tempo Overlap in milliseconds (default = 12).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_TempoOverlapMilliseconds"><a href="#collapsible-ManagedBass_ChannelAttribute_TempoOverlapMilliseconds" class="expander" data-toggle="collapse">TempoOverlapMilliseconds</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_TempoOverlapMilliseconds" class="collapse in">
+        <p><p>BassFx Tempo Option: Tempo Overlap in milliseconds (default = 12).
 <p>See <see cref="!:Fx.BassFx.TempoCreate"></see> for details.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_TempoPreventClick">
-          TempoPreventClick
-          <p><p>BassFx Tempo Option: Prevents clicks with tempo changes (default = FALSE).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_TempoPreventClick"><a href="#collapsible-ManagedBass_ChannelAttribute_TempoPreventClick" class="expander" data-toggle="collapse">TempoPreventClick</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_TempoPreventClick" class="collapse in">
+        <p><p>BassFx Tempo Option: Prevents clicks with tempo changes (default = FALSE).
 <p>See <see cref="!:Fx.BassFx.TempoCreate"></see> for details.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_TempoSeekWindowMilliseconds">
-          TempoSeekWindowMilliseconds
-          <p><p>BassFx Tempo Option: SeekWindow in milliseconds (default = 14).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_TempoSeekWindowMilliseconds"><a href="#collapsible-ManagedBass_ChannelAttribute_TempoSeekWindowMilliseconds" class="expander" data-toggle="collapse">TempoSeekWindowMilliseconds</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_TempoSeekWindowMilliseconds" class="collapse in">
+        <p><p>BassFx Tempo Option: SeekWindow in milliseconds (default = 14).
 <p>See <see cref="!:Fx.BassFx.TempoCreate"></see> for details.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_TempoSequenceMilliseconds">
-          TempoSequenceMilliseconds
-          <p><p>BassFx Tempo Option: Tempo Sequence in milliseconds (default = 82).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_TempoSequenceMilliseconds"><a href="#collapsible-ManagedBass_ChannelAttribute_TempoSequenceMilliseconds" class="expander" data-toggle="collapse">TempoSequenceMilliseconds</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_TempoSequenceMilliseconds" class="collapse in">
+        <p><p>BassFx Tempo Option: Tempo Sequence in milliseconds (default = 82).
 <p>See <see cref="!:Fx.BassFx.TempoCreate"></see> for details.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_TempoUseAAFilter">
-          TempoUseAAFilter
-          <p><p>BassFx Tempo Option: Use FIR low-pass (anti-alias) filter (gain speed, lose quality)? true=1 (default), false=0.
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_TempoUseAAFilter"><a href="#collapsible-ManagedBass_ChannelAttribute_TempoUseAAFilter" class="expander" data-toggle="collapse">TempoUseAAFilter</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_TempoUseAAFilter" class="collapse in">
+        <p><p>BassFx Tempo Option: Use FIR low-pass (anti-alias) filter (gain speed, lose quality)? true=1 (default), false=0.
 <p>See <see cref="!:Fx.BassFx.TempoCreate"></see> for details.</p>
 <p>On iOS, Android, WinCE and Linux ARM platforms this is by default disabled for lower CPU usage.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_TempoUseQuickAlgorithm">
-          TempoUseQuickAlgorithm
-          <p><p>BassFx Tempo Option: Use quicker tempo change algorithm (gain speed, lose quality)? true=1, false=0 (default).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_TempoUseQuickAlgorithm"><a href="#collapsible-ManagedBass_ChannelAttribute_TempoUseQuickAlgorithm" class="expander" data-toggle="collapse">TempoUseQuickAlgorithm</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_TempoUseQuickAlgorithm" class="collapse in">
+        <p><p>BassFx Tempo Option: Use quicker tempo change algorithm (gain speed, lose quality)? true=1, false=0 (default).
 <p>See <see cref="!:Fx.BassFx.TempoCreate"></see> for details.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_ChannelAttribute_Volume">
-          Volume
-          <p><p>The volume level of a channel... 0 (silent) to 1 (full).
+      </div>
+      <h4 id="ManagedBass_ChannelAttribute_Volume"><a href="#collapsible-ManagedBass_ChannelAttribute_Volume" class="expander" data-toggle="collapse">Volume</a></h4>
+  
+      <div id="collapsible-ManagedBass_ChannelAttribute_Volume" class="collapse in">
+        <p><p>The volume level of a channel... 0 (silent) to 1 (full).
 <p>This can go above 1.0 on decoding channels.</p>
 <p>
 This attribute applies to playback of the channel, and does not affect the
-channel&#39;s sample data, so has no real effect on decoding channels.
+channel&apos;s sample data, so has no real effect on decoding channels.
 It is still adjustable though, so that it can be used by the BassMix add-on,
 and anything else that wants to use it.
 </p>
@@ -654,9 +609,7 @@ When using <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelS
 to slide this attribute, a negative volume value can be used to fade-out and then stop the channel.
 </p></p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

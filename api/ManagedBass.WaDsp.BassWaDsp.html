@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BassWaDsp
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>BassWaDsp provides a set of functions for calling Winamp DSP plugins.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,14 +83,14 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.WaDsp</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.WaDsp.dll</h6>
   
   <h5 id="ManagedBass_WaDsp_BassWaDsp_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class BassWaDsp : object</code></pre>
   </div>
-  
+
   
   
   
@@ -114,11 +115,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Version Version { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -153,11 +154,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelRemoveDSP(int Plugin)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -203,11 +204,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ChannelSetDSP(int Plugin, int Handle, int Priority)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -230,7 +231,7 @@
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
         <span class="parametername">Priority</span>
-        <p><p>The priority of the new DSP, which determines it&#39;s position in the Bass DSP chain - DSPs with higher priority are called before those with lower.</p>
+        <p><p>The priority of the new DSP, which determines it&apos;s position in the Bass DSP chain - DSPs with higher priority are called before those with lower.</p>
 </p>
       </td>
     </tr>
@@ -241,7 +242,7 @@
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If succesful, then the new DSP&#39;s handle (HDSP) is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If succesful, then the new DSP&apos;s handle (HDSP) is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -275,11 +276,11 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Config(int Plugin)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -327,11 +328,11 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Free()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -365,11 +366,11 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool FreeDSP(int Plugin)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -417,11 +418,11 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IntPtr GetFakeWinampWnd(int Plugin)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -466,11 +467,11 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetModule(int Plugin)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -515,11 +516,11 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetModuleCount(int Plugin)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -574,11 +575,11 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string GetModuleName(int Plugin, int Module)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -643,11 +644,11 @@ However, you can only start one module at a time for a certain Winamp DSP.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; GetModuleNames(int Plugin)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -699,11 +700,11 @@ However, you can only start one module at a time for a certain Winamp DSP.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string GetName(int Plugin)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -748,11 +749,11 @@ However, you can only start one module at a time for a certain Winamp DSP.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Init(IntPtr Win = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -797,11 +798,11 @@ However, you can only start one module at a time for a certain Winamp DSP.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int Load(string DspFile, int X, int Y, int Width, int Height, WinampWinProcedure Procedure)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -874,7 +875,7 @@ However, you can only start one module at a time for a certain Winamp DSP.</p>
   <h5 id="ManagedBass_WaDsp_BassWaDsp_Load_System_String_System_Int32_System_Int32_System_Int32_System_Int32_ManagedBass_WaDsp_WinampWinProcedure__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Most Winamp DSP plugins do save their location and visibility state in an own .ini file.
 So the parameters specifying the location and size are in most cases only uses for the first time a plugin is used.
-So don&#39;t worry, if they do not take effect.
+So don&apos;t worry, if they do not take effect.
 <p>In most cases the internal Windows message process handler should be fine and sufficient - however, if you encounter problems you might implement your own.</p>
 <p>Make sure to call <a class="xref" href="ManagedBass.WaDsp.BassWaDsp.html#ManagedBass_WaDsp_BassWaDsp_FreeDSP_System_Int32_">FreeDSP(Int32)</a> when the Winamp DSP is not needed anymore and should be unloaded and removed from memory.</p>
 <p>
@@ -897,15 +898,15 @@ Each loaded instance can then be used for individual streams.
   <h4 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_IntPtr_System_Int32_" data-uid="ManagedBass.WaDsp.BassWaDsp.ModifySamplesDSP(System.Int32,IntPtr,System.Int32)"><a href="#collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_IntPtr_System_Int32_" class="expander" data-toggle="collapse">ModifySamplesDSP(Int32, IntPtr, Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_IntPtr_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Invokes the internal &#39;ModifySamples&#39; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks).</p>
+  <div class="markdown level1 summary"><p>Invokes the internal &apos;ModifySamples&apos; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ModifySamplesDSP(int Plugin, IntPtr Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -966,15 +967,15 @@ Each loaded instance can then be used for individual streams.
   <h4 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Byte___System_Int32_" data-uid="ManagedBass.WaDsp.BassWaDsp.ModifySamplesDSP(System.Int32,System.Byte[],System.Int32)"><a href="#collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Byte___System_Int32_" class="expander" data-toggle="collapse">ModifySamplesDSP(Int32, Byte[], Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Byte___System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Invokes the internal &#39;ModifySamples&#39; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks).</p>
+  <div class="markdown level1 summary"><p>Invokes the internal &apos;ModifySamples&apos; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ModifySamplesDSP(int Plugin, byte[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1035,15 +1036,15 @@ Each loaded instance can then be used for individual streams.
   <h4 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Int16___System_Int32_" data-uid="ManagedBass.WaDsp.BassWaDsp.ModifySamplesDSP(System.Int32,System.Int16[],System.Int32)"><a href="#collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Int16___System_Int32_" class="expander" data-toggle="collapse">ModifySamplesDSP(Int32, Int16[], Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Int16___System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Invokes the internal &#39;ModifySamples&#39; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks).</p>
+  <div class="markdown level1 summary"><p>Invokes the internal &apos;ModifySamples&apos; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ModifySamplesDSP(int Plugin, short[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1104,15 +1105,15 @@ Each loaded instance can then be used for individual streams.
   <h4 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Int32___System_Int32_" data-uid="ManagedBass.WaDsp.BassWaDsp.ModifySamplesDSP(System.Int32,System.Int32[],System.Int32)"><a href="#collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Int32___System_Int32_" class="expander" data-toggle="collapse">ModifySamplesDSP(Int32, Int32[], Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Int32___System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Invokes the internal &#39;ModifySamples&#39; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks).</p>
+  <div class="markdown level1 summary"><p>Invokes the internal &apos;ModifySamples&apos; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ModifySamplesDSP(int Plugin, int[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1173,15 +1174,15 @@ Each loaded instance can then be used for individual streams.
   <h4 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Single___System_Int32_" data-uid="ManagedBass.WaDsp.BassWaDsp.ModifySamplesDSP(System.Int32,System.Single[],System.Int32)"><a href="#collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Single___System_Int32_" class="expander" data-toggle="collapse">ModifySamplesDSP(Int32, Single[], Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesDSP_System_Int32_System_Single___System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Invokes the internal &#39;ModifySamples&#39; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks).</p>
+  <div class="markdown level1 summary"><p>Invokes the internal &apos;ModifySamples&apos; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ModifySamplesDSP(int Plugin, float[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1242,15 +1243,15 @@ Each loaded instance can then be used for individual streams.
   <h4 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_IntPtr_System_Int32_" data-uid="ManagedBass.WaDsp.BassWaDsp.ModifySamplesStream(System.Int32,IntPtr,System.Int32)"><a href="#collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_IntPtr_System_Int32_" class="expander" data-toggle="collapse">ModifySamplesStream(Int32, IntPtr, Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_IntPtr_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Invokes the internal &#39;ModifySamples&#39; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks or in a user defined <span class="xref">Un4seen.Bass.STREAMPROC</span>).</p>
+  <div class="markdown level1 summary"><p>Invokes the internal &apos;ModifySamples&apos; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks or in a user defined <span class="xref">Un4seen.Bass.STREAMPROC</span>).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ModifySamplesStream(int Plugin, IntPtr Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1300,10 +1301,10 @@ A Winamp DSP might return at max. twice the number of bytes but not less than ha
   <h5 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_IntPtr_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This method can be used to support Winamp DSPs which modify the samplerate, pitch etc. - meaning modifying the number of bytes given.
 However, this is not a simple task to do so, since Bass does not expect this.
-In order to handle a modified number of bytes you might need to implement a complex intermediate &#39;ring-buffer&#39; in between Bass and the Winamp DSP.
+In order to handle a modified number of bytes you might need to implement a complex intermediate &apos;ring-buffer&apos; in between Bass and the Winamp DSP.
 Note: Some Winamp DSPs work with a fixed number of 1152 samples only (meaning 1152 * chans * 2 bytes!) - this might also bring in some additional complexity.
-Implementing and correctly handling this intermediate &#39;buffer&#39; is up to you and not handled by BASS_WADSP - however, this method is the right method to use for such a case, since it returns exactly what the Winamp DSP returned.
-<p>So make sure, that the buffer is at least twice as big as the samples it contains when you call this method, so that the Winamp DSP might have enough space to store it&#39;s returned samples into it.</p>
+Implementing and correctly handling this intermediate &apos;buffer&apos; is up to you and not handled by BASS_WADSP - however, this method is the right method to use for such a case, since it returns exactly what the Winamp DSP returned.
+<p>So make sure, that the buffer is at least twice as big as the samples it contains when you call this method, so that the Winamp DSP might have enough space to store it&apos;s returned samples into it.</p>
 <p>
 This method can be used with 8-bit, 16-bit or float channels.
 Since all Winamp DSPs will internally only work with 16-bit channels an automatic internal conversion from 8-bit and float to 16-bit and back will take place.
@@ -1320,15 +1321,15 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
   <h4 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Byte___System_Int32_" data-uid="ManagedBass.WaDsp.BassWaDsp.ModifySamplesStream(System.Int32,System.Byte[],System.Int32)"><a href="#collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Byte___System_Int32_" class="expander" data-toggle="collapse">ModifySamplesStream(Int32, Byte[], Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Byte___System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Invokes the internal &#39;ModifySamples&#39; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks or in a user defined <span class="xref">Un4seen.Bass.STREAMPROC</span>).</p>
+  <div class="markdown level1 summary"><p>Invokes the internal &apos;ModifySamples&apos; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks or in a user defined <span class="xref">Un4seen.Bass.STREAMPROC</span>).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ModifySamplesStream(int Plugin, byte[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1378,10 +1379,10 @@ A Winamp DSP might return at max. twice the number of bytes but not less than ha
   <h5 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Byte___System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This method can be used to support Winamp DSPs which modify the samplerate, pitch etc. - meaning modifying the number of bytes given.
 However, this is not a simple task to do so, since Bass does not expect this.
-In order to handle a modified number of bytes you might need to implement a complex intermediate &#39;ring-buffer&#39; in between Bass and the Winamp DSP.
+In order to handle a modified number of bytes you might need to implement a complex intermediate &apos;ring-buffer&apos; in between Bass and the Winamp DSP.
 Note: Some Winamp DSPs work with a fixed number of 1152 samples only (meaning 1152 * chans * 2 bytes!) - this might also bring in some additional complexity.
-Implementing and correctly handling this intermediate &#39;buffer&#39; is up to you and not handled by BASS_WADSP - however, this method is the right method to use for such a case, since it returns exactly what the Winamp DSP returned.
-<p>So make sure, that the buffer is at least twice as big as the samples it contains when you call this method, so that the Winamp DSP might have enough space to store it&#39;s returned samples into it.</p>
+Implementing and correctly handling this intermediate &apos;buffer&apos; is up to you and not handled by BASS_WADSP - however, this method is the right method to use for such a case, since it returns exactly what the Winamp DSP returned.
+<p>So make sure, that the buffer is at least twice as big as the samples it contains when you call this method, so that the Winamp DSP might have enough space to store it&apos;s returned samples into it.</p>
 <p>
 This method can be used with 8-bit, 16-bit or float channels.
 Since all Winamp DSPs will internally only work with 16-bit channels an automatic internal conversion from 8-bit and float to 16-bit and back will take place.
@@ -1398,15 +1399,15 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
   <h4 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Int16___System_Int32_" data-uid="ManagedBass.WaDsp.BassWaDsp.ModifySamplesStream(System.Int32,System.Int16[],System.Int32)"><a href="#collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Int16___System_Int32_" class="expander" data-toggle="collapse">ModifySamplesStream(Int32, Int16[], Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Int16___System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Invokes the internal &#39;ModifySamples&#39; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks or in a user defined <span class="xref">Un4seen.Bass.STREAMPROC</span>).</p>
+  <div class="markdown level1 summary"><p>Invokes the internal &apos;ModifySamples&apos; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks or in a user defined <span class="xref">Un4seen.Bass.STREAMPROC</span>).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ModifySamplesStream(int Plugin, short[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1456,10 +1457,10 @@ A Winamp DSP might return at max. twice the number of bytes but not less than ha
   <h5 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Int16___System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This method can be used to support Winamp DSPs which modify the samplerate, pitch etc. - meaning modifying the number of bytes given.
 However, this is not a simple task to do so, since Bass does not expect this.
-In order to handle a modified number of bytes you might need to implement a complex intermediate &#39;ring-buffer&#39; in between Bass and the Winamp DSP.
+In order to handle a modified number of bytes you might need to implement a complex intermediate &apos;ring-buffer&apos; in between Bass and the Winamp DSP.
 Note: Some Winamp DSPs work with a fixed number of 1152 samples only (meaning 1152 * chans * 2 bytes!) - this might also bring in some additional complexity.
-Implementing and correctly handling this intermediate &#39;buffer&#39; is up to you and not handled by BASS_WADSP - however, this method is the right method to use for such a case, since it returns exactly what the Winamp DSP returned.
-<p>So make sure, that the buffer is at least twice as big as the samples it contains when you call this method, so that the Winamp DSP might have enough space to store it&#39;s returned samples into it.</p>
+Implementing and correctly handling this intermediate &apos;buffer&apos; is up to you and not handled by BASS_WADSP - however, this method is the right method to use for such a case, since it returns exactly what the Winamp DSP returned.
+<p>So make sure, that the buffer is at least twice as big as the samples it contains when you call this method, so that the Winamp DSP might have enough space to store it&apos;s returned samples into it.</p>
 <p>
 This method can be used with 8-bit, 16-bit or float channels.
 Since all Winamp DSPs will internally only work with 16-bit channels an automatic internal conversion from 8-bit and float to 16-bit and back will take place.
@@ -1476,15 +1477,15 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
   <h4 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Int32___System_Int32_" data-uid="ManagedBass.WaDsp.BassWaDsp.ModifySamplesStream(System.Int32,System.Int32[],System.Int32)"><a href="#collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Int32___System_Int32_" class="expander" data-toggle="collapse">ModifySamplesStream(Int32, Int32[], Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Int32___System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Invokes the internal &#39;ModifySamples&#39; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks or in a user defined <span class="xref">Un4seen.Bass.STREAMPROC</span>).</p>
+  <div class="markdown level1 summary"><p>Invokes the internal &apos;ModifySamples&apos; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks or in a user defined <span class="xref">Un4seen.Bass.STREAMPROC</span>).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ModifySamplesStream(int Plugin, int[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1534,10 +1535,10 @@ A Winamp DSP might return at max. twice the number of bytes but not less than ha
   <h5 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Int32___System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This method can be used to support Winamp DSPs which modify the samplerate, pitch etc. - meaning modifying the number of bytes given.
 However, this is not a simple task to do so, since Bass does not expect this.
-In order to handle a modified number of bytes you might need to implement a complex intermediate &#39;ring-buffer&#39; in between Bass and the Winamp DSP.
+In order to handle a modified number of bytes you might need to implement a complex intermediate &apos;ring-buffer&apos; in between Bass and the Winamp DSP.
 Note: Some Winamp DSPs work with a fixed number of 1152 samples only (meaning 1152 * chans * 2 bytes!) - this might also bring in some additional complexity.
-Implementing and correctly handling this intermediate &#39;buffer&#39; is up to you and not handled by BASS_WADSP - however, this method is the right method to use for such a case, since it returns exactly what the Winamp DSP returned.
-<p>So make sure, that the buffer is at least twice as big as the samples it contains when you call this method, so that the Winamp DSP might have enough space to store it&#39;s returned samples into it.</p>
+Implementing and correctly handling this intermediate &apos;buffer&apos; is up to you and not handled by BASS_WADSP - however, this method is the right method to use for such a case, since it returns exactly what the Winamp DSP returned.
+<p>So make sure, that the buffer is at least twice as big as the samples it contains when you call this method, so that the Winamp DSP might have enough space to store it&apos;s returned samples into it.</p>
 <p>
 This method can be used with 8-bit, 16-bit or float channels.
 Since all Winamp DSPs will internally only work with 16-bit channels an automatic internal conversion from 8-bit and float to 16-bit and back will take place.
@@ -1554,15 +1555,15 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
   <h4 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Single___System_Int32_" data-uid="ManagedBass.WaDsp.BassWaDsp.ModifySamplesStream(System.Int32,System.Single[],System.Int32)"><a href="#collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Single___System_Int32_" class="expander" data-toggle="collapse">ModifySamplesStream(Int32, Single[], Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Single___System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Invokes the internal &#39;ModifySamples&#39; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks or in a user defined <span class="xref">Un4seen.Bass.STREAMPROC</span>).</p>
+  <div class="markdown level1 summary"><p>Invokes the internal &apos;ModifySamples&apos; method of the Winamp DSP directly (which is only needed for user defined <a class="xref" href="ManagedBass.DSPProcedure.html">DSPProcedure</a> callbacks or in a user defined <span class="xref">Un4seen.Bass.STREAMPROC</span>).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ModifySamplesStream(int Plugin, float[] Buffer, int Length)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1612,10 +1613,10 @@ A Winamp DSP might return at max. twice the number of bytes but not less than ha
   <h5 id="ManagedBass_WaDsp_BassWaDsp_ModifySamplesStream_System_Int32_System_Single___System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This method can be used to support Winamp DSPs which modify the samplerate, pitch etc. - meaning modifying the number of bytes given.
 However, this is not a simple task to do so, since Bass does not expect this.
-In order to handle a modified number of bytes you might need to implement a complex intermediate &#39;ring-buffer&#39; in between Bass and the Winamp DSP.
+In order to handle a modified number of bytes you might need to implement a complex intermediate &apos;ring-buffer&apos; in between Bass and the Winamp DSP.
 Note: Some Winamp DSPs work with a fixed number of 1152 samples only (meaning 1152 * chans * 2 bytes!) - this might also bring in some additional complexity.
-Implementing and correctly handling this intermediate &#39;buffer&#39; is up to you and not handled by BASS_WADSP - however, this method is the right method to use for such a case, since it returns exactly what the Winamp DSP returned.
-<p>So make sure, that the buffer is at least twice as big as the samples it contains when you call this method, so that the Winamp DSP might have enough space to store it&#39;s returned samples into it.</p>
+Implementing and correctly handling this intermediate &apos;buffer&apos; is up to you and not handled by BASS_WADSP - however, this method is the right method to use for such a case, since it returns exactly what the Winamp DSP returned.
+<p>So make sure, that the buffer is at least twice as big as the samples it contains when you call this method, so that the Winamp DSP might have enough space to store it&apos;s returned samples into it.</p>
 <p>
 This method can be used with 8-bit, 16-bit or float channels.
 Since all Winamp DSPs will internally only work with 16-bit channels an automatic internal conversion from 8-bit and float to 16-bit and back will take place.
@@ -1636,11 +1637,11 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginInfoFree()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -1677,11 +1678,11 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int PluginInfoGetModuleCount()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -1725,11 +1726,11 @@ Since all Winamp DSPs will internally only work with 16-bit channels an automati
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string PluginInfoGetModuleName(int Module)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1786,11 +1787,11 @@ You might get the number of available modules with <a class="xref" href="Managed
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; PluginInfoGetModuleNames()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -1831,11 +1832,11 @@ You might get the number of available modules with <a class="xref" href="Managed
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string PluginInfoGetName()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -1869,11 +1870,11 @@ You might get the number of available modules with <a class="xref" href="Managed
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool PluginInfoLoad(string DspFile)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1924,11 +1925,11 @@ You might get the number of available modules with <a class="xref" href="Managed
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool SetChannel(int Plugin, int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1984,11 +1985,11 @@ You might get the number of available modules with <a class="xref" href="Managed
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool SetFileName(int Plugin, string File)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2047,11 +2048,11 @@ In most cases it is not required to set any file name at all.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool SetSongTitle(int Plugin, string Title)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2093,7 +2094,7 @@ In most cases it is not required to set any file name at all.</p>
   <div class="markdown level1 remarks"><p>Some Winamp DSPs require or simply display a current song title.
 Use this method to set this song title.
 It will then be used in the internal Window message handler for the related fake Winamp window.
-In most cases it is not required to set any song title at all - however streaming DSP might use this for updating it&#39;s metadata.</p>
+In most cases it is not required to set any song title at all - however streaming DSP might use this for updating it&apos;s metadata.</p>
 </div>
   
   
@@ -2110,11 +2111,11 @@ In most cases it is not required to set any song title at all - however streamin
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Start(int Plugin, int Module, int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2165,7 +2166,7 @@ In most cases it is not required to set any song title at all - however streamin
 You might get the number of available modules with <a class="xref" href="ManagedBass.WaDsp.BassWaDsp.html#ManagedBass_WaDsp_BassWaDsp_GetModuleCount_System_Int32_">GetModuleCount(Int32)</a> or the name of a certain module with <a class="xref" href="ManagedBass.WaDsp.BassWaDsp.html#ManagedBass_WaDsp_BassWaDsp_GetModule_System_Int32_">GetModule(Int32)</a>. 
 However, you can only start one module at a time for a certain Winamp DSP.
 The stream channel is only needed here because some Winamp DSPs might already request some information, which can be provided in this case.
-However, if you don&#39;t have created a stream so far, just leave the value to 0 and all is fine.</p>
+However, if you don&apos;t have created a stream so far, just leave the value to 0 and all is fine.</p>
 </div>
   
   
@@ -2182,11 +2183,11 @@ However, if you don&#39;t have created a stream so far, just leave the value to 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Stop(int Plugin)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>

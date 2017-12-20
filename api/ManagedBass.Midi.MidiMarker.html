@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct MidiMarker
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,18 +74,18 @@
   <div class="markdown level0 summary"><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamGetMark_System_Int32_ManagedBass_Midi_MidiMarkerType_System_Int32_ManagedBass_Midi_MidiMarker__">StreamGetMark(Int32, MidiMarkerType, Int32, out MidiMarker)</a>, <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_MidiLyric">MidiLyric</a>, <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_MidiCue">MidiCue</a> and <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_MidiMarker">MidiMarker</a> to retrieve markers.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Midi</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Midi.dll</h6>
   
   <h5 id="ManagedBass_Midi_MidiMarker_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public struct MidiMarker</code></pre>
   </div>
-  
+
   
   
   
@@ -109,11 +110,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Position { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -153,11 +154,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Text { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -176,8 +177,8 @@
   
   
   <h5 id="ManagedBass_Midi_MidiMarker_Text_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>If the lyric text begins with a &#39;/&#39; (slash) character, a new line should be started. 
-If it begins with a &#39;\&#39; (backslash) character, the display should be cleared.
+  <div class="markdown level1 remarks"><p>If the lyric text begins with a &apos;/&apos; (slash) character, a new line should be started. 
+If it begins with a &apos;&amp;apos; (backslash) character, the display should be cleared.
 <p>
 For a key signature event (MIDI meta event 89).
 The marker text is in the form of &quot;a b&quot;, where a is the number of sharps (if positive) or flats (if negative), and b signifies major (if 0) or minor (if 1).
@@ -209,11 +210,11 @@ The marker text is in the form of &quot;a/b c d&quot;, where a is the numerator,
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Track { get; }</code></pre>
   </div>
-  
+
   
   
   

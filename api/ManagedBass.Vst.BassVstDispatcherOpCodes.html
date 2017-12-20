@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum BassVstDispatcherOpCodes
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -74,609 +75,524 @@
 <p>For more info see the Steinberg VST SDK documentation.</p></p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Vst</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Vst.dll</h6>
   
   <h5 id="ManagedBass_Vst_BassVstDispatcherOpCodes_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum BassVstDispatcherOpCodes : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_BeginLoadBank"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_BeginLoadBank" class="expander" data-toggle="collapse">BeginLoadBank</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_BeginLoadBank">
-          BeginLoadBank
-          <p><p>Called before a Bank is loaded, &quot;ptr&quot; points to VstPatchChunkInfo structure.
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_BeginLoadBank" class="collapse in">
+        <p><p>Called before a Bank is loaded, &quot;ptr&quot; points to VstPatchChunkInfo structure.
 <p>Return -1 if the Bank can not be loaded, return 1 if it can be loaded else 0 (for compatibility).</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_BeginLoadProgram">
-          BeginLoadProgram
-          <p><p>Called before a Program is loaded, &quot;ptr&quot; points to VstPatchChunkInfo structure.
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_BeginLoadProgram"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_BeginLoadProgram" class="expander" data-toggle="collapse">BeginLoadProgram</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_BeginLoadProgram" class="collapse in">
+        <p><p>Called before a Program is loaded, &quot;ptr&quot; points to VstPatchChunkInfo structure.
 Return -1 if the Program can not be loaded, return 1 if it can be loaded else 0 (for compatibility).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_BeginSetProgram">
-          BeginSetProgram
-          <p><p>Called before a new program is loaded.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_BeginSetProgram"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_BeginSetProgram" class="expander" data-toggle="collapse">BeginSetProgram</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_BeginSetProgram" class="collapse in">
+        <p><p>Called before a new program is loaded.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_CanBeAutomated">
-          CanBeAutomated
-          <p><p>Parameter index in &quot;index&quot;.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_CanBeAutomated"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_CanBeAutomated" class="expander" data-toggle="collapse">CanBeAutomated</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_CanBeAutomated" class="collapse in">
+        <p><p>Parameter index in &quot;index&quot;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_CanDo">
-          CanDo
-          <p><p>&quot;ptr&quot; contains one of the &#39;plugCanDos&#39; strings (e.g. &quot;bypass&quot;).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_CanDo"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_CanDo" class="expander" data-toggle="collapse">CanDo</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_CanDo" class="collapse in">
+        <p><p>&quot;ptr&quot; contains one of the &apos;plugCanDos&apos; strings (e.g. &quot;bypass&quot;).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_Close">
-          Close
-          <p><p>Exit, release all memory and other resources!</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_Close"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_Close" class="expander" data-toggle="collapse">Close</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_Close" class="collapse in">
+        <p><p>Exit, release all memory and other resources!</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_ConnectInput">
-          ConnectInput
-          <p><p>Input at &quot;index&quot; has been (dis-)connected; &quot;value&quot; == 0: disconnected, else connected.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_ConnectInput"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_ConnectInput" class="expander" data-toggle="collapse">ConnectInput</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_ConnectInput" class="collapse in">
+        <p><p>Input at &quot;index&quot; has been (dis-)connected; &quot;value&quot; == 0: disconnected, else connected.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_ConnectOutput">
-          ConnectOutput
-          <p><p>Onput at &quot;index&quot; has been (dis-)connected; &quot;value&quot; == 0: disconnected, else connected.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_ConnectOutput"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_ConnectOutput" class="expander" data-toggle="collapse">ConnectOutput</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_ConnectOutput" class="collapse in">
+        <p><p>Onput at &quot;index&quot; has been (dis-)connected; &quot;value&quot; == 0: disconnected, else connected.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_CopyProgram">
-          CopyProgram
-          <p><p>Copy current program to destination &quot;index&quot;
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_CopyProgram"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_CopyProgram" class="expander" data-toggle="collapse">CopyProgram</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_CopyProgram" class="collapse in">
+        <p><p>Copy current program to destination &quot;index&quot;
 <p>Note: implies setParameter connections, configuration.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditClose">
-          EditClose
-          <p><p>Editor: No arguments.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditClose"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditClose" class="expander" data-toggle="collapse">EditClose</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditClose" class="collapse in">
+        <p><p>Editor: No arguments.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditDraw">
-          EditDraw
-          <p><p>Editor: Draw method, ptr points to rect (MAC Only).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditDraw"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditDraw" class="expander" data-toggle="collapse">EditDraw</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditDraw" class="collapse in">
+        <p><p>Editor: Draw method, ptr points to rect (MAC Only).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditGetRect">
-          EditGetRect
-          <p><p>Editor: Stuff rect (top, left, bottom, right) into ptr.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditGetRect"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditGetRect" class="expander" data-toggle="collapse">EditGetRect</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditGetRect" class="collapse in">
+        <p><p>Editor: Stuff rect (top, left, bottom, right) into ptr.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditIdle">
-          EditIdle
-          <p><p>Editor: no arguments. Be gentle!</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditIdle"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditIdle" class="expander" data-toggle="collapse">EditIdle</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditIdle" class="collapse in">
+        <p><p>Editor: no arguments. Be gentle!</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditKey">
-          EditKey
-          <p><p>Editor: System keycode in value.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditKey"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditKey" class="expander" data-toggle="collapse">EditKey</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditKey" class="collapse in">
+        <p><p>Editor: System keycode in value.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditKeyDown">
-          EditKeyDown
-          <p><p>Character in &quot;index&quot;, virtual in &quot;value&quot;, modifiers in &quot;opt&quot;, return -1 if not used, return 1 if used.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditKeyDown"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditKeyDown" class="expander" data-toggle="collapse">EditKeyDown</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditKeyDown" class="collapse in">
+        <p><p>Character in &quot;index&quot;, virtual in &quot;value&quot;, modifiers in &quot;opt&quot;, return -1 if not used, return 1 if used.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditKeyUp">
-          EditKeyUp
-          <p><p>Character in &quot;index&quot;, virtual in &quot;value&quot;, modifiers in &quot;opt&quot;, return -1 if not used, return 1 if used.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditKeyUp"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditKeyUp" class="expander" data-toggle="collapse">EditKeyUp</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditKeyUp" class="collapse in">
+        <p><p>Character in &quot;index&quot;, virtual in &quot;value&quot;, modifiers in &quot;opt&quot;, return -1 if not used, return 1 if used.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditMouse">
-          EditMouse
-          <p><p>Editor: index: x, value: y (MAC Only).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditMouse"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditMouse" class="expander" data-toggle="collapse">EditMouse</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditMouse" class="collapse in">
+        <p><p>Editor: index: x, value: y (MAC Only).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditOpen">
-          EditOpen
-          <p><p>Editor: System dependant Window pointer in ptr.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditOpen"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditOpen" class="expander" data-toggle="collapse">EditOpen</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditOpen" class="collapse in">
+        <p><p>Editor: System dependant Window pointer in ptr.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditSleep">
-          EditSleep
-          <p><p>Editor: Window goes to background.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditSleep"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditSleep" class="expander" data-toggle="collapse">EditSleep</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditSleep" class="collapse in">
+        <p><p>Editor: Window goes to background.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditTop">
-          EditTop
-          <p><p>Editor: Window has topped, no arguments.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EditTop"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditTop" class="expander" data-toggle="collapse">EditTop</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EditTop" class="collapse in">
+        <p><p>Editor: Window has topped, no arguments.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_EndSetProgram">
-          EndSetProgram
-          <p><p>Called when the program is loaded.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_EndSetProgram"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EndSetProgram" class="expander" data-toggle="collapse">EndSetProgram</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_EndSetProgram" class="collapse in">
+        <p><p>Called when the program is loaded.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetChunk">
-          GetChunk
-          <p><p>Host requests pointer to chunk into (void**)ptr, byteSize returned.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetChunk"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetChunk" class="expander" data-toggle="collapse">GetChunk</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetChunk" class="collapse in">
+        <p><p>Host requests pointer to chunk into (void**)ptr, byteSize returned.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetCurrentMidiProgram">
-          GetCurrentMidiProgram
-          <p><p>Returns the programIndex of the current program.
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetCurrentMidiProgram"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetCurrentMidiProgram" class="expander" data-toggle="collapse">GetCurrentMidiProgram</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetCurrentMidiProgram" class="collapse in">
+        <p><p>Returns the programIndex of the current program.
 <p>Passed &quot;ptr&quot; points to MidiProgramName struct, struct will be filled with information for the current program.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetCurrentPosition">
-          GetCurrentPosition
-          <p><p>Realtime: for external dsp, see flag bits below.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetCurrentPosition"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetCurrentPosition" class="expander" data-toggle="collapse">GetCurrentPosition</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetCurrentPosition" class="collapse in">
+        <p><p>Realtime: for external dsp, see flag bits below.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetDestinationBuffer">
-          GetDestinationBuffer
-          <p><p>Realtime: for external dsp, see flag bits below. returns float*.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetDestinationBuffer"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetDestinationBuffer" class="expander" data-toggle="collapse">GetDestinationBuffer</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetDestinationBuffer" class="collapse in">
+        <p><p>Realtime: for external dsp, see flag bits below. returns float*.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetEffectName">
-          GetEffectName
-          <p><p>char* name (max 32 bytes) in &quot;ptr&quot;.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetEffectName"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetEffectName" class="expander" data-toggle="collapse">GetEffectName</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetEffectName" class="collapse in">
+        <p><p>char* name (max 32 bytes) in &quot;ptr&quot;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetErrorText">
-          GetErrorText
-          <p><p>char* text (max 256 bytes) in &quot;ptr&quot;.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetErrorText"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetErrorText" class="expander" data-toggle="collapse">GetErrorText</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetErrorText" class="collapse in">
+        <p><p>char* text (max 256 bytes) in &quot;ptr&quot;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetIcon">
-          GetIcon
-          <p><p>GUI: void* in &quot;ptr&quot;, not yet defined.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetIcon"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetIcon" class="expander" data-toggle="collapse">GetIcon</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetIcon" class="collapse in">
+        <p><p>GUI: void* in &quot;ptr&quot;, not yet defined.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetInputProperties">
-          GetInputProperties
-          <p><p>&quot;index&quot;, VstPinProperties* in ptr, return != 0 means true.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetInputProperties"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetInputProperties" class="expander" data-toggle="collapse">GetInputProperties</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetInputProperties" class="collapse in">
+        <p><p>&quot;index&quot;, VstPinProperties* in ptr, return != 0 means true.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiKeyName">
-          GetMidiKeyName
-          <p><p>Passed &quot;ptr&quot; points to MidiKeyName struct.
-<p>Struct will be filled with information for &#39;thisProgramIndex&#39; and &#39;thisKeyNumber&#39;.
-If keyName is &quot;&quot; the standard name of the key will be displayed. If 0 is returned, no MidiKeyNames are defined for &#39;thisProgramIndex&#39;.
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiKeyName"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiKeyName" class="expander" data-toggle="collapse">GetMidiKeyName</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiKeyName" class="collapse in">
+        <p><p>Passed &quot;ptr&quot; points to MidiKeyName struct.
+<p>Struct will be filled with information for &apos;thisProgramIndex&apos; and &apos;thisKeyNumber&apos;.
+If keyName is &quot;&quot; the standard name of the key will be displayed. If 0 is returned, no MidiKeyNames are defined for &apos;thisProgramIndex&apos;.
 </p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiProgramCategory">
-          GetMidiProgramCategory
-          <p><p>Passed &quot;ptr&quot; points to MidiProgramCategory struct.
-<p>Struct will be filled with information for &#39;thisCategoryIndex&#39;.
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiProgramCategory"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiProgramCategory" class="expander" data-toggle="collapse">GetMidiProgramCategory</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiProgramCategory" class="collapse in">
+        <p><p>Passed &quot;ptr&quot; points to MidiProgramCategory struct.
+<p>Struct will be filled with information for &apos;thisCategoryIndex&apos;.
 Returns number of used categoryIndexes, if 0 is returned, no MidiProgramCategories supported.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiProgramName">
-          GetMidiProgramName
-          <p><p>Passed &quot;ptr&quot; points to MidiProgramName struct.
-<p>Struct will be filled with information for &#39;thisProgramIndex&#39;.
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiProgramName"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiProgramName" class="expander" data-toggle="collapse">GetMidiProgramName</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetMidiProgramName" class="collapse in">
+        <p><p>Passed &quot;ptr&quot; points to MidiProgramName struct.
+<p>Struct will be filled with information for &apos;thisProgramIndex&apos;.
 Returns number of used programIndexes, if 0 is returned, no MidiProgramNames supported.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumMidiInputChannels">
-          GetNumMidiInputChannels
-          <p><p>Returns the number of used MIDI input channels (1-15).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumMidiInputChannels"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumMidiInputChannels" class="expander" data-toggle="collapse">GetNumMidiInputChannels</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumMidiInputChannels" class="collapse in">
+        <p><p>Returns the number of used MIDI input channels (1-15).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumMidiOutputChannels">
-          GetNumMidiOutputChannels
-          <p><p>Returns the number of used MIDI output channels (1-15).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumMidiOutputChannels"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumMidiOutputChannels" class="expander" data-toggle="collapse">GetNumMidiOutputChannels</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumMidiOutputChannels" class="collapse in">
+        <p><p>Returns the number of used MIDI output channels (1-15).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumProgramCategories">
-          GetNumProgramCategories
-          <p><p>No arguments. This is for dividing programs into groups (like GM).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumProgramCategories"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumProgramCategories" class="expander" data-toggle="collapse">GetNumProgramCategories</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetNumProgramCategories" class="collapse in">
+        <p><p>No arguments. This is for dividing programs into groups (like GM).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetOutputProperties">
-          GetOutputProperties
-          <p><p>&quot;index&quot;, VstPinProperties* in ptr, return != 0 means true.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetOutputProperties"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetOutputProperties" class="expander" data-toggle="collapse">GetOutputProperties</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetOutputProperties" class="collapse in">
+        <p><p>&quot;index&quot;, VstPinProperties* in ptr, return != 0 means true.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamDisplay">
-          GetParamDisplay
-          <p><p>Stuff parameter &quot;index&quot; textual representation into string.
-<p>Examples: &#39;0.5&#39;, &#39;-3&#39;, &#39;PLATE&#39;</p></p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamDisplay"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamDisplay" class="expander" data-toggle="collapse">GetParamDisplay</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamDisplay" class="collapse in">
+        <p><p>Stuff parameter &quot;index&quot; textual representation into string.
+<p>Examples: &apos;0.5&apos;, &apos;-3&apos;, &apos;PLATE&apos;</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetParameterProperties">
-          GetParameterProperties
-          <p><p>Of param &quot;index&quot;, VstParameterProperties* in &quot;ptr&quot;.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetParameterProperties"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetParameterProperties" class="expander" data-toggle="collapse">GetParameterProperties</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetParameterProperties" class="collapse in">
+        <p><p>Of param &quot;index&quot;, VstParameterProperties* in &quot;ptr&quot;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamLabel">
-          GetParamLabel
-          <p><p>Stuff parameter &quot;index&quot; label (max 8 char + 0) into string.
-<p>Examples: &#39;sec&#39;, &#39;dB&#39;, &#39;type&#39;</p></p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamLabel"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamLabel" class="expander" data-toggle="collapse">GetParamLabel</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamLabel" class="collapse in">
+        <p><p>Stuff parameter &quot;index&quot; label (max 8 char + 0) into string.
+<p>Examples: &apos;sec&apos;, &apos;dB&apos;, &apos;type&apos;</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamName">
-          GetParamName
-          <p><p>Stuff parameter &quot;index&quot; label (max 8 char + 0) into string.
-<p>Examples: &#39;Time&#39;, &#39;Gain&#39;, &#39;RoomType&#39;</p></p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamName"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamName" class="expander" data-toggle="collapse">GetParamName</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetParamName" class="collapse in">
+        <p><p>Stuff parameter &quot;index&quot; label (max 8 char + 0) into string.
+<p>Examples: &apos;Time&apos;, &apos;Gain&apos;, &apos;RoomType&apos;</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetPlugCategory">
-          GetPlugCategory
-          <p><p>No parameter, return value is category.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetPlugCategory"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetPlugCategory" class="expander" data-toggle="collapse">GetPlugCategory</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetPlugCategory" class="collapse in">
+        <p><p>No parameter, return value is category.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetProductString">
-          GetProductString
-          <p><p>Fills &quot;ptr&quot; with a string with product name (max 64 char).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetProductString"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetProductString" class="expander" data-toggle="collapse">GetProductString</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetProductString" class="collapse in">
+        <p><p>Fills &quot;ptr&quot; with a string with product name (max 64 char).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgram">
-          GetProgram
-          <p><p>Returns the current program number.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgram"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgram" class="expander" data-toggle="collapse">GetProgram</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgram" class="collapse in">
+        <p><p>Returns the current program number.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgramName">
-          GetProgramName
-          <p><p>Stuff program name (max 24 char + 0) into string.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgramName"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgramName" class="expander" data-toggle="collapse">GetProgramName</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgramName" class="collapse in">
+        <p><p>Stuff program name (max 24 char + 0) into string.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgramNameIndexed">
-          GetProgramNameIndexed
-          <p><p>Get program name of category &quot;value&quot;, program &quot;index&quot; into &quot;ptr&quot;.
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgramNameIndexed"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgramNameIndexed" class="expander" data-toggle="collapse">GetProgramNameIndexed</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetProgramNameIndexed" class="collapse in">
+        <p><p>Get program name of category &quot;value&quot;, program &quot;index&quot; into &quot;ptr&quot;.
 <p>Category (that is, &quot;value&quot;) may be -1, in which case program indices are enumerated linearily (as usual); otherwise, each category starts over with index 0.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetSpeakerArrangement">
-          GetSpeakerArrangement
-          <p><p>VstSpeakerArrangement** pluginInput in &quot;value&quot;. VstSpeakerArrangement** pluginOutput in &quot;ptr&quot;.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetSpeakerArrangement"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetSpeakerArrangement" class="expander" data-toggle="collapse">GetSpeakerArrangement</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetSpeakerArrangement" class="collapse in">
+        <p><p>VstSpeakerArrangement** pluginInput in &quot;value&quot;. VstSpeakerArrangement** pluginOutput in &quot;ptr&quot;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetTailSize">
-          GetTailSize
-          <p><p>Returns tail size; 0 is default (return 1 for &#39;no tail&#39;).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetTailSize"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetTailSize" class="expander" data-toggle="collapse">GetTailSize</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetTailSize" class="collapse in">
+        <p><p>Returns tail size; 0 is default (return 1 for &apos;no tail&apos;).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetVendorString">
-          GetVendorString
-          <p><p>Fills &quot;ptr&quot; with a string identifying the vendor (max 64 char).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetVendorString"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetVendorString" class="expander" data-toggle="collapse">GetVendorString</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetVendorString" class="collapse in">
+        <p><p>Fills &quot;ptr&quot; with a string identifying the vendor (max 64 char).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetVendorVersion">
-          GetVendorVersion
-          <p><p>Returns vendor-specific version.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetVendorVersion"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetVendorVersion" class="expander" data-toggle="collapse">GetVendorVersion</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetVendorVersion" class="collapse in">
+        <p><p>Returns vendor-specific version.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetVstVersion">
-          GetVstVersion
-          <p><p>Returns 2 for VST 2; older versions return 0; 2100 for VST 2.1...2400 for VST 2.4.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetVstVersion"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetVstVersion" class="expander" data-toggle="collapse">GetVstVersion</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetVstVersion" class="collapse in">
+        <p><p>Returns 2 for VST 2; older versions return 0; 2100 for VST 2.1...2400 for VST 2.4.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetVu">
-          GetVu
-          <p><p>Called if (flags &amp; (effFlagsHasClip | effFlagsHasVu)).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_GetVu"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetVu" class="expander" data-toggle="collapse">GetVu</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_GetVu" class="collapse in">
+        <p><p>Called if (flags &amp; (effFlagsHasClip | effFlagsHasVu)).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_HasMidiProgramsChanged">
-          HasMidiProgramsChanged
-          <p><p>Returns 1 if the MidiProgramNames or MidiKeyNames had changed on this channel, 0 otherwise. &quot;ptr&quot; ignored.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_HasMidiProgramsChanged"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_HasMidiProgramsChanged" class="expander" data-toggle="collapse">HasMidiProgramsChanged</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_HasMidiProgramsChanged" class="collapse in">
+        <p><p>Returns 1 if the MidiProgramNames or MidiKeyNames had changed on this channel, 0 otherwise. &quot;ptr&quot; ignored.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_Identify">
-          Identify
-          <p><p>Returns &#39;NvEf&#39;.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_Identify"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_Identify" class="expander" data-toggle="collapse">Identify</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_Identify" class="collapse in">
+        <p><p>Returns &apos;NvEf&apos;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_Idle">
-          Idle
-          <p><p>Idle call in response to audioMasterneedIdle. Must return 1 to keep idle calls beeing issued.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_Idle"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_Idle" class="expander" data-toggle="collapse">Idle</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_Idle" class="collapse in">
+        <p><p>Idle call in response to audioMasterneedIdle. Must return 1 to keep idle calls beeing issued.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_KeysRequired">
-          KeysRequired
-          <p><p>Returns 0: needs keys (default for 1.0 plugs), 1: don&#39;t need.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_KeysRequired"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_KeysRequired" class="expander" data-toggle="collapse">KeysRequired</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_KeysRequired" class="collapse in">
+        <p><p>Returns 0: needs keys (default for 1.0 plugs), 1: don&apos;t need.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_MainsChanged">
-          MainsChanged
-          <p><p>System: The user has switched the &#39;power on&#39; button to value (0 off, else on). This only switches audio  processing; you should flush delay buffers etc.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_MainsChanged"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_MainsChanged" class="expander" data-toggle="collapse">MainsChanged</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_MainsChanged" class="collapse in">
+        <p><p>System: The user has switched the &apos;power on&apos; button to value (0 off, else on). This only switches audio  processing; you should flush delay buffers etc.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_NumOpcodes">
-          NumOpcodes
-          <p><p>Returns the number of available OpCodes</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_NumOpcodes"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_NumOpcodes" class="expander" data-toggle="collapse">NumOpcodes</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_NumOpcodes" class="collapse in">
+        <p><p>Returns the number of available OpCodes</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_OfflineNotify">
-          OfflineNotify
-          <p><p>Offline: ptr = VstAudioFile array, value = count, index = start flag.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_OfflineNotify"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_OfflineNotify" class="expander" data-toggle="collapse">OfflineNotify</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_OfflineNotify" class="collapse in">
+        <p><p>Offline: ptr = VstAudioFile array, value = count, index = start flag.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_OfflinePrepare">
-          OfflinePrepare
-          <p><p>Offline: ptr = VstOfflineTask array, value = count.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_OfflinePrepare"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_OfflinePrepare" class="expander" data-toggle="collapse">OfflinePrepare</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_OfflinePrepare" class="collapse in">
+        <p><p>Offline: ptr = VstOfflineTask array, value = count.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_OfflineRun">
-          OfflineRun
-          <p><p>Offline: ptr = VstOfflineTask array, value = count.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_OfflineRun"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_OfflineRun" class="expander" data-toggle="collapse">OfflineRun</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_OfflineRun" class="collapse in">
+        <p><p>Offline: ptr = VstOfflineTask array, value = count.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_Open">
-          Open
-          <p><p>Initialise.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_Open"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_Open" class="expander" data-toggle="collapse">Open</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_Open" class="collapse in">
+        <p><p>Initialise.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_ProcessEvents">
-          ProcessEvents
-          <p><p>VstEvents* in &quot;ptr&quot;.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_ProcessEvents"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_ProcessEvents" class="expander" data-toggle="collapse">ProcessEvents</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_ProcessEvents" class="collapse in">
+        <p><p>VstEvents* in &quot;ptr&quot;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_ProcessVarIo">
-          ProcessVarIo
-          <p><p>VstVariableIo* in &quot;ptr&quot;.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_ProcessVarIo"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_ProcessVarIo" class="expander" data-toggle="collapse">ProcessVarIo</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_ProcessVarIo" class="collapse in">
+        <p><p>VstVariableIo* in &quot;ptr&quot;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetBlockSize">
-          SetBlockSize
-          <p><p>System: In value (this is the maximun size of an audio block, pls check sampleframes in process call).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetBlockSize"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetBlockSize" class="expander" data-toggle="collapse">SetBlockSize</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetBlockSize" class="collapse in">
+        <p><p>System: In value (this is the maximun size of an audio block, pls check sampleframes in process call).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetBlockSizeAndSampleRate">
-          SetBlockSizeAndSampleRate
-          <p><p>Block size in &quot;value&quot;, sampleRate in &quot;opt&quot;</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetBlockSizeAndSampleRate"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetBlockSizeAndSampleRate" class="expander" data-toggle="collapse">SetBlockSizeAndSampleRate</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetBlockSizeAndSampleRate" class="collapse in">
+        <p><p>Block size in &quot;value&quot;, sampleRate in &quot;opt&quot;</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetBypass">
-          SetBypass
-          <p><p>On/Off in &quot;value&quot; (0 = off, 1 = on).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetBypass"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetBypass" class="expander" data-toggle="collapse">SetBypass</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetBypass" class="collapse in">
+        <p><p>On/Off in &quot;value&quot; (0 = off, 1 = on).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetChunk">
-          SetChunk
-          <p><p>Plug-in receives saved chunk, byteSize passed.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetChunk"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetChunk" class="expander" data-toggle="collapse">SetChunk</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetChunk" class="collapse in">
+        <p><p>Plug-in receives saved chunk, byteSize passed.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetEditKnobMode">
-          SetEditKnobMode
-          <p><p>Mode in &quot;value&quot;: 0: circular, 1:circular relativ, 2:linear.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetEditKnobMode"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetEditKnobMode" class="expander" data-toggle="collapse">SetEditKnobMode</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetEditKnobMode" class="collapse in">
+        <p><p>Mode in &quot;value&quot;: 0: circular, 1:circular relativ, 2:linear.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetPanLaw">
-          SetPanLaw
-          <p><p>PanLaw : Type (Linear, Equal Power,.. see enum PanLaw Type) in &quot;value&quot;, Gain in &quot;opt&quot;: for Linear : [1.0 means 0dB PanLaw], [~0.58 means -4.5dB], [0.5 means -6.02dB].</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetPanLaw"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetPanLaw" class="expander" data-toggle="collapse">SetPanLaw</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetPanLaw" class="collapse in">
+        <p><p>PanLaw : Type (Linear, Equal Power,.. see enum PanLaw Type) in &quot;value&quot;, Gain in &quot;opt&quot;: for Linear : [1.0 means 0dB PanLaw], [~0.58 means -4.5dB], [0.5 means -6.02dB].</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetProcessPrecision">
-          SetProcessPrecision
-          <p><p>Sets the processing precision in &quot;value&quot; (0=32 bit, 1=64 bit).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetProcessPrecision"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetProcessPrecision" class="expander" data-toggle="collapse">SetProcessPrecision</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetProcessPrecision" class="collapse in">
+        <p><p>Sets the processing precision in &quot;value&quot; (0=32 bit, 1=64 bit).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetProgram">
-          SetProgram
-          <p><p>Program number in &quot;value&quot;.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetProgram"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetProgram" class="expander" data-toggle="collapse">SetProgram</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetProgram" class="collapse in">
+        <p><p>Program number in &quot;value&quot;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetProgramName">
-          SetProgramName
-          <p><p>User changed program name (max 24 char + 0) to as passed in string.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetProgramName"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetProgramName" class="expander" data-toggle="collapse">SetProgramName</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetProgramName" class="collapse in">
+        <p><p>User changed program name (max 24 char + 0) to as passed in string.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetSampleRate">
-          SetSampleRate
-          <p><p>System: In opt (float value in Hz; for example 44100.0Hz).</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetSampleRate"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetSampleRate" class="expander" data-toggle="collapse">SetSampleRate</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetSampleRate" class="collapse in">
+        <p><p>System: In opt (float value in Hz; for example 44100.0Hz).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetSpeakerArrangement">
-          SetSpeakerArrangement
-          <p><p>VstSpeakerArrangement* pluginInput in &quot;value&quot;; VstSpeakerArrangement* pluginOutput in &quot;ptr&quot;.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetSpeakerArrangement"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetSpeakerArrangement" class="expander" data-toggle="collapse">SetSpeakerArrangement</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetSpeakerArrangement" class="collapse in">
+        <p><p>VstSpeakerArrangement* pluginInput in &quot;value&quot;; VstSpeakerArrangement* pluginOutput in &quot;ptr&quot;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetTotalSampleToProcess">
-          SetTotalSampleToProcess
-          <p><p>Called in offline (non RealTime) Process before process is called, indicates how many sample will be processed.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetTotalSampleToProcess"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetTotalSampleToProcess" class="expander" data-toggle="collapse">SetTotalSampleToProcess</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetTotalSampleToProcess" class="collapse in">
+        <p><p>Called in offline (non RealTime) Process before process is called, indicates how many sample will be processed.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetViewPosition">
-          SetViewPosition
-          <p><p>GUI: set view position (in window) to x &quot;index&quot; y &quot;value&quot;</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_SetViewPosition"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetViewPosition" class="expander" data-toggle="collapse">SetViewPosition</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_SetViewPosition" class="collapse in">
+        <p><p>GUI: set view position (in window) to x &quot;index&quot; y &quot;value&quot;</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_ShellGetNextPlugin">
-          ShellGetNextPlugin
-          <p><p>This opcode is only called, if plugin is of type kPlugCategShell. Returns the next plugin&#39;s uniqueID.
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_ShellGetNextPlugin"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_ShellGetNextPlugin" class="expander" data-toggle="collapse">ShellGetNextPlugin</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_ShellGetNextPlugin" class="collapse in">
+        <p><p>This opcode is only called, if plugin is of type kPlugCategShell. Returns the next plugin&apos;s uniqueID.
 <p>&quot;ptr&quot; points to a char buffer of size 64, which is to be filled with the name of the plugin including the terminating zero.</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_StartProcess">
-          StartProcess
-          <p><p>Called before the start of process call.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_StartProcess"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_StartProcess" class="expander" data-toggle="collapse">StartProcess</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_StartProcess" class="collapse in">
+        <p><p>Called before the start of process call.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_StopProcess">
-          StopProcess
-          <p><p>Called after the stop of process call.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_StopProcess"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_StopProcess" class="expander" data-toggle="collapse">StopProcess</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_StopProcess" class="collapse in">
+        <p><p>Called after the stop of process call.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_String2Parameter">
-          String2Parameter
-          <p><p>Parameter index in &quot;index&quot;, string in &quot;ptr&quot;.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_String2Parameter"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_String2Parameter" class="expander" data-toggle="collapse">String2Parameter</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_String2Parameter" class="collapse in">
+        <p><p>Parameter index in &quot;index&quot;, string in &quot;ptr&quot;.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Vst_BassVstDispatcherOpCodes_VendorSpecific">
-          VendorSpecific
-          <p><p>No definition, vendor specific handling.</p>
+      </div>
+      <h4 id="ManagedBass_Vst_BassVstDispatcherOpCodes_VendorSpecific"><a href="#collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_VendorSpecific" class="expander" data-toggle="collapse">VendorSpecific</a></h4>
+  
+      <div id="collapsible-ManagedBass_Vst_BassVstDispatcherOpCodes_VendorSpecific" class="collapse in">
+        <p><p>No definition, vendor specific handling.</p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

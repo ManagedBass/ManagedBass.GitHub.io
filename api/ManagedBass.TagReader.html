@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class TagReader
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>Reads tags from a File or a Channel depending on the <a class="xref" href="ManagedBass.ChannelType.html">ChannelType</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -152,14 +153,14 @@
     </div>
   </div>
   
-  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
   
   <h5 id="ManagedBass_TagReader_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class TagReader : TagProperties&lt;string&gt;</code></pre>
   </div>
-  
+
   
   
   
@@ -184,11 +185,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Lyrics { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -224,15 +225,15 @@
   <h4 id="ManagedBass_TagReader_Other" data-uid="ManagedBass.TagReader.Other"><a href="#collapsible-ManagedBass_TagReader_Other" class="expander" data-toggle="collapse">Other</a></h4>
   
   <div id="collapsible-ManagedBass_TagReader_Other" class="collapse in">
-  <div class="markdown level1 summary"><p>Provides tags that didn&#39;t fit into any Properties.</p>
+  <div class="markdown level1 summary"><p>Provides tags that didn&apos;t fit into any Properties.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; Other { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -272,11 +273,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public List&lt;PictureTag&gt; Pictures { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -314,15 +315,15 @@
   <h4 id="ManagedBass_TagReader_Read_System_Int32_" data-uid="ManagedBass.TagReader.Read(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_Read_System_Int32_" class="expander" data-toggle="collapse">Read(Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_TagReader_Read_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Reads tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 summary"><p>Reads tags from a <code data-dev-comment-type="paramref" class="paramref">Channel</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static TagReader Read(int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -372,11 +373,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static TagReader Read(string FileName)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -422,15 +423,15 @@
   <h4 id="ManagedBass_TagReader_ReadApe_System_Int32_" data-uid="ManagedBass.TagReader.ReadApe(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadApe_System_Int32_" class="expander" data-toggle="collapse">ReadApe(Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_TagReader_ReadApe_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_APE">APE</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_APE">APE</a> tags from a <code data-dev-comment-type="paramref" class="paramref">Channel</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool ReadApe(int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -476,15 +477,15 @@
   <h4 id="ManagedBass_TagReader_ReadBWF_System_Int32_" data-uid="ManagedBass.TagReader.ReadBWF(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadBWF_System_Int32_" class="expander" data-toggle="collapse">ReadBWF(Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_TagReader_ReadBWF_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_RiffBext">RiffBext</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_RiffBext">RiffBext</a> tags from a <code data-dev-comment-type="paramref" class="paramref">Channel</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool ReadBWF(int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -530,15 +531,15 @@
   <h4 id="ManagedBass_TagReader_ReadID3v1_System_Int32_" data-uid="ManagedBass.TagReader.ReadID3v1(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadID3v1_System_Int32_" class="expander" data-toggle="collapse">ReadID3v1(Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_TagReader_ReadID3v1_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_ID3">ID3</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_ID3">ID3</a> tags from a <code data-dev-comment-type="paramref" class="paramref">Channel</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool ReadID3v1(int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -584,15 +585,15 @@
   <h4 id="ManagedBass_TagReader_ReadID3v2_System_Int32_" data-uid="ManagedBass.TagReader.ReadID3v2(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadID3v2_System_Int32_" class="expander" data-toggle="collapse">ReadID3v2(Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_TagReader_ReadID3v2_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_ID3v2">ID3v2</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_ID3v2">ID3v2</a> tags from a <code data-dev-comment-type="paramref" class="paramref">Channel</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool ReadID3v2(int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -638,15 +639,15 @@
   <h4 id="ManagedBass_TagReader_ReadMp4_System_Int32_" data-uid="ManagedBass.TagReader.ReadMp4(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadMp4_System_Int32_" class="expander" data-toggle="collapse">ReadMp4(Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_TagReader_ReadMp4_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_MP4">MP4</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_MP4">MP4</a> tags from a <code data-dev-comment-type="paramref" class="paramref">Channel</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool ReadMp4(int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -692,15 +693,15 @@
   <h4 id="ManagedBass_TagReader_ReadOgg_System_Int32_" data-uid="ManagedBass.TagReader.ReadOgg(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadOgg_System_Int32_" class="expander" data-toggle="collapse">ReadOgg(Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_TagReader_ReadOgg_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_OGG">OGG</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_OGG">OGG</a> tags from a <code data-dev-comment-type="paramref" class="paramref">Channel</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool ReadOgg(int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -746,15 +747,15 @@
   <h4 id="ManagedBass_TagReader_ReadRiffInfo_System_Int32_" data-uid="ManagedBass.TagReader.ReadRiffInfo(System.Int32)"><a href="#collapsible-ManagedBass_TagReader_ReadRiffInfo_System_Int32_" class="expander" data-toggle="collapse">ReadRiffInfo(Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_TagReader_ReadRiffInfo_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_RiffInfo">RiffInfo</a> tags from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 summary"><p>Reads <a class="xref" href="ManagedBass.TagType.html#ManagedBass_TagType_RiffInfo">RiffInfo</a> tags from a <code data-dev-comment-type="paramref" class="paramref">Channel</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool ReadRiffInfo(int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>

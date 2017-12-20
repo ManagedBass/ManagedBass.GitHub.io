@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct BassInfo
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,18 +74,18 @@
   <div class="markdown level0 summary"><p>Used with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_GetInfo_ManagedBass_BassInfo__">GetInfo(out BassInfo)</a> to retrieve information on the current device.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
   
   <h5 id="ManagedBass_BassInfo_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public struct BassInfo</code></pre>
   </div>
-  
+
   
   
   
@@ -133,11 +134,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int DSVersion { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -174,16 +175,16 @@ The freq member is not available on Windows prior to Vista.
   
   <div id="collapsible-ManagedBass_BassInfo_EAXEnabled" class="collapse in">
   <div class="markdown level1 summary"><p>The device supports EAX and has it enabled?
-<p>The device&#39;s &quot;Hardware acceleration&quot; needs to be set to &quot;Full&quot; in it&#39;s &quot;Advanced Properties&quot; setup, else EAX is disabled.</p>
+<p>The device&apos;s &quot;Hardware acceleration&quot; needs to be set to &quot;Full&quot; in it&apos;s &quot;Advanced Properties&quot; setup, else EAX is disabled.</p>
 <p>This is always <span class="xref">false</span> if <a class="xref" href="ManagedBass.DeviceInitFlags.html#ManagedBass_DeviceInitFlags_Device3D">Device3D</a> was not used when <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a> was called.</p></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool EAXEnabled { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -223,11 +224,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Free3DSampleSlots { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -263,15 +264,15 @@ The freq member is not available on Windows prior to Vista.
   <h4 id="ManagedBass_BassInfo_FreeHardwareMemory" data-uid="ManagedBass.BassInfo.FreeHardwareMemory"><a href="#collapsible-ManagedBass_BassInfo_FreeHardwareMemory" class="expander" data-toggle="collapse">FreeHardwareMemory</a></h4>
   
   <div id="collapsible-ManagedBass_BassInfo_FreeHardwareMemory" class="collapse in">
-  <div class="markdown level1 summary"><p>The device&#39;s amount of free hardware memory.</p>
+  <div class="markdown level1 summary"><p>The device&apos;s amount of free hardware memory.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int FreeHardwareMemory { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -311,11 +312,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int FreeSampleSlots { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -355,11 +356,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public DeviceInitFlags InitFlags { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -399,11 +400,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsCertified { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -444,11 +445,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int Latency { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -488,11 +489,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int MaxSampleRate { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -533,11 +534,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int MinBufferLength { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -577,11 +578,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int MinSampleRate { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -617,15 +618,15 @@ The freq member is not available on Windows prior to Vista.
   <h4 id="ManagedBass_BassInfo_SampleRate" data-uid="ManagedBass.BassInfo.SampleRate"><a href="#collapsible-ManagedBass_BassInfo_SampleRate" class="expander" data-toggle="collapse">SampleRate</a></h4>
   
   <div id="collapsible-ManagedBass_BassInfo_SampleRate" class="collapse in">
-  <div class="markdown level1 summary"><p>The device&#39;s current output sample rate. This is only available on Windows Vista and OSX.</p>
+  <div class="markdown level1 summary"><p>The device&apos;s current output sample rate. This is only available on Windows Vista and OSX.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int SampleRate { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -662,16 +663,16 @@ The freq member is not available on Windows prior to Vista.
   
   <div id="collapsible-ManagedBass_BassInfo_SpeakerCount" class="collapse in">
   <div class="markdown level1 summary"><p>The number of speakers the device/drivers supports... 2 means that there is no support for speaker assignment - this will always be the case with non-WDM drivers in Windows.
-<p>It&#39;s also possible that it could mistakenly be 2 with some devices/drivers, when the device in fact supports more speakers.</p>
+<p>It&apos;s also possible that it could mistakenly be 2 with some devices/drivers, when the device in fact supports more speakers.</p>
 <p>In that case the <a class="xref" href="ManagedBass.DeviceInitFlags.html#ManagedBass_DeviceInitFlags_ForcedSpeakerAssignment">ForcedSpeakerAssignment</a> or <a class="xref" href="ManagedBass.DeviceInitFlags.html#ManagedBass_DeviceInitFlags_CPSpeakers">CPSpeakers</a> flag can be used in the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a> call to force the enabling of speaker assignment.</p></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int SpeakerCount { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -711,11 +712,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Supports16BitSamples { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -755,11 +756,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Supports8BitSamples { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -799,11 +800,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool SupportsContinuousRate { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -839,15 +840,15 @@ The freq member is not available on Windows prior to Vista.
   <h4 id="ManagedBass_BassInfo_SupportsDirectSound" data-uid="ManagedBass.BassInfo.SupportsDirectSound"><a href="#collapsible-ManagedBass_BassInfo_SupportsDirectSound" class="expander" data-toggle="collapse">SupportsDirectSound</a></h4>
   
   <div id="collapsible-ManagedBass_BassInfo_SupportsDirectSound" class="collapse in">
-  <div class="markdown level1 summary"><p>The device&#39;s drivers has DirectSound support</p>
+  <div class="markdown level1 summary"><p>The device&apos;s drivers has DirectSound support</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool SupportsDirectSound { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -887,11 +888,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool SupportsMonoSamples { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -931,11 +932,11 @@ The freq member is not available on Windows prior to Vista.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool SupportsStereoSamples { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -971,15 +972,15 @@ The freq member is not available on Windows prior to Vista.
   <h4 id="ManagedBass_BassInfo_TotalHardwareMemory" data-uid="ManagedBass.BassInfo.TotalHardwareMemory"><a href="#collapsible-ManagedBass_BassInfo_TotalHardwareMemory" class="expander" data-toggle="collapse">TotalHardwareMemory</a></h4>
   
   <div id="collapsible-ManagedBass_BassInfo_TotalHardwareMemory" class="collapse in">
-  <div class="markdown level1 summary"><p>The device&#39;s total amount of hardware memory.</p>
+  <div class="markdown level1 summary"><p>The device&apos;s total amount of hardware memory.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int TotalHardwareMemory { get; }</code></pre>
   </div>
-  
+
   
   
   

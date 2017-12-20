@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Delegate MidiFilterProcedure
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,18 +74,18 @@
   <div class="markdown level0 summary"><p>User defined callback to filter events.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Midi</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Midi.dll</h6>
   
   <h5 id="ManagedBass_Midi_MidiFilterProcedure_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public delegate bool MidiFilterProcedure(int Handle, int Track, MidiEvent Event, bool Seeking, IntPtr User);</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -142,7 +143,7 @@
   
   
   <h5 id="ManagedBass_Midi_MidiFilterProcedure_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>The event&#39;s type, parameter, and channel can be modified, but not its position.
+  <div class="markdown level0 remarks"><p>The event&apos;s type, parameter, and channel can be modified, but not its position.
 It is also possible to apply additional events at the same time via <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvent_System_Int32_System_Int32_ManagedBass_Midi_MidiEventType_System_Byte_System_Byte_">StreamEvent(Int32, Int32, MidiEventType, Byte, Byte)</a>, but not <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvents_System_Int32_ManagedBass_Midi_MidiEventsMode_System_Byte___System_Int32_">StreamEvents(Int32, MidiEventsMode, Byte[], Int32)</a>.
 <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Note">Note</a>, <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_NotesOff">NotesOff</a>, and <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_SoundOff">SoundOff</a> events are ignored while seeking so they will not be received by a filtering function then.
 <a class="xref" href="ManagedBass.Midi.MidiEventType.html#ManagedBass_Midi_MidiEventType_Tempo">Tempo</a> events can be changed while seeking but doing so when seeking in bytes (<a class="xref" href="ManagedBass.PositionFlags.html#ManagedBass_PositionFlags_Bytes">Bytes</a>) will result in reaching a different position.

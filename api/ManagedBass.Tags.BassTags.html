@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BassTags
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -75,7 +76,7 @@ This library extends that functionality, allowing developer/user to extract spec
 The extracted tag values are formatted into text ouput according to given format string (including conditional processing).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -84,14 +85,14 @@ The extracted tag values are formatted into text ouput according to given format
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.Tags</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Tags.dll</h6>
   
   <h5 id="ManagedBass_Tags_BassTags_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class BassTags : object</code></pre>
   </div>
-  
+
   
   
   
@@ -118,11 +119,11 @@ An empty string is returned if there was no error.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string LastErrorDescription { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -163,11 +164,11 @@ Current version (in HIBYTE) and build (in LOBYTE).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int Version { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -209,11 +210,11 @@ Current version (in HIBYTE) and build (in LOBYTE).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string Read(int Handle, string Format)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -254,7 +255,7 @@ A parser error message text, when format string is ill-formed.</p>
   
   
   <h5 id="ManagedBass_Tags_BassTags_Read_System_Int32_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Ill-formed string causes some error message to appear in the output, but don&#39;t count on it too much...
+  <div class="markdown level1 remarks"><p>Ill-formed string causes some error message to appear in the output, but don&apos;t count on it too much...
 If a file contains APE, ID3v1 and ID3v2 tags, the order of precedence is: APE, ID3v2, ID3v1.</p>
 </div>
   
@@ -279,11 +280,11 @@ If a file contains APE, ID3v1 and ID3v2 tags, the order of precedence is: APE, I
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string Read(int Handle, string Format, TagType TagType, int CodePage)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -316,7 +317,7 @@ If a file contains APE, ID3v1 and ID3v2 tags, the order of precedence is: APE, I
         <span class="parametername">CodePage</span>
         <p><p>Codepage to use when reading &quot;ISO-8859-1&quot; tags.
 If an invalid/unavailable codepage is requested, then 1252 (Latin 1) will be used.
-0 can be used to request Windows&#39; default codepage.</p>
+0 can be used to request Windows&apos; default codepage.</p>
 </p>
       </td>
     </tr>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BassAsio
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>BassAsio makes it simple to use ASIO hardware, drivers, and can be used with or without BASS.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,14 +83,14 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.Asio</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Asio.dll</h6>
   
   <h5 id="ManagedBass_Asio_BassAsio_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class BassAsio : object</code></pre>
   </div>
-  
+
   
   
   
@@ -114,11 +115,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static double CPUUsage { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -162,11 +163,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CurrentDevice { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -192,8 +193,8 @@ The device setting is local to the current thread, so calling functions with dif
 </p>
 <p>
 The device context setting is used by any function that may result in a <a class="xref" href="ManagedBass.Errors.html#ManagedBass_Errors_Init">Init</a> error (except this function), which is the majority of them.
-When one if those functions is called, it will check the current thread&#39;s device setting, and if no device is selected (or the selected device is not initialized), BassAsio will automatically select the lowest device that is initialized. 
-This means that when using a single device, there is no need to use this function - BassAsio will automatically use the device that&#39;s initialized.
+When one if those functions is called, it will check the current thread&apos;s device setting, and if no device is selected (or the selected device is not initialized), BassAsio will automatically select the lowest device that is initialized. 
+This means that when using a single device, there is no need to use this function - BassAsio will automatically use the device that&apos;s initialized.
 Even if you free the device, and initialize another, BassAsio will automatically switch to the one that is initialized.
 </p>
 </div>
@@ -219,11 +220,11 @@ Even if you free the device, and initialize another, BassAsio will automatically
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int DeviceCount { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -267,11 +268,11 @@ Even if you free the device, and initialize another, BassAsio will automatically
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static AsioInfo Info { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -316,11 +317,11 @@ The device setting is local to the current thread, so calling functions with dif
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsStarted { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -361,11 +362,11 @@ The device setting is local to the current thread, so calling functions with dif
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Errors LastError { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -386,7 +387,7 @@ See the function description for an explanation of what the error code means.</p
   
   
   <h5 id="ManagedBass_Asio_BassAsio_LastError_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Error codes are stored for each thread. So if you happen to call 2 or more BassAsio functions at the same time, they will not interfere with eachother&#39;s error codes.</p>
+  <div class="markdown level1 remarks"><p>Error codes are stored for each thread. So if you happen to call 2 or more BassAsio functions at the same time, they will not interfere with eachother&apos;s error codes.</p>
 </div>
   
   
@@ -406,15 +407,15 @@ See the function description for an explanation of what the error code means.</p
   <h4 id="ManagedBass_Asio_BassAsio_Rate" data-uid="ManagedBass.Asio.BassAsio.Rate"><a href="#collapsible-ManagedBass_Asio_BassAsio_Rate" class="expander" data-toggle="collapse">Rate</a></h4>
   
   <div id="collapsible-ManagedBass_Asio_BassAsio_Rate" class="collapse in">
-  <div class="markdown level1 summary"><p>Gets or Sets the current Asio device&#39;s sample rate.</p>
+  <div class="markdown level1 summary"><p>Gets or Sets the current Asio device&apos;s sample rate.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static double Rate { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -434,7 +435,7 @@ See the function description for an explanation of what the error code means.</p
   
   <h5 id="ManagedBass_Asio_BassAsio_Rate_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p><p>Throws <a class="xref" href="ManagedBass.BassException.html">BassException</a> on Error while setting value.</p>
-When it&#39;s not possible to set the device to the rate wanted, this can be used to overcome that.</p>
+When it&apos;s not possible to set the device to the rate wanted, this can be used to overcome that.</p>
 </div>
   
   
@@ -458,11 +459,11 @@ When it&#39;s not possible to set the device to the rate wanted, this can be use
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Unicode { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -508,11 +509,11 @@ It does not affect ASIO channel names in the <a class="xref" href="ManagedBass.A
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Version Version { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -554,18 +555,18 @@ It does not affect ASIO channel names in the <a class="xref" href="ManagedBass.A
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int AddDevice(Guid ClsID, string Driver, string Name)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
       <td>
         <span class="pull-right"><span class="xref">Guid</span></span>
         <span class="parametername">ClsID</span>
-        <p><p>The driver&#39;s class ID.</p>
+        <p><p>The driver&apos;s class ID.</p>
 </p>
       </td>
     </tr>
@@ -609,7 +610,7 @@ Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAs
   <div class="markdown level1 remarks"><p>A list of installed ASIO drivers is kept in the Windows registry, which is where BassAsio gets its device list from, 
 but it is also possible to add unregistered drivers (eg. private drivers) to the list via this function. 
 If successful, the returned device number can be used in a <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> call to use the driver.</p>
-<p>The <span class="paramref">Driver</span> and <patamref name="Name"></patamref> strings are expected to be in Unicode from.</p>
+<p>The <code data-dev-comment-type="paramref" class="paramref">Driver</code> and <patamref name="Name"></patamref> strings are expected to be in Unicode from.</p>
 </div>
   
   
@@ -626,11 +627,11 @@ If successful, the returned device number can be used in a <a class="xref" href=
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelEnable(bool Input, int Channel, AsioProcedure Procedure, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -710,11 +711,11 @@ However changing the callback procedure to <span class="xref">null</span> would 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelEnableMirror(int Channel, bool Input2, int Channel2)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -763,20 +764,20 @@ However changing the callback procedure to <span class="xref">null</span> would 
   <h5 id="ManagedBass_Asio_BassAsio_ChannelEnableMirror_System_Int32_System_Boolean_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
 This function allows an input or output channel to be duplicated in other output channel.
-This can be achieved using normal <a class="xref" href="ManagedBass.Asio.AsioProcedure.html">AsioProcedure</a> processing, but it&#39;s more efficient to let BassAsio simply copy the data from one channel to another.
+This can be achieved using normal <a class="xref" href="ManagedBass.Asio.AsioProcedure.html">AsioProcedure</a> processing, but it&apos;s more efficient to let BassAsio simply copy the data from one channel to another.
 </p>
 <p>
-Mirror channels can&#39;t be joined together to form multi-channel mirrors.
+Mirror channels can&apos;t be joined together to form multi-channel mirrors.
 Instead, to mirror multiple channels, an individual mirror should be setup for each of them.
 </p>
-<p>After <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Start_System_Int32_System_Int32_">Start(Int32, Int32)</a> has been called to begin processing, it&#39;s not possible to setup new mirror channels, but it is still possible to change the channel that a mirror is mirroring.</p>
+<p>After <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Start_System_Int32_System_Int32_">Start(Int32, Int32)</a> has been called to begin processing, it&apos;s not possible to setup new mirror channels, but it is still possible to change the channel that a mirror is mirroring.</p>
 <p>
-When mirroring an output channel that hasn&#39;t been enabled, the mirror channel will just produce silence.
-When mirroring an input channel that hasn&#39;t already been enabled, the channel is automatically enabled for processing when <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Start_System_Int32_System_Int32_">Start(Int32, Int32)</a> is called, so that it can be mirrored.
+When mirroring an output channel that hasn&apos;t been enabled, the mirror channel will just produce silence.
+When mirroring an input channel that hasn&apos;t already been enabled, the channel is automatically enabled for processing when <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Start_System_Int32_System_Int32_">Start(Int32, Int32)</a> is called, so that it can be mirrored.
 If the mirror is switched to a disabled input channel once processing has begun, then it will produce silence.
 </p>
 <p>
-A mirror channel can be made to have a different volume level to the channel that it&#39;s mirroring, using <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelSetVolume_System_Boolean_System_Int32_System_Double_">ChannelSetVolume(Boolean, Int32, Double)</a>.
+A mirror channel can be made to have a different volume level to the channel that it&apos;s mirroring, using <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelSetVolume_System_Boolean_System_Int32_System_Double_">ChannelSetVolume(Boolean, Int32, Double)</a>.
 The volume setting is cumulative.
 For example, if the mirror channel has a volume setting of 0.5 and the mirrored channel has a volume setting of 0.4, the effective volume of the mirror channel will be 0.2 (0.5 x 0.4).
 </p>
@@ -793,15 +794,15 @@ For example, if the mirror channel has a volume setting of 0.5 and the mirrored 
   <h4 id="ManagedBass_Asio_BassAsio_ChannelGetFormat_System_Boolean_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelGetFormat(System.Boolean,System.Int32)"><a href="#collapsible-ManagedBass_Asio_BassAsio_ChannelGetFormat_System_Boolean_System_Int32_" class="expander" data-toggle="collapse">ChannelGetFormat(Boolean, Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_Asio_BassAsio_ChannelGetFormat_System_Boolean_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Retrieves a channel&#39;s sample format.</p>
+  <div class="markdown level1 summary"><p>Retrieves a channel&apos;s sample format.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static AsioSampleFormat ChannelGetFormat(bool Input, int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -861,11 +862,11 @@ For example, if the mirror channel has a volume setting of 0.5 and the mirrored 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static AsioChannelInfo ChannelGetInfo(bool Input, int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -918,11 +919,11 @@ For example, if the mirror channel has a volume setting of 0.5 and the mirrored 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelGetInfo(bool Input, int Channel, out AsioChannelInfo Info)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -990,11 +991,11 @@ For example, if the mirror channel has a volume setting of 0.5 and the mirrored 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static double ChannelGetLevel(bool Input, int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1022,7 +1023,7 @@ For example, if the mirror channel has a volume setting of 0.5 and the mirrored 
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
         <p><p>If an error occurs, -1 is returned, use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code. 
 If successful, the level of the channel is returned, ranging from 0 (silent) to 1 (max).
-If the channel&#39;s native sample format is floating-point, it is actually possible for the level to go above 1.</p>
+If the channel&apos;s native sample format is floating-point, it is actually possible for the level to go above 1.</p>
 </p>
       </td>
     </tr>
@@ -1054,15 +1055,15 @@ Paused output channels will have a level of 0.
   <h4 id="ManagedBass_Asio_BassAsio_ChannelGetRate_System_Boolean_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelGetRate(System.Boolean,System.Int32)"><a href="#collapsible-ManagedBass_Asio_BassAsio_ChannelGetRate_System_Boolean_System_Int32_" class="expander" data-toggle="collapse">ChannelGetRate(Boolean, Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_Asio_BassAsio_ChannelGetRate_System_Boolean_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Retrieves a channel&#39;s sample rate.</p>
+  <div class="markdown level1 summary"><p>Retrieves a channel&apos;s sample rate.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static double ChannelGetRate(bool Input, int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1088,7 +1089,7 @@ Paused output channels will have a level of 0.
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-        <p><p>If succesful, the channel&#39;s sample rate is returned (0 = device rate), else -1 is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+        <p><p>If succesful, the channel&apos;s sample rate is returned (0 = device rate), else -1 is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1118,15 +1119,15 @@ Paused output channels will have a level of 0.
   <h4 id="ManagedBass_Asio_BassAsio_ChannelGetVolume_System_Boolean_System_Int32_" data-uid="ManagedBass.Asio.BassAsio.ChannelGetVolume(System.Boolean,System.Int32)"><a href="#collapsible-ManagedBass_Asio_BassAsio_ChannelGetVolume_System_Boolean_System_Int32_" class="expander" data-toggle="collapse">ChannelGetVolume(Boolean, Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_Asio_BassAsio_ChannelGetVolume_System_Boolean_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Retrieves a channel&#39;s volume setting.</p>
+  <div class="markdown level1 summary"><p>Retrieves a channel&apos;s volume setting.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static double ChannelGetVolume(bool Input, int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1152,7 +1153,7 @@ Paused output channels will have a level of 0.
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.double(v=vs.110).aspx">Double</a>
-        <p><p>If successful, the channel&#39;s volume setting is returned, else -1 is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the channel&apos;s volume setting is returned, else -1 is returned. Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1182,11 +1183,11 @@ Paused output channels will have a level of 0.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static AsioChannelActive ChannelIsActive(bool Input, int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1225,7 +1226,7 @@ Paused output channels will have a level of 0.
   
   
   <h5 id="ManagedBass_Asio_BassAsio_ChannelIsActive_System_Boolean_System_Int32__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>When a channel is joined to another, the status of the other channel is returned, as that is what determines whether the channel is enabled for processing - whether it&#39;s been enabled itself is of no consequence while it is joined to another. 
+  <div class="markdown level1 remarks"><p>When a channel is joined to another, the status of the other channel is returned, as that is what determines whether the channel is enabled for processing - whether it&apos;s been enabled itself is of no consequence while it is joined to another. 
 For example, if channel B is joined to channel A, and channel A is not enabled, then neither is channel B.</p>
 </div>
   
@@ -1243,11 +1244,11 @@ For example, if channel B is joined to channel A, and channel A is not enabled, 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelJoin(bool Input, int Channel, int Channel2)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1307,12 +1308,12 @@ do not join a channel to a channel that is itself joined to another channel.
 Mirror channels, setup using <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelEnableMirror_System_Int32_System_Boolean_System_Int32_">ChannelEnableMirror(Int32, Boolean, Int32)</a>, cannot be joined with.
 </p>
 <p>
-If a channel has two or more other channels joined to it, then the joined channels will default to being in numerically ascending order in the <a class="xref" href="ManagedBass.Asio.AsioProcedure.html">AsioProcedure</a> callback function&#39;s sample data unless the <a class="xref" href="ManagedBass.Asio.AsioInitFlags.html#ManagedBass_Asio_AsioInitFlags_JoinOrder">JoinOrder</a> flag was used in the <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> call, 
+If a channel has two or more other channels joined to it, then the joined channels will default to being in numerically ascending order in the <a class="xref" href="ManagedBass.Asio.AsioProcedure.html">AsioProcedure</a> callback function&apos;s sample data unless the <a class="xref" href="ManagedBass.Asio.AsioInitFlags.html#ManagedBass_Asio_AsioInitFlags_JoinOrder">JoinOrder</a> flag was used in the <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Init_System_Int32_ManagedBass_Asio_AsioInitFlags_">Init(Int32, AsioInitFlags)</a> call, 
 in which case they will be in the order in which they were joined via this function.
 In the latter case, if this function is called on an already joined channel, the channel will be moved to the end of the joined group.
 </p>
 <p>
-While a channel is joined to another, it automatically takes on the attributes of the other channel - the other channel&#39;s settings determine the sample format, the sample rate and whether it is enabled.
+While a channel is joined to another, it automatically takes on the attributes of the other channel - the other channel&apos;s settings determine the sample format, the sample rate and whether it is enabled.
 The volume setting remains individual though, allowing balance control over the joined channels.
 </p>
 </div>
@@ -1331,11 +1332,11 @@ The volume setting remains individual though, allowing balance control over the 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelPause(bool Input, int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1378,9 +1379,9 @@ The volume setting remains individual though, allowing balance control over the 
 Channels can only be disabled when the device is stopped.
 When you want to stop processing only some of the enabled channels, there are few ways that could be done.
 You could quickly stop the device, disable the unwanted channels, and restart the device. 
-In the case of output channels, you could fill the channels&#39; buffers with silence (0s) in the <a class="xref" href="ManagedBass.Asio.AsioProcedure.html">AsioProcedure</a>.
+In the case of output channels, you could fill the channels&apos; buffers with silence (0s) in the <a class="xref" href="ManagedBass.Asio.AsioProcedure.html">AsioProcedure</a>.
 Or you could pause the channels, using this function. 
-The less channels BassAsio has to process, the less CPU it&#39;ll use, so stopping and restarting the device would be the most efficient, but that could cause a slight break in the sound of the other channels. 
+The less channels BassAsio has to process, the less CPU it&apos;ll use, so stopping and restarting the device would be the most efficient, but that could cause a slight break in the sound of the other channels. 
 Filling the buffers with silence is the least efficient, as BassAsio will still process the data as if it was &quot;normal&quot;, but it does mean that other channels are unaffected.
 Pausing is a compromise between the two - the channels will still be enabled, but BassAsio will bypass any additional processing (resampling/etc) that may normally be required.</p>
 <p>Use <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelReset_System_Boolean_System_Int32_ManagedBass_Asio_AsioChannelResetFlags_">ChannelReset(Boolean, Int32, AsioChannelResetFlags)</a> to resume processing of a paused channel.</p>
@@ -1400,11 +1401,11 @@ Pausing is a compromise between the two - the channels will still be enabled, bu
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelReset(bool Input, int Channel, AsioChannelResetFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1464,15 +1465,15 @@ Pausing is a compromise between the two - the channels will still be enabled, bu
   <h4 id="ManagedBass_Asio_BassAsio_ChannelSetFormat_System_Boolean_System_Int32_ManagedBass_Asio_AsioSampleFormat_" data-uid="ManagedBass.Asio.BassAsio.ChannelSetFormat(System.Boolean,System.Int32,ManagedBass.Asio.AsioSampleFormat)"><a href="#collapsible-ManagedBass_Asio_BassAsio_ChannelSetFormat_System_Boolean_System_Int32_ManagedBass_Asio_AsioSampleFormat_" class="expander" data-toggle="collapse">ChannelSetFormat(Boolean, Int32, AsioSampleFormat)</a></h4>
   
   <div id="collapsible-ManagedBass_Asio_BassAsio_ChannelSetFormat_System_Boolean_System_Int32_ManagedBass_Asio_AsioSampleFormat_" class="collapse in">
-  <div class="markdown level1 summary"><p>Sets a channel&#39;s sample format.</p>
+  <div class="markdown level1 summary"><p>Sets a channel&apos;s sample format.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelSetFormat(bool Input, int Channel, AsioSampleFormat Format)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1525,10 +1526,10 @@ To avoid that extra work, BassAsio can automatically convert the sample data, wh
 The native format of a channel can be retrieved via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelGetInfo_System_Boolean_System_Int32_ManagedBass_Asio_AsioChannelInfo__">ChannelGetInfo(Boolean, Int32, out AsioChannelInfo)</a>.
 </p>
 <p>
-The PCM format options are only available when the device&#39;s format is PCM, and the DSD format options are only available when the device&#39;s format is DSD. 
+The PCM format options are only available when the device&apos;s format is PCM, and the DSD format options are only available when the device&apos;s format is DSD. 
 If a device supports both, it can be switched between DSD and PCM via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_SetDSD_System_Boolean_">SetDSD(Boolean)</a>.
 </p>
-<p>For performance reasons, it&#39;s best not to use 24-bit sample data whenever possible, as 24-bit data requires a bit more processing than the other formats.</p>
+<p>For performance reasons, it&apos;s best not to use 24-bit sample data whenever possible, as 24-bit data requires a bit more processing than the other formats.</p>
 </div>
   
   
@@ -1541,15 +1542,15 @@ If a device supports both, it can be switched between DSD and PCM via <a class="
   <h4 id="ManagedBass_Asio_BassAsio_ChannelSetRate_System_Boolean_System_Int32_System_Double_" data-uid="ManagedBass.Asio.BassAsio.ChannelSetRate(System.Boolean,System.Int32,System.Double)"><a href="#collapsible-ManagedBass_Asio_BassAsio_ChannelSetRate_System_Boolean_System_Int32_System_Double_" class="expander" data-toggle="collapse">ChannelSetRate(Boolean, Int32, Double)</a></h4>
   
   <div id="collapsible-ManagedBass_Asio_BassAsio_ChannelSetRate_System_Boolean_System_Int32_System_Double_" class="collapse in">
-  <div class="markdown level1 summary"><p>Sets a channel&#39;s sample rate.</p>
+  <div class="markdown level1 summary"><p>Sets a channel&apos;s sample rate.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelSetRate(bool Input, int Channel, double Rate)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1597,12 +1598,12 @@ If a device supports both, it can be switched between DSD and PCM via <a class="
   
   <h5 id="ManagedBass_Asio_BassAsio_ChannelSetRate_System_Boolean_System_Int32_System_Double__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
-For optimal quality and performance, it is best to set the device to the sample rate you want via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Rate">Rate</a>, but that&#39;s not always possible. 
+For optimal quality and performance, it is best to set the device to the sample rate you want via <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Rate">Rate</a>, but that&apos;s not always possible. 
 Which is where this function and resampling comes into play.
 16 point sinc interpolation is used, giving a good blend of sound quality and performance.
 It is also SSE2 and 3DNow optimized for an extra boost with supporting CPUs.
 </p>
-<p>When a channel&#39;s sample rate is the same as the device rate, resampling is bypassed, so there&#39;s no unnecessary performance hit.</p>
+<p>When a channel&apos;s sample rate is the same as the device rate, resampling is bypassed, so there&apos;s no unnecessary performance hit.</p>
 <p>Resampling is not supported when the sample format is DSD.</p>
 <p>
 <table><thead><tr><th><span class="xref">Un4seen.Bass.BASSError</span></th><th>Description</th></tr></thead><tbody><tr><td>BASS_ERROR_INIT</td><td></td></tr><tr><td>BASS_ERROR_ILLPARAM</td><td></td></tr><tr><td>BASS_ERROR_FORMAT</td><td></td></tr></tbody></table>
@@ -1626,15 +1627,15 @@ It is also SSE2 and 3DNow optimized for an extra boost with supporting CPUs.
   <h4 id="ManagedBass_Asio_BassAsio_ChannelSetVolume_System_Boolean_System_Int32_System_Double_" data-uid="ManagedBass.Asio.BassAsio.ChannelSetVolume(System.Boolean,System.Int32,System.Double)"><a href="#collapsible-ManagedBass_Asio_BassAsio_ChannelSetVolume_System_Boolean_System_Int32_System_Double_" class="expander" data-toggle="collapse">ChannelSetVolume(Boolean, Int32, Double)</a></h4>
   
   <div id="collapsible-ManagedBass_Asio_BassAsio_ChannelSetVolume_System_Boolean_System_Int32_System_Double_" class="collapse in">
-  <div class="markdown level1 summary"><p>Sets a channel&#39;s volume.</p>
+  <div class="markdown level1 summary"><p>Sets a channel&apos;s volume.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ChannelSetVolume(bool Input, int Channel, double Volume)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1692,7 +1693,7 @@ The final level of a channel is = master volume * channel volume.
 ASIO drivers do not provide volume control themselves, so the volume adjustments are applied to the sample data by BassAsio. 
 This also means that changes do not persist across sessions, and the channel volume levels will always start at 1.0.
 </p>
-<p>When the channel&#39;s sample format is DSD, a 0 volume setting will mute the channel and anything else will be treated as 1.0 (normal).</p>
+<p>When the channel&apos;s sample format is DSD, a 0 volume setting will mute the channel and anything else will be treated as 1.0 (normal).</p>
 </div>
   
   
@@ -1709,11 +1710,11 @@ This also means that changes do not persist across sessions, and the channel vol
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool CheckRate(double Rate)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1754,15 +1755,15 @@ This also means that changes do not persist across sessions, and the channel vol
   <h4 id="ManagedBass_Asio_BassAsio_ControlPanel" data-uid="ManagedBass.Asio.BassAsio.ControlPanel"><a href="#collapsible-ManagedBass_Asio_BassAsio_ControlPanel" class="expander" data-toggle="collapse">ControlPanel()</a></h4>
   
   <div id="collapsible-ManagedBass_Asio_BassAsio_ControlPanel" class="collapse in">
-  <div class="markdown level1 summary"><p>Displays the current Asio driver&#39;s control panel.</p>
+  <div class="markdown level1 summary"><p>Displays the current Asio driver&apos;s control panel.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ControlPanel()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -1796,11 +1797,11 @@ This also means that changes do not persist across sessions, and the channel vol
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Free()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>
@@ -1833,15 +1834,15 @@ This also means that changes do not persist across sessions, and the channel vol
   <h4 id="ManagedBass_Asio_BassAsio_Future_ManagedBass_Asio_AsioFuture_IntPtr_" data-uid="ManagedBass.Asio.BassAsio.Future(ManagedBass.Asio.AsioFuture,IntPtr)"><a href="#collapsible-ManagedBass_Asio_BassAsio_Future_ManagedBass_Asio_AsioFuture_IntPtr_" class="expander" data-toggle="collapse">Future(AsioFuture, IntPtr)</a></h4>
   
   <div id="collapsible-ManagedBass_Asio_BassAsio_Future_ManagedBass_Asio_AsioFuture_IntPtr_" class="collapse in">
-  <div class="markdown level1 summary"><p>Provides access to the driver&#39;s &#39;future&#39; function.</p>
+  <div class="markdown level1 summary"><p>Provides access to the driver&apos;s &apos;future&apos; function.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Future(AsioFuture Selector, IntPtr Param)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1856,7 +1857,7 @@ This also means that changes do not persist across sessions, and the channel vol
       <td>
         <span class="pull-right"><span class="xref">IntPtr</span></span>
         <span class="parametername">Param</span>
-        <p><p>Pointer to the operation&#39;s parameters, if applicable.</p>
+        <p><p>Pointer to the operation&apos;s parameters, if applicable.</p>
 </p>
       </td>
     </tr>
@@ -1904,11 +1905,11 @@ This also means that changes do not persist across sessions, and the channel vol
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static AsioDeviceInfo GetDeviceInfo(int Device)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1956,11 +1957,11 @@ This also means that changes do not persist across sessions, and the channel vol
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool GetDeviceInfo(int Device, out AsioDeviceInfo Info)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2016,11 +2017,11 @@ This also means that changes do not persist across sessions, and the channel vol
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool GetInfo(out AsioInfo Info)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2069,11 +2070,11 @@ The device setting is local to the current thread, so calling functions with dif
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetLatency(bool Input)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2130,11 +2131,11 @@ When a channel is being resampled, the sample latency will change, but the effec
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Init(int Device, AsioInitFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2182,7 +2183,7 @@ If device initializing and releasing from multiple threads is required, or the a
 <p>
 Simultaneously using multiple devices is supported in the BassAsio API via a context switching system - instead of there being an extra &quot;device&quot; parameter in the function calls, the device to be used is set prior to calling the functions.
 <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_CurrentDevice">CurrentDevice</a> is used to switch the current device. 
-When successful, the current thread&#39;s device is set to the one that was just initialized.
+When successful, the current thread&apos;s device is set to the one that was just initialized.
 </p>
 </div>
   
@@ -2200,11 +2201,11 @@ When successful, the current thread&#39;s device is set to the one that was just
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Monitor(int Input, int Output, int Gain, int State, int Pan)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2278,7 +2279,7 @@ Output is the base channel of a stereo channel pair, i.e. output is always an ev
 If an odd input channel should be monitored and no panning or output routing can be applied, the driver has to use the next higher output (imply a hard right pan).
 Note that the output, gain and pan settings are just suggestions, and may be ignored by the device/driver.
 </p>
-<p>Some cards/drivers might also support direct output monitoring, in such case use the <span class="paramref">Input</span> parameter to denote the output channel to monitor and specify an appropriate <span class="paramref">State</span> value.</p>
+<p>Some cards/drivers might also support direct output monitoring, in such case use the <code data-dev-comment-type="paramref" class="paramref">Input</code> parameter to denote the output channel to monitor and specify an appropriate <code data-dev-comment-type="paramref" class="paramref">State</code> value.</p>
 <p>
 ADM has originally been based on a mono in - stereo out scheme. Meaning if you need to monitor a stereo input channel pair you need to call this twice, both using the same output value, but using an odd and an even input value.
 In such case set the odd input to pan hard left and the even input to pan hard right.
@@ -2299,15 +2300,15 @@ So if for example channels 3 and 4 are inactive, ADM input 3 is related to the p
   <h4 id="ManagedBass_Asio_BassAsio_SetDSD_System_Boolean_" data-uid="ManagedBass.Asio.BassAsio.SetDSD(System.Boolean)"><a href="#collapsible-ManagedBass_Asio_BassAsio_SetDSD_System_Boolean_" class="expander" data-toggle="collapse">SetDSD(Boolean)</a></h4>
   
   <div id="collapsible-ManagedBass_Asio_BassAsio_SetDSD_System_Boolean_" class="collapse in">
-  <div class="markdown level1 summary"><p>Sets the device&#39;s sample format to DSD or PCM.</p>
+  <div class="markdown level1 summary"><p>Sets the device&apos;s sample format to DSD or PCM.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool SetDSD(bool DSD = true)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2338,7 +2339,7 @@ So if for example channels 3 and 4 are inactive, ADM input 3 is related to the p
   
   
   <h5 id="ManagedBass_Asio_BassAsio_SetDSD_System_Boolean__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>When a device is switched between PCM and DSD formats, the ASIO channels&#39; format will change accordingly, as reported by <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelGetInfo_System_Boolean_System_Int32_ManagedBass_Asio_AsioChannelInfo__">ChannelGetInfo(Boolean, Int32, out AsioChannelInfo)</a>.
+  <div class="markdown level1 remarks"><p>When a device is switched between PCM and DSD formats, the ASIO channels&apos; format will change accordingly, as reported by <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelGetInfo_System_Boolean_System_Int32_ManagedBass_Asio_AsioChannelInfo__">ChannelGetInfo(Boolean, Int32, out AsioChannelInfo)</a>.
 Any <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelSetFormat_System_Boolean_System_Int32_ManagedBass_Asio_AsioSampleFormat_">ChannelSetFormat(Boolean, Int32, AsioSampleFormat)</a> and <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelSetRate_System_Boolean_System_Int32_System_Double_">ChannelSetRate(Boolean, Int32, Double)</a> settings that have been applied will be reset to defaults. 
 Other channel settings are unchanged.</p>
 </div>
@@ -2357,11 +2358,11 @@ Other channel settings are unchanged.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool SetNotify(AsioNotifyProcedure Procedure, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2417,11 +2418,11 @@ Other channel settings are unchanged.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Start(int BufferLength = 0, int Threads = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2461,7 +2462,7 @@ Other channel settings are unchanged.</p>
   
   <h5 id="ManagedBass_Asio_BassAsio_Start_System_Int32_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Before starting the device, channels must be enabled using <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelEnable_System_Boolean_System_Int32_ManagedBass_Asio_AsioProcedure_IntPtr_">ChannelEnable(Boolean, Int32, AsioProcedure, IntPtr)</a>.
-Once started, channels can&#39;t be enabled or disabled until the device is stopped, using <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Stop">Stop()</a>.
+Once started, channels can&apos;t be enabled or disabled until the device is stopped, using <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_Stop">Stop()</a>.
 <p>
 The default number of processing threads is 1, which means that the <a class="xref" href="ManagedBass.Asio.AsioProcedure.html">AsioProcedure</a> functions of the enabled channels get called in series (starting with the lowest input channel).
 Multiple channels can be processed in parallel if multiple threads are created for that purpose via the threads parameter.
@@ -2483,11 +2484,11 @@ The number of threads is automatically capped at the number of enabled channels 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Stop()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>

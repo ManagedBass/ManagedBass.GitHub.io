@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum CDInterface
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,67 +74,58 @@
   <div class="markdown level0 summary"><p>The interface to use to access CD drives (used with <a class="xref" href="ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_SetInterface_ManagedBass_Cd_CDInterface_">SetInterface(CDInterface)</a>).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Cd</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Cd.dll</h6>
   
   <h5 id="ManagedBass_Cd_CDInterface_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum CDInterface : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_Cd_CDInterface_ASPI"><a href="#collapsible-ManagedBass_Cd_CDInterface_ASPI" class="expander" data-toggle="collapse">ASPI</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_Cd_CDInterface_ASPI">
-          ASPI
-          <p><p>Advanced SCSI Programming Interface.
+      <div id="collapsible-ManagedBass_Cd_CDInterface_ASPI" class="collapse in">
+        <p><p>Advanced SCSI Programming Interface.
 This is the only interface available on Windows 9x, and can also be installed on NT-based Windows.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Cd_CDInterface_Auto">
-          Auto
-          <p><p>Automatically detect an available interface.
+      </div>
+      <h4 id="ManagedBass_Cd_CDInterface_Auto"><a href="#collapsible-ManagedBass_Cd_CDInterface_Auto" class="expander" data-toggle="collapse">Auto</a></h4>
+  
+      <div id="collapsible-ManagedBass_Cd_CDInterface_Auto" class="collapse in">
+        <p><p>Automatically detect an available interface.
 The interfaces are checked in the order that they are listed here.
 For example, if both SPTI and ASPI are available, SPTI will be used.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Cd_CDInterface_Linux">
-          Linux
-          <p><p>Linux interface.</p>
+      </div>
+      <h4 id="ManagedBass_Cd_CDInterface_Linux"><a href="#collapsible-ManagedBass_Cd_CDInterface_Linux" class="expander" data-toggle="collapse">Linux</a></h4>
+  
+      <div id="collapsible-ManagedBass_Cd_CDInterface_Linux" class="collapse in">
+        <p><p>Linux interface.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Cd_CDInterface_SPTI">
-          SPTI
-          <p><p>SCSI Pass-Through Interface.
+      </div>
+      <h4 id="ManagedBass_Cd_CDInterface_SPTI"><a href="#collapsible-ManagedBass_Cd_CDInterface_SPTI" class="expander" data-toggle="collapse">SPTI</a></h4>
+  
+      <div id="collapsible-ManagedBass_Cd_CDInterface_SPTI" class="collapse in">
+        <p><p>SCSI Pass-Through Interface.
 This is only available on NT-based Windows, not Windows 9x, and generally only to administrator user accounts, not limited/restricted user accounts.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Cd_CDInterface_WIO">
-          WIO
-          <p><p>Windows I/O. Like SPTI, this is only available on NT-based Windows, but it is also available to limited/restricted user accounts.
+      </div>
+      <h4 id="ManagedBass_Cd_CDInterface_WIO"><a href="#collapsible-ManagedBass_Cd_CDInterface_WIO" class="expander" data-toggle="collapse">WIO</a></h4>
+  
+      <div id="collapsible-ManagedBass_Cd_CDInterface_WIO" class="collapse in">
+        <p><p>Windows I/O. Like SPTI, this is only available on NT-based Windows, but it is also available to limited/restricted user accounts.
 Some features are not available via this interface, notably sub-channel data reading and read speed control (except on Vista or newer).
 Door status detection is also affected.</p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

@@ -10777,36 +10777,6 @@ references:
   commentId: F:ManagedBass.DXWaveform.Triangle
   fullName: ManagedBass.DXWaveform.Triangle
   nameWithType: DXWaveform.Triangle
-- uid: ManagedBass.DynamicLibrary
-  name: DynamicLibrary
-  href: api/ManagedBass.DynamicLibrary.html
-  commentId: T:ManagedBass.DynamicLibrary
-  fullName: ManagedBass.DynamicLibrary
-  nameWithType: DynamicLibrary
-- uid: ManagedBass.DynamicLibrary.Load(System.String,System.String)
-  name: Load(String, String)
-  href: api/ManagedBass.DynamicLibrary.html#ManagedBass_DynamicLibrary_Load_System_String_System_String_
-  commentId: M:ManagedBass.DynamicLibrary.Load(System.String,System.String)
-  fullName: ManagedBass.DynamicLibrary.Load(System.String, System.String)
-  nameWithType: DynamicLibrary.Load(String, String)
-- uid: ManagedBass.DynamicLibrary.Load*
-  name: Load
-  href: api/ManagedBass.DynamicLibrary.html#ManagedBass_DynamicLibrary_Load_
-  commentId: Overload:ManagedBass.DynamicLibrary.Load
-  fullName: ManagedBass.DynamicLibrary.Load
-  nameWithType: DynamicLibrary.Load
-- uid: ManagedBass.DynamicLibrary.Unload(IntPtr)
-  name: Unload(IntPtr)
-  href: api/ManagedBass.DynamicLibrary.html#ManagedBass_DynamicLibrary_Unload_IntPtr_
-  commentId: M:ManagedBass.DynamicLibrary.Unload(IntPtr)
-  fullName: ManagedBass.DynamicLibrary.Unload(IntPtr)
-  nameWithType: DynamicLibrary.Unload(IntPtr)
-- uid: ManagedBass.DynamicLibrary.Unload*
-  name: Unload
-  href: api/ManagedBass.DynamicLibrary.html#ManagedBass_DynamicLibrary_Unload_
-  commentId: Overload:ManagedBass.DynamicLibrary.Unload
-  fullName: ManagedBass.DynamicLibrary.Unload
-  nameWithType: DynamicLibrary.Unload
 - uid: ManagedBass.EAXEnvironment
   name: EAXEnvironment
   href: api/ManagedBass.EAXEnvironment.html
@@ -11330,6 +11300,18 @@ references:
   commentId: T:ManagedBass.Enc.BassEnc
   fullName: ManagedBass.Enc.BassEnc
   nameWithType: BassEnc
+- uid: ManagedBass.Enc.BassEnc.ACMLoad
+  name: ACMLoad
+  href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_ACMLoad
+  commentId: P:ManagedBass.Enc.BassEnc.ACMLoad
+  fullName: ManagedBass.Enc.BassEnc.ACMLoad
+  nameWithType: BassEnc.ACMLoad
+- uid: ManagedBass.Enc.BassEnc.ACMLoad*
+  name: ACMLoad
+  href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_ACMLoad_
+  commentId: Overload:ManagedBass.Enc.BassEnc.ACMLoad
+  fullName: ManagedBass.Enc.BassEnc.ACMLoad
+  nameWithType: BassEnc.ACMLoad
 - uid: ManagedBass.Enc.BassEnc.CastGetStats(System.Int32,ManagedBass.Enc.EncodeStats,System.String)
   name: CastGetStats(Int32, EncodeStats, String)
   href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_CastGetStats_System_Int32_ManagedBass_Enc_EncodeStats_System_String_
@@ -11549,6 +11531,24 @@ references:
   commentId: Overload:ManagedBass.Enc.BassEnc.EncodeStart
   fullName: ManagedBass.Enc.BassEnc.EncodeStart
   nameWithType: BassEnc.EncodeStart
+- uid: ManagedBass.Enc.BassEnc.EncodeStartACM(System.Int32,IntPtr,ManagedBass.Enc.EncodeFlags,ManagedBass.Enc.EncodeProcedure,IntPtr)
+  name: EncodeStartACM(Int32, IntPtr, EncodeFlags, EncodeProcedure, IntPtr)
+  href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_EncodeStartACM_System_Int32_IntPtr_ManagedBass_Enc_EncodeFlags_ManagedBass_Enc_EncodeProcedure_IntPtr_
+  commentId: M:ManagedBass.Enc.BassEnc.EncodeStartACM(System.Int32,IntPtr,ManagedBass.Enc.EncodeFlags,ManagedBass.Enc.EncodeProcedure,IntPtr)
+  fullName: ManagedBass.Enc.BassEnc.EncodeStartACM(System.Int32, IntPtr, ManagedBass.Enc.EncodeFlags, ManagedBass.Enc.EncodeProcedure, IntPtr)
+  nameWithType: BassEnc.EncodeStartACM(Int32, IntPtr, EncodeFlags, EncodeProcedure, IntPtr)
+- uid: ManagedBass.Enc.BassEnc.EncodeStartACM(System.Int32,IntPtr,ManagedBass.Enc.EncodeFlags,System.String)
+  name: EncodeStartACM(Int32, IntPtr, EncodeFlags, String)
+  href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_EncodeStartACM_System_Int32_IntPtr_ManagedBass_Enc_EncodeFlags_System_String_
+  commentId: M:ManagedBass.Enc.BassEnc.EncodeStartACM(System.Int32,IntPtr,ManagedBass.Enc.EncodeFlags,System.String)
+  fullName: ManagedBass.Enc.BassEnc.EncodeStartACM(System.Int32, IntPtr, ManagedBass.Enc.EncodeFlags, System.String)
+  nameWithType: BassEnc.EncodeStartACM(Int32, IntPtr, EncodeFlags, String)
+- uid: ManagedBass.Enc.BassEnc.EncodeStartACM*
+  name: EncodeStartACM
+  href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_EncodeStartACM_
+  commentId: Overload:ManagedBass.Enc.BassEnc.EncodeStartACM
+  fullName: ManagedBass.Enc.BassEnc.EncodeStartACM
+  nameWithType: BassEnc.EncodeStartACM
 - uid: ManagedBass.Enc.BassEnc.EncodeStartCA(System.Int32,System.Int32,System.Int32,ManagedBass.Enc.EncodeFlags,System.Int32,ManagedBass.Enc.EncodeProcedureEx,IntPtr)
   name: EncodeStartCA(Int32, Int32, Int32, EncodeFlags, Int32, EncodeProcedureEx, IntPtr)
   href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_EncodeStartCA_System_Int32_System_Int32_System_Int32_ManagedBass_Enc_EncodeFlags_System_Int32_ManagedBass_Enc_EncodeProcedureEx_IntPtr_
@@ -11633,6 +11633,18 @@ references:
   commentId: Overload:ManagedBass.Enc.BassEnc.EncodeWrite
   fullName: ManagedBass.Enc.BassEnc.EncodeWrite
   nameWithType: BassEnc.EncodeWrite
+- uid: ManagedBass.Enc.BassEnc.GetACMFormat(System.Int32,IntPtr,System.Int32,System.String,ManagedBass.Enc.ACMFormatFlags,ManagedBass.WaveFormatTag)
+  name: GetACMFormat(Int32, IntPtr, Int32, String, ACMFormatFlags, WaveFormatTag)
+  href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_GetACMFormat_System_Int32_IntPtr_System_Int32_System_String_ManagedBass_Enc_ACMFormatFlags_ManagedBass_WaveFormatTag_
+  commentId: M:ManagedBass.Enc.BassEnc.GetACMFormat(System.Int32,IntPtr,System.Int32,System.String,ManagedBass.Enc.ACMFormatFlags,ManagedBass.WaveFormatTag)
+  fullName: ManagedBass.Enc.BassEnc.GetACMFormat(System.Int32, IntPtr, System.Int32, System.String, ManagedBass.Enc.ACMFormatFlags, ManagedBass.WaveFormatTag)
+  nameWithType: BassEnc.GetACMFormat(Int32, IntPtr, Int32, String, ACMFormatFlags, WaveFormatTag)
+- uid: ManagedBass.Enc.BassEnc.GetACMFormat*
+  name: GetACMFormat
+  href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_GetACMFormat_
+  commentId: Overload:ManagedBass.Enc.BassEnc.GetACMFormat
+  fullName: ManagedBass.Enc.BassEnc.GetACMFormat
+  nameWithType: BassEnc.GetACMFormat
 - uid: ManagedBass.Enc.BassEnc.MimeAac
   name: MimeAac
   href: api/ManagedBass.Enc.BassEnc.html#ManagedBass_Enc_BassEnc_MimeAac
@@ -16451,18 +16463,6 @@ references:
   commentId: Overload:ManagedBass.Midi.BassMidi.FontLoad
   fullName: ManagedBass.Midi.BassMidi.FontLoad
   nameWithType: BassMidi.FontLoad
-- uid: ManagedBass.Midi.BassMidi.FontPack(System.Int32,System.String,System.String,ManagedBass.BassFlags)
-  name: FontPack(Int32, String, String, BassFlags)
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_FontPack_System_Int32_System_String_System_String_ManagedBass_BassFlags_
-  commentId: M:ManagedBass.Midi.BassMidi.FontPack(System.Int32,System.String,System.String,ManagedBass.BassFlags)
-  fullName: ManagedBass.Midi.BassMidi.FontPack(System.Int32, System.String, System.String, ManagedBass.BassFlags)
-  nameWithType: BassMidi.FontPack(Int32, String, String, BassFlags)
-- uid: ManagedBass.Midi.BassMidi.FontPack*
-  name: FontPack
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_FontPack_
-  commentId: Overload:ManagedBass.Midi.BassMidi.FontPack
-  fullName: ManagedBass.Midi.BassMidi.FontPack
-  nameWithType: BassMidi.FontPack
 - uid: ManagedBass.Midi.BassMidi.FontSetVolume(System.Int32,System.Single)
   name: FontSetVolume(Int32, Single)
   href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_FontSetVolume_System_Int32_System_Single_
@@ -16499,63 +16499,6 @@ references:
   commentId: Overload:ManagedBass.Midi.BassMidi.FontUnpack
   fullName: ManagedBass.Midi.BassMidi.FontUnpack
   nameWithType: BassMidi.FontUnpack
-- uid: ManagedBass.Midi.BassMidi.InDeviceCount
-  name: InDeviceCount
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InDeviceCount
-  commentId: P:ManagedBass.Midi.BassMidi.InDeviceCount
-  fullName: ManagedBass.Midi.BassMidi.InDeviceCount
-  nameWithType: BassMidi.InDeviceCount
-- uid: ManagedBass.Midi.BassMidi.InDeviceCount*
-  name: InDeviceCount
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InDeviceCount_
-  commentId: Overload:ManagedBass.Midi.BassMidi.InDeviceCount
-  fullName: ManagedBass.Midi.BassMidi.InDeviceCount
-  nameWithType: BassMidi.InDeviceCount
-- uid: ManagedBass.Midi.BassMidi.InFree(System.Int32)
-  name: InFree(Int32)
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InFree_System_Int32_
-  commentId: M:ManagedBass.Midi.BassMidi.InFree(System.Int32)
-  fullName: ManagedBass.Midi.BassMidi.InFree(System.Int32)
-  nameWithType: BassMidi.InFree(Int32)
-- uid: ManagedBass.Midi.BassMidi.InFree*
-  name: InFree
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InFree_
-  commentId: Overload:ManagedBass.Midi.BassMidi.InFree
-  fullName: ManagedBass.Midi.BassMidi.InFree
-  nameWithType: BassMidi.InFree
-- uid: ManagedBass.Midi.BassMidi.InGetDeviceInfo(System.Int32)
-  name: InGetDeviceInfo(Int32)
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_
-  commentId: M:ManagedBass.Midi.BassMidi.InGetDeviceInfo(System.Int32)
-  fullName: ManagedBass.Midi.BassMidi.InGetDeviceInfo(System.Int32)
-  nameWithType: BassMidi.InGetDeviceInfo(Int32)
-- uid: ManagedBass.Midi.BassMidi.InGetDeviceInfo(System.Int32,ManagedBass.Midi.MidiDeviceInfo@)
-  name: InGetDeviceInfo(Int32, out MidiDeviceInfo)
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_ManagedBass_Midi_MidiDeviceInfo__
-  commentId: M:ManagedBass.Midi.BassMidi.InGetDeviceInfo(System.Int32,ManagedBass.Midi.MidiDeviceInfo@)
-  name.vb: InGetDeviceInfo(Int32, ByRef MidiDeviceInfo)
-  fullName: ManagedBass.Midi.BassMidi.InGetDeviceInfo(System.Int32, out ManagedBass.Midi.MidiDeviceInfo)
-  fullName.vb: ManagedBass.Midi.BassMidi.InGetDeviceInfo(System.Int32, ByRef ManagedBass.Midi.MidiDeviceInfo)
-  nameWithType: BassMidi.InGetDeviceInfo(Int32, out MidiDeviceInfo)
-  nameWithType.vb: BassMidi.InGetDeviceInfo(Int32, ByRef MidiDeviceInfo)
-- uid: ManagedBass.Midi.BassMidi.InGetDeviceInfo*
-  name: InGetDeviceInfo
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InGetDeviceInfo_
-  commentId: Overload:ManagedBass.Midi.BassMidi.InGetDeviceInfo
-  fullName: ManagedBass.Midi.BassMidi.InGetDeviceInfo
-  nameWithType: BassMidi.InGetDeviceInfo
-- uid: ManagedBass.Midi.BassMidi.InInit(System.Int32,ManagedBass.Midi.MidiInProcedure,IntPtr)
-  name: InInit(Int32, MidiInProcedure, IntPtr)
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InInit_System_Int32_ManagedBass_Midi_MidiInProcedure_IntPtr_
-  commentId: M:ManagedBass.Midi.BassMidi.InInit(System.Int32,ManagedBass.Midi.MidiInProcedure,IntPtr)
-  fullName: ManagedBass.Midi.BassMidi.InInit(System.Int32, ManagedBass.Midi.MidiInProcedure, IntPtr)
-  nameWithType: BassMidi.InInit(Int32, MidiInProcedure, IntPtr)
-- uid: ManagedBass.Midi.BassMidi.InInit*
-  name: InInit
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InInit_
-  commentId: Overload:ManagedBass.Midi.BassMidi.InInit
-  fullName: ManagedBass.Midi.BassMidi.InInit
-  nameWithType: BassMidi.InInit
 - uid: ManagedBass.Midi.BassMidi.InputPorts
   name: InputPorts
   href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InputPorts
@@ -16568,30 +16511,6 @@ references:
   commentId: Overload:ManagedBass.Midi.BassMidi.InputPorts
   fullName: ManagedBass.Midi.BassMidi.InputPorts
   nameWithType: BassMidi.InputPorts
-- uid: ManagedBass.Midi.BassMidi.InStart(System.Int32)
-  name: InStart(Int32)
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InStart_System_Int32_
-  commentId: M:ManagedBass.Midi.BassMidi.InStart(System.Int32)
-  fullName: ManagedBass.Midi.BassMidi.InStart(System.Int32)
-  nameWithType: BassMidi.InStart(Int32)
-- uid: ManagedBass.Midi.BassMidi.InStart*
-  name: InStart
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InStart_
-  commentId: Overload:ManagedBass.Midi.BassMidi.InStart
-  fullName: ManagedBass.Midi.BassMidi.InStart
-  nameWithType: BassMidi.InStart
-- uid: ManagedBass.Midi.BassMidi.InStop(System.Int32)
-  name: InStop(Int32)
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InStop_System_Int32_
-  commentId: M:ManagedBass.Midi.BassMidi.InStop(System.Int32)
-  fullName: ManagedBass.Midi.BassMidi.InStop(System.Int32)
-  nameWithType: BassMidi.InStop(Int32)
-- uid: ManagedBass.Midi.BassMidi.InStop*
-  name: InStop
-  href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InStop_
-  commentId: Overload:ManagedBass.Midi.BassMidi.InStop
-  fullName: ManagedBass.Midi.BassMidi.InStop
-  nameWithType: BassMidi.InStop
 - uid: ManagedBass.Midi.BassMidi.ReverbChannel
   name: ReverbChannel
   href: api/ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_ReverbChannel
@@ -18722,84 +18641,6 @@ references:
   commentId: F:ManagedBass.PlaybackState.Stopped
   fullName: ManagedBass.PlaybackState.Stopped
   nameWithType: PlaybackState.Stopped
-- uid: ManagedBass.Plugin
-  name: Plugin
-  href: api/ManagedBass.Plugin.html
-  commentId: T:ManagedBass.Plugin
-  fullName: ManagedBass.Plugin
-  nameWithType: Plugin
-- uid: ManagedBass.Plugin.#ctor(System.String)
-  name: Plugin(String)
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin__ctor_System_String_
-  commentId: M:ManagedBass.Plugin.#ctor(System.String)
-  fullName: ManagedBass.Plugin.Plugin(System.String)
-  nameWithType: Plugin.Plugin(String)
-- uid: ManagedBass.Plugin.#ctor*
-  name: Plugin
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin__ctor_
-  commentId: Overload:ManagedBass.Plugin.#ctor
-  fullName: ManagedBass.Plugin.Plugin
-  nameWithType: Plugin.Plugin
-- uid: ManagedBass.Plugin.DllName
-  name: DllName
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin_DllName
-  commentId: P:ManagedBass.Plugin.DllName
-  fullName: ManagedBass.Plugin.DllName
-  nameWithType: Plugin.DllName
-- uid: ManagedBass.Plugin.DllName*
-  name: DllName
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin_DllName_
-  commentId: Overload:ManagedBass.Plugin.DllName
-  fullName: ManagedBass.Plugin.DllName
-  nameWithType: Plugin.DllName
-- uid: ManagedBass.Plugin.Load(System.String)
-  name: Load(String)
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin_Load_System_String_
-  commentId: M:ManagedBass.Plugin.Load(System.String)
-  fullName: ManagedBass.Plugin.Load(System.String)
-  nameWithType: Plugin.Load(String)
-- uid: ManagedBass.Plugin.Load*
-  name: Load
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin_Load_
-  commentId: Overload:ManagedBass.Plugin.Load
-  fullName: ManagedBass.Plugin.Load
-  nameWithType: Plugin.Load
-- uid: ManagedBass.Plugin.SupportedFormats
-  name: SupportedFormats
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin_SupportedFormats
-  commentId: P:ManagedBass.Plugin.SupportedFormats
-  fullName: ManagedBass.Plugin.SupportedFormats
-  nameWithType: Plugin.SupportedFormats
-- uid: ManagedBass.Plugin.SupportedFormats*
-  name: SupportedFormats
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin_SupportedFormats_
-  commentId: Overload:ManagedBass.Plugin.SupportedFormats
-  fullName: ManagedBass.Plugin.SupportedFormats
-  nameWithType: Plugin.SupportedFormats
-- uid: ManagedBass.Plugin.Unload
-  name: Unload()
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin_Unload
-  commentId: M:ManagedBass.Plugin.Unload
-  fullName: ManagedBass.Plugin.Unload()
-  nameWithType: Plugin.Unload()
-- uid: ManagedBass.Plugin.Unload*
-  name: Unload
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin_Unload_
-  commentId: Overload:ManagedBass.Plugin.Unload
-  fullName: ManagedBass.Plugin.Unload
-  nameWithType: Plugin.Unload
-- uid: ManagedBass.Plugin.Version
-  name: Version
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin_Version
-  commentId: P:ManagedBass.Plugin.Version
-  fullName: ManagedBass.Plugin.Version
-  nameWithType: Plugin.Version
-- uid: ManagedBass.Plugin.Version*
-  name: Version
-  href: api/ManagedBass.Plugin.html#ManagedBass_Plugin_Version_
-  commentId: Overload:ManagedBass.Plugin.Version
-  fullName: ManagedBass.Plugin.Version
-  nameWithType: Plugin.Version
 - uid: ManagedBass.PluginFormat
   name: PluginFormat
   href: api/ManagedBass.PluginFormat.html

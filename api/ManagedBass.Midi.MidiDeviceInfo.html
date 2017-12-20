@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct MidiDeviceInfo
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -70,21 +71,21 @@
             <article class="content wrap" id="_content" data-uid="ManagedBass.Midi.MidiDeviceInfo">
   <h1 id="ManagedBass_Midi_MidiDeviceInfo" data-uid="ManagedBass.Midi.MidiDeviceInfo">Struct MidiDeviceInfo
   </h1>
-  <div class="markdown level0 summary"><p>Used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_InGetDeviceInfo_System_Int32_ManagedBass_Midi_MidiDeviceInfo__">InGetDeviceInfo(Int32, out MidiDeviceInfo)</a> to retrieve information on a MIDI input device.</p>
+  <div class="markdown level0 summary"><p>Used with <see cref="!:BassMidi.InGetDeviceInfo(int, out MidiDeviceInfo)"></see> to retrieve information on a MIDI input device.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Midi</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Midi.dll</h6>
   
   <h5 id="ManagedBass_Midi_MidiDeviceInfo_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public struct MidiDeviceInfo</code></pre>
   </div>
-  
+
   
   
   
@@ -92,8 +93,8 @@
   <div class="markdown level0 remarks"><p>
 On Windows, <a class="xref" href="ManagedBass.Midi.MidiDeviceInfo.html#ManagedBass_Midi_MidiDeviceInfo_ID">ID</a> consists of a manufacturer identifier in the LOWORD and a product identifier in the HIWORD.
 This will not uniquely identify a particular device, ie. multiple devices may have the same value..
-On OSX, <a class="xref" href="ManagedBass.Midi.MidiDeviceInfo.html#ManagedBass_Midi_MidiDeviceInfo_ID">ID</a> is the device&#39;s &quot;kMIDIPropertyUniqueID&quot; property value, which is unique to the device.
-On Linux, id contains the device&#39;s ALSA client ID in the LOWORD and port ID in the HIWORD.</p>
+On OSX, <a class="xref" href="ManagedBass.Midi.MidiDeviceInfo.html#ManagedBass_Midi_MidiDeviceInfo_ID">ID</a> is the device&apos;s &quot;kMIDIPropertyUniqueID&quot; property value, which is unique to the device.
+On Linux, id contains the device&apos;s ALSA client ID in the LOWORD and port ID in the HIWORD.</p>
 </div>
   
   <h3 id="properties">Properties
@@ -116,11 +117,11 @@ On Linux, id contains the device&#39;s ALSA client ID in the LOWORD and port ID 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public int ID { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -141,8 +142,8 @@ On Linux, id contains the device&#39;s ALSA client ID in the LOWORD and port ID 
   <h5 id="ManagedBass_Midi_MidiDeviceInfo_ID_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>On Windows, <a class="xref" href="ManagedBass.Midi.MidiDeviceInfo.html#ManagedBass_Midi_MidiDeviceInfo_ID">ID</a> consists of a manufacturer identifier in the LOWORD and a product identifier in the HIWORD.
 This will not uniquely identify a particular device, ie. multiple devices may have the same value..
-On OSX, <a class="xref" href="ManagedBass.Midi.MidiDeviceInfo.html#ManagedBass_Midi_MidiDeviceInfo_ID">ID</a> is the device&#39;s &quot;kMIDIPropertyUniqueID&quot; property value, which is unique to the device.
-On Linux, id contains the device&#39;s ALSA client ID in the LOWORD and port ID in the HIWORD.</p>
+On OSX, <a class="xref" href="ManagedBass.Midi.MidiDeviceInfo.html#ManagedBass_Midi_MidiDeviceInfo_ID">ID</a> is the device&apos;s &quot;kMIDIPropertyUniqueID&quot; property value, which is unique to the device.
+On Linux, id contains the device&apos;s ALSA client ID in the LOWORD and port ID in the HIWORD.</p>
 </div>
   
   
@@ -166,11 +167,11 @@ On Linux, id contains the device&#39;s ALSA client ID in the LOWORD and port ID 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsEnabled { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -210,11 +211,11 @@ On Linux, id contains the device&#39;s ALSA client ID in the LOWORD and port ID 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool IsInitialized { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -254,11 +255,11 @@ On Linux, id contains the device&#39;s ALSA client ID in the LOWORD and port ID 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -300,11 +301,11 @@ On Linux, id contains the device&#39;s ALSA client ID in the LOWORD and port ID 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
   </div>
-  
+
   
   <h5 class="returns">Returns</h5>
   <table>

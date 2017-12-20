@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Delegate SyncProcedureEx
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,18 +74,18 @@
   <div class="markdown level0 summary"><p>User defined extended mixer synchronizer callback function (see <a class="xref" href="ManagedBass.Mix.BassMix.html#ManagedBass_Mix_BassMix_ChannelSetSync_System_Int32_ManagedBass_SyncFlags_System_Int64_ManagedBass_Mix_SyncProcedureEx_IntPtr_">ChannelSetSync(Int32, SyncFlags, Int64, SyncProcedureEx, IntPtr)</a> for details).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Mix</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Mix.dll</h6>
   
   <h5 id="ManagedBass_Mix_SyncProcedureEx_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public delegate void SyncProcedureEx(int Handle, int Channel, int Data, IntPtr User, long Offset);</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -107,7 +108,7 @@
       <td>
         <span class="pull-right"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a></span>
         <span class="parametername">Data</span>
-        <p><p>Additional data associated with the sync&#39;s occurance.</p>
+        <p><p>Additional data associated with the sync&apos;s occurance.</p>
 </p>
       </td>
     </tr>
@@ -133,13 +134,13 @@
   
   <h5 id="ManagedBass_Mix_SyncProcedureEx_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>
-A sync callback function should be very quick as other syncs can&#39;t be processed until it has finished.
+A sync callback function should be very quick as other syncs can&apos;t be processed until it has finished.
 Attribute slides (<a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelSlideAttribute_System_Int32_ManagedBass_ChannelAttribute_System_Single_System_Int32_">ChannelSlideAttribute(Int32, ChannelAttribute, Single, Int32)</a>) are also performed by the sync thread, so are also affected if a sync callback takes a long time.
 </p>
 <p>
 If the sync is a <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_Mixtime">Mixtime</a> sync, then depending on the sync type, the callback will be executed in the update thread.
-The <span class="paramref">Offset</span> specifies the position of the sync within the update buffer converted to the mixer stream position.
-Note that the <span class="paramref">Offset</span> is based on the mixer&#39;s sample format, so you&#39;ll need to convert that to the source&#39;s format if using the sync to trigger things on the source.
+The <code data-dev-comment-type="paramref" class="paramref">Offset</code> specifies the position of the sync within the update buffer converted to the mixer stream position.
+Note that the <code data-dev-comment-type="paramref" class="paramref">Offset</code> is based on the mixer&apos;s sample format, so you&apos;ll need to convert that to the source&apos;s format if using the sync to trigger things on the source.
 </p>
 <p>
 The usual restrictions on which BASS functions can be called that apply to stream callbacks (<a class="xref" href="ManagedBass.StreamProcedure.html">StreamProcedure</a>) also apply here. 

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum MidiEventsMode
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,70 +74,60 @@
   <div class="markdown level0 summary"><p>The type of event data to apply, to be used with <a class="xref" href="ManagedBass.Midi.BassMidi.html#ManagedBass_Midi_BassMidi_StreamEvents_System_Int32_ManagedBass_Midi_MidiEventsMode_IntPtr_System_Int32_">StreamEvents(Int32, MidiEventsMode, IntPtr, Int32)</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Midi</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Midi.dll</h6>
   
   <h5 id="ManagedBass_Midi_MidiEventsMode_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum MidiEventsMode : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_Midi_MidiEventsMode_Cancel"><a href="#collapsible-ManagedBass_Midi_MidiEventsMode_Cancel" class="expander" data-toggle="collapse">Cancel</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventsMode_Cancel">
-          Cancel
-          <p><p>Cancel pending events</p>
+      <div id="collapsible-ManagedBass_Midi_MidiEventsMode_Cancel" class="collapse in">
+        <p><p>Cancel pending events</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventsMode_NoRunningStatus">
-          NoRunningStatus
-          <p><p>Disable running status meaning each event must include a status byte.</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventsMode_NoRunningStatus"><a href="#collapsible-ManagedBass_Midi_MidiEventsMode_NoRunningStatus" class="expander" data-toggle="collapse">NoRunningStatus</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventsMode_NoRunningStatus" class="collapse in">
+        <p><p>Disable running status meaning each event must include a status byte.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventsMode_Raw">
-          Raw
-          <p><p>Raw MIDI event data, as would be sent to a MIDI device. 
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventsMode_Raw"><a href="#collapsible-ManagedBass_Midi_MidiEventsMode_Raw" class="expander" data-toggle="collapse">Raw</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventsMode_Raw" class="collapse in">
+        <p><p>Raw MIDI event data, as would be sent to a MIDI device. 
 Running status is supported.
-To overcome the 16 channel limit, the event data&#39;s channel information can optionally be overridden by adding the new channel number to this parameter, where +1 = the 1st channel.</p>
+To overcome the 16 channel limit, the event data&apos;s channel information can optionally be overridden by adding the new channel number to this parameter, where +1 = the 1st channel.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventsMode_Struct">
-          Struct
-          <p><p>An array of <a class="xref" href="ManagedBass.Midi.MidiEvent.html">MidiEvent</a> structures (Default).</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventsMode_Struct"><a href="#collapsible-ManagedBass_Midi_MidiEventsMode_Struct" class="expander" data-toggle="collapse">Struct</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventsMode_Struct" class="collapse in">
+        <p><p>An array of <a class="xref" href="ManagedBass.Midi.MidiEvent.html">MidiEvent</a> structures (Default).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventsMode_Sync">
-          Sync
-          <p><p>Trigger event syncs</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventsMode_Sync"><a href="#collapsible-ManagedBass_Midi_MidiEventsMode_Sync" class="expander" data-toggle="collapse">Sync</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventsMode_Sync" class="collapse in">
+        <p><p>Trigger event syncs</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_Midi_MidiEventsMode_Time">
-          Time
-          <p><p>Delta-time info is present</p>
+      </div>
+      <h4 id="ManagedBass_Midi_MidiEventsMode_Time"><a href="#collapsible-ManagedBass_Midi_MidiEventsMode_Time" class="expander" data-toggle="collapse">Time</a></h4>
+  
+      <div id="collapsible-ManagedBass_Midi_MidiEventsMode_Time" class="collapse in">
+        <p><p>Delta-time info is present</p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

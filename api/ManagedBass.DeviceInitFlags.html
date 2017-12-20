@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum DeviceInitFlags
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,103 +74,89 @@
   <div class="markdown level0 summary"><p>Initialization flags to be used with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
   
   <h5 id="ManagedBass_DeviceInitFlags_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum DeviceInitFlags : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_DeviceInitFlags_Byte"><a href="#collapsible-ManagedBass_DeviceInitFlags_Byte" class="expander" data-toggle="collapse">Byte</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_DeviceInitFlags_Byte">
-          Byte
-          <p><p>Use 8 bit resolution, else 16 bit.</p>
+      <div id="collapsible-ManagedBass_DeviceInitFlags_Byte" class="collapse in">
+        <p><p>Use 8 bit resolution, else 16 bit.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DeviceInitFlags_CPSpeakers">
-          CPSpeakers
-          <p><p>Use the Windows control panel setting to detect the number of speakers.
-Only use this option if BASS doesn&#39;t detect the correct number of supported
+      </div>
+      <h4 id="ManagedBass_DeviceInitFlags_CPSpeakers"><a href="#collapsible-ManagedBass_DeviceInitFlags_CPSpeakers" class="expander" data-toggle="collapse">CPSpeakers</a></h4>
+  
+      <div id="collapsible-ManagedBass_DeviceInitFlags_CPSpeakers" class="collapse in">
+        <p><p>Use the Windows control panel setting to detect the number of speakers.
+Only use this option if BASS doesn&apos;t detect the correct number of supported
 speakers automatically and you want to force BASS to use the number of speakers
 as configured in the windows control panel.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DeviceInitFlags_Default">
-          Default
-          <p><p>0 = 16 bit, stereo, no 3D, no Latency calc, no Speaker Assignments</p>
+      </div>
+      <h4 id="ManagedBass_DeviceInitFlags_Default"><a href="#collapsible-ManagedBass_DeviceInitFlags_Default" class="expander" data-toggle="collapse">Default</a></h4>
+  
+      <div id="collapsible-ManagedBass_DeviceInitFlags_Default" class="collapse in">
+        <p><p>0 = 16 bit, stereo, no 3D, no Latency calc, no Speaker Assignments</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DeviceInitFlags_Device3D">
-          Device3D
-          <p><p>Enable 3D functionality.
+      </div>
+      <h4 id="ManagedBass_DeviceInitFlags_Device3D"><a href="#collapsible-ManagedBass_DeviceInitFlags_Device3D" class="expander" data-toggle="collapse">Device3D</a></h4>
+  
+      <div id="collapsible-ManagedBass_DeviceInitFlags_Device3D" class="collapse in">
+        <p><p>Enable 3D functionality.
 Note: If this is not specified when initilizing BASS,
 then the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Bass3D">Bass3D</a> is ignored when loading/creating a sample/stream/music.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DeviceInitFlags_DMix">
-          DMix
-          <p><p>Linux-only: Initialize the device using the ALSA &quot;dmix&quot; plugin, else initialize the device for exclusive access.</p>
+      </div>
+      <h4 id="ManagedBass_DeviceInitFlags_DMix"><a href="#collapsible-ManagedBass_DeviceInitFlags_DMix" class="expander" data-toggle="collapse">DMix</a></h4>
+  
+      <div id="collapsible-ManagedBass_DeviceInitFlags_DMix" class="collapse in">
+        <p><p>Linux-only: Initialize the device using the ALSA &quot;dmix&quot; plugin, else initialize the device for exclusive access.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DeviceInitFlags_ForcedSpeakerAssignment">
-          ForcedSpeakerAssignment
-          <p><p>Force enabling of speaker assignment (always 8 speakers will be used regardless if the soundcard supports them).
-Only use this option if BASS doesn&#39;t detect the correct number of supported
+      </div>
+      <h4 id="ManagedBass_DeviceInitFlags_ForcedSpeakerAssignment"><a href="#collapsible-ManagedBass_DeviceInitFlags_ForcedSpeakerAssignment" class="expander" data-toggle="collapse">ForcedSpeakerAssignment</a></h4>
+  
+      <div id="collapsible-ManagedBass_DeviceInitFlags_ForcedSpeakerAssignment" class="collapse in">
+        <p><p>Force enabling of speaker assignment (always 8 speakers will be used regardless if the soundcard supports them).
+Only use this option if BASS doesn&apos;t detect the correct number of supported
 speakers automatically and you want to force BASS to use 8 speakers.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DeviceInitFlags_Frequency">
-          Frequency
-          <p><p>Set the device&#39;s output rate to freq, otherwise leave it as it is.</p>
+      </div>
+      <h4 id="ManagedBass_DeviceInitFlags_Frequency"><a href="#collapsible-ManagedBass_DeviceInitFlags_Frequency" class="expander" data-toggle="collapse">Frequency</a></h4>
+  
+      <div id="collapsible-ManagedBass_DeviceInitFlags_Frequency" class="collapse in">
+        <p><p>Set the device&apos;s output rate to freq, otherwise leave it as it is.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DeviceInitFlags_Latency">
-          Latency
-          <p><p>Calculate device latency (<a class="xref" href="ManagedBass.BassInfo.html">BassInfo</a> struct).</p>
+      </div>
+      <h4 id="ManagedBass_DeviceInitFlags_Latency"><a href="#collapsible-ManagedBass_DeviceInitFlags_Latency" class="expander" data-toggle="collapse">Latency</a></h4>
+  
+      <div id="collapsible-ManagedBass_DeviceInitFlags_Latency" class="collapse in">
+        <p><p>Calculate device latency (<a class="xref" href="ManagedBass.BassInfo.html">BassInfo</a> struct).</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DeviceInitFlags_Mono">
-          Mono
-          <p><p>Use mono, else stereo.</p>
+      </div>
+      <h4 id="ManagedBass_DeviceInitFlags_Mono"><a href="#collapsible-ManagedBass_DeviceInitFlags_Mono" class="expander" data-toggle="collapse">Mono</a></h4>
+  
+      <div id="collapsible-ManagedBass_DeviceInitFlags_Mono" class="collapse in">
+        <p><p>Use mono, else stereo.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_DeviceInitFlags_NoSpeakerAssignment">
-          NoSpeakerAssignment
-          <p><p>Ignore speaker arrangement</p>
+      </div>
+      <h4 id="ManagedBass_DeviceInitFlags_NoSpeakerAssignment"><a href="#collapsible-ManagedBass_DeviceInitFlags_NoSpeakerAssignment" class="expander" data-toggle="collapse">NoSpeakerAssignment</a></h4>
+  
+      <div id="collapsible-ManagedBass_DeviceInitFlags_NoSpeakerAssignment" class="collapse in">
+        <p><p>Ignore speaker arrangement</p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

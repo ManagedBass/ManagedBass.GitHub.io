@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BassFx
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>BassFx is a BASS addon providing several DSP functions, including tempo and pitch control.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,14 +83,14 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.Fx</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Fx.dll</h6>
   
   <h5 id="ManagedBass_Fx_BassFx_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class BassFx : object</code></pre>
   </div>
-  
+
   
   
   
@@ -114,11 +115,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static Version Version { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -153,11 +154,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool BPMBeatCallbackReset(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -206,11 +207,11 @@ The BPM callback is automatically reset by <a class="xref" href="ManagedBass.Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool BPMBeatCallbackSet(int Handle, BPMBeatProcedure Procedure, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -276,11 +277,11 @@ The BPM callback is automatically reset by <a class="xref" href="ManagedBass.Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool BPMBeatDecodeGet(int Channel, double StartSec, double EndSec, BassFlags Flags, BPMBeatProcedure Procedure, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -368,11 +369,11 @@ The BPM callback is automatically reset by <a class="xref" href="ManagedBass.Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool BPMBeatFree(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -406,7 +407,7 @@ The BPM callback is automatically reset by <a class="xref" href="ManagedBass.Bas
   <div class="markdown level1 remarks"><p>Used together with <a class="xref" href="ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_BPMBeatDecodeGet_System_Int32_System_Double_System_Double_ManagedBass_BassFlags_ManagedBass_Fx_BPMBeatProcedure_IntPtr_">BPMBeatDecodeGet(Int32, Double, Double, BassFlags, BPMBeatProcedure, IntPtr)</a> or <a class="xref" href="ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_BPMBeatCallbackSet_System_Int32_ManagedBass_Fx_BPMBeatProcedure_IntPtr_">BPMBeatCallbackSet(Int32, BPMBeatProcedure, IntPtr)</a>.
 <p>
 Note: If the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_FxFreeSource">FxFreeSource</a> flag is used, this will free the source decoding channel as well.
-You can&#39;t set/get this flag with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelFlags_System_Int32_ManagedBass_BassFlags_ManagedBass_BassFlags_">ChannelFlags(Int32, BassFlags, BassFlags)</a> and <see cref="!:Bass.ChannelGetInfo(int, out ChannelInfo)"></see>.
+You can&apos;t set/get this flag with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelFlags_System_Int32_ManagedBass_BassFlags_ManagedBass_BassFlags_">ChannelFlags(Int32, BassFlags, BassFlags)</a> and <see cref="!:Bass.ChannelGetInfo(int, out ChannelInfo)"></see>.
 </p></p>
 </div>
   
@@ -424,11 +425,11 @@ You can&#39;t set/get this flag with <a class="xref" href="ManagedBass.Bass.html
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool BPMBeatGetParameters(int Handle, out float Bandwidth, out float CenterFreq, out float Beat_rTime)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -485,11 +486,11 @@ You can&#39;t set/get this flag with <a class="xref" href="ManagedBass.Bass.html
   <h5 id="ManagedBass_Fx_BassFx_BPMBeatGetParameters_System_Int32_System_Single__System_Single__System_Single___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Beat detection is using a Band Pass Filter.
 A band-pass filter is a device that passes frequencies within a certain range and rejects (attenuates) frequencies outside that range.
-So the <span class="paramref">Bandwidth</span> parameter defines the range around a center-frequency to include in the beat detection algo.
-The <span class="paramref">CenterFreq</span> parameter actually defines the center-frequency of the band pass filter.
-Once a beat is detected, the <span class="paramref">Beat_rTime</span> parameter defines the time in ms. in which no other beat will be detected after that just detected beat. 
-The background is, that often you have kind-of &#39;double beats&#39; in a drum set.
-So the <span class="paramref">Beat_rTime</span> should avoid, that a second (quickly repeated beat) beat is detected.</p>
+So the <code data-dev-comment-type="paramref" class="paramref">Bandwidth</code> parameter defines the range around a center-frequency to include in the beat detection algo.
+The <code data-dev-comment-type="paramref" class="paramref">CenterFreq</code> parameter actually defines the center-frequency of the band pass filter.
+Once a beat is detected, the <code data-dev-comment-type="paramref" class="paramref">Beat_rTime</code> parameter defines the time in ms. in which no other beat will be detected after that just detected beat. 
+The background is, that often you have kind-of &apos;double beats&apos; in a drum set.
+So the <code data-dev-comment-type="paramref" class="paramref">Beat_rTime</code> should avoid, that a second (quickly repeated beat) beat is detected.</p>
 </div>
   
   
@@ -506,11 +507,11 @@ So the <span class="paramref">Beat_rTime</span> should avoid, that a second (qui
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool BPMBeatSetParameters(int Handle, float Bandwidth, float CenterFreq, float Beat_rTime)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -567,11 +568,11 @@ So the <span class="paramref">Beat_rTime</span> should avoid, that a second (qui
   <h5 id="ManagedBass_Fx_BassFx_BPMBeatSetParameters_System_Int32_System_Single_System_Single_System_Single__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Beat detection is using a Band Pass Filter.
 A band-pass filter is a device that passes frequencies within a certain range and rejects (attenuates) frequencies outside that range.
-So the <span class="paramref">Bandwidth</span> parameter defines the range around a center-frequency to include in the beat detection algo.
-The <span class="paramref">CenterFreq</span> parameter actually defines the center-frequency of the band pass filter.
-Once a beat is detected, the <span class="paramref">Beat_rTime</span> parameter defines the time in ms. in which no other beat will be detected after that just detected beat. 
-The background is, that often you have kind-of &#39;double beats&#39; in a drum set.
-So the <span class="paramref">Beat_rTime</span> should avoid, that a second (quickly repeated beat) beat is detected.</p>
+So the <code data-dev-comment-type="paramref" class="paramref">Bandwidth</code> parameter defines the range around a center-frequency to include in the beat detection algo.
+The <code data-dev-comment-type="paramref" class="paramref">CenterFreq</code> parameter actually defines the center-frequency of the band pass filter.
+Once a beat is detected, the <code data-dev-comment-type="paramref" class="paramref">Beat_rTime</code> parameter defines the time in ms. in which no other beat will be detected after that just detected beat. 
+The background is, that often you have kind-of &apos;double beats&apos; in a drum set.
+So the <code data-dev-comment-type="paramref" class="paramref">Beat_rTime</code> should avoid, that a second (quickly repeated beat) beat is detected.</p>
 </div>
   
   
@@ -588,11 +589,11 @@ So the <span class="paramref">Beat_rTime</span> should avoid, that a second (qui
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool BPMCallbackReset(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -641,11 +642,11 @@ The BPM callback is automatically reset by <a class="xref" href="ManagedBass.Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool BPMCallbackSet(int Handle, BPMProcedure Procedure, double Period, int MinMaxBPM, BassFlags Flags, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -735,11 +736,11 @@ The BPM callback is automatically reset by <a class="xref" href="ManagedBass.Bas
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float BPMDecodeGet(int Channel, double StartSec, double EndSec, int MinMaxBPM, BassFlags Flags, BPMProgressProcedure Procedure, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -820,7 +821,7 @@ The BPM callback is automatically reset by <a class="xref" href="ManagedBass.Bas
   <h5 id="ManagedBass_Fx_BassFx_BPMDecodeGet_System_Int32_System_Double_System_Double_System_Int32_ManagedBass_BassFlags_ManagedBass_Fx_BPMProgressProcedure_IntPtr__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
 The BPM detection algorithm works by detecting repeating low-frequency (less than 250Hz) sound patterns and thus works mostly with most rock/pop music with bass or drum beat. 
-The BPM detection doesn&#39;t work on pieces such as classical music without distinct, repeating bass frequency patterns.
+The BPM detection doesn&apos;t work on pieces such as classical music without distinct, repeating bass frequency patterns.
 Also pieces with varying tempo, varying bass patterns or very complex bass patterns (jazz, hiphop) may produce odd BPM readings.
 </p>
 <p>
@@ -843,11 +844,11 @@ In such case the system could for example report BPM value of 50 or 100 instead 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool BPMFree(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -880,7 +881,7 @@ In such case the system could for example report BPM value of 50 or 100 instead 
   <h5 id="ManagedBass_Fx_BassFx_BPMFree_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Used together with <a class="xref" href="ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_BPMDecodeGet_System_Int32_System_Double_System_Double_System_Int32_ManagedBass_BassFlags_ManagedBass_Fx_BPMProgressProcedure_IntPtr_">BPMDecodeGet(Int32, Double, Double, Int32, BassFlags, BPMProgressProcedure, IntPtr)</a> or <a class="xref" href="ManagedBass.Fx.BassFx.html#ManagedBass_Fx_BassFx_BPMCallbackSet_System_Int32_ManagedBass_Fx_BPMProcedure_System_Double_System_Int32_ManagedBass_BassFlags_IntPtr_">BPMCallbackSet(Int32, BPMProcedure, Double, Int32, BassFlags, IntPtr)</a>.
 If <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_FxFreeSource">FxFreeSource</a> was used, this will also free the underlying decoding channel as well.
-You can&#39;t set/get this flag with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelFlags_System_Int32_ManagedBass_BassFlags_ManagedBass_BassFlags_">ChannelFlags(Int32, BassFlags, BassFlags)</a>/<see cref="!:Bass.ChannelGetInfo(int, out ChannelInfo)"></see>.</p>
+You can&apos;t set/get this flag with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_ChannelFlags_System_Int32_ManagedBass_BassFlags_ManagedBass_BassFlags_">ChannelFlags(Int32, BassFlags, BassFlags)</a>/<see cref="!:Bass.ChannelGetInfo(int, out ChannelInfo)"></see>.</p>
 </div>
   
   
@@ -909,11 +910,11 @@ if (chan != 0)
     chan = BassFx.TempoCreate(chan, 2, BassFlags.FxFreeSource);
 </code></pre></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ReverseCreate(int Channel, float DecodingBlockLength, BassFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1007,7 +1008,7 @@ if (chan != 0)
 <p>
 Thes <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_ReverseDirection">ReverseDirection</a> attribute can either be applied to the reverse channel or the underlying decoding source channel.
 Note, that when playing the channel reverse, the end of a reverse stream is reached at the logial beginning of the stream (this also applies to <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_End">End</a>).
-By default stream&#39;s position will start from the end.
+By default stream&apos;s position will start from the end.
 </p></p>
 </div>
   
@@ -1025,11 +1026,11 @@ By default stream&#39;s position will start from the end.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int ReverseGetSource(int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1086,11 +1087,11 @@ if (chan != 0)
     chan = BassFx.TempoCreate(chan, BassFlags.FxFreeSource);
 </code></pre></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int TempoCreate(int Channel, BassFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1188,11 +1189,11 @@ if (chan != 0)
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static float TempoGetRateRatio(int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1237,11 +1238,11 @@ if (chan != 0)
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int TempoGetSource(int Channel)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>

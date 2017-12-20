@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class DSDComment
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>DSD Comment tag structure.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,14 +83,14 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.Dsd</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Dsd.dll</h6>
   
   <h5 id="ManagedBass_Dsd_DSDComment_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class DSDComment : object</code></pre>
   </div>
-  
+
   
   
   
@@ -113,11 +114,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public DSDCommentType CommentType</code></pre>
   </div>
-  
+
   
   
   
@@ -160,11 +161,11 @@ If CommentType=FileHistory then 0 = general remark, 1 = name of the operator, 2 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public short Reference</code></pre>
   </div>
-  
+
   
   
   
@@ -206,11 +207,11 @@ If CommentType=FileHistory then 0 = general remark, 1 = name of the operator, 2 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Description { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -250,11 +251,11 @@ If CommentType=FileHistory then 0 = general remark, 1 = name of the operator, 2 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public DateTime TimeStamp { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -292,15 +293,15 @@ If CommentType=FileHistory then 0 = general remark, 1 = name of the operator, 2 
   <h4 id="ManagedBass_Dsd_DSDComment_Read_System_Int32_System_Int32_" data-uid="ManagedBass.Dsd.DSDComment.Read(System.Int32,System.Int32)"><a href="#collapsible-ManagedBass_Dsd_DSDComment_Read_System_Int32_System_Int32_" class="expander" data-toggle="collapse">Read(Int32, Int32)</a></h4>
   
   <div id="collapsible-ManagedBass_Dsd_DSDComment_Read_System_Int32_System_Int32_" class="collapse in">
-  <div class="markdown level1 summary"><p>Reads a tag at an <span class="paramref">Index</span> from a <span class="paramref">Channel</span>.</p>
+  <div class="markdown level1 summary"><p>Reads a tag at an <code data-dev-comment-type="paramref" class="paramref">Index</code> from a <code data-dev-comment-type="paramref" class="paramref">Channel</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static DSDComment Read(int Channel, int Index)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Delegate AsioProcedure
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,18 +74,18 @@
   <div class="markdown level0 summary"><p>User defined ASIO channel callback function (to be used with <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelEnable_System_Boolean_System_Int32_ManagedBass_Asio_AsioProcedure_IntPtr_">ChannelEnable(Boolean, Int32, AsioProcedure, IntPtr)</a>).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Asio</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Asio.dll</h6>
   
   <h5 id="ManagedBass_Asio_AsioProcedure_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public delegate int AsioProcedure(bool Input, int Channel, IntPtr Buffer, int Length, IntPtr User);</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -150,7 +151,7 @@ The order of the joined channels defaults to numerically ascending order unless 
 in which case they will be in the order in which <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelJoin_System_Boolean_System_Int32_System_Int32_">ChannelJoin(Boolean, Int32, Int32)</a> was called to join then.
 </p>
 <p>
-When an output channel&#39;s function returns less data than requested, the remainder of the Buffer is filled with silence, and some processing is saved by that. 
+When an output channel&apos;s function returns less data than requested, the remainder of the Buffer is filled with silence, and some processing is saved by that. 
 When 0 is returned, the level of processing is the same as if the channel had been paused with <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelPause_System_Boolean_System_Int32_">ChannelPause(Boolean, Int32)</a>, ie. the ASIO Buffer is simply filled with silence and all additional processing (resampling/etc) is bypassed.
 </p>
 <p>
@@ -160,7 +161,7 @@ Do not call the <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass
 Also, if it is an output channel, <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelSetFormat_System_Boolean_System_Int32_ManagedBass_Asio_AsioSampleFormat_">ChannelSetFormat(Boolean, Int32, AsioSampleFormat)</a> and <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_ChannelSetRate_System_Boolean_System_Int32_System_Double_">ChannelSetRate(Boolean, Int32, Double)</a> should not be used on the channel being processed by the callback.
 </p>
 <p>
-Prior to calling this function, BassAsio will set the thread&#39;s device context to the device that the channel belongs to.
+Prior to calling this function, BassAsio will set the thread&apos;s device context to the device that the channel belongs to.
 So when using multiple devices, <a class="xref" href="ManagedBass.Asio.BassAsio.html#ManagedBass_Asio_BassAsio_CurrentDevice">CurrentDevice</a> can be used to determine which device the channel is on.
 </p>
 </div>

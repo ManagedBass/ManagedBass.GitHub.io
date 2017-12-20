@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BassWinamp
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>BassWinamp is a BASS addon adding support for Winamp Input plugins.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,19 +83,19 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.Winamp</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Winamp.dll</h6>
   
   <h5 id="ManagedBass_Winamp_BassWinamp_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class BassWinamp : object</code></pre>
   </div>
-  
+
   
   
   
   <h5 id="ManagedBass_Winamp_BassWinamp_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>BassWinamp doesn&#39;t support Bass plugin system.</p>
+  <div class="markdown level0 remarks"><p>BassWinamp doesn&apos;t support Bass plugin system.</p>
 </div>
   
   <h3 id="properties">Properties
@@ -117,11 +118,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int InputTimeout { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -156,11 +157,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void AboutPlugin(int Handle, IntPtr Window)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -175,7 +176,7 @@
       <td>
         <span class="pull-right"><span class="xref">IntPtr</span></span>
         <span class="parametername">Window</span>
-        <p><p>The application&#39;s main window... <see cref="!:IntPtr.Zero"></see> = the current foreground window.</p>
+        <p><p>The application&apos;s main window... <see cref="!:IntPtr.Zero"></see> = the current foreground window.</p>
 </p>
       </td>
     </tr>
@@ -203,11 +204,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void ConfigPlugin(int Handle, IntPtr Window)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -222,7 +223,7 @@
       <td>
         <span class="pull-right"><span class="xref">IntPtr</span></span>
         <span class="parametername">Window</span>
-        <p><p>The application&#39;s main window... <see cref="!:IntPtr.Zero"></see> = the current foreground window.</p>
+        <p><p>The application&apos;s main window... <see cref="!:IntPtr.Zero"></see> = the current foreground window.</p>
 </p>
       </td>
     </tr>
@@ -250,11 +251,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(string FileName, BassFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -280,7 +281,7 @@
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -315,11 +316,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string[] FindPlugins(string PluginDirectory, WinampFindPluginFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -378,11 +379,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string[] GetExtentions(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -434,11 +435,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool GetFileInfo(string File, out string Title, out int LengthMs)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -506,11 +507,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string GetName(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -555,11 +556,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool GetUsesOutput(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -604,11 +605,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetVersion(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -653,11 +654,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool InfoDialog(string File, IntPtr Window)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -672,7 +673,7 @@
       <td>
         <span class="pull-right"><span class="xref">IntPtr</span></span>
         <span class="parametername">Window</span>
-        <p><p>The application&#39;s main window... <see cref="!:IntPtr.Zero"></see> = the current foreground window.</p>
+        <p><p>The application&apos;s main window... <see cref="!:IntPtr.Zero"></see> = the current foreground window.</p>
 </p>
       </td>
     </tr>
@@ -710,11 +711,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsSeekable(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -759,11 +760,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int LoadPlugin(string File)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -808,11 +809,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void UnloadPlugin(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>

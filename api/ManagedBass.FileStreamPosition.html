@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum FileStreamPosition
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,100 +74,86 @@
   <div class="markdown level0 summary"><p>Stream File Position modes to be used with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_StreamGetFilePosition_System_Int32_ManagedBass_FileStreamPosition_">StreamGetFilePosition(Int32, FileStreamPosition)</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.dll</h6>
   
   <h5 id="ManagedBass_FileStreamPosition_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum FileStreamPosition : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_FileStreamPosition_AsyncBuffer"><a href="#collapsible-ManagedBass_FileStreamPosition_AsyncBuffer" class="expander" data-toggle="collapse">AsyncBuffer</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_FileStreamPosition_AsyncBuffer">
-          AsyncBuffer
-          <p><p>The amount of data in the asynchronous file reading Buffer.
-This requires that the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_AsyncFile">AsyncFile</a> flag was used at the stream&#39;s creation.</p>
+      <div id="collapsible-ManagedBass_FileStreamPosition_AsyncBuffer" class="collapse in">
+        <p><p>The amount of data in the asynchronous file reading Buffer.
+This requires that the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_AsyncFile">AsyncFile</a> flag was used at the stream&apos;s creation.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_FileStreamPosition_Buffer">
-          Buffer
-          <p><p>The amount of data in the Buffer of an internet file stream or &quot;buffered&quot; User file stream.
+      </div>
+      <h4 id="ManagedBass_FileStreamPosition_Buffer"><a href="#collapsible-ManagedBass_FileStreamPosition_Buffer" class="expander" data-toggle="collapse">Buffer</a></h4>
+  
+      <div id="collapsible-ManagedBass_FileStreamPosition_Buffer" class="collapse in">
+        <p><p>The amount of data in the Buffer of an internet file stream or &quot;buffered&quot; User file stream.
 Unless streaming in blocks, this is the same as <a class="xref" href="ManagedBass.FileStreamPosition.html#ManagedBass_FileStreamPosition_Download">Download</a>.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_FileStreamPosition_Connected">
-          Connected
-          <p><p>Internet file stream or &quot;buffered&quot; User file stream is still connected? 0 = no, 1 = yes.</p>
+      </div>
+      <h4 id="ManagedBass_FileStreamPosition_Connected"><a href="#collapsible-ManagedBass_FileStreamPosition_Connected" class="expander" data-toggle="collapse">Connected</a></h4>
+  
+      <div id="collapsible-ManagedBass_FileStreamPosition_Connected" class="collapse in">
+        <p><p>Internet file stream or &quot;buffered&quot; User file stream is still connected? 0 = no, 1 = yes.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_FileStreamPosition_Current">
-          Current
-          <p><p>Position that is to be decoded for playback next.
+      </div>
+      <h4 id="ManagedBass_FileStreamPosition_Current"><a href="#collapsible-ManagedBass_FileStreamPosition_Current" class="expander" data-toggle="collapse">Current</a></h4>
+  
+      <div id="collapsible-ManagedBass_FileStreamPosition_Current" class="collapse in">
+        <p><p>Position that is to be decoded for playback next.
 This will be a bit ahead of the position actually being heard due to buffering.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_FileStreamPosition_Download">
-          Download
-          <p><p>Download progress of an internet file stream or &quot;buffered&quot; User file stream.</p>
+      </div>
+      <h4 id="ManagedBass_FileStreamPosition_Download"><a href="#collapsible-ManagedBass_FileStreamPosition_Download" class="expander" data-toggle="collapse">Download</a></h4>
+  
+      <div id="collapsible-ManagedBass_FileStreamPosition_Download" class="collapse in">
+        <p><p>Download progress of an internet file stream or &quot;buffered&quot; User file stream.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_FileStreamPosition_End">
-          End
-          <p><p>End of the file, in other words the file Length.
+      </div>
+      <h4 id="ManagedBass_FileStreamPosition_End"><a href="#collapsible-ManagedBass_FileStreamPosition_End" class="expander" data-toggle="collapse">End</a></h4>
+  
+      <div id="collapsible-ManagedBass_FileStreamPosition_End" class="collapse in">
+        <p><p>End of the file, in other words the file Length.
 When streaming in blocks, the file Length is unknown, so the download Buffer Length is returned instead.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_FileStreamPosition_HlsSegment">
-          HlsSegment
-          <p><p>Segment Sequence number.</p>
+      </div>
+      <h4 id="ManagedBass_FileStreamPosition_HlsSegment"><a href="#collapsible-ManagedBass_FileStreamPosition_HlsSegment" class="expander" data-toggle="collapse">HlsSegment</a></h4>
+  
+      <div id="collapsible-ManagedBass_FileStreamPosition_HlsSegment" class="collapse in">
+        <p><p>Segment Sequence number.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_FileStreamPosition_Socket">
-          Socket
-          <p><p>Returns the socket hanlde used for streaming.</p>
+      </div>
+      <h4 id="ManagedBass_FileStreamPosition_Socket"><a href="#collapsible-ManagedBass_FileStreamPosition_Socket" class="expander" data-toggle="collapse">Socket</a></h4>
+  
+      <div id="collapsible-ManagedBass_FileStreamPosition_Socket" class="collapse in">
+        <p><p>Returns the socket hanlde used for streaming.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_FileStreamPosition_Start">
-          Start
-          <p><p>Start of stream data in the file.</p>
+      </div>
+      <h4 id="ManagedBass_FileStreamPosition_Start"><a href="#collapsible-ManagedBass_FileStreamPosition_Start" class="expander" data-toggle="collapse">Start</a></h4>
+  
+      <div id="collapsible-ManagedBass_FileStreamPosition_Start" class="collapse in">
+        <p><p>Start of stream data in the file.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_FileStreamPosition_WmaBuffer">
-          WmaBuffer
-          <p><p>WMA add-on: internet buffering progress (0-100%)</p>
+      </div>
+      <h4 id="ManagedBass_FileStreamPosition_WmaBuffer"><a href="#collapsible-ManagedBass_FileStreamPosition_WmaBuffer" class="expander" data-toggle="collapse">WmaBuffer</a></h4>
+  
+      <div id="collapsible-ManagedBass_FileStreamPosition_WmaBuffer" class="collapse in">
+        <p><p>WMA add-on: internet buffering progress (0-100%)</p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

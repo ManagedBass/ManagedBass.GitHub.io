@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BassCd
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>BassCd is a BASS addon enabling digital streaming and ripping of audio CDs. Also includes analog playback routines.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,14 +83,14 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.Cd</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Cd.dll</h6>
   
   <h5 id="ManagedBass_Cd_BassCd_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class BassCd : object</code></pre>
   </div>
-  
+
   
   
   
@@ -116,11 +117,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public const int TrackPregap = null</code></pre>
   </div>
-  
+
   
   
   
@@ -163,11 +164,11 @@ If true, the read speed will be halved when a read error occurs, before retrying
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool AutoSpeedReduction { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -203,15 +204,15 @@ If true, the read speed will be halved when a read error occurs, before retrying
   <h4 id="ManagedBass_Cd_BassCd_CDDBServer" data-uid="ManagedBass.Cd.BassCd.CDDBServer"><a href="#collapsible-ManagedBass_Cd_BassCd_CDDBServer" class="expander" data-toggle="collapse">CDDBServer</a></h4>
   
   <div id="collapsible-ManagedBass_Cd_BassCd_CDDBServer" class="collapse in">
-  <div class="markdown level1 summary"><p>The server address to use in CDDB requests, in the form of &quot;User:pass@server:port/path&quot; (default = &quot;freedb.freedb.org&quot;).</p>
+  <div class="markdown level1 summary"><p>The server address to use in CDDB requests, in the form of &amp;quot;User:pass@server:port/path&amp;quot; (default = &quot;freedb.freedb.org&quot;).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string CDDBServer { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -230,7 +231,7 @@ If true, the read speed will be halved when a read error occurs, before retrying
   
   
   <h5 id="ManagedBass_Cd_BassCd_CDDBServer_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The &quot;User:pass@&quot;, &quot;:port&quot; and &quot;/path&quot; parts are optional; only the &quot;server&quot; part is required.
+  <div class="markdown level1 remarks"><p>The &amp;quot;User:pass@&quot;, &quot;:port&quot; and &quot;/path&quot; parts are optional; only the &quot;server&quot; part is required.
 If not provided, the port and path default to 80 and &quot;/~cddb/cddb.cgi&quot;, respectively.
 The proxy server, as configured via the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_NetProxy">NetProxy</a> option, is used when connecting to the CDDB server.</p>
 </div>
@@ -256,11 +257,11 @@ The proxy server, as configured via the <a class="xref" href="ManagedBass.Bass.h
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int DriveCount { get; }</code></pre>
   </div>
-  
+
   
   
   
@@ -300,11 +301,11 @@ The proxy server, as configured via the <a class="xref" href="ManagedBass.Bass.h
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool FreeOld { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -345,15 +346,15 @@ will fail, unless this config option is enabled to automatically free the existi
   <h4 id="ManagedBass_Cd_BassCd_RetryCount" data-uid="ManagedBass.Cd.BassCd.RetryCount"><a href="#collapsible-ManagedBass_Cd_BassCd_RetryCount" class="expander" data-toggle="collapse">RetryCount</a></h4>
   
   <div id="collapsible-ManagedBass_Cd_BassCd_RetryCount" class="collapse in">
-  <div class="markdown level1 summary"><p>Number of times to retry after a read error... 0 = don&#39;t retry, default = 2.</p>
+  <div class="markdown level1 summary"><p>Number of times to retry after a read error... 0 = don&apos;t retry, default = 2.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int RetryCount { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -396,11 +397,11 @@ Before skipping past an error, BassCd will first retry according to the <a class
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool SkipError { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -435,11 +436,11 @@ Before skipping past an error, BassCd will first retry according to the <a class
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int AnalogGetPosition(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -485,11 +486,11 @@ If successful, the HIWORD contains the track number (0=first), and the LOWORD co
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool AnalogIsActive(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -534,11 +535,11 @@ If successful, the HIWORD contains the track number (0=first), and the LOWORD co
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool AnalogPlay(int Drive, int Track, int Position)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -586,13 +587,13 @@ If successful, the HIWORD contains the track number (0=first), and the LOWORD co
   
   <h5 id="ManagedBass_Cd_BassCd_AnalogPlay_System_Int32_System_Int32_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
-Some old CD drives may not be able to digitally extract audio data (or not quickly enough to sustain playback), so that it&#39;s not possible to use <a class="xref" href="ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_CreateStream_System_Int32_System_Int32_ManagedBass_BassFlags_">CreateStream(Int32, Int32, BassFlags)</a> to stream CD tracks. 
+Some old CD drives may not be able to digitally extract audio data (or not quickly enough to sustain playback), so that it&apos;s not possible to use <a class="xref" href="ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_CreateStream_System_Int32_System_Int32_ManagedBass_BassFlags_">CreateStream(Int32, Int32, BassFlags)</a> to stream CD tracks. 
 This is where the analog playback option can come in handy.
 </p>
 <p>
 In analog playback, the sound bypasses Bass - it goes directly from the CD drive to the soundcard (assuming the drive is cabled up to the soundcard). 
 This means that Bass output does not need to be initialized to use analog playback.
-It also means it&#39;s not possible to apply any DSP/FX to the sound, and nor is it possible to visualise it (unless you record the sound from the soundcard).
+It also means it&apos;s not possible to apply any DSP/FX to the sound, and nor is it possible to visualise it (unless you record the sound from the soundcard).
 </p>
 <p>
 Analog playback is not possible while digital streaming is in progress - the streaming will kill the analog playback.
@@ -614,11 +615,11 @@ So if you wish to switch from digital to analog playback, you should first free 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool AnalogPlay(string FileName, int Position)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -658,13 +659,13 @@ So if you wish to switch from digital to analog playback, you should first free 
   
   <h5 id="ManagedBass_Cd_BassCd_AnalogPlay_System_String_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
-Some old CD drives may not be able to digitally extract audio data (or not quickly enough to sustain playback), so that it&#39;s not possible to use <a class="xref" href="ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_CreateStream_System_String_ManagedBass_BassFlags_">CreateStream(String, BassFlags)</a> to stream CD tracks.
+Some old CD drives may not be able to digitally extract audio data (or not quickly enough to sustain playback), so that it&apos;s not possible to use <a class="xref" href="ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_CreateStream_System_String_ManagedBass_BassFlags_">CreateStream(String, BassFlags)</a> to stream CD tracks.
 This is where the analog playback option can come in handy.
 </p>
 <p>
 In analog playback, the sound bypasses Bass - it goes directly from the CD drive to the soundcard (assuming the drive is cabled up to the soundcard). 
 This means that Bass output does not need to be initialized to use analog playback.
-It also means it&#39;s not possible to apply any DSP/FX to the sound, and nor is it possible to visualise it (unless you record the sound from the soundcard).
+It also means it&apos;s not possible to apply any DSP/FX to the sound, and nor is it possible to visualise it (unless you record the sound from the soundcard).
 </p>
 <p>
 Analog playback is not possible while digital streaming is in progress - the streaming will kill the analog playback.
@@ -686,11 +687,11 @@ So if you wish to switch from digital to analog playback, you should first free 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool AnalogStop(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -738,11 +739,11 @@ So if you wish to switch from digital to analog playback, you should first free 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(int Drive, int Track, BassFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -776,7 +777,7 @@ So if you wish to switch from digital to analog playback, you should first free 
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -795,15 +796,15 @@ If a stream using the drive already exists, this function will fail, unless the 
 Note that <a class="xref" href="ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_StreamSetTrack_System_Int32_System_Int32_">StreamSetTrack(Int32, Int32)</a> can be used to change track without creating a new stream.
 </p>
 <p>
-The sample format of a CD audio stream is always 44100hz stereo 16-bit, unless the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Float">Float</a> flag is used, in which case it&#39;s converted to 32-bit.
+The sample format of a CD audio stream is always 44100hz stereo 16-bit, unless the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Float">Float</a> flag is used, in which case it&apos;s converted to 32-bit.
 When reading sub-channel data, the sample rate will be 45900hz, taking the additional sub-channel data into account.
 </p>
 <p>
-When reading sub-channel data, BASSCD will automatically de-interleave the data if the drive can&#39;t.
+When reading sub-channel data, BASSCD will automatically de-interleave the data if the drive can&apos;t.
 You can check whether the drive can de-interleave the data itself (or even read sub-channel data at all) in the the <a class="xref" href="ManagedBass.Cd.CDInfo.html#ManagedBass_Cd_CDInfo_ReadWriteFlags">ReadWriteFlags</a> member.
 </p>
 <p>
-When using the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Decode">Decode</a> flag, it&#39;s not possible to play the stream, but seeking is still possible.
+When using the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Decode">Decode</a> flag, it&apos;s not possible to play the stream, but seeking is still possible.
 Because the decoded sample data is not outputted, &quot;decoding channels&quot; can still be used when there is no output device (using the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_NoSoundDevice">NoSoundDevice</a> device with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a>).
 </p>
 </div>
@@ -829,11 +830,11 @@ Because the decoded sample data is not outputted, &quot;decoding channels&quot; 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(int Drive, int Track, BassFlags Flags, CDDataProcedure Procedure, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -883,7 +884,7 @@ Because the decoded sample data is not outputted, &quot;decoding channels&quot; 
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -920,11 +921,11 @@ Because the decoded sample data is not outputted, &quot;decoding channels&quot; 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(string File, BassFlags Flags)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -950,7 +951,7 @@ Because the decoded sample data is not outputted, &quot;decoding channels&quot; 
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -969,15 +970,15 @@ If a stream using the drive already exists, this function will fail, unless the 
 Note that <a class="xref" href="ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_StreamSetTrack_System_Int32_System_Int32_">StreamSetTrack(Int32, Int32)</a> can be used to change track without creating a new stream.
 </p>
 <p>
-The sample format of a CD audio stream is always 44100hz stereo 16-bit, unless the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Float">Float</a> flag is used, in which case it&#39;s converted to 32-bit.
+The sample format of a CD audio stream is always 44100hz stereo 16-bit, unless the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Float">Float</a> flag is used, in which case it&apos;s converted to 32-bit.
 When reading sub-channel data, the sample rate will be 45900hz, taking the additional sub-channel data into account.
 </p>
 <p>
-When reading sub-channel data, BASSCD will automatically de-interleave the data if the drive can&#39;t.
+When reading sub-channel data, BASSCD will automatically de-interleave the data if the drive can&apos;t.
 You can check whether the drive can de-interleave the data itself (or even read sub-channel data at all) in the the <a class="xref" href="ManagedBass.Cd.CDInfo.html#ManagedBass_Cd_CDInfo_ReadWriteFlags">ReadWriteFlags</a> member.
 </p>
 <p>
-When using the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Decode">Decode</a> flag, it&#39;s not possible to play the stream, but seeking is still possible.
+When using the <a class="xref" href="ManagedBass.BassFlags.html#ManagedBass_BassFlags_Decode">Decode</a> flag, it&apos;s not possible to play the stream, but seeking is still possible.
 Because the decoded sample data is not outputted, &quot;decoding channels&quot; can still be used when there is no output device (using the <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_NoSoundDevice">NoSoundDevice</a> device with <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_Init_System_Int32_System_Int32_ManagedBass_DeviceInitFlags_IntPtr_IntPtr_">Init(Int32, Int32, DeviceInitFlags, IntPtr, IntPtr)</a>).
 </p>
 </div>
@@ -1003,11 +1004,11 @@ Because the decoded sample data is not outputted, &quot;decoding channels&quot; 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(string File, BassFlags Flags, CDDataProcedure Procedure, IntPtr User = null)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1049,7 +1050,7 @@ Because the decoded sample data is not outputted, &quot;decoding channels&quot; 
     <tr>
       <td>
         <a class="xref" href="https://msdn.microsoft.com/en-us/library/system.int32(v=vs.110).aspx">Int32</a>
-        <p><p>If successful, the new stream&#39;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
+        <p><p>If successful, the new stream&apos;s handle is returned, else 0 is returned. Use <a class="xref" href="ManagedBass.Bass.html#ManagedBass_Bass_LastError">LastError</a> to get the error code.</p>
 </p>
       </td>
     </tr>
@@ -1079,11 +1080,11 @@ Because the decoded sample data is not outputted, &quot;decoding channels&quot; 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Door(int Drive, CDDoorAction Action)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1136,11 +1137,11 @@ Because the decoded sample data is not outputted, &quot;decoding channels&quot; 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool DoorIsLocked(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1171,7 +1172,7 @@ Because the decoded sample data is not outputted, &quot;decoding channels&quot; 
   
   
   <h5 id="ManagedBass_Cd_BassCd_DoorIsLocked_System_Int32__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>It is not possible to get the drive&#39;s current door status via the WIO interface. 
+  <div class="markdown level1 remarks"><p>It is not possible to get the drive&apos;s current door status via the WIO interface. 
 So the last known status will be returned in that case, which may not be accurate if the door has been opened or closed by another application.</p>
 </div>
   
@@ -1189,11 +1190,11 @@ So the last known status will be returned in that case, which may not be accurat
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool DoorIsOpen(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1224,7 +1225,7 @@ So the last known status will be returned in that case, which may not be accurat
   
   
   <h5 id="ManagedBass_Cd_BassCd_DoorIsOpen_System_Int32__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>It is not possible to get the drive&#39;s current door status via the WIO interface. 
+  <div class="markdown level1 remarks"><p>It is not possible to get the drive&apos;s current door status via the WIO interface. 
 So the last known status will be returned in that case, which may not be accurate if the door has been opened or closed by another application, or manually.</p>
 </div>
   
@@ -1249,11 +1250,11 @@ So the last known status will be returned in that case, which may not be accurat
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string GetID(int Drive, CDID ID)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1313,11 +1314,11 @@ So the last known status will be returned in that case, which may not be accurat
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string[] GetIDText(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1349,7 +1350,7 @@ If successful, a string array of all CD-Text tags is returned in the form of &qu
   
   
   <h5 id="ManagedBass_Cd_BassCd_GetIDText_System_Int32__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The returned identification string will remain in memory until the next call to this function, when it&#39;ll be overwritten by the next result.
+  <div class="markdown level1 remarks"><p>The returned identification string will remain in memory until the next call to this function, when it&apos;ll be overwritten by the next result.
 If you need to keep the contents of an identification string, then you should copy it before calling this function again.</p>
 </div>
   
@@ -1374,11 +1375,11 @@ If you need to keep the contents of an identification string, then you should co
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static CDInfo GetInfo(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1423,11 +1424,11 @@ If you need to keep the contents of an identification string, then you should co
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool GetInfo(int Drive, out CDInfo Info)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1480,11 +1481,11 @@ If you need to keep the contents of an identification string, then you should co
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetSpeed(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1539,11 +1540,11 @@ If you need to keep the contents of an identification string, then you should co
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static double GetSpeedMultiplier(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1595,11 +1596,11 @@ If you need to keep the contents of an identification string, then you should co
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static TOC GetTOC(int Drive, TOCMode Mode)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1638,7 +1639,7 @@ If you need to keep the contents of an identification string, then you should co
   
   
   <h5 id="ManagedBass_Cd_BassCd_GetTOC_System_Int32_ManagedBass_Cd_TOCMode__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This function gives the TOC in the form that it is delivered by the drive, except that the byte order may be changed to match the system&#39;s native byte order (the TOC is originally big-endian).</p>
+  <div class="markdown level1 remarks"><p>This function gives the TOC in the form that it is delivered by the drive, except that the byte order may be changed to match the system&apos;s native byte order (the TOC is originally big-endian).</p>
 </div>
   
   
@@ -1655,11 +1656,11 @@ If you need to keep the contents of an identification string, then you should co
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool GetTOC(int Drive, TOCMode Mode, out TOC TOC)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1706,7 +1707,7 @@ If you need to keep the contents of an identification string, then you should co
   
   
   <h5 id="ManagedBass_Cd_BassCd_GetTOC_System_Int32_ManagedBass_Cd_TOCMode_ManagedBass_Cd_TOC___remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This function gives the TOC in the form that it is delivered by the drive, except that the byte order may be changed to match the system&#39;s native byte order (the TOC is originally big-endian).</p>
+  <div class="markdown level1 remarks"><p>This function gives the TOC in the form that it is delivered by the drive, except that the byte order may be changed to match the system&apos;s native byte order (the TOC is originally big-endian).</p>
 </div>
   
   
@@ -1723,11 +1724,11 @@ If you need to keep the contents of an identification string, then you should co
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetTrackLength(int Drive, int Track)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1767,7 +1768,7 @@ If you need to keep the contents of an identification string, then you should co
   
   <h5 id="ManagedBass_Cd_BassCd_GetTrackLength_System_Int32_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>CD audio is always 44100hz stereo 16-bit.
-That&#39;s 176400 bytes per second.
+That&apos;s 176400 bytes per second.
 So dividing the track length by 176400 gives the length in seconds.</p>
 </div>
   
@@ -1785,11 +1786,11 @@ So dividing the track length by 176400 gives the length in seconds.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetTrackPregap(int Drive, int Track)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1832,9 +1833,9 @@ If successful, the pregap length of the track is returned. To translate the preg
   <div class="markdown level1 remarks"><p>The drive needs to support sub-channel reading in order to detect all but the first pregap length. 
 <a class="xref" href="ManagedBass.Cd.CDInfo.html#ManagedBass_Cd_CDInfo_ReadWriteFlags">ReadWriteFlags</a> can be used to check whether the drive can read sub-channel data.
 <p>
-A track&#39;s pregap is actually played as part of the preceeding track. 
+A track&apos;s pregap is actually played as part of the preceeding track. 
 So to remove the gap from the end of a track, you would get the pregap length of the following track. 
-The gap will usually contain silence, but it doesn&#39;t have to - it could contain crowd noise in a live recording, for example.
+The gap will usually contain silence, but it doesn&apos;t have to - it could contain crowd noise in a live recording, for example.
 </p></p>
 </div>
   
@@ -1852,11 +1853,11 @@ The gap will usually contain silence, but it doesn&#39;t have to - it could cont
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetTracks(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1901,11 +1902,11 @@ The gap will usually contain silence, but it doesn&#39;t have to - it could cont
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool IsReady(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -1936,7 +1937,7 @@ The gap will usually contain silence, but it doesn&#39;t have to - it could cont
   
   
   <h5 id="ManagedBass_Cd_BassCd_IsReady_System_Int32__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This function only returns <span class="xref">true</span> once there&#39;s a CD in the drive, and it&#39;s ready to be accessed.</p>
+  <div class="markdown level1 remarks"><p>This function only returns <span class="xref">true</span> once there&apos;s a CD in the drive, and it&apos;s ready to be accessed.</p>
 </div>
   
   
@@ -1953,11 +1954,11 @@ The gap will usually contain silence, but it doesn&#39;t have to - it could cont
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool Release(int Drive)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2006,11 +2007,11 @@ After a drive has been released, BassCd will attempt to re-acquire it in the nex
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int SetInterface(CDInterface iface)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2060,11 +2061,11 @@ The current interface can also be reinitialized, to detect any newly connected d
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool SetOffset(int Drive, int Offset)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2126,11 +2127,11 @@ The drive may not support that (overreading), in which case those parts will be 
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool SetSpeed(int Drive, int Speed)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2170,7 +2171,7 @@ The drive may not support that (overreading), in which case those parts will be 
   
   <h5 id="ManagedBass_Cd_BassCd_SetSpeed_System_Int32_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>
-The speed is automatically restricted (rounded down) to what&#39;s supported by the drive, so may not be exactly what was requested.
+The speed is automatically restricted (rounded down) to what&apos;s supported by the drive, so may not be exactly what was requested.
 <a class="xref" href="ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_GetSpeed_System_Int32_">GetSpeed(Int32)</a> can be used to check that. 
 The maximum supported speed can be retrieved via <a class="xref" href="ManagedBass.Cd.BassCd.html#ManagedBass_Cd_BassCd_GetInfo_System_Int32_ManagedBass_Cd_CDInfo__">GetInfo(Int32, out CDInfo)</a>.
 </p>
@@ -2191,11 +2192,11 @@ The maximum supported speed can be retrieved via <a class="xref" href="ManagedBa
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int StreamGetTrack(int Handle)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2245,11 +2246,11 @@ The <a class="xref" href="ManagedBass.PositionFlags.html#ManagedBass_PositionFla
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool StreamSetTrack(int Handle, int Track)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -2288,7 +2289,7 @@ The <a class="xref" href="ManagedBass.PositionFlags.html#ManagedBass_PositionFla
   
   
   <h5 id="ManagedBass_Cd_BassCd_StreamSetTrack_System_Int32_System_Int32__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The stream&#39;s current position is set to the start of the new track.
+  <div class="markdown level1 remarks"><p>The stream&apos;s current position is set to the start of the new track.
 <p>
 This function is identical to using the <a class="xref" href="ManagedBass.PositionFlags.html#ManagedBass_PositionFlags_CDTrack">CDTrack</a> mode with <see cref="!:Bass.ChannelSetPosition(int, long, PositionFlags)"></see>.
 Either can be used with a <a class="xref" href="ManagedBass.SyncFlags.html#ManagedBass_SyncFlags_End">End</a> sync (set via <see cref="!:Bass.ChannelSetSync(int, SyncFlags, long, SyncProcedure, IntPtr)"></see>) to play one track after another.

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Enum BassWaDspIpc
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -75,118 +76,104 @@ Most DSP plugins use this to ask for certain values.
 These definitions are the most commonly used messages, which might be handled by the fake winamp window which we create.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.WaDsp</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.WaDsp.dll</h6>
   
   <h5 id="ManagedBass_WaDsp_BassWaDspIpc_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public enum BassWaDspIpc : int</code></pre>
   </div>
+
   
   
   
   
+      <h4 id="ManagedBass_WaDsp_BassWaDspIpc_GetInfo"><a href="#collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetInfo" class="expander" data-toggle="collapse">GetInfo</a></h4>
   
-  <h3 id="fields">Fields
-  </h3>
-  <table>
-      <tr>
-        <td id="ManagedBass_WaDsp_BassWaDspIpc_GetInfo">
-          GetInfo
-          <p><p>Returns info about the current playing song.
-The value it returns depends on the value of &#39;mode&#39; (wParam):
+      <div id="collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetInfo" class="collapse in">
+        <p><p>Returns info about the current playing song.
+The value it returns depends on the value of &apos;mode&apos; (wParam):
 0 - SampleRate (i.e. 44100), 1 - Bitrate  (i.e. 128), 2 - Channels (i.e. 2)
 <p>int inf=SendMessage(hwnd_winamp,WM_WA_IPC,mode,BassWaDspIpc.GetInfo);</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_WaDsp_BassWaDspIpc_GetListLength">
-          GetListLength
-          <p><p>Returns the length of the current playlist, in tracks.
+      </div>
+      <h4 id="ManagedBass_WaDsp_BassWaDspIpc_GetListLength"><a href="#collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetListLength" class="expander" data-toggle="collapse">GetListLength</a></h4>
+  
+      <div id="collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetListLength" class="collapse in">
+        <p><p>Returns the length of the current playlist, in tracks.
 <p>int length = SendMessage(hwnd_winamp,WM_WA_IPC,0,BassWaDspIpc.GetListLength);</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_WaDsp_BassWaDspIpc_GetListPosition">
-          GetListPosition
-          <p><p>Returns the playlist position [index].
+      </div>
+      <h4 id="ManagedBass_WaDsp_BassWaDspIpc_GetListPosition"><a href="#collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetListPosition" class="expander" data-toggle="collapse">GetListPosition</a></h4>
+  
+      <div id="collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetListPosition" class="collapse in">
+        <p><p>Returns the playlist position [index].
 <p>int pos=SendMessage(hwnd_winamp,WM_WA_IPC,0,BassWaDspIpc.GetListPosition);</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_WaDsp_BassWaDspIpc_GetOutputTime">
-          GetOutputTime
-          <p><p>Returns the position in milliseconds of the current song (mode = 0), 
+      </div>
+      <h4 id="ManagedBass_WaDsp_BassWaDspIpc_GetOutputTime"><a href="#collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetOutputTime" class="expander" data-toggle="collapse">GetOutputTime</a></h4>
+  
+      <div id="collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetOutputTime" class="collapse in">
+        <p><p>Returns the position in milliseconds of the current song (mode = 0), 
 or the song length, in seconds (mode = 1).
 Returns -1 if not playing or error.
 <p>int res = SendMessage(hwnd_winamp,WM_WA_IPC,mode,BassWaDspIpc.GetOutputTime);</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_WaDsp_BassWaDspIpc_GetPlaylistFile">
-          GetPlaylistFile
-          <p><p>Gets the filename of the playlist entry [index].
+      </div>
+      <h4 id="ManagedBass_WaDsp_BassWaDspIpc_GetPlaylistFile"><a href="#collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetPlaylistFile" class="expander" data-toggle="collapse">GetPlaylistFile</a></h4>
+  
+      <div id="collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetPlaylistFile" class="collapse in">
+        <p><p>Gets the filename of the playlist entry [index].
 Returns a pointer to it.
 Returns <span class="xref">null</span> on error.
 <p>char *name=SendMessage(hwnd_winamp,WM_WA_IPC,index,BassWaDspIpc.GetPlaylistFile);</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_WaDsp_BassWaDspIpc_GetPlaylistTitle">
-          GetPlaylistTitle
-          <p><p>Gets the title of the playlist entry [index].
+      </div>
+      <h4 id="ManagedBass_WaDsp_BassWaDspIpc_GetPlaylistTitle"><a href="#collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetPlaylistTitle" class="expander" data-toggle="collapse">GetPlaylistTitle</a></h4>
+  
+      <div id="collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetPlaylistTitle" class="collapse in">
+        <p><p>Gets the title of the playlist entry [index].
 Returns a pointer to it.
 Returns <span class="xref">null</span> on error.
 <p>char *name=SendMessage(hwnd_winamp,WM_WA_IPC,index,BassWaDspIpc.GetPlaylistTitle);</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_WaDsp_BassWaDspIpc_GetVersion">
-          GetVersion
-          <p><p>Version will be 0x20yx for winamp 2.yx. 
+      </div>
+      <h4 id="ManagedBass_WaDsp_BassWaDspIpc_GetVersion"><a href="#collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetVersion" class="expander" data-toggle="collapse">GetVersion</a></h4>
+  
+      <div id="collapsible-ManagedBass_WaDsp_BassWaDspIpc_GetVersion" class="collapse in">
+        <p><p>Version will be 0x20yx for winamp 2.yx. 
 Versions previous to Winamp 2.0 typically use 0x1zyx for 1.zx versions.
 <p>int version = SendMessage(hwnd_winamp,WM_WA_IPC,0,BassWaDspIpc.GetVersion);</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_WaDsp_BassWaDspIpc_Ipc">
-          Ipc
-          <p><p>Is defined as Win32&#39;s WM_USER an.
+      </div>
+      <h4 id="ManagedBass_WaDsp_BassWaDspIpc_Ipc"><a href="#collapsible-ManagedBass_WaDsp_BassWaDspIpc_Ipc" class="expander" data-toggle="collapse">Ipc</a></h4>
+  
+      <div id="collapsible-ManagedBass_WaDsp_BassWaDspIpc_Ipc" class="collapse in">
+        <p><p>Is defined as Win32&apos;s WM_USER an.
 When a message of this value arrives, we know, that we might handle it by ourself.</p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_WaDsp_BassWaDspIpc_IsPlaying">
-          IsPlaying
-          <p><p>Returns the status of playback.
+      </div>
+      <h4 id="ManagedBass_WaDsp_BassWaDspIpc_IsPlaying"><a href="#collapsible-ManagedBass_WaDsp_BassWaDspIpc_IsPlaying" class="expander" data-toggle="collapse">IsPlaying</a></h4>
+  
+      <div id="collapsible-ManagedBass_WaDsp_BassWaDspIpc_IsPlaying" class="collapse in">
+        <p><p>Returns the status of playback.
 If it returns 1, it is playing.
 if it returns 3, it is paused.
 if it returns 0, it is not playing.
 <p>int res = SendMessage(hwnd_winamp,WM_WA_IPC,0,BassWaDspIpc.IsPlaying);</p></p>
 </p>
-        </td>
-      </tr>
-      <tr>
-        <td id="ManagedBass_WaDsp_BassWaDspIpc_StartPlay">
-          StartPlay
-          <p><p>Using IPC_STARTPLAY is like hitting &#39;Play&#39; in Winamp, mostly.
+      </div>
+      <h4 id="ManagedBass_WaDsp_BassWaDspIpc_StartPlay"><a href="#collapsible-ManagedBass_WaDsp_BassWaDspIpc_StartPlay" class="expander" data-toggle="collapse">StartPlay</a></h4>
+  
+      <div id="collapsible-ManagedBass_WaDsp_BassWaDspIpc_StartPlay" class="collapse in">
+        <p><p>Using IPC_STARTPLAY is like hitting &apos;Play&apos; in Winamp, mostly.
 <p>SendMessage(hwnd_winamp,WM_WA_IPC,0,BassWaDspIpc.StartPlay);</p></p>
 </p>
-        </td>
-      </tr>
-  </table>
+      </div>
   
 </article>
           </div>

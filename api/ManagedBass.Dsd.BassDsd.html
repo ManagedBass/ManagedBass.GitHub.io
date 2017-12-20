@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class BassDsd
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,7 +74,7 @@
   <div class="markdown level0 summary"><p>BassDsd is a BASS addon enabling the playing of DSD (Direct Stream Digital) data in DSDIFF and DSF containers.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://msdn.microsoft.com/en-us/library/system.object(v=vs.110).aspx">Object</a></div>
@@ -82,14 +83,14 @@
   
   
   
-  <h6><strong>Namespace</strong>: ManagedBass.Dsd</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Dsd.dll</h6>
   
   <h5 id="ManagedBass_Dsd_BassDsd_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class BassDsd : object</code></pre>
   </div>
-  
+
   
   
   
@@ -117,11 +118,11 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int DefaultFrequency { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -172,11 +173,11 @@ Changes only affect subsequently created streams, not any that already exist.
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int DefaultGain { get; set; }</code></pre>
   </div>
-  
+
   
   
   
@@ -198,7 +199,7 @@ Changes only affect subsequently created streams, not any that already exist.
   <div class="markdown level1 remarks"><p>
 This setting determines what gain is applied by default when converting to PCM.
 Changes only affect subsequently created streams, not any that already exist.
-An existing stream&#39;s gain can be changed via the <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_DSDGain">DSDGain</a> attribute.
+An existing stream&apos;s gain can be changed via the <a class="xref" href="ManagedBass.ChannelAttribute.html#ManagedBass_ChannelAttribute_DSDGain">DSDGain</a> attribute.
 </p>
 <p>The default setting is 6dB.</p>
 </div>
@@ -226,11 +227,11 @@ An existing stream&#39;s gain can be changed via the <a class="xref" href="Manag
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(IntPtr Memory, long Offset, long Length, BassFlags Flags = BassFlags.Default, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -308,11 +309,11 @@ An existing stream&#39;s gain can be changed via the <a class="xref" href="Manag
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(StreamSystem System, BassFlags Flags, FileProcedures Procedures, IntPtr User = null, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -390,11 +391,11 @@ An existing stream&#39;s gain can be changed via the <a class="xref" href="Manag
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(byte[] Memory, long Offset, long Length, BassFlags Flags, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -472,11 +473,11 @@ An existing stream&#39;s gain can be changed via the <a class="xref" href="Manag
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(string Url, int Offset, BassFlags Flags, DownloadProcedure Procedure, IntPtr User = null, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -561,11 +562,11 @@ An existing stream&#39;s gain can be changed via the <a class="xref" href="Manag
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int CreateStream(string File, long Offset = null, long Length = null, BassFlags Flags = BassFlags.Default, int Frequency = 0)</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>

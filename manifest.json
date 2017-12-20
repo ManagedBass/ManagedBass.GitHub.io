@@ -1,1 +1,3765 @@
-{"homepages":[],"source_base_path":"F:/GitHub/MBass/ManagedBass.DocFX","xrefmap":"xrefmap.yml","files":[{"type":"ManagedReference","source_relative_path":"api/ManagedBass.ID3v1Tag.yml","output":{".html":{"relative_path":"api/ManagedBass.ID3v1Tag.html","hash":"pNQwLRY11DmYhN2h6ofqmg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Sfx.BassSfxPluginInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.Sfx.BassSfxPluginInfo.html","hash":"U7n47aDaIY4zrx5QXfWfLg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Sfx.yml","output":{".html":{"relative_path":"api/ManagedBass.Sfx.html","hash":"pxk5/AXbHrQiRKMBzOS9VQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Spx.BassSpx.yml","output":{".html":{"relative_path":"api/ManagedBass.Spx.BassSpx.html","hash":"t9hBc22SxsfMB6Ob6tJLGA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Spx.yml","output":{".html":{"relative_path":"api/ManagedBass.Spx.html","hash":"+pbQN7KN/a+scaiQMDsEEA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.StreamProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.StreamProcedure.html","hash":"Zpy+SJIpbK9NKTLs+dLI+Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.StreamProcedureType.yml","output":{".html":{"relative_path":"api/ManagedBass.StreamProcedureType.html","hash":"tDM52W4zgW3KO4ia07OpaQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.StreamSystem.yml","output":{".html":{"relative_path":"api/ManagedBass.StreamSystem.html","hash":"kOajHH8MaquQOLCHA7TYQg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.SyncFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.SyncFlags.html","hash":"5w7VhtdmWvQmWz3Ai6oW8w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Vst.BassVstParamInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.Vst.BassVstParamInfo.html","hash":"7+RktSyc/RDL7rl9fAfVTA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Vst.VstProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Vst.VstProcedure.html","hash":"LRRWEvtErbG1LnqjBgTvhg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Vst.yml","output":{".html":{"relative_path":"api/ManagedBass.Vst.html","hash":"Lt/NrJbo5OiQbhihNLCkmQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.WA.BassWA.yml","output":{".html":{"relative_path":"api/ManagedBass.WA.BassWA.html","hash":"dTqui5JRWWPBGpYBglkriQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.WA.yml","output":{".html":{"relative_path":"api/ManagedBass.WA.html","hash":"w1CfdpVXHmkCvnIrbVGWLg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.WaDsp.BassWaDsp.yml","output":{".html":{"relative_path":"api/ManagedBass.WaDsp.BassWaDsp.html","hash":"bE4icvZkSHqx39OZSzVFpw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.FileCloseProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.FileCloseProcedure.html","hash":"Boye9TbV/ryAdK/bLn4lpA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.AutoWahEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.AutoWahEffect.html","hash":"JnrdbOM4HbzAg0pQoC/o+g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.AutoWahParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.AutoWahParameters.html","hash":"jfy6h1hn+6mFxtEmCz++xA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.BassFx.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.BassFx.html","hash":"CQ62r1w1D2PenKKNi8jOmA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.BPMBeatProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.BPMBeatProcedure.html","hash":"5644gJA8yeSCVdmsvRy/HA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.DistortionParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.DistortionParameters.html","hash":"K/H4XvxPM629wE00r3Iriw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.EchoEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.EchoEffect.html","hash":"axN+mSXz0DU4ksCFzfJ1sA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.EchoParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.EchoParameters.html","hash":"eWPSUGi8pOCx66A+UY308Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.MediaPlayerFX.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.MediaPlayerFX.html","hash":"9AQ33crDreISTDyYC/HF+g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.RotateEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.RotateEffect.html","hash":"FzcMjSIjVN9FLkgMwYFbBw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.RotateParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.RotateParameters.html","hash":"0DINQmAULxFfLc3X6uEgiw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.html","hash":"XPpckNpyWLT8GRG2qa293g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.FXChannelFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.FXChannelFlags.html","hash":"44NxKTwJsD1977FBFJx/Nw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.GCPin.yml","output":{".html":{"relative_path":"api/ManagedBass.GCPin.html","hash":"/QV01GMipamN8PzPNT48iQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Hls.BassHls.yml","output":{".html":{"relative_path":"api/ManagedBass.Hls.BassHls.html","hash":"1xgqhNXfNNDidbomW1c1ow=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Hls.yml","output":{".html":{"relative_path":"api/ManagedBass.Hls.html","hash":"GQhXzRtgRR3V7HY7IK7THg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Winamp.BassWinamp.yml","output":{".html":{"relative_path":"api/ManagedBass.Winamp.BassWinamp.html","hash":"n2MUHeWn8jfHbJd7hl/opg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Ac3.BassAc3.yml","output":{".html":{"relative_path":"api/ManagedBass.Ac3.BassAc3.html","hash":"QOCdvNjucKwuKwlrUrjSog=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Adx.ADXLoopTag.yml","output":{".html":{"relative_path":"api/ManagedBass.Adx.ADXLoopTag.html","hash":"jBExA5kX1BQp+SVFyXWCSw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Aix.BassAix.yml","output":{".html":{"relative_path":"api/ManagedBass.Aix.BassAix.html","hash":"2onV8vnT6XWG7YjYN0rF8A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Algorithm3D.yml","output":{".html":{"relative_path":"api/ManagedBass.Algorithm3D.html","hash":"C0sztwDVdu1LWP1SV2AYIg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Ape.BassApe.yml","output":{".html":{"relative_path":"api/ManagedBass.Ape.BassApe.html","hash":"SjAIssdMJj+3sX4oXweftw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioChannelInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioChannelInfo.html","hash":"kApMMRHHww+81OAwO7kHDQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioInfo.html","hash":"f8LbfW2f2BBVQR9Pd2yjWg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioInputMonitor.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioInputMonitor.html","hash":"1rouE/UvDKaEddSgFYUcJg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioProcedure.html","hash":"APUIUBiQ8WyZaNJGPNIX9g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioSampleFormat.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioSampleFormat.html","hash":"2Wr27K04Mpt1upH3OvVkiQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.html","hash":"qsmKlSeSO14Z7Jdd+xgjPA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Bass.yml","output":{".html":{"relative_path":"api/ManagedBass.Bass.html","hash":"B6hY9lVYA/M1QyY6uADe+A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.CartTimer.yml","output":{".html":{"relative_path":"api/ManagedBass.CartTimer.html","hash":"d/ScSHIyomigIiCYz3IAyw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.BassCd.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.BassCd.html","hash":"fshbw3AXmSWLRV2JI/5C0g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.CDReadWriteFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.CDReadWriteFlags.html","hash":"f8eTWQFhoU80GQMHjey22A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.TOC.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.TOC.html","hash":"eIiyuaVx0lxLBE9LJCzMMA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.html","hash":"lMjoh1gRTwitluD3jiLH4A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.ChannelAttribute.yml","output":{".html":{"relative_path":"api/ManagedBass.ChannelAttribute.html","hash":"8rtHCI1nZn4Yzk8UAPwDig=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DeviceInfoFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.DeviceInfoFlags.html","hash":"uh2kyRaibxLJsA9pXzw3cg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DeviceInitFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.DeviceInitFlags.html","hash":"F1KM2mtylO9XxxA1O+JpwQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXEchoParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXEchoParameters.html","hash":"w7duirxcpdtWezzLqnoSnw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXFlangerEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXFlangerEffect.html","hash":"tAqtJijBctVffH0V2r8dgA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXParamEQEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXParamEQEffect.html","hash":"SfA1ZSJ15QLWf4a81BxUEw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXParamEQParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXParamEQParameters.html","hash":"nLeqbu0UP5xnMP3EBTl/uQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Dsd.DSDCommentType.yml","output":{".html":{"relative_path":"api/ManagedBass.Dsd.DSDCommentType.html","hash":"3Y5Kubsr15Qx4yn58mUqdQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Dsd.yml","output":{".html":{"relative_path":"api/ManagedBass.Dsd.html","hash":"EWmFI8FBkSCYEKzRB0XPMQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShow.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShow.html","hash":"gTowhS5iKT+WsyzffafcoA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowAttribute.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowAttribute.html","hash":"FiK5MYXsPlF/VaihLkev/w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowInit.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowInit.html","hash":"+ZkyZqGjyMfpR6E88tzarg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowMode.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowMode.html","hash":"P4ZO4IcvE2e0ZpwVRM7ODQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowPluginInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowPluginInfo.html","hash":"bC6MR3pwsaqedPHoeEK9lg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowState.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowState.html","hash":"9M2mC9jW5r9Se7Fb2zDfHw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.VideoStreamsProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.VideoStreamsProcedure.html","hash":"hsotn2ExsPET4t4n0ll3hg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.VideoSyncProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.VideoSyncProcedure.html","hash":"+LIv3cDnkf82GyfM70FbBw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.html","hash":"rXHbbjQ2CnOjIqN2NOMnNA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DSInterface.yml","output":{".html":{"relative_path":"api/ManagedBass.DSInterface.html","hash":"LsgGK9DQfstM2QtT/KBHGw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.EncodeCount.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.EncodeCount.html","hash":"lZx4RmUVGRR7kQ+K0DDrfQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.EncodeFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.EncodeFlags.html","hash":"+eKn028QhH73ZheLDgDUmg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.EncodeMetaDataType.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.EncodeMetaDataType.html","hash":"ljfh7r5K5NihF1eD92dM6w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.EncodeNotifyProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.EncodeNotifyProcedure.html","hash":"AS0TcUqztFfEoDwCTkH2lg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.FileStreamPosition.yml","output":{".html":{"relative_path":"api/ManagedBass.FileStreamPosition.html","hash":"RHwMWcEkHnLc+RFrvofQ6w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Flac.BassFlac.yml","output":{".html":{"relative_path":"api/ManagedBass.Flac.BassFlac.html","hash":"Kau14vaRw99O42hJ3UQ71A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Flac.CueSheetTrackType.yml","output":{".html":{"relative_path":"api/ManagedBass.Flac.CueSheetTrackType.html","hash":"PgYnR+CvCDnz5J0mZfitFQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Flac.FlacCueTag.yml","output":{".html":{"relative_path":"api/ManagedBass.Flac.FlacCueTag.html","hash":"IY7SdBK7yjPQJwPXSdBhAw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.BPMProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.BPMProcedure.html","hash":"JUwfBmrMiH0P4xv5T/OFmQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.BPMProgressProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.BPMProgressProcedure.html","hash":"P8YoMNe0IZ4/qidOdJYdBQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.BQFEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.BQFEffect.html","hash":"+xl3zJB86wodIcPOV2RpjQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.BQFParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.BQFParameters.html","hash":"Ps2kbMfW6AdoyMVc+lcuDQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.PeakEQ.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.PeakEQ.html","hash":"5k+bD6uyYvVOvMVSUUWH6A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.PeakEQParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.PeakEQParameters.html","hash":"/I3NA2t6Ekx7dd4VALf4+g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.PhaserEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.PhaserEffect.html","hash":"wT1S6S59N+b3qC43H7nVFw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.PhaserParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.PhaserParameters.html","hash":"22W3s0wDdhIAhRhzPd2A8g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.IOSMixAudioFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.IOSMixAudioFlags.html","hash":"5DQhNO0wVIly1SH7JXrtww=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.IOSNotify.yml","output":{".html":{"relative_path":"api/ManagedBass.IOSNotify.html","hash":"b7p2e4AsM8vP8uPzjzmo7A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.IOSNotifyProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.IOSNotifyProcedure.html","hash":"++F88dRBPmGd9FMPycQtrA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.LevelRetrievalFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.LevelRetrievalFlags.html","hash":"ZHwyt+8WF+qWC2Vq8Ot45Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiEvent.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiEvent.html","hash":"aW2q/qUJaMC1scJ25N0sww=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiEventsMode.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiEventsMode.html","hash":"b/jitFYA9iMIcZnlG/yRGg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiEventType.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiEventType.html","hash":"I6qwYy8XCPofIi5tDQRUOQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiFilterProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiFilterProcedure.html","hash":"lxPlnyXmqPzKf7zV4qVdGA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiFont.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiFont.html","hash":"SRp3yqM82mJ59+XZrCUxmw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiFontEx.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiFontEx.html","hash":"GrHDAijWE7UmO7NB0e8I/A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Vector3D.yml","output":{".html":{"relative_path":"api/ManagedBass.Vector3D.html","hash":"Cuo62ns2eZ4MEaUCa+1Q4A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Vst.BassVst.yml","output":{".html":{"relative_path":"api/ManagedBass.Vst.BassVst.html","hash":"XSCNl3c7dUsmHgnwG0FKcg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Vst.BassVstAction.yml","output":{".html":{"relative_path":"api/ManagedBass.Vst.BassVstAction.html","hash":"HH4a/PZ0YMgPFMweh4Ulfw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Winamp.WinampFindPluginFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.Winamp.WinampFindPluginFlags.html","hash":"WRlBrjTaKED0AJ5NGITWwA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Winamp.yml","output":{".html":{"relative_path":"api/ManagedBass.Winamp.html","hash":"h8Og4FZxhy/Ten1DAU7bdw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wma.BassWma.yml","output":{".html":{"relative_path":"api/ManagedBass.Wma.BassWma.html","hash":"fkcbxrP/gxbGTAGjlago5Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wma.ClientConnectProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Wma.ClientConnectProcedure.html","hash":"5JSXLNksyMIvJ3aYjIpjpA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wma.WMAEncodeFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.Wma.WMAEncodeFlags.html","hash":"Invn8QLon3LXW3bgOqjXuQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wma.WMATagFormat.yml","output":{".html":{"relative_path":"api/ManagedBass.Wma.WMATagFormat.html","hash":"3eRHNGIz+HbaPXbm5GMdBg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wma.WMEncodeProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Wma.WMEncodeProcedure.html","hash":"VgdcnUhSnceXCRiqxqccHw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wma.WMEncodeType.yml","output":{".html":{"relative_path":"api/ManagedBass.Wma.WMEncodeType.html","hash":"bbQH1lakf2mregqF8LflGg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Aac.BassAac.yml","output":{".html":{"relative_path":"api/ManagedBass.Aac.BassAac.html","hash":"7Wpr5N1P/LUq4uEXMXBRpw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.BassFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.BassFlags.html","hash":"CTR3TBwkUFiK90Wt5m1A9A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.CartTag.yml","output":{".html":{"relative_path":"api/ManagedBass.CartTag.html","hash":"xHo8DNQGG7xRyl7FmSOgdQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.CDDoorAction.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.CDDoorAction.html","hash":"SxSWpkYMZtkP1rQdtaL7UA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.CDInterface.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.CDInterface.html","hash":"FQhsvxy10OW6tkIW1/IrBQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.TOCTrack.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.TOCTrack.html","hash":"Etggg1ZuDerTCIoAjgjz+g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.ChannelInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.ChannelInfo.html","hash":"HcbwVEqYC6Ta9GWQ2J7/Zg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DeviceInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.DeviceInfo.html","hash":"B+iPib/tg/klUlqTl4B3ew=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXCompressorParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXCompressorParameters.html","hash":"BxA8ZEsI0F3oQyHWyEkhOA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXDistortionEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXDistortionEffect.html","hash":"HTUOCtIuGJoMIX4G2tpGjA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXFlangerParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXFlangerParameters.html","hash":"mFftIECZY5h1gWqVrDEkEw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXGargleEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXGargleEffect.html","hash":"bkdsRS8AEvPVvOe0arF1kA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Dsd.BassDsd.yml","output":{".html":{"relative_path":"api/ManagedBass.Dsd.BassDsd.html","hash":"bBUhctNGVx0qdh1sgqrNAw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Dsd.DSDComment.yml","output":{".html":{"relative_path":"api/ManagedBass.Dsd.DSDComment.html","hash":"Tl4E8PLx3YFFr2wwvRAAEA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowChannelInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowChannelInfo.html","hash":"M7gPVZ1t9ET5ko9HS1OcXw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowColorControl.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowColorControl.html","hash":"LaCgfg3law84A9dJImizEw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowDvpType.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowDvpType.html","hash":"Mec4t/xQwOFua2rzmbfAIA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowError.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowError.html","hash":"ZrzT/qaIe8jLxrvzMIgSmg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DSPProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.DSPProcedure.html","hash":"2dw+fI5a2XucxoJFzYh95w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DXPhase.yml","output":{".html":{"relative_path":"api/ManagedBass.DXPhase.html","hash":"3h4SUTdQUB9RdNPgXs3VPg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.BassEnc_Opus.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.BassEnc_Opus.html","hash":"dyFKPVjL08dSf+nlgAm82w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.EncodeClientProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.EncodeClientProcedure.html","hash":"mn/DaXNd/6IMCndyh10+XQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.EncodeServer.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.EncodeServer.html","hash":"ikzhsoKpQti3WkAi6vUnlA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.EncodeStats.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.EncodeStats.html","hash":"ZuIqSlJhwa4y8EkgGSyudQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.FileLengthProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.FileLengthProcedure.html","hash":"laWp7lAA7ioq+3VDLN6EbQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.FileProcedures.yml","output":{".html":{"relative_path":"api/ManagedBass.FileProcedures.html","hash":"lEwauPaQQ+jqtjUlQQiaTw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.FileReadProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.FileReadProcedure.html","hash":"a18aLbmfuN6XzpHLGrPcoQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.FileSeekProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.FileSeekProcedure.html","hash":"reiDbRroC5+qDSlla7JdRw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.CompressorParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.CompressorParameters.html","hash":"GNcuK3vPJqVjNfIgKrNE+w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.DampEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.DampEffect.html","hash":"tsV8oLDvP/6xsCQUEfQYxQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.DampParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.DampParameters.html","hash":"cxuly1ms7ipGlMvmxg6s9Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.DistortionEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.DistortionEffect.html","hash":"R9OEWl9wZpJwDmAwdqh6jg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.PitchShiftEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.PitchShiftEffect.html","hash":"K1AOFs+hmEY3CGVoBDFQsg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.PitchShiftParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.PitchShiftParameters.html","hash":"Uw8js/BVkzAilexo1DCLQQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.ReverbEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.ReverbEffect.html","hash":"Esk8kOB86glspvNUgEh3bQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.ReverbParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.ReverbParameters.html","hash":"pYGZPtMJsEGmQTvn5NFzYQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.MediaPlayer.yml","output":{".html":{"relative_path":"api/ManagedBass.MediaPlayer.html","hash":"4JwMQVC6UWbrHHpG8xFeaA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.BassMidi.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.BassMidi.html","hash":"ogjGCnQZgMVcKnDybOyqGw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.FontInitFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.FontInitFlags.html","hash":"7v0B4DDwhykEkHBH/hifTA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiDeviceInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiDeviceInfo.html","hash":"4ox+G45Kk2OorPHryBdxOg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Mix.BassMix.yml","output":{".html":{"relative_path":"api/ManagedBass.Mix.BassMix.html","hash":"Nga2xGqP4wCpE1wllNtozQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Mix.MixEnvelope.yml","output":{".html":{"relative_path":"api/ManagedBass.Mix.MixEnvelope.html","hash":"I19xNko7OEwqc3iEraF+1w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Mix.MixerNode.yml","output":{".html":{"relative_path":"api/ManagedBass.Mix.MixerNode.html","hash":"0thvmTNsOYC87LQhXaU7uQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Mix.SyncProcedureEx.yml","output":{".html":{"relative_path":"api/ManagedBass.Mix.SyncProcedureEx.html","hash":"611ED+j4mRTptp2LFkgJxw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Ofr.BassOfr.yml","output":{".html":{"relative_path":"api/ManagedBass.Ofr.BassOfr.html","hash":"oUUtsHpVOHCVGlb5qTY1XQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Ofr.yml","output":{".html":{"relative_path":"api/ManagedBass.Ofr.html","hash":"2QpBsm7s3XXtTMjCQD3irQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Opus.BassOpus.yml","output":{".html":{"relative_path":"api/ManagedBass.Opus.BassOpus.html","hash":"xb65Pex4NUWhk2fTgy/6IA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Opus.yml","output":{".html":{"relative_path":"api/ManagedBass.Opus.html","hash":"qIVDgnCpLr5yvrzNsBmp4A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.SyncProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.SyncProcedure.html","hash":"YuqmF2clDZGgkDCR2jZSlw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.TagProperties-1.yml","output":{".html":{"relative_path":"api/ManagedBass.TagProperties-1.html","hash":"PZTor4VPOmychsj8Wi30RQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.TagReader.yml","output":{".html":{"relative_path":"api/ManagedBass.TagReader.html","hash":"/pDPr5OMc8Nh/3fQ/Mi2kA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Tags.BassTags.yml","output":{".html":{"relative_path":"api/ManagedBass.Tags.BassTags.html","hash":"yOQQepwytyN2pfrvK7hP6Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Vst.BassVstAudioMasterParam.yml","output":{".html":{"relative_path":"api/ManagedBass.Vst.BassVstAudioMasterParam.html","hash":"caua/8LscP9ndvr03UcSjQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Vst.BassVstDispatcherOpCodes.yml","output":{".html":{"relative_path":"api/ManagedBass.Vst.BassVstDispatcherOpCodes.html","hash":"1fkENR6OI+lp+YqxUKTxZA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Vst.BassVstDsp.yml","output":{".html":{"relative_path":"api/ManagedBass.Vst.BassVstDsp.html","hash":"O/jaa4KF7qZO0Xq6ml2Acg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Vst.BassVstInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.Vst.BassVstInfo.html","hash":"iyb757MtABWCFBp81e2H4w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.WaDsp.yml","output":{".html":{"relative_path":"api/ManagedBass.WaDsp.html","hash":"1JSyZHvsX1+eTAKJnH2I0Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wasapi.BassWasapi.yml","output":{".html":{"relative_path":"api/ManagedBass.Wasapi.BassWasapi.html","hash":"mjy4lPtYJBVp1SB/0CY4zA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wasapi.WasapiDeviceInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.Wasapi.WasapiDeviceInfo.html","hash":"kM/jLDmCx227qiprmfaOqQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wasapi.WasapiDeviceType.yml","output":{".html":{"relative_path":"api/ManagedBass.Wasapi.WasapiDeviceType.html","hash":"38BYhjtuwnNQDfd98aL1Tw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wasapi.WasapiFormat.yml","output":{".html":{"relative_path":"api/ManagedBass.Wasapi.WasapiFormat.html","hash":"qO6XgbTrDFD2frQUeWJSUA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wasapi.WasapiInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.Wasapi.WasapiInfo.html","hash":"I8vs8fUXdedUAkw3QXIi0Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wasapi.WasapiInitFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.Wasapi.WasapiInitFlags.html","hash":"5zn/+t2xNY6PhqaZ9F+vfg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wasapi.WasapiNotificationType.yml","output":{".html":{"relative_path":"api/ManagedBass.Wasapi.WasapiNotificationType.html","hash":"8ZCKyWnPhOenBjFvYPBR6A=="}},"is_incremental":false,"version":""},{"type":"Resource","source_relative_path":"index.html","output":{"resource":{"relative_path":"index.html"}},"is_incremental":false,"version":""},{"type":"Toc","source_relative_path":"api/toc.yml","output":{".html":{"relative_path":"api/toc.html","hash":"ab6v2M2KV/fwIMV8A8gXkg=="}},"is_incremental":false,"version":""},{"type":"Toc","source_relative_path":"toc.yml","output":{".html":{"relative_path":"toc.html","hash":"LfzUqjdKGTnxU468GEcHvg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.WaDsp.BassWaDspIpc.yml","output":{".html":{"relative_path":"api/ManagedBass.WaDsp.BassWaDspIpc.html","hash":"EmRIBGkks7Xil3TtvFtplw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.WaDsp.WinampWinProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.WaDsp.WinampWinProcedure.html","hash":"EFwb8uM5sKPiH9+K90L1bA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wma.yml","output":{".html":{"relative_path":"api/ManagedBass.Wma.html","hash":"aAoWg6+E94PJUfeD6iz4DQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wv.BassWv.yml","output":{".html":{"relative_path":"api/ManagedBass.Wv.BassWv.html","hash":"47ZTkwbCGHwqI6j63bFJCA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wv.yml","output":{".html":{"relative_path":"api/ManagedBass.Wv.html","hash":"ECqTEi9OqPmXS+50o7kNAA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.yml","output":{".html":{"relative_path":"api/ManagedBass.html","hash":"UxhpEcI1mlErJBQSkrnQoA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.ZXTune.BassZXTune.yml","output":{".html":{"relative_path":"api/ManagedBass.ZXTune.BassZXTune.html","hash":"IpgH6oBpLb7GW9ydIzvipQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.ZXTune.yml","output":{".html":{"relative_path":"api/ManagedBass.ZXTune.html","hash":"+xkazIQc6KSOuxGu+NKXog=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioChannelControls.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioChannelControls.html","hash":"4Lf4Cg85Fi+881uYpO+B6Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioFuture.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioFuture.html","hash":"lftWgAXTlv+fGimEUDZg/A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioInitFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioInitFlags.html","hash":"c3z9vz9idY7JM5BtBg8b+A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioNotify.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioNotify.html","hash":"lDNpWRoZFZMgUH/9iKgpBQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioNotifyProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioNotifyProcedure.html","hash":"9zDPvlZkWstYAlpkYi0RcQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.BassAsio.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.BassAsio.html","hash":"KzqnIlZNdnjpCYv7VpfXjA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.BassException.yml","output":{".html":{"relative_path":"api/ManagedBass.BassException.html","hash":"nLguQBAtm9MVhv6p9Uv23A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.BitHelper.yml","output":{".html":{"relative_path":"api/ManagedBass.BitHelper.html","hash":"WxfXTsydU2XCyMasEugBvg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.CACodecTag.yml","output":{".html":{"relative_path":"api/ManagedBass.CACodecTag.html","hash":"AlIqnj+hZcr+RRjAsUBJUQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.CDID.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.CDID.html","hash":"VUB7IVYVS/BkqKQN0A+fQQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.CDInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.CDInfo.html","hash":"giujNOj4vE4IgU1nnCgOuw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Configuration.yml","output":{".html":{"relative_path":"api/ManagedBass.Configuration.html","hash":"qMzrS1dU38DUZnOImR0juw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DataFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.DataFlags.html","hash":"IwnQmMxlVJIDLZNUTgKgxw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXDistortionParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXDistortionParameters.html","hash":"4+kc5tVQubkzYHxrrJ87WA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXEchoEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXEchoEffect.html","hash":"p4SUMI2Ps5ipstBAzro4IQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXGargleParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXGargleParameters.html","hash":"rw9E54pdYz7CwJ/lk/RGrQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXParamEQ.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXParamEQ.html","hash":"8ytjB7gv4l780VAMUXQsOw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.html","hash":"WdKPwq6/T4yQ4mTXJVJPhg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DownloadProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.DownloadProcedure.html","hash":"5V0b8lxMgtoAzlw5xO4RUQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowCallbackItem.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowCallbackItem.html","hash":"WHnjY759/rfJxrkHublBEg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowCapture.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowCapture.html","hash":"OjTSHme8wH7FJTv7LHwanQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowDVDMenu.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowDVDMenu.html","hash":"C4GeEdiVNQ0ut5FY9gG8Vw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowDVDSetProperty.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowDVDSetProperty.html","hash":"GwiD2Y6/0gdTn2hwPm4rZg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowStreams.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowStreams.html","hash":"DFhL+uCwKHSUHMVxPrpd+w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowSync.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowSync.html","hash":"zqwES4DAEVaCiFjXYxnHdQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowVideoBitmap.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowVideoBitmap.html","hash":"sl/wfVl6P1CQlEYTXy66/Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowVideoColors.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowVideoColors.html","hash":"sS6QcTowAh0gDHLSDRLJpg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DXWaveform.yml","output":{".html":{"relative_path":"api/ManagedBass.DXWaveform.html","hash":"Euo2RidnoBTnAc/MdmGjsA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DynamicLibrary.yml","output":{".html":{"relative_path":"api/ManagedBass.DynamicLibrary.html","hash":"zzl6TFA/yt0CmXmy8C7vlQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.EAXEnvironment.yml","output":{".html":{"relative_path":"api/ManagedBass.EAXEnvironment.html","hash":"YuvOw5O1MMgTEiWm4/h5qw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Effect-1.yml","output":{".html":{"relative_path":"api/ManagedBass.Effect-1.html","hash":"Da3k8MS4nOHdtaHPWXEFyA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.EncodeNotifyStatus.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.EncodeNotifyStatus.html","hash":"SuqqLumvMmsqWNs32kKFbg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.EncodeProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.EncodeProcedure.html","hash":"IXiWKBBRXCZtsIcjEsNtVg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.EncodeProcedureEx.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.EncodeProcedureEx.html","hash":"VPWcWbDdRtPnvENoVc3o+Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.EncoderProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.EncoderProcedure.html","hash":"jEtG2EhD5eMNddQieg7krg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Flac.FlacCueTrack.yml","output":{".html":{"relative_path":"api/ManagedBass.Flac.FlacCueTrack.html","hash":"mA+Ttr7PsaUzpZA9TpAeKw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Flac.FlacCueTrackIndex.yml","output":{".html":{"relative_path":"api/ManagedBass.Flac.FlacCueTrackIndex.html","hash":"UB2NXHJiH5lCT88dSQj6KA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Flac.FlacPictureTag.yml","output":{".html":{"relative_path":"api/ManagedBass.Flac.FlacPictureTag.html","hash":"jonvZzn1+bb0OT5qJ1WS2w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Flac.yml","output":{".html":{"relative_path":"api/ManagedBass.Flac.html","hash":"F2Io/HcRy+jnqa+OSejlNA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.BQFType.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.BQFType.html","hash":"xMUSeFjU9EctU5QirBZ2LQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.ChorusEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.ChorusEffect.html","hash":"kafIaEThmhgLu/vs+VnDDw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.ChorusParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.ChorusParameters.html","hash":"tJJe03KlMSuPWkoABEFQDg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Fx.CompressorEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.Fx.CompressorEffect.html","hash":"Tsg043frRkc/SjXZ7c8m6A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.ID3v2Tag.yml","output":{".html":{"relative_path":"api/ManagedBass.ID3v2Tag.html","hash":"72CYQa+sGYnick/CPi5bAw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.IEffectParameter.yml","output":{".html":{"relative_path":"api/ManagedBass.IEffectParameter.html","hash":"HxKEDYiPsQQOhiK9mVREFA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.InputFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.InputFlags.html","hash":"JigopginNGX3xKQMJLNBjg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.InputTypeFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.InputTypeFlags.html","hash":"koL3zhm8gFjtzTeu+v7qow=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiMarker.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiMarker.html","hash":"u4Lb/crpOUXsuGrcqafMpg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiMarkerType.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiMarkerType.html","hash":"XDgIGRjsVal61uH1nNBKTg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiSystem.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiSystem.html","hash":"EnBup0RvdF7R3jwZkEOgZQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.html","hash":"zeYVScEqhlhAuKnpS2JGhw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Mix.yml","output":{".html":{"relative_path":"api/ManagedBass.Mix.html","hash":"e/ZTAWrDTY+aE2QTU2YsJw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Mode3D.yml","output":{".html":{"relative_path":"api/ManagedBass.Mode3D.html","hash":"LsHMA6VUxLJMjmf4D7+5Gg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Mpc.BassMpc.yml","output":{".html":{"relative_path":"api/ManagedBass.Mpc.BassMpc.html","hash":"WQBLwOhuv8ZPU99Eq+9oww=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Mpc.yml","output":{".html":{"relative_path":"api/ManagedBass.Mpc.html","hash":"SfTumH5k31gy08RY5F9bgA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.RecordInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.RecordInfo.html","hash":"3K6sEgRQEH1F2WaIruYqSA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.RecordProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.RecordProcedure.html","hash":"cj7FIa7moyeIsD/MwvIlmg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Resolution.yml","output":{".html":{"relative_path":"api/ManagedBass.Resolution.html","hash":"Nl1C6OooRRpAFZftnn6mhg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.SampleInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.SampleInfo.html","hash":"FERopPemr+mf8N1W1NxCIg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Sfx.BassSfx.yml","output":{".html":{"relative_path":"api/ManagedBass.Sfx.BassSfx.html","hash":"jNUndeDImJo2EjHVGBWZAw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Sfx.BassSfxError.yml","output":{".html":{"relative_path":"api/ManagedBass.Sfx.BassSfxError.html","hash":"BkGxZRqS3u9EFfk3CDCd2g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Sfx.BassSfxFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.Sfx.BassSfxFlags.html","hash":"EsgbM6QzppGJDrVd5pH53g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Sfx.BassSfxPlugin.yml","output":{".html":{"relative_path":"api/ManagedBass.Sfx.BassSfxPlugin.html","hash":"PRO0pZgOqEk4Ta8wNVFKwA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wasapi.WasapiNotifyProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Wasapi.WasapiNotifyProcedure.html","hash":"/lh0tThNEpBMWjGspTYQQg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wasapi.WasapiProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Wasapi.WasapiProcedure.html","hash":"tweZF+gc1qQqa1pnqL2suA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wasapi.WasapiVolumeTypes.yml","output":{".html":{"relative_path":"api/ManagedBass.Wasapi.WasapiVolumeTypes.html","hash":"QM9WGwaqZpSVxBQusIjtdA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Wasapi.yml","output":{".html":{"relative_path":"api/ManagedBass.Wasapi.html","hash":"L4+DwngzLkQoKV9yuPmLAA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.WaveFileWriter.yml","output":{".html":{"relative_path":"api/ManagedBass.WaveFileWriter.html","hash":"pSBssNzYqmJyDqp7NjfQnQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.WaveFormat.yml","output":{".html":{"relative_path":"api/ManagedBass.WaveFormat.html","hash":"C/EJ2JfxROH9TxPp57LThQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.WaveFormatTag.yml","output":{".html":{"relative_path":"api/ManagedBass.WaveFormatTag.html","hash":"y5QAaWCE8ml806wmoLPDng=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiFontInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiFontInfo.html","hash":"sWLlM5c2/X9V6alWmMM26A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Midi.MidiInProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Midi.MidiInProcedure.html","hash":"E5QDAJrec4jjzXM4AEvyBA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.PictureTag.yml","output":{".html":{"relative_path":"api/ManagedBass.PictureTag.html","hash":"Vri67KQtBrW2elgNYZKVww=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.PictureTypes.yml","output":{".html":{"relative_path":"api/ManagedBass.PictureTypes.html","hash":"u52rW6TWlWpMkqw0yQ0LeA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.PlaybackState.yml","output":{".html":{"relative_path":"api/ManagedBass.PlaybackState.html","hash":"fwMe647/mzSoTmbelPeCnQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Plugin.yml","output":{".html":{"relative_path":"api/ManagedBass.Plugin.html","hash":"EUwkCmLoNO+yyfDvi0drjw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.PluginFormat.yml","output":{".html":{"relative_path":"api/ManagedBass.PluginFormat.html","hash":"7WusM7nHUG2VDAu3wE98nA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.PluginInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.PluginInfo.html","hash":"mEYtfSj2K+YQaCuLsxERkQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.PositionFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.PositionFlags.html","hash":"XHGN64uXONS6ESjzhSnQMw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.RecordFormatFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.RecordFormatFlags.html","hash":"RR6oVzsoWTsAkhMIRIGE+Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Tags.yml","output":{".html":{"relative_path":"api/ManagedBass.Tags.html","hash":"R4pLOO9azx/l/KlnZWPSOA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.TagType.yml","output":{".html":{"relative_path":"api/ManagedBass.TagType.html","hash":"ucV+xbEDBhK2EYbTOXGd6g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Tta.BassTta.yml","output":{".html":{"relative_path":"api/ManagedBass.Tta.BassTta.html","hash":"cKKRMB3/Rv8sy3lDxpDcFg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Tta.yml","output":{".html":{"relative_path":"api/ManagedBass.Tta.html","hash":"JZ2JSHsGkyIwVRSbmUO7gQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.VAMMode.yml","output":{".html":{"relative_path":"api/ManagedBass.VAMMode.html","hash":"8HQFMAXLoj42MA9bmu4Mhg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Aac.yml","output":{".html":{"relative_path":"api/ManagedBass.Aac.html","hash":"R5cTmeXDs30HOtZwMGCehQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Ac3.yml","output":{".html":{"relative_path":"api/ManagedBass.Ac3.html","hash":"FH3QtUaiO/ES2mvx4YfMRA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Adx.BassAdx.yml","output":{".html":{"relative_path":"api/ManagedBass.Adx.BassAdx.html","hash":"WOOU/Vpdp5xW+74IbDkeTQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Adx.yml","output":{".html":{"relative_path":"api/ManagedBass.Adx.html","hash":"Tup351hIxXD6HfdUel37uA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Aix.yml","output":{".html":{"relative_path":"api/ManagedBass.Aix.html","hash":"IES45Co3Rx/7O/7zaadpLg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Alac.BassAlac.yml","output":{".html":{"relative_path":"api/ManagedBass.Alac.BassAlac.html","hash":"HCAcT4w4rKdj7tnO/jMCeA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Alac.yml","output":{".html":{"relative_path":"api/ManagedBass.Alac.html","hash":"kFDKNkgOEdYJX3hxFvMICQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Ape.ApeBinaryTag.yml","output":{".html":{"relative_path":"api/ManagedBass.Ape.ApeBinaryTag.html","hash":"fo0R6GzPGNYb9Lwac/LcSA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Ape.yml","output":{".html":{"relative_path":"api/ManagedBass.Ape.html","hash":"K2eP/QMxjXuke+9fOBa2Yg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioChannelActive.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioChannelActive.html","hash":"e394CoITSP+UyHeOEMJdRg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioChannelResetFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioChannelResetFlags.html","hash":"go4coGUzckkoXfOC8R4Emw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioDeviceInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioDeviceInfo.html","hash":"Rm0YI+gFqEaY+fBqajEllw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioIOFormat.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioIOFormat.html","hash":"lTqMSb4MIY97qw67qYbKjg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioIOFormatType.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioIOFormatType.html","hash":"PN8GPE4dhvbfOz7l5uBjMg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioTransportCommand.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioTransportCommand.html","hash":"vffB9ZfQUUoZZMa9LK96NA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Asio.AsioTransportParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.Asio.AsioTransportParameters.html","hash":"InbNCl4LY//EMaqKaUOxSg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.BassInfo.yml","output":{".html":{"relative_path":"api/ManagedBass.BassInfo.html","hash":"05VexI34lX/N/V2ZP0i+/A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.BextTag.yml","output":{".html":{"relative_path":"api/ManagedBass.BextTag.html","hash":"FTt/4gmuGFmhTU/SbcBYng=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.CDDataProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.CDDataProcedure.html","hash":"sM5/kBF/XQrAwCSQIfLZ4w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.CDDataType.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.CDDataType.html","hash":"2sgtzphD70QWixUS2SAHWg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.TOCControlFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.TOCControlFlags.html","hash":"8mqkXNBbkqqJWT/iNsC9Og=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Cd.TOCMode.yml","output":{".html":{"relative_path":"api/ManagedBass.Cd.TOCMode.html","hash":"5z9KZsIcUXhtAhRakkJlig=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.ChannelReferences.yml","output":{".html":{"relative_path":"api/ManagedBass.ChannelReferences.html","hash":"RT04aAtFDmZZA6b1y38FRQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.ChannelType.yml","output":{".html":{"relative_path":"api/ManagedBass.ChannelType.html","hash":"ADUI4IyBlX34qq4IxV1f+A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DeviceType.yml","output":{".html":{"relative_path":"api/ManagedBass.DeviceType.html","hash":"Tw3Nl/Sn/W85uzIj0iIsXQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXChorusEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXChorusEffect.html","hash":"yM0rTmfQaNeyEHInd0ptyg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXChorusParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXChorusParameters.html","hash":"1zNKToyyvk/8/Mz/VwMd+w=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXCompressorEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXCompressorEffect.html","hash":"a8dA/m1ELQqikOf8+NKLKA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXReverbEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXReverbEffect.html","hash":"IY2YQ69g136Pkv8PjF0Gyg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DXReverbParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DXReverbParameters.html","hash":"dW2+OWT084AntMNg/yb7+A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DX_ID3DL2ReverbEffect.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DX_ID3DL2ReverbEffect.html","hash":"aUVthPSRpsox8hP8o+BkDA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DirectX8.DX_ID3DL2ReverbParameters.yml","output":{".html":{"relative_path":"api/ManagedBass.DirectX8.DX_ID3DL2ReverbParameters.html","hash":"j741aNyEcUGHrzAMcTNlUA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowColorRange.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowColorRange.html","hash":"AYh1MAO5+WP+oHDsFeLarg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowConfig.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowConfig.html","hash":"XSS4GMc15ZknGn+aDLgriw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowConfigFlag.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowConfigFlag.html","hash":"q+tWZN7nBE0k04U9j309kw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.BassDShowDVDGetProperty.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.BassDShowDVDGetProperty.html","hash":"gah/14m8lo16NXqkrh/ozw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.ConnectedFiltersProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.ConnectedFiltersProcedure.html","hash":"JwGT2yDcHoIWidSI6UL4bg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.DvpProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.DvpProcedure.html","hash":"hhe51YiTMMDwRsYc+YODsQ=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.EnumDevicesProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.EnumDevicesProcedure.html","hash":"aB/y1AfOLrB6m5re0SHesw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.DShow.EnumProfilesProcedure.yml","output":{".html":{"relative_path":"api/ManagedBass.DShow.EnumProfilesProcedure.html","hash":"utzOc5wAcQQNIrznBvZ8Gw=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.EffectType.yml","output":{".html":{"relative_path":"api/ManagedBass.EffectType.html","hash":"tEcRvlrAJLh/heMZ5j227Q=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.ACMFormatFlags.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.ACMFormatFlags.html","hash":"mjhBA7tHBdjiEhUKEUwm2A=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.BassEnc.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.BassEnc.html","hash":"38ov8ldFSU+01BPD3bBsqg=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.BassEnc_Ogg.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.BassEnc_Ogg.html","hash":"7bnWoKCrYXbkKOK/nxS8xA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Enc.yml","output":{".html":{"relative_path":"api/ManagedBass.Enc.html","hash":"7khs1NzRuIphweW5QUgdgA=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Errors.yml","output":{".html":{"relative_path":"api/ManagedBass.Errors.html","hash":"NyZ2o+M7n2GnA8yAKqEf5g=="}},"is_incremental":false,"version":""},{"type":"ManagedReference","source_relative_path":"api/ManagedBass.Extensions.yml","output":{".html":{"relative_path":"api/ManagedBass.Extensions.html","hash":"2znzVuJMhl0s2DNyNuFoEg=="}},"is_incremental":false,"version":""}],"version_info":{}}
+{
+  "homepages": [],
+  "source_base_path": "C:/projects/managedbass-docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Aac.BassAac.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Aac.BassAac.html",
+          "hash": "YMWnvcO/8ndV5fmS5Dfjjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Aac.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Aac.html",
+          "hash": "cg0F60NYi4IhhBSw3CxBmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Ac3.BassAc3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Ac3.BassAc3.html",
+          "hash": "xzO5ZLyuRxl/9FOtDeMARw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Ac3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Ac3.html",
+          "hash": "FR61U3KKyObkhjrU5U599w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Adx.ADXLoopTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Adx.ADXLoopTag.html",
+          "hash": "A9qWOXZg+kuYqmGnc2qHVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Adx.BassAdx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Adx.BassAdx.html",
+          "hash": "fufok/Vc42hwSFEDz+tCVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Adx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Adx.html",
+          "hash": "8eEysRXHd9wIcYdMNSGKoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Aix.BassAix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Aix.BassAix.html",
+          "hash": "mV1Z9J/AcbmupXw5yfnhcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Aix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Aix.html",
+          "hash": "u7Go3I4pQ2jVsy+ZDhzRLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Alac.BassAlac.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Alac.BassAlac.html",
+          "hash": "o/54u2Y4DJA8Ic01+MEEqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Alac.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Alac.html",
+          "hash": "+lyA4hz0CxLc951vfYkPqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Algorithm3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Algorithm3D.html",
+          "hash": "bOrOoDhjx9Sbc3rN7AzKIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Ape.ApeBinaryTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Ape.ApeBinaryTag.html",
+          "hash": "XqAtGFQWNm6BlDSwUW/QYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Ape.BassApe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Ape.BassApe.html",
+          "hash": "VqZRuEH9EahRZk9uErts8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Ape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Ape.html",
+          "hash": "trsDg+qwmlJuCqM37dBeAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioChannelActive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioChannelActive.html",
+          "hash": "C9PiU+TOZfSkcLqXESrYPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioChannelControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioChannelControls.html",
+          "hash": "ZhAxMGJAdxM9E4io6SEzlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioChannelInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioChannelInfo.html",
+          "hash": "fL/+i41RqX/9AaMUlKX9eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioChannelResetFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioChannelResetFlags.html",
+          "hash": "8s1geTMQEiHq/lTNWOB9tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioDeviceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioDeviceInfo.html",
+          "hash": "aOyQOt0fkUR2Fv9sqNJMdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioFuture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioFuture.html",
+          "hash": "am2ASUtIVK5UMornOZjTTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioIOFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioIOFormat.html",
+          "hash": "SnO9qpxlpe3YFDHVtHYpxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioIOFormatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioIOFormatType.html",
+          "hash": "Spkx7mJoBTIRB65h/8Y9ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioInfo.html",
+          "hash": "5FS/vKnafsGqqoGWtCKUPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioInitFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioInitFlags.html",
+          "hash": "MixUEQLFKcA7sBMyVds9eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioInputMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioInputMonitor.html",
+          "hash": "LQTPhEaRiWOcZJm8FnxlYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioNotify.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioNotify.html",
+          "hash": "iOVOV1vuVctgRMaDuexhbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioNotifyProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioNotifyProcedure.html",
+          "hash": "7KXq2RPJdeUfdqxRBJAHbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioProcedure.html",
+          "hash": "A7yv6t1q6gaehPK+zD1aSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioSampleFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioSampleFormat.html",
+          "hash": "ocjmJh5xDV2UKUBN0sWrBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioTransportCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioTransportCommand.html",
+          "hash": "oZ6I00dpVtupNL5UuWlXfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.AsioTransportParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.AsioTransportParameters.html",
+          "hash": "wSJTVgFvXK0xoIP2qro9qQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.BassAsio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.BassAsio.html",
+          "hash": "kG83OCRr8XEMstSeBBIBsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Asio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Asio.html",
+          "hash": "9aYAHrfD1iNcHE4jzCb71Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Bass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Bass.html",
+          "hash": "u8e4n1CNiMDO/6A6kK2paA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.BassException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.BassException.html",
+          "hash": "ul3HSe+JFXJfP1K59E5CEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.BassFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.BassFlags.html",
+          "hash": "XYRbWtpL2DwieS7OOsSmmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.BassInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.BassInfo.html",
+          "hash": "JRcP7wqxYAjbw3fUTfcS+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.BextTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.BextTag.html",
+          "hash": "oCREBzRw+8byDaApyI/+YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.BitHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.BitHelper.html",
+          "hash": "y0UWoiOdXz4rn2e9ZVY3ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.CACodecTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.CACodecTag.html",
+          "hash": "cMtSfKfbrkm/L8g/uUKrbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.CartTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.CartTag.html",
+          "hash": "1jP22JZBwosaLb1iYw4Jpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.CartTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.CartTimer.html",
+          "hash": "o35smLuxE8W0kEiIywa6hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.BassCd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.BassCd.html",
+          "hash": "K5GcxBIA7k2Ttl0hf9eO8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.CDDataProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.CDDataProcedure.html",
+          "hash": "jd7dSHhACEm1AuDWwP4qsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.CDDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.CDDataType.html",
+          "hash": "6RCK7NihmeF/KeiOpDy6Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.CDDoorAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.CDDoorAction.html",
+          "hash": "bbsY+ms5q4dqnT4ADz7ZpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.CDID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.CDID.html",
+          "hash": "abDM1vBBpAt6KbIZ6Z2tfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.CDInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.CDInfo.html",
+          "hash": "ENymY0hEe+sepiCsLGOYuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.CDInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.CDInterface.html",
+          "hash": "xckdppfyJiPuo/nQpDWsog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.CDReadWriteFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.CDReadWriteFlags.html",
+          "hash": "ZB1dGdxRvbsfYGluD0NZ+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.TOC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.TOC.html",
+          "hash": "jhbkmOqjS1NtAoBwbAt1Lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.TOCControlFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.TOCControlFlags.html",
+          "hash": "bBAqDrStceJ8JAYP2bPvYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.TOCMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.TOCMode.html",
+          "hash": "2FRu75qYgoWnVt7tUlPAbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.TOCTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.TOCTrack.html",
+          "hash": "eFYkZmqVxdoBRjG063gxKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Cd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Cd.html",
+          "hash": "qYw3sYC532RbE5fGoa4CqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.ChannelAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.ChannelAttribute.html",
+          "hash": "TTorsQAU3//migfb9zfkIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.ChannelInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.ChannelInfo.html",
+          "hash": "YPmvL11vaZh/iDgCGbQQeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.ChannelReferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.ChannelReferences.html",
+          "hash": "ItQCSksduoT9txXa2QYLoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.ChannelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.ChannelType.html",
+          "hash": "6Lec4tyBZYnZ8X4aIpV4SQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Configuration.html",
+          "hash": "c5HOPbhb8IAetUs1xrlZbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DSInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DSInterface.html",
+          "hash": "5p5F9P/B+4HAVVWIYxEvHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DSPProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DSPProcedure.html",
+          "hash": "+1LNB/2kI7GbcNh9dk9H8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShow.html",
+          "hash": "YWRdtooSaHxjezeI9mx/OA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowAttribute.html",
+          "hash": "6/FPvlmHaE1PxOto4zYisA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowCallbackItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowCallbackItem.html",
+          "hash": "KB/YGlLTHiAl3yOTd4dpOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowCapture.html",
+          "hash": "xnrp3b+lRKt2FVDYJMYKiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowChannelInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowChannelInfo.html",
+          "hash": "wOHIvY1bKiQCapUfkQV4Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowColorControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowColorControl.html",
+          "hash": "Xw/86hGdtE9hpTJKqyPB0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowColorRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowColorRange.html",
+          "hash": "Ix2tpxMFjUjObRf1hGCa5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowConfig.html",
+          "hash": "uSd7Fto6R2vJGHc5twilaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowConfigFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowConfigFlag.html",
+          "hash": "R+Ri1sLlFcWtQVPhBn66Cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowDVDGetProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowDVDGetProperty.html",
+          "hash": "EjxUOST20MHPdGulmgeb0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowDVDMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowDVDMenu.html",
+          "hash": "7zbC76vcrMMwiGHqX2Y71w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowDVDSetProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowDVDSetProperty.html",
+          "hash": "/zZ1xX80HaXEpwQRsi8lKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowDvpType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowDvpType.html",
+          "hash": "AbSePSPSO8g40TXwFK9pkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowError.html",
+          "hash": "5RSpv7bRNPkDUd2bgNNBtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowInit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowInit.html",
+          "hash": "OGIsM0XgsAg6aRu/gtLA0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowMode.html",
+          "hash": "HQTVGIhhpp7vFk6aPwNKwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowPluginInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowPluginInfo.html",
+          "hash": "gELAPlS9QTHp/zTKqXEGrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowState.html",
+          "hash": "DSt9BA0rMd/Aj0zTulwUSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowStreams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowStreams.html",
+          "hash": "XIgSYRDj4zmnVrcgYV0FLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowSync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowSync.html",
+          "hash": "gcuVGHCMIr1qJ4sl4D0QQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowVideoBitmap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowVideoBitmap.html",
+          "hash": "z6e254CryPU+EHrGKqwbdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.BassDShowVideoColors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.BassDShowVideoColors.html",
+          "hash": "+QIE25CciCBb+8GwXAOYvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.ConnectedFiltersProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.ConnectedFiltersProcedure.html",
+          "hash": "PtuzsWeCw43V1cLWVTGIqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.DvpProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.DvpProcedure.html",
+          "hash": "jGfyFV10eJF2PHVMpHG+cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.EnumDevicesProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.EnumDevicesProcedure.html",
+          "hash": "7irnJpuxXRQujpEVcGqv2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.EnumProfilesProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.EnumProfilesProcedure.html",
+          "hash": "E57TpqYDl3+upEK5MNnIXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.VideoStreamsProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.VideoStreamsProcedure.html",
+          "hash": "6ZbQuO3gFdfcRZbmiKUSSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.VideoSyncProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.VideoSyncProcedure.html",
+          "hash": "161cQq63d8sNs5q+CiDR1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DShow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DShow.html",
+          "hash": "/NGnVP8YEQxCeUsMkTsJdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DXPhase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DXPhase.html",
+          "hash": "rlTPECGdCfBASR1vAjk4ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DXWaveform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DXWaveform.html",
+          "hash": "nn3hA8iRFifTcV0ikEWb9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DataFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DataFlags.html",
+          "hash": "4EbsmO+zdu/ai9KOJl8YVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DeviceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DeviceInfo.html",
+          "hash": "y88X4P03Z8LRZkRSf/MKcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DeviceInfoFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DeviceInfoFlags.html",
+          "hash": "MrpNN/SecxVnHmfbOAlXgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DeviceInitFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DeviceInitFlags.html",
+          "hash": "DApFZusl/d9X7prRGzZXVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DeviceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DeviceType.html",
+          "hash": "MEjzROSDgTkTr/qrA1ay8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXChorusEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXChorusEffect.html",
+          "hash": "5Fevjo14Im86AcyGX6vnsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXChorusParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXChorusParameters.html",
+          "hash": "W364PNaWxPAMerFGlHl8pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXCompressorEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXCompressorEffect.html",
+          "hash": "haPpX8NwiOBPxYlsoXxncQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXCompressorParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXCompressorParameters.html",
+          "hash": "zkxUC1Frc1C7GrYHwFKzBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXDistortionEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXDistortionEffect.html",
+          "hash": "wCXTT/6/kHmmpMzLubbWXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXDistortionParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXDistortionParameters.html",
+          "hash": "kdabJarGjouLQ2EXhrWWnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXEchoEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXEchoEffect.html",
+          "hash": "exQ4ixov8x/rfB4gZXzlHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXEchoParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXEchoParameters.html",
+          "hash": "AEFxeuM+bhiSxDUQJBm5Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXFlangerEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXFlangerEffect.html",
+          "hash": "cZinNcRjSV4v4Oe3bGBV4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXFlangerParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXFlangerParameters.html",
+          "hash": "VRsDjTURSxwRzBxeF6MF3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXGargleEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXGargleEffect.html",
+          "hash": "FzzB5CiZxql3gRjiSmCOaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXGargleParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXGargleParameters.html",
+          "hash": "aV0mDjky2Jb73HymXHSD8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXParamEQ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXParamEQ.html",
+          "hash": "5E6rCnh8PItzAmifxVp3jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXParamEQEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXParamEQEffect.html",
+          "hash": "esO7J+Dw1sNqX26swZgSYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXParamEQParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXParamEQParameters.html",
+          "hash": "il8/MH0gZNwCHdx4KdyTWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXReverbEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXReverbEffect.html",
+          "hash": "HE00xZa3rFm9bXmF6luJDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DXReverbParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DXReverbParameters.html",
+          "hash": "9iWNUKMecfEgtL3XUntbnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DX_ID3DL2ReverbEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DX_ID3DL2ReverbEffect.html",
+          "hash": "HhJAfjlYo2DCG6dQuHe9IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.DX_ID3DL2ReverbParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.DX_ID3DL2ReverbParameters.html",
+          "hash": "aIs91aqmTCc3YRNI4MBIiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DirectX8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DirectX8.html",
+          "hash": "7ojoABTx9jvmwRgxetyRUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.DownloadProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.DownloadProcedure.html",
+          "hash": "zXZ6iA2rcOIH1X4fW3LnYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Dsd.BassDsd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Dsd.BassDsd.html",
+          "hash": "IsGb5xXO/eHfTr/Qx03W2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Dsd.DSDComment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Dsd.DSDComment.html",
+          "hash": "igsEQQt9+lX7TbCUsFY2Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Dsd.DSDCommentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Dsd.DSDCommentType.html",
+          "hash": "4HgmgwfQLbkqiM7erC9xGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Dsd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Dsd.html",
+          "hash": "JXisOXad69Ll2Ndbh5gkmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.EAXEnvironment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.EAXEnvironment.html",
+          "hash": "0QkI3WDQpI4ogQzCKzEv8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Effect-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Effect-1.html",
+          "hash": "KGWmfDaT2XLwfQW2v1bnrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.EffectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.EffectType.html",
+          "hash": "i+ogQYedRyVtH8ck3P636w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.ACMFormatFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.ACMFormatFlags.html",
+          "hash": "00jEqjioZxRg/zT/tCcJ0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.BassEnc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.BassEnc.html",
+          "hash": "O9gW3lYeU9e2D9pE/SlVzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.BassEnc_Ogg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.BassEnc_Ogg.html",
+          "hash": "sGHhrMOEGJd8hcYcmi8Gxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.BassEnc_Opus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.BassEnc_Opus.html",
+          "hash": "3JmIhbvPua4o3iiDXwsgjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.EncodeClientProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.EncodeClientProcedure.html",
+          "hash": "GM7A5n/NPTiaga4g1kVrHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.EncodeCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.EncodeCount.html",
+          "hash": "5A/nuBw5S0lT0mv3WXzLNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.EncodeFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.EncodeFlags.html",
+          "hash": "SLqQcChcgpsvIJIMrTvFWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.EncodeMetaDataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.EncodeMetaDataType.html",
+          "hash": "Jddy1Oj5BxBvG3NmMGng/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.EncodeNotifyProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.EncodeNotifyProcedure.html",
+          "hash": "zr/1KHZCeRwjaxJcQrSxjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.EncodeNotifyStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.EncodeNotifyStatus.html",
+          "hash": "nmxpX27PWIR9KSB8UW4pDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.EncodeProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.EncodeProcedure.html",
+          "hash": "Jsqqk8ktdki652mkkEirFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.EncodeProcedureEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.EncodeProcedureEx.html",
+          "hash": "7UAMzlADNz5knIU++vn2cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.EncodeServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.EncodeServer.html",
+          "hash": "gYD0D59LbvMwZyZ/t7muHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.EncodeStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.EncodeStats.html",
+          "hash": "zCYpq+3Zm6RsWn7ctnibfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.EncoderProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.EncoderProcedure.html",
+          "hash": "gwUc95KVwSNDNoZ8w93HQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Enc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Enc.html",
+          "hash": "JrXWfIgQ3+cGpmxevNcyTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Errors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Errors.html",
+          "hash": "+5np6CEdSBukNC9eAdwTlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Extensions.html",
+          "hash": "dZBQR1i3fv3PhP83Ib6rvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.FXChannelFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.FXChannelFlags.html",
+          "hash": "OK6JWdedZaaBgCwBNLAHpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.FileCloseProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.FileCloseProcedure.html",
+          "hash": "DaLh0Q3lbRhPhOOJUXxCxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.FileLengthProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.FileLengthProcedure.html",
+          "hash": "R9xc5INm9z+Ho8qeIzsaAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.FileProcedures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.FileProcedures.html",
+          "hash": "cE3vl8wdZD8qOT2vixanKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.FileReadProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.FileReadProcedure.html",
+          "hash": "Iztpkz47Yexz7C+7MRhWFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.FileSeekProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.FileSeekProcedure.html",
+          "hash": "B8hjpfssmtH/y4efvceepw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.FileStreamPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.FileStreamPosition.html",
+          "hash": "DX3RhHYZhGXgWYRZVrECUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Flac.BassFlac.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Flac.BassFlac.html",
+          "hash": "e1KiBBccJk8QYarOp+bMmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Flac.CueSheetTrackType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Flac.CueSheetTrackType.html",
+          "hash": "fJ9LkIJHnqfy3OqANpPNQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Flac.FlacCueTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Flac.FlacCueTag.html",
+          "hash": "xE1BhDMEdDkaLQZzHJmwCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Flac.FlacCueTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Flac.FlacCueTrack.html",
+          "hash": "P+aWDJOvXHbqASSDnV/BvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Flac.FlacCueTrackIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Flac.FlacCueTrackIndex.html",
+          "hash": "Hzy2OmHEmDFMMg8DD7HGlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Flac.FlacPictureTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Flac.FlacPictureTag.html",
+          "hash": "xvNQ/DbVtIXCMOvhpOvDsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Flac.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Flac.html",
+          "hash": "LaZ5Zew4xFORlqxh9J880g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.AutoWahEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.AutoWahEffect.html",
+          "hash": "ROUcTYcDDqDh+ePVauLr5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.AutoWahParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.AutoWahParameters.html",
+          "hash": "9WkWStbVH22PUqxkpP+knw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.BPMBeatProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.BPMBeatProcedure.html",
+          "hash": "+cxJWFWCaHkZjJZF/tTg8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.BPMProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.BPMProcedure.html",
+          "hash": "F7Nd7o/ux8bMr6OApDcyAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.BPMProgressProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.BPMProgressProcedure.html",
+          "hash": "QQ2AQstoU3eHEXZ6ZQNcAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.BQFEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.BQFEffect.html",
+          "hash": "QO275kKbg8Wj0z2viHvxiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.BQFParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.BQFParameters.html",
+          "hash": "uz7ZosxsOXolvOidgxQGIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.BQFType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.BQFType.html",
+          "hash": "sXFUnrtp0RVgf9hvrTgrVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.BassFx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.BassFx.html",
+          "hash": "rEexkmfLjjFp9rG4+2+qEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.ChorusEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.ChorusEffect.html",
+          "hash": "2Ckr+Rg8fQt0HwTDzGNVwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.ChorusParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.ChorusParameters.html",
+          "hash": "8uPAJhIm2KevWw3IEMHVCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.CompressorEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.CompressorEffect.html",
+          "hash": "/sSv3HNyySZZLZBpLNbjoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.CompressorParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.CompressorParameters.html",
+          "hash": "5q6Qjt7Z7fUmsfwEttDJ/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.DampEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.DampEffect.html",
+          "hash": "56Gt8IToFcryelkDUks5ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.DampParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.DampParameters.html",
+          "hash": "Y3AIbSjgVVTSVcLlwzumjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.DistortionEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.DistortionEffect.html",
+          "hash": "zPal+tphRhmh6Hsvk6jOrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.DistortionParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.DistortionParameters.html",
+          "hash": "EBwxS349ew70CBuYu/Tnyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.EchoEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.EchoEffect.html",
+          "hash": "gYa5zx+JlFuPqyxP8jVRaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.EchoParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.EchoParameters.html",
+          "hash": "DQ6EQ9TCaLORWHt3HS+nQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.MediaPlayerFX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.MediaPlayerFX.html",
+          "hash": "YTefvGDx9pPhxV5d8bzaYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.PeakEQ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.PeakEQ.html",
+          "hash": "2BEaINClXmGITXpZETu7fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.PeakEQParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.PeakEQParameters.html",
+          "hash": "yzQA9az3HO1xGpGlGABJYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.PhaserEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.PhaserEffect.html",
+          "hash": "Uyiuez407Z2jXXctK5sc4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.PhaserParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.PhaserParameters.html",
+          "hash": "36EBfmRmt9Oy4zK9wozMLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.PitchShiftEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.PitchShiftEffect.html",
+          "hash": "me8J/UH1WS8wlYjAD6XV9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.PitchShiftParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.PitchShiftParameters.html",
+          "hash": "T+p1q3DoUDpTVp271ZhToQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.ReverbEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.ReverbEffect.html",
+          "hash": "3HDVMOs+YXwpUNwc+Wijjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.ReverbParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.ReverbParameters.html",
+          "hash": "va+P8drFaAtXpQqvDWXrXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.RotateEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.RotateEffect.html",
+          "hash": "bLwaQ2qdo2lHUfy8wtaLZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.RotateParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.RotateParameters.html",
+          "hash": "cK2XSa/zvH4BH0G0PkzePw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Fx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Fx.html",
+          "hash": "YfCfe8Io1YhZB4x4r4zdww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.GCPin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.GCPin.html",
+          "hash": "/Fm6vuRh+/y8Iye2pWnU9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Hls.BassHls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Hls.BassHls.html",
+          "hash": "cgmAPiQGXIfPd2c1H78ZmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Hls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Hls.html",
+          "hash": "VHWMJsU2uQcseZJuFU8w2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.ID3v1Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.ID3v1Tag.html",
+          "hash": "ZhQffo8nRui5pJuoYK1chg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.ID3v2Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.ID3v2Tag.html",
+          "hash": "ei/c5iwVdA97j0BKuLsutw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.IEffectParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.IEffectParameter.html",
+          "hash": "7GEnUbQFNNDnI+It3d0YDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.IOSMixAudioFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.IOSMixAudioFlags.html",
+          "hash": "ViXHbdYZk7/cH/Az+E/GcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.IOSNotify.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.IOSNotify.html",
+          "hash": "GkJe8YCAVRocsaMVtVdu8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.IOSNotifyProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.IOSNotifyProcedure.html",
+          "hash": "h5tPUJWwoamKOIRM745oWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.InputFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.InputFlags.html",
+          "hash": "rcJplEkOdpd9cN857drnSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.InputTypeFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.InputTypeFlags.html",
+          "hash": "at4BsgyCAWyAaZSy259Grw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.LevelRetrievalFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.LevelRetrievalFlags.html",
+          "hash": "eeWQEprXI+vZvUwlqp3Gwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.MediaPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.MediaPlayer.html",
+          "hash": "oYLFaSX3LIN88/E/FzHABg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.BassMidi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.BassMidi.html",
+          "hash": "69+aD/ZbjQgWAv2N/wMrAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.FontInitFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.FontInitFlags.html",
+          "hash": "U7tTGyWuH9o4Df/0z5dkww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiDeviceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiDeviceInfo.html",
+          "hash": "2DaEk82w/KM9tiVR5Tg6UQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiEvent.html",
+          "hash": "9ksvdj42h6fA+wwLwordeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiEventType.html",
+          "hash": "sQx1VcLhI9d3ovTN7NvDVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiEventsMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiEventsMode.html",
+          "hash": "PpFs99RoVJFtbtpVH7le+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiFilterProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiFilterProcedure.html",
+          "hash": "iDDIhu5x/Xs8NsJOHJoaRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiFont.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiFont.html",
+          "hash": "K9EPwv+SRRaZAWZmeAxQuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiFontEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiFontEx.html",
+          "hash": "DoYxXsrvgvjUe0qe1c8QOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiFontInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiFontInfo.html",
+          "hash": "x1EzkBYRX00YUlA4XWyDPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiInProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiInProcedure.html",
+          "hash": "0Ee5UYq9fOs/UzzigtPEGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiMarker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiMarker.html",
+          "hash": "bYc/bxwNTyaHnaKA0ak4ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiMarkerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiMarkerType.html",
+          "hash": "5kMnJSvfRXD2VuJ+VTC2cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.MidiSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.MidiSystem.html",
+          "hash": "xUpFs+OKZHftn6G+iV+yZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Midi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Midi.html",
+          "hash": "SvD6PZle36sy8cinW5szgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Mix.BassMix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Mix.BassMix.html",
+          "hash": "uGnYff9wqB8641B6ANdF5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Mix.MixEnvelope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Mix.MixEnvelope.html",
+          "hash": "XfX8waWk06E4HUx+eENuQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Mix.MixerNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Mix.MixerNode.html",
+          "hash": "qYqYLONpO7XyiQ9XzvILEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Mix.SyncProcedureEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Mix.SyncProcedureEx.html",
+          "hash": "SOvaOZt2bcK6FuZ9hLXSGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Mix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Mix.html",
+          "hash": "tMf769A+oDuKFKqdc9eS5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Mode3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Mode3D.html",
+          "hash": "7IqQuZycZETPVHECdMemew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Mpc.BassMpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Mpc.BassMpc.html",
+          "hash": "mIIndz+AYtGcvlH8BGJxuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Mpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Mpc.html",
+          "hash": "CqIcc7IPv3RBj1wTD9w7lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Ofr.BassOfr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Ofr.BassOfr.html",
+          "hash": "rzOoDWNo9mOIH5WDfise1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Ofr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Ofr.html",
+          "hash": "YAT+OO4RdAflmyNIfssguA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Opus.BassOpus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Opus.BassOpus.html",
+          "hash": "0X7AMq0ikY3Ik3EE0AJzlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Opus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Opus.html",
+          "hash": "l3mrGb+KD9C7H/BgDQGrMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.PictureTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.PictureTag.html",
+          "hash": "nKLFMGny7n106gp8TE/jNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.PictureTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.PictureTypes.html",
+          "hash": "2OAnxYLHMTC0W+ndS0WQOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.PlaybackState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.PlaybackState.html",
+          "hash": "4FZ9EY3kpfp7cGJ1RH1lQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.PluginFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.PluginFormat.html",
+          "hash": "0WA/oqD15XMlubl6DEmorA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.PluginInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.PluginInfo.html",
+          "hash": "zPik//+gTtdoDRGAdaxzkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.PositionFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.PositionFlags.html",
+          "hash": "ZYCfQ0p96MUD5zZk/apLBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.RecordFormatFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.RecordFormatFlags.html",
+          "hash": "Bi6GkSiSkLWBe+5/lxAigA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.RecordInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.RecordInfo.html",
+          "hash": "gQb8a9CzklFEhKnbhYz6Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.RecordProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.RecordProcedure.html",
+          "hash": "kes+wE4+p/O0jIRoRaRCEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Resolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Resolution.html",
+          "hash": "W3lclrgfId9MVZS0n+/ZXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.SampleInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.SampleInfo.html",
+          "hash": "qqfurR42z4gCLT8stZuUzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Sfx.BassSfx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Sfx.BassSfx.html",
+          "hash": "qA3Hjc82v4k163HIQycewA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Sfx.BassSfxError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Sfx.BassSfxError.html",
+          "hash": "r6A5KwM6fyceFvNzDwiepg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Sfx.BassSfxFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Sfx.BassSfxFlags.html",
+          "hash": "rYUAqEti17w/KGt9v78+nA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Sfx.BassSfxPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Sfx.BassSfxPlugin.html",
+          "hash": "xOOUHz1jlFTtnjIaG34Wsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Sfx.BassSfxPluginInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Sfx.BassSfxPluginInfo.html",
+          "hash": "uVP7omAbY8YmuCB9guXJww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Sfx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Sfx.html",
+          "hash": "5dG4f4vjidHald7a/7ls0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Spx.BassSpx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Spx.BassSpx.html",
+          "hash": "sv1U10X7SVzb26VNg/UwUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Spx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Spx.html",
+          "hash": "r9Lls7OCHR4pRKs4lam+dA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.StreamProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.StreamProcedure.html",
+          "hash": "PP3ehPv5LngHRX52n4xjeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.StreamProcedureType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.StreamProcedureType.html",
+          "hash": "toiT9qXzWIjDmjz2Gzi2Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.StreamSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.StreamSystem.html",
+          "hash": "NJi5UMzQRS50Fg7V1qZIKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.SyncFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.SyncFlags.html",
+          "hash": "gH7xbjnVJ91uTU+OosvFqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.SyncProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.SyncProcedure.html",
+          "hash": "S2gYjhESehFaGJa/Sivucw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.TagProperties-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.TagProperties-1.html",
+          "hash": "4jns/uG3T1SmNx1/bI+l3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.TagReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.TagReader.html",
+          "hash": "xcC/pthlqLk9bvP3b8BOfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.TagType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.TagType.html",
+          "hash": "txxiGBSezdPBgFeVZin4cA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Tags.BassTags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Tags.BassTags.html",
+          "hash": "VQxBr/6anDlqrwvCgf3gZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Tags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Tags.html",
+          "hash": "V/Ph+LD269UkRBTdko8LTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Tta.BassTta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Tta.BassTta.html",
+          "hash": "ULFtsct44rm7pzcoGAEOyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Tta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Tta.html",
+          "hash": "j7pTvRjfpWMwTWUeSU1dbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.VAMMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.VAMMode.html",
+          "hash": "K72V5BoqdXL+0lGo5Ev9EQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Vector3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Vector3D.html",
+          "hash": "WXul4apVKcGlNpBlmdfluw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Vst.BassVst.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Vst.BassVst.html",
+          "hash": "/R3vFF8/l9RWCxrMJEw+kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Vst.BassVstAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Vst.BassVstAction.html",
+          "hash": "znnr0hmamL76lW+R9AsRXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Vst.BassVstAudioMasterParam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Vst.BassVstAudioMasterParam.html",
+          "hash": "6a5ndZ6vIshG6TIUKAzGVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Vst.BassVstDispatcherOpCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Vst.BassVstDispatcherOpCodes.html",
+          "hash": "EK5rFbtMg7jsQXI/ftWTBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Vst.BassVstDsp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Vst.BassVstDsp.html",
+          "hash": "25SnwGg799wDlJxApReOOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Vst.BassVstInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Vst.BassVstInfo.html",
+          "hash": "4aXqtbTKhoBudzdPbu5ogw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Vst.BassVstParamInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Vst.BassVstParamInfo.html",
+          "hash": "QRy65BgKqqOLvnbuJp4+Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Vst.VstProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Vst.VstProcedure.html",
+          "hash": "KuHGadrQrxqBVtY4vVGAWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Vst.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Vst.html",
+          "hash": "pTwuNTtMqHnHYgGvMt2K5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.WA.BassWA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.WA.BassWA.html",
+          "hash": "V0q44JuGudLaRR1XwF0gSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.WA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.WA.html",
+          "hash": "uwKlFL/elOVabTied4aFKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.WaDsp.BassWaDsp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.WaDsp.BassWaDsp.html",
+          "hash": "uoaDV3SH+P0WxjsBY7OMCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.WaDsp.BassWaDspIpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.WaDsp.BassWaDspIpc.html",
+          "hash": "j6HrEZhr41mU6Go7npZRmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.WaDsp.WinampWinProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.WaDsp.WinampWinProcedure.html",
+          "hash": "VrmOxv7j8NMokgDHxo0JbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.WaDsp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.WaDsp.html",
+          "hash": "6Lc84OgXuPP8pHo94UoBIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wasapi.BassWasapi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wasapi.BassWasapi.html",
+          "hash": "jW/45UrYWKxfcZaA1fCVnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wasapi.WasapiDeviceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wasapi.WasapiDeviceInfo.html",
+          "hash": "bunp2yFg6Vw8Wfo1AVfxGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wasapi.WasapiDeviceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wasapi.WasapiDeviceType.html",
+          "hash": "3sykA74JVteipgKwhgKVwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wasapi.WasapiFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wasapi.WasapiFormat.html",
+          "hash": "v3U6ytZ1HvgahFly1pWs+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wasapi.WasapiInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wasapi.WasapiInfo.html",
+          "hash": "WWrNhDm5docWuFXbA+3nbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wasapi.WasapiInitFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wasapi.WasapiInitFlags.html",
+          "hash": "IFaKDWIs0z1bZbEm6F7IYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wasapi.WasapiNotificationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wasapi.WasapiNotificationType.html",
+          "hash": "she+futU8y/P0Sq9aFVBZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wasapi.WasapiNotifyProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wasapi.WasapiNotifyProcedure.html",
+          "hash": "9EdCFvWbZ8UcLIWSJtw6UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wasapi.WasapiProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wasapi.WasapiProcedure.html",
+          "hash": "zhef3IFQs2DLYlhUPFkxhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wasapi.WasapiVolumeTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wasapi.WasapiVolumeTypes.html",
+          "hash": "b3ghZ7hB6MgBdmE19TVMPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wasapi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wasapi.html",
+          "hash": "DcpzfXneg5wTVOtC74m7gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.WaveFileWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.WaveFileWriter.html",
+          "hash": "//XDtWajRchA3U514bPkdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.WaveFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.WaveFormat.html",
+          "hash": "ABb9Uui0jfluVGgFM5L1pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.WaveFormatTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.WaveFormatTag.html",
+          "hash": "YwwxPh5lMa1skVgQpEGTvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Winamp.BassWinamp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Winamp.BassWinamp.html",
+          "hash": "5R7xTqQlk7H2MAL3C7DP6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Winamp.WinampFindPluginFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Winamp.WinampFindPluginFlags.html",
+          "hash": "eOA1Be2P8oaEC4rA12nNFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Winamp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Winamp.html",
+          "hash": "QxR3uxTuqfv1MMgUpM515g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wma.BassWma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wma.BassWma.html",
+          "hash": "XvwpC4R7U7AKb+ya+hh+4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wma.ClientConnectProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wma.ClientConnectProcedure.html",
+          "hash": "7vMuhUMyN3F9O2vGoYf2SQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wma.WMAEncodeFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wma.WMAEncodeFlags.html",
+          "hash": "FRuhR3H4F3d12nPYfiKfsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wma.WMATagFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wma.WMATagFormat.html",
+          "hash": "tsasS9wlO8tsNWvDAvyRXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wma.WMEncodeProcedure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wma.WMEncodeProcedure.html",
+          "hash": "WLUZtP1kWKNe0Wtf/s7kEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wma.WMEncodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wma.WMEncodeType.html",
+          "hash": "ZOrxgzp7DzR8CZpJ8OufnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wma.html",
+          "hash": "FXOy0YThHHDKYEUmI6jJog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wv.BassWv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wv.BassWv.html",
+          "hash": "2caSJMFaelc8wWreMP6AwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.Wv.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.Wv.html",
+          "hash": "AjM4efwPcHKkNu5AgCgilg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.ZXTune.BassZXTune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.ZXTune.BassZXTune.html",
+          "hash": "o9siligan8IHKSgD1sgdqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.ZXTune.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.ZXTune.html",
+          "hash": "/EqtogpHZqSTAYChK0zSBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ManagedBass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ManagedBass.html",
+          "hash": "WbFe1vTOuPQmNYcWZRKBvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Ad2oq3NPTrfXip4Ok5rvuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.html",
+      "output": {
+        "resource": {
+          "relative_path": "index.html"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "lfDqP/s9Wjeq0KcrA2ZgwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

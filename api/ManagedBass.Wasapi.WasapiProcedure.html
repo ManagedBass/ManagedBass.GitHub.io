@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Delegate WasapiProcedure
    ">
-    <meta name="generator" content="docfx 2.17.4.2">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     
     
   </head>
@@ -73,18 +74,18 @@
   <div class="markdown level0 summary"><p>User defined WASAPI output/input processing callback function (to be used with <a class="xref" href="ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Init_System_Int32_System_Int32_System_Int32_ManagedBass_Wasapi_WasapiInitFlags_System_Single_System_Single_ManagedBass_Wasapi_WasapiProcedure_IntPtr_">Init(Int32, Int32, Int32, WasapiInitFlags, Single, Single, WasapiProcedure, IntPtr)</a>).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+
   
   
   
-  
-  <h6><strong>Namespace</strong>: ManagedBass.Wasapi</h6>
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ManagedBass.Wasapi.dll</h6>
   
   <h5 id="ManagedBass_Wasapi_WasapiProcedure_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public delegate int WasapiProcedure(IntPtr Buffer, int Length, IntPtr User);</code></pre>
   </div>
-  
+
   <h5 class="parameters">Parameters</h5>
   <table>
     <tr>
@@ -132,7 +133,7 @@ Using a larger buffer makes that less crucial.
 <a class="xref" href="ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_GetData_IntPtr_System_Int32_">GetData(IntPtr, Int32)</a> (<a class="xref" href="ManagedBass.DataFlags.html#ManagedBass_DataFlags_Available">Available</a>) can be used to check how much data is buffered.
 </p>
 <p>
-An output device&#39;s <a class="xref" href="ManagedBass.Wasapi.WasapiProcedure.html">WasapiProcedure</a> may return less data than requested, but be careful not to do so by too much, too often.
+An output device&apos;s <a class="xref" href="ManagedBass.Wasapi.WasapiProcedure.html">WasapiProcedure</a> may return less data than requested, but be careful not to do so by too much, too often.
 If the buffer gets exhausted, output will stall until more data is provided.
 If you do return less than the requested amount of data, the number of bytes should still equate to a whole number of samples.
 </p>
@@ -140,10 +141,10 @@ If you do return less than the requested amount of data, the number of bytes sho
 When multiple channels are used, the sample data of the channels is interleaved.
 For example, with 2 channels (ie. stereo), the sample data would be arranged as channel 1, channel 2, channel 1, channel 2, channel 1, etc.
 </p>
-<p>When an output channel needs to be empty/silent but still enabled, the channel&#39;s function could fill the buffer with 0s to achieve that.</p>
+<p>When an output channel needs to be empty/silent but still enabled, the channel&apos;s function could fill the buffer with 0s to achieve that.</p>
 <p>Do not call <a class="xref" href="ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_Free">Free()</a> from within a callback function.</p>
 <p>
-Prior to calling this function, BassWasapi will set the thread&#39;s device context to the device that the channel belongs to.
+Prior to calling this function, BassWasapi will set the thread&apos;s device context to the device that the channel belongs to.
 So when using multiple devices, <a class="xref" href="ManagedBass.Wasapi.BassWasapi.html#ManagedBass_Wasapi_BassWasapi_CurrentDevice">CurrentDevice</a> can be used to determine which device the channel is on.
 </p>
 <p>
